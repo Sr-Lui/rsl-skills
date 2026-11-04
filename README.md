@@ -151,8 +151,10 @@ En `theme`, el `<slug>` se omite si solo hay un tema; `refresh`/`status` aceptan
 | `resultado-items:lint docs/<slug>` | Valida `items.md`: 1–5 ítems/RQ; **Tipo** ternario; sección **`## Ítems`**; `items.json` con array **`items`**. |
 | `resultado-items:status docs/<slug>` | PASS / FALTA / DESFASADO (picoc o CSV cambiaron). |
 | `resultado-items:stamp docs/<slug> <carpeta>` | Escribe `manifest.json` y actualiza `latest.txt` tras lint OK. |
-| `formulario:prepare docs/<slug>` | Copia plantilla UTP, extiende columnas (N SI), mapa, biblio desde CSV, columna B ítems. |
-| `formulario:lint-setup docs/<slug>` | Valida mapa ↔ Excel (estructura prepare). |
+| `formulario:prepare docs/<slug>` | Mapa v2, columna B ítems (sin columnas de estudio aún). |
+| `formulario:classify-nature docs/<slug> [carpeta]` | `study_nature` + layout columnas por hoja; CSV biblio 3–7, 11; `nature-traza.jsonl`. Skill **prepare**. |
+| `formulario:biblio-enrich docs/<slug> [carpeta]` | Filas 8–10, 12–13 solo en `placement` (Crossref + MD); `biblio-traza.jsonl`. Skill **prepare**. |
+| `formulario:lint-setup docs/<slug>` | Mapa ↔ Excel; exige filas 8–10, 12–13 rellenas (dato o `—`). |
 | `formulario:stamp docs/<slug> <carpeta>` | `resultados/formulario/latest.txt` + `rsl_pipeline.formulario_latest`. |
 | `formulario:status docs/<slug>` | Estado del formulario; `--progress` cuenta traza ítems. |
 | `formulario:apply-lote docs/<slug> <NN>` | Tras debate + **humanize**: aplica `debate/lote-NN/apply-<id>.json` → Excel + traza. |

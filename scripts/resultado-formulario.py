@@ -2,6 +2,8 @@
 """Formulario UTP de extracción — skills rsl-resultado-formulario-prepare / -apply.
 
   formulario.py prepare docs/<slug>
+  formulario.py classify-nature docs/<slug> [--force]
+  formulario.py biblio-enrich docs/<slug> [--force]
   formulario.py status docs/<slug> [--progress]
   formulario.py lint-setup docs/<slug> [carpeta]
   formulario.py stamp docs/<slug> <YYYY-MM-DD-HHMM>
@@ -44,6 +46,7 @@ MAP_JSON = "formulario-map.json"
 MANIFEST = "manifest.json"
 TRAZA_JSONL = "extraccion-traza.jsonl"
 BIBLIO_TRAZA = "biblio-traza.jsonl"
+NATURE_TRAZA = "nature-traza.jsonl"
 BIBLIO_ENRICH_ROWS = (8, 9, 10, 12, 13)
 COL_OK = "¿Se acepta?"
 SHEETS = ("Cuantitativo", "Cualitativo")
@@ -186,6 +189,34 @@ def read_formulario_latest(theme: Path) -> Path | None:
     return None
 
 
+def resolve_formulario_folder(theme: Path, args: list[str]) -> Path | None:
+    extra = [a for a in args if not a.startswith("--")]
+    if extra:
+        folder = formulario_dir(theme) / extra[0].strip()
+        if folder.is_dir() and (folder / MAP_JSON).is_file():
+            return folder
+        return None
+    folder = read_formulario_latest(theme)
+    if folder is not None:
+        return folder
+    root = formulario_dir(theme)
+    if not root.is_dir():
+        return None
+    candidates = sorted(
+        (
+            p
+            for p in root.iterdir()
+            if p.is_dir() and re.match(r"^\d{4}-\d{2}-\d{2}-\d{4}$", p.name)
+        ),
+        key=lambda p: p.name,
+        reverse=True,
+    )
+    for c in candidates:
+        if (c / MAP_JSON).is_file() and (c / FORMULARIO_XLSX).is_file():
+            return c
+    return None
+
+
 def new_timestamp() -> str:
     return dt.datetime.now().strftime("%Y-%m-%d-%H%M")
 
@@ -294,8 +325,9 @@ def cmd_prepare(args: list[str]) -> int:
         pdf_path = str(corpus / pdf_rel) if pdf_rel and (corpus / pdf_rel).is_file() else None
         studies.append(
             {
-                "study_index": idx,
-                "column": get_column_letter(FIRST_STUDY_COL + idx - 1),
+                "si_order": idx,
+                "study_nature": None,
+                "placement": {"Cuantitativo": None, "Cualitativo": None},
                 "csv_id": (row.get("Id") or "").strip(),
                 "corpus_id": corpus_id,
                 "doi": doi,
@@ -311,20 +343,10 @@ def cmd_prepare(args: list[str]) -> int:
     wb = load_workbook(xlsx_path)
     for sheet_name in SHEETS:
         ws = wb[sheet_name]
-        extend_study_columns(ws, n_si)
         for it in flat:
             row_num = item_rows.get(it["id"])
             if row_num and sheet_name in item_sheets(it.get("response_type", "")):
                 ws.cell(row=row_num, column=2, value=it.get("summary") or it.get("label") or it["id"])
-        for s_idx, study in enumerate(studies):
-            col = FIRST_STUDY_COL + s_idx
-            row_csv = si[s_idx]
-            for excel_row, field in BIBLIO_ROWS.items():
-                if field is None:
-                    continue
-                val = csv_field(row_csv, field)
-                if val:
-                    ws.cell(row=excel_row, column=col, value=val)
     wb.save(xlsx_path)
     wb.close()
 
@@ -332,7 +354,6 @@ def cmd_prepare(args: list[str]) -> int:
     for it in flat:
         row_num = item_rows[it["id"]]
         for sh in item_sheets(it.get("response_type", "")):
-            col0 = studies[0]["column"] if studies else "C"
             item_slots.append(
                 {
                     "item_id": it["id"],
@@ -351,12 +372,12 @@ def cmd_prepare(args: list[str]) -> int:
             {
                 "lote": f"{i:02d}",
                 "corpus_ids": [s["corpus_id"] for s in chunk],
-                "study_indices": [s["study_index"] for s in chunk],
+                "study_indices": [s["si_order"] for s in chunk],
             }
         )
 
     map_payload = {
-        "version": 1,
+        "version": 2,
         "marco": marco,
         "theme": rel(theme),
         "n_si": n_si,
@@ -379,12 +400,13 @@ def cmd_prepare(args: list[str]) -> int:
         "prepare_stamped": dt.datetime.now().isoformat(timespec="minutes"),
         "folder": dest,
         "extraccion_complete": False,
+        "nature_classified": False,
     }
     (folder / MANIFEST).write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     return ok(
         f"prepare {rel(folder)} ({n_si} SI, {len(lotes_meta)} lotes)",
-        "Usa rsl-resultado-formulario-prepare (biblio CSV→artículo→blanco) y formulario:lint-setup",
+        "pnpm -s formulario:classify-nature docs/<slug> (rsl-resultado-formulario-prepare)",
     )
 
 
@@ -392,7 +414,118 @@ def load_map(folder: Path) -> dict:
     path = folder / MAP_JSON
     if not path.is_file():
         raise Fail(f"falta {rel(path)}", "formulario:prepare")
-    return json.loads(path.read_text(encoding="utf-8"))
+    mp = json.loads(path.read_text(encoding="utf-8"))
+    for s in mp.get("studies") or []:
+        ensure_placement(s)
+    return mp
+
+
+def cmd_classify_nature(args: list[str]) -> int:
+    if len(args) < 1:
+        raise Fail("uso: formulario.py classify-nature docs/<slug> [carpeta] [--force]", None, 2)
+    theme = theme_path(args[0])
+    force = "--force" in args
+    rest = [a for a in args[1:] if a != "--force"]
+    folder = resolve_formulario_folder(theme, rest)
+    if folder is None:
+        return error("sin carpeta formulario", "formulario:prepare")
+    mp = load_map(folder)
+    _, picoc = picoc_context(theme)
+    csv_path = cribado2_csv(picoc)
+    si = si_rows(csv_path)
+    by_id = {(r.get("Id") or "").strip(): r for r in si}
+    by_corpus = {}
+    for r in si:
+        cid = (r.get("Id") or "").strip()
+        if cid:
+            by_corpus[cid] = r
+    corpus = cribado2_dir(theme)
+    overrides = load_overrides(folder)
+
+    manifest_path = folder / MANIFEST
+    man = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.is_file() else {}
+    if man.get("nature_classified") and not force:
+        return ok(f"classify-nature: ya clasificado en {folder.name}", "biblio-enrich o --force")
+
+    traza_path = folder / NATURE_TRAZA
+    traza_path.write_text("", encoding="utf-8")
+
+    per_sheet_idx = {sh: 0 for sh in SHEETS}
+    needs_review: list[str] = []
+
+    for study in mp["studies"]:
+        cid = study["corpus_id"]
+        row_csv = by_id.get(study.get("csv_id") or "") or by_corpus.get(cid) or {}
+        resumen = csv_field(row_csv, "Resumen") if row_csv else ""
+        md = md_for_corpus(corpus, cid)
+        md_text = md.read_text(encoding="utf-8", errors="replace") if md else ""
+
+        if cid in overrides:
+            nature = overrides[cid]
+            review = False
+            meta = {"source": "override"}
+        else:
+            nature, review, meta = classify_from_text(md_text, resumen)
+        if review:
+            needs_review.append(cid)
+
+        pl: dict = {"Cuantitativo": None, "Cualitativo": None}
+        for sh in study_sheets(nature):
+            per_sheet_idx[sh] += 1
+            idx = per_sheet_idx[sh]
+            pl[sh] = {
+                "study_index": idx,
+                "column": get_column_letter(FIRST_STUDY_COL + idx - 1),
+            }
+        study["study_nature"] = nature
+        study["placement"] = pl
+
+        rec = {
+            "corpus_id": cid,
+            "study_nature": nature,
+            "placement": pl,
+            "needs_review": review,
+            "meta": meta,
+        }
+        with traza_path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+    counts = count_by_sheet(mp)
+    wb = load_workbook(folder / FORMULARIO_XLSX)
+    for sheet_name in SHEETS:
+        ws = wb[sheet_name]
+        extend_study_columns(ws, counts[sheet_name])
+        for study in mp["studies"]:
+            pc = placement_cell(study, sheet_name)
+            if not pc:
+                continue
+            col = FIRST_STUDY_COL + pc["study_index"] - 1
+            row_csv = by_id.get(study.get("csv_id") or "") or by_corpus.get(study["corpus_id"]) or {}
+            for excel_row, field in BIBLIO_ROWS.items():
+                if field is None:
+                    continue
+                val = csv_field(row_csv, field)
+                if val:
+                    ws.cell(row=excel_row, column=col, value=val)
+    wb.save(folder / FORMULARIO_XLSX)
+    wb.close()
+
+    mp["version"] = 2
+    (folder / MAP_JSON).write_text(json.dumps(mp, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    man["nature_classified"] = True
+    man["nature_traza"] = NATURE_TRAZA
+    man["studies_by_sheet"] = counts
+    man["nature_needs_review"] = needs_review
+    manifest_path.write_text(json.dumps(man, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    msg = (
+        f"classify-nature: Cuantitativo={counts['Cuantitativo']}, "
+        f"Cualitativo={counts['Cualitativo']} columnas"
+    )
+    if needs_review:
+        msg += f"; {len(needs_review)} needs_review (ver nature-traza)"
+    return ok(msg, "pnpm -s formulario:biblio-enrich docs/<slug>")
 
 
 def cmd_lint_setup(args: list[str]) -> int:
@@ -404,23 +537,54 @@ def cmd_lint_setup(args: list[str]) -> int:
         return error("no hay formulario latest", "formulario:prepare")
     mp = load_map(folder)
     n_si = mp["n_si"]
+    counts = count_by_sheet(mp)
     wb = load_workbook(folder / FORMULARIO_XLSX, read_only=True)
     errs = []
+    manifest_path = folder / MANIFEST
+    man = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.is_file() else {}
+
     for sn in SHEETS:
         ws = wb[sn]
-        last_col = FIRST_STUDY_COL + n_si - 1
+        n_col = counts[sn]
+        if n_col == 0:
+            if ws.cell(row=3, column=FIRST_STUDY_COL).value not in (None, ""):
+                errs.append(f"E7: {sn} tiene datos biblio sin columnas clasificadas")
+            continue
+        last_col = FIRST_STUDY_COL + n_col - 1
         v = ws.cell(row=2, column=last_col).value
-        if v is None or float(v) != float(n_si):
-            errs.append(f"E1: {sn} fila 2 col {get_column_letter(last_col)} esperaba {n_si}")
+        if v is None or float(v) != float(n_col):
+            errs.append(f"E1: {sn} fila 2 col {get_column_letter(last_col)} esperaba {n_col}")
         if ws.cell(row=3, column=FIRST_STUDY_COL).value in (None, ""):
-            errs.append(f"W2: {sn} DOI col C vacío (completar biblio)")
+            errs.append(f"W2: {sn} DOI col C vacío (classify-nature / CSV)")
+
+    for study in mp.get("studies") or []:
+        cid = study.get("corpus_id", "?")
+        if not (study.get("study_nature") or "").strip():
+            errs.append(f"E6: {cid} sin study_nature — ejecuta classify-nature")
+        for sh in SHEETS:
+            pc = placement_cell(study, sh)
+            if pc:
+                col = FIRST_STUDY_COL + pc["study_index"] - 1
+                ws = wb[sh]
+                for row in BIBLIO_ENRICH_ROWS:
+                    v = ws.cell(row=row, column=col).value
+                    if v is None or str(v).strip() == "":
+                        errs.append(
+                            f"E5: {sh} fila {row} col {get_column_letter(col)} ({cid}) vacía — biblio-enrich"
+                        )
+            elif man.get("nature_classified"):
+                wrong_col = study.get("study_index")
+                if wrong_col and sh not in sheets_for_study(study):
+                    pass
     wb.close()
     if len(mp.get("studies") or []) != n_si:
         errs.append("E2: studies en mapa != n_si")
+    if man.get("nature_classified") is not True:
+        errs.append("E6: manifest nature_classified != true — classify-nature antes de stamp")
     for e in errs:
         print(e)
     if any(e.startswith("E") for e in errs):
-        return error(f"lint-setup {len(errs)} problema(s)", "corrige prepare o Excel")
+        return error(f"lint-setup {len(errs)} problema(s)", "classify-nature → biblio-enrich")
     return ok(f"lint-setup PASS {rel(folder)}")
 
 
@@ -442,8 +606,8 @@ def cmd_status(args: list[str]) -> int:
         done = 0
         if traza.is_file():
             done = sum(1 for _ in traza.open(encoding="utf-8") if _.strip())
-        total = n_si * n_items
-        print(f"progreso ítems: {done}/{total} líneas traza")
+        total = expected_traza_slots(mp)
+        print(f"progreso ítems: {done}/{total} líneas traza (placement×ítems)")
     if manifest_path.is_file():
         m = json.loads(manifest_path.read_text(encoding="utf-8"))
         _, picoc = picoc_context(theme)
@@ -499,6 +663,17 @@ def _hit(text: str, pattern: str) -> re.Match | None:
 
 from formulario_prose_extract import extract_item_prose  # noqa: E402
 from formulario_biblio_enrich import enrich_study  # noqa: E402
+from formulario_classify import classify_from_text, load_overrides  # noqa: E402
+from formulario_placement import (  # noqa: E402
+    column_index,
+    column_letter,
+    count_by_sheet,
+    ensure_placement,
+    expected_traza_slots,
+    placement_cell,
+    sheets_for_study,
+    study_sheets,
+)
 
 
 def extract_item(item_id: str, text: str, tl: str, md: Path) -> tuple[str, str, list]:
@@ -681,8 +856,6 @@ def cmd_apply_lote(args: list[str]) -> int:
         if not study:
             print(f"WARN corpus {cid} no en mapa")
             continue
-        col_letter = study["column"]
-        col_idx = FIRST_STUDY_COL + study["study_index"] - 1
         for slot in payload.get("slots") or []:
             item_id = slot["item_id"]
             metas = item_metas.get(item_id) or []
@@ -694,6 +867,12 @@ def cmd_apply_lote(args: list[str]) -> int:
                 val = "—"
             for meta in metas:
                 sh = meta["sheet"]
+                if not placement_cell(study, sh):
+                    continue
+                col_idx = column_index(study, sh, FIRST_STUDY_COL)
+                col_letter = column_letter(study, sh)
+                if col_idx is None or not col_letter:
+                    continue
                 row = meta["row"]
                 key = _slot_key(cid, item_id, sh)
                 if key in existing:
@@ -736,7 +915,10 @@ def cmd_lint_traza(args: list[str]) -> int:
     if not traza_path.is_file():
         return error("falta extraccion-traza.jsonl", "apply-lote")
     lines = [json.loads(l) for l in traza_path.read_text(encoding="utf-8").splitlines() if l.strip()]
+    expected = expected_traza_slots(mp)
     errs = []
+    if len(lines) > expected:
+        errs.append(f"E8: traza {len(lines)} líneas > esperado {expected}")
     for rec in lines:
         dec = rec.get("decision")
         val = (rec.get("value") or "").strip()
@@ -756,11 +938,15 @@ def cmd_biblio_enrich(args: list[str]) -> int:
         raise Fail("uso: formulario.py biblio-enrich docs/<slug> [--force]", None, 2)
     theme = theme_path(args[0])
     force = "--force" in args
-    folder = read_formulario_latest(theme)
+    rest = [a for a in args[1:] if a != "--force"]
+    folder = resolve_formulario_folder(theme, rest)
     if folder is None:
-        return error("sin formulario latest", "formulario:prepare")
+        return error("sin formulario", "formulario:prepare o pasa <carpeta>")
     mp = load_map(folder)
-    marco, picoc = picoc_context(theme)
+    man = json.loads((folder / MANIFEST).read_text(encoding="utf-8")) if (folder / MANIFEST).is_file() else {}
+    if not man.get("nature_classified"):
+        return error("falta classify-nature", "formulario:classify-nature antes de biblio-enrich")
+    _, picoc = picoc_context(theme)
     csv_path = cribado2_csv(picoc)
     si = si_rows(csv_path)
     by_id = {(r.get("Id") or "").strip(): r for r in si}
@@ -773,7 +959,6 @@ def cmd_biblio_enrich(args: list[str]) -> int:
     dash_cells = 0
     for study in mp["studies"]:
         cid = study["corpus_id"]
-        col_idx = FIRST_STUDY_COL + study["study_index"] - 1
         row_csv = by_id.get(study["csv_id"]) or by_id.get(cid) or {}
         revista = csv_field(row_csv, "Revista") if row_csv else ""
         resumen = csv_field(row_csv, "Resumen") if row_csv else ""
@@ -781,7 +966,11 @@ def cmd_biblio_enrich(args: list[str]) -> int:
         md_text = md.read_text(encoding="utf-8", errors="replace") if md else None
         fields = enrich_study(study.get("doi") or "", revista, resumen, md_text, cid)
         for excel_row, (val, source, evidence) in fields.items():
-            for sheet_name in SHEETS:
+            for sheet_name in sheets_for_study(study):
+                pc = placement_cell(study, sheet_name)
+                if not pc:
+                    continue
+                col_idx = FIRST_STUDY_COL + pc["study_index"] - 1
                 ws = wb[sheet_name]
                 cur = ws.cell(row=excel_row, column=col_idx).value
                 if cur and str(cur).strip() and str(cur).strip() != "—" and not force:
@@ -867,30 +1056,34 @@ def cmd_biblio_graphify(args: list[str]) -> int:
         return error("sin formulario latest", "formulario:prepare")
     mp = load_map(folder)
     wb = load_workbook(folder / FORMULARIO_XLSX)
-    ws = wb["Cuantitativo"]
     updated = 0
     traza_path = folder / BIBLIO_TRAZA
     for study in mp["studies"]:
-        col_idx = FIRST_STUDY_COL + study["study_index"] - 1
-        cur = ws.cell(row=13, column=col_idx).value
-        if cur and str(cur).strip() not in ("", "—"):
-            continue
-        hit = _graphify_muestra(theme, study["corpus_id"])
-        if not hit:
-            continue
-        val, ev = hit
-        for sheet_name in SHEETS:
+        for sheet_name in sheets_for_study(study):
+            pc = placement_cell(study, sheet_name)
+            if not pc:
+                continue
+            col_idx = FIRST_STUDY_COL + pc["study_index"] - 1
+            cur = wb[sheet_name].cell(row=13, column=col_idx).value
+            if cur and str(cur).strip() not in ("", "—"):
+                continue
+            hit = _graphify_muestra(theme, study["corpus_id"])
+            if not hit:
+                continue
+            val, ev = hit
             wb[sheet_name].cell(row=13, column=col_idx, value=val)
-        rec = {
-            "study_id": study["corpus_id"],
-            "row": 13,
-            "value": val,
-            "source": "graphify",
-            "evidence": ev,
-        }
-        with traza_path.open("a", encoding="utf-8") as f:
-            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-        updated += 1
+            rec = {
+                "study_id": study["corpus_id"],
+                "row": 13,
+                "sheet": sheet_name,
+                "value": val,
+                "source": "graphify",
+                "evidence": ev,
+            }
+            with traza_path.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+            updated += 1
+            break
     wb.save(folder / FORMULARIO_XLSX)
     wb.close()
     return ok(f"biblio-graphify: {updated} celdas fila 13 actualizadas", "revisa muestras manualmente")
@@ -909,6 +1102,7 @@ def dispatch(args: list[str]) -> int:
         "extract-lote": cmd_extract_lote,
         "draft-lote": cmd_draft_lote,
         "apply-lote": cmd_apply_lote,
+        "classify-nature": cmd_classify_nature,
         "biblio-enrich": cmd_biblio_enrich,
         "biblio-graphify": cmd_biblio_graphify,
         "lint-traza": cmd_lint_traza,

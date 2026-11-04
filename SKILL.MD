@@ -21,15 +21,15 @@ Prosa: [`playbooks/formulario-prosa-rsl.md`](playbooks/formulario-prosa-rsl.md) 
 
 ## Biblio (prepare filas 3–13)
 
-CSV → artículo → **WebSearch** (final) → **`—`** · traza `biblio-traza.jsonl`
+`prepare` → **`formulario:classify-nature`** (columnas por hoja; CSV 3–7, 11) → **`formulario:biblio-enrich`** (8–10, 12–13 solo en `placement`) → WebSearch huecos → **`—`** · trazas **`nature-traza.jsonl`** + **`biblio-traza.jsonl`**
 
-Campos prioritarios: **país**, **contexto**, **volumen**, **tamaño muestra**, editorial.
+Campos enrich: **editorial**, **país**, **contexto**, **volumen**, **tamaño muestra**.
 
 ## Comandos
 
 | Comando | Skill |
 |---------|--------|
-| `formulario:prepare` · `lint-setup` · `stamp` | prepare |
+| `formulario:prepare` · **`classify-nature`** · **`biblio-enrich`** · `lint-setup` · `stamp` | prepare |
 | `formulario:apply-lote` · `lint-traza` · `lint-prosa` (futuro) | apply |
 | `formulario:extract-lote` | **No producción** (qa/dev) |
 

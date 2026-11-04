@@ -1,0 +1,164 @@
+{
+  "article_id": "R219",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "El estudio delimita la población en torno a dificultades de aprendizaje, dislexia, neurodivergencia, alineado con perfiles de discapacidad cognitiva o neurodivergencia relevantes para la RSL. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "dificultades de aprendizaje, dislexia, neurodivergencia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No indica estratificación ni análisis desagregados por perfil cognitivo o neurodivergente; los resultados se reportan sobre la muestra global, limitando comparaciones por subpoblación en el formulario. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "muestra"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Hay participación de personas en evaluación o diseño (tamaño muestral no precisado en el extracto revisado), relevante para validez centrada en usuarios con necesidades cognitivas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "tamaño muestral no precisado en el extracto revisado"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo reporta  menciona consentimiento informado o aprobación ética. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "consentimiento informado o aprobación ética"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "La intervención de IA se apoya en aprendizaje automático, en línea con técnicas aplicadas a accesibilidad o inclusión cognitiva. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "aprendizaje automático"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "El rol principal de la IA es evaluación o medición y asistencia en aseguramiento de calidad dentro del estudio de software o contenido digital accesible. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "evaluación o medición"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "La fase principal vinculada a la IA es pruebas o evaluación empírica del artefacto o de salidas generadas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Además de la fase principal, el artículo alude a desarrollo, pruebas en el ciclo de vida. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "desarrollo, pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Reporta como métrica principal Sus con valor numérico 5., útil para la síntesis de resultados de accesibilidad cognitiva. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "Sustainability, 2025."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "El protocolo de medición incluye cuestionario o encuesta, evaluación heurística, estudio con usuarios. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "cuestionario o encuesta"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Alinea la evaluación con accesibilidad cognitiva (COGA o equivalente). Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "COGA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "La evaluación combina dimensiones cognitivas y sensoriales. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "ambas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "La validación depende principalmente de usuarios, con automatización limitada. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "fulltext",
+          "quote": "users"
+        }
+      ]
+    }
+  ],
+  "source": "apply-prose-v2",
+  "humanize": "draft-lote (revisar con humanize-academic-writing en polish)"
+}

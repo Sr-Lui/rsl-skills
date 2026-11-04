@@ -40,6 +40,15 @@ No fuerces un reparto 50/50: el debate documenta por qué predomina un Tipo en u
 
 No uses nominal, categórico, numérico ni texto en la columna **Tipo**.
 
+## Naturaleza del estudio vs tipo del ítem
+
+| Concepto | Dónde vive | Efecto en Excel |
+|----------|------------|-----------------|
+| **Tipo del ítem** (`response_type` en `items.json`) | Columna **Tipo** del desglose | **Filas** 17–33 en la hoja Cuantitativo y/o Cualitativo |
+| **Naturaleza del estudio** (cuantitativo / cualitativo / mixto) | Solo `formulario-map.json` (`study_nature`, `placement`) — **no** fila en la plantilla | **Columna** del estudio en una o dos hojas (mixto = ambas) |
+
+Un estudio **cuantitativo** puede tener ítems **cualitativos** en filas de la hoja Cuantitativo; no implica columna en la hoja Cualitativo. Clasificación: **`formulario:classify-nature`** (skill prepare).
+
 ## Codificación (columna **Codificación** — opcional)
 
 Detalle interno para diseñar la hoja Excel (lint WARN si falta, no FAIL):

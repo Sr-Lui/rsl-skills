@@ -17,7 +17,8 @@ Invoke: `Usa rsl-resultado-formulario-apply sobre docs/<slug>/` · `lote 03`
 
 - `resultados/formulario/latest.txt` · `formulario:lint-setup` PASS
 - `items.json` + `## Reglas de registro y agregación` · `informe-polish.md`
-- Biblio filas 3–13 completada en **prepare** (no rellenar aquí)
+- `formulario-map.json` con **`placement`** por hoja (prepare stamp OK)
+- Un `apply-<corpus_id>.json` por artículo; **`apply-lote` escribe solo** donde `placement[sheet]` existe (naturaleza del estudio ≠ tipo del ítem).
 
 ## Contrato de celda
 
@@ -41,7 +42,8 @@ Tras todos los lotes: `formulario:lint-traza` · `formulario:lint-prosa` (cuando
 - **`pnpm -s formulario:extract-lote`** (bypass; solo qa/dev con acuerdo explícito)
 - `apply-lote` sin debate R1+R2+orquestador cerrado
 - Celdas ítem en inglés crudo o telegrafía
-- Tocar filas biblio 3–13
+- Duplicar columna de estudio en hoja sin `placement`; reclasificar naturaleza (volver a **prepare**)
+- Tocar filas biblio 3–13 en apply
 
 ## Cierre
 

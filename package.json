@@ -67,6 +67,7 @@
     "resultado-items:status": "python3 scripts/resultado-items.py status",
     "resultado-items:stamp": "python3 scripts/resultado-items.py stamp",
     "formulario:prepare": ".venv-formulario/bin/python scripts/resultado-formulario.py prepare",
+    "formulario:classify-nature": ".venv-formulario/bin/python scripts/resultado-formulario.py classify-nature",
     "formulario:status": ".venv-formulario/bin/python scripts/resultado-formulario.py status",
     "formulario:lint-setup": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-setup",
     "formulario:stamp": ".venv-formulario/bin/python scripts/resultado-formulario.py stamp",

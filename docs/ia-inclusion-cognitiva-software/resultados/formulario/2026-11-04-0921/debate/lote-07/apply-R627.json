@@ -1,0 +1,158 @@
+{
+  "article_id": "R627",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "El estudio delimita la población en torno a dificultades de aprendizaje, discapacidad cognitiva, neurodivergencia, alineado con perfiles de discapacidad cognitiva o neurodivergencia relevantes para la RSL. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "dificultades de aprendizaje, discapacidad cognitiva, neurodivergencia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No indica estratificación ni análisis desagregados por perfil cognitivo o neurodivergente; los resultados se reportan sobre la muestra global, limitando comparaciones por subpoblación en el formulario. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "muestra"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Hay participación de personas en evaluación o diseño (1536 participantes), relevante para validez centrada en usuarios con necesidades cognitivas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "1536 participantes"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo reporta contexto geográfico asociado a India y  menciona consentimiento informado o aprobación ética. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "India"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "La intervención de IA se apoya en aprendizaje profundo, aprendizaje automático, en línea con técnicas aplicadas a accesibilidad o inclusión cognitiva. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "aprendizaje profundo"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "El rol principal de la IA es generación de contenido o respuestas y evaluación o medición y asistencia en aseguramiento de calidad dentro del estudio de software o contenido digital accesible. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "generación de contenido o respuestas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "La fase principal vinculada a la IA es pruebas o evaluación empírica del artefacto o de salidas generadas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Además de la fase principal, el artículo alude a desarrollo, pruebas en el ciclo de vida. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "desarrollo, pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Reporta como métrica principal accuracy con valor numérico 0, útil para la síntesis de resultados de accesibilidad cognitiva. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "accuracy score of 100"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Alinea la evaluación con accesibilidad cognitiva (COGA o equivalente). Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "COGA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "La evaluación combina dimensiones cognitivas y sensoriales. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "ambas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "La validación depende principalmente de usuarios, con automatización limitada. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "users"
+        }
+      ]
+    }
+  ],
+  "source": "apply-prose-v2",
+  "humanize": "draft-lote (revisar con humanize-academic-writing en polish)"
+}
