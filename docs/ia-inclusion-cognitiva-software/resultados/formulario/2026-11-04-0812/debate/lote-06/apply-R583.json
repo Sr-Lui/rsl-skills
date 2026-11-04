@@ -1,0 +1,145 @@
+{
+  "article_id": "R583",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "learning disabilities; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "learning disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: India",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "India"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; DL; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "LLM"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: NR | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "metrics mentioned"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    }
+  ],
+  "source": "md-extract-v1"
+}

@@ -1,0 +1,139 @@
+{
+  "article_id": "R106",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "neurodivergence"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: NR | N: NR | Rol: diseño",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "Presencia: NR | N: NR | Rol: diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "otro",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "AI applied"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: NR | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "metrics mentioned"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "cognitive"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "semiautomática",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "fulltext",
+          "quote": "semi-automatic"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

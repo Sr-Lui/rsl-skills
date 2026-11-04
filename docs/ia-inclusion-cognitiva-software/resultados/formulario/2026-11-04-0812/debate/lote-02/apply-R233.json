@@ -1,0 +1,163 @@
+{
+  "article_id": "R233",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "autism/ASD; dyslexia; intellectual disability; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "autism/ASD"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "no stratification mention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: NR | Rol: diseño",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: NR | Rol: diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: Spain",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; NLP; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "LLM"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: Sus | Valor: 7",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "Sustainability, vol. 15, no. 24, p. 16587"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario; Legibilidad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "semiautomática",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "fulltext",
+          "quote": "semi-automatic"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

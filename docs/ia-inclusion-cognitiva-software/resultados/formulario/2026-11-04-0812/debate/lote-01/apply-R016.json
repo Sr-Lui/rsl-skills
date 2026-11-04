@@ -1,0 +1,157 @@
+{
+  "article_id": "R016",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "learning disabilities; cognitive impairment; autism/ASD; dyslexia; intellectual disability; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "learning disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "no stratification mention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: NR | N: 240 | Rol: evaluación",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "Presencia: NR | N: 240 | Rol: evaluación"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: USA",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "USA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; NLP; ML; Modelo: Llama-3.3-70B",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "LLM"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: sus | Valor: 1",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "sus only 15… | 1"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Legibilidad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "Legibilidad"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R016-prompt-engineering-versus-model-selection-for-cognitive-accessibility-in-large-l.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    }
+  ],
+  "source": "md-extract-v1"
+}

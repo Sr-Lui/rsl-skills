@@ -1,0 +1,157 @@
+{
+  "article_id": "R600",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "learning disabilities; cognitive impairment; autism/ASD; intellectual disability; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "learning disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "no stratification mention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 7 | Rol: evaluación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: 7 | Rol: evaluación"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: informado | País: United States",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "United States"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: SUS | Valor: 9",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "SUS)” questionnaire [79"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "fulltext",
+          "quote": "user validation"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

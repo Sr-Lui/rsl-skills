@@ -1,0 +1,163 @@
+{
+  "article_id": "R587",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "learning disabilities; dyslexia; intellectual disability; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "learning disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "no stratification mention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 34 | Rol: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: 34 | Rol: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: Spain",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NLP; ML; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "NLP"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "Evaluador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: NR | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "metrics mentioned"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario; Legibilidad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "semiautomática",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "fulltext",
+          "quote": "semi-automatic"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

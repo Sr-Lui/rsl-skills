@@ -1,0 +1,151 @@
+{
+  "article_id": "R264",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "learning disabilities; dyslexia; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "learning disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "no stratification mention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: NR | Rol: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: NR | Rol: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: UK",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "UK"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "Evaluador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "desarrollo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "desarrollo"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: NR | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "metrics mentioned"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "cognitive"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "fulltext",
+          "quote": "user validation"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

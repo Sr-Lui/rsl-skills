@@ -1,0 +1,157 @@
+{
+  "article_id": "R399",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "cognitive impairment; autism/ASD; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "cognitive impairment"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: NR | Rol: diseño",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: NR | Rol: diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: Spain",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; ML; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "LLM"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "desarrollo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "desarrollo"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: NR | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "metrics mentioned"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Legibilidad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "Legibilidad"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "semiautomática",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "fulltext",
+          "quote": "semi-automatic"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

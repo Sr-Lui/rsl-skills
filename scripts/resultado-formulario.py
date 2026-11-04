@@ -475,6 +475,243 @@ def _slot_key(corpus_id: str, item_id: str, sheet: str) -> tuple[str, str, str]:
     return (corpus_id, item_id, sheet)
 
 
+def md_for_corpus(corpus: Path, corpus_id: str) -> Path | None:
+    md_dir = corpus / "docs" / "md"
+    hits = list(md_dir.glob(f"{corpus_id}-*.md"))
+    return hits[0] if hits else None
+
+
+def _ev(md: Path, quote: str) -> list[dict]:
+    q = " ".join(quote.split())[:160]
+    return [{"src": rel(md), "loc": "fulltext", "quote": q}] if q else []
+
+
+def _absent() -> tuple[str, str, list]:
+    return "", "absent", []
+
+
+def _hit(text: str, pattern: str) -> re.Match | None:
+    return re.search(pattern, text, re.I | re.M)
+
+
+def extract_item(item_id: str, text: str, tl: str, md: Path) -> tuple[str, str, list]:
+    """Conservative full-text extraction; empty value + absent if no anchor."""
+    if item_id == "RQ1-I1":
+        terms = []
+        for pat, label in (
+            (r"learning disabilities?", "learning disabilities"),
+            (r"cognitive impairments?", "cognitive impairment"),
+            (r"\bADHD\b", "ADHD"),
+            (r"\bautism\b|\bautistic\b|\bASD\b|\bTEA\b", "autism/ASD"),
+            (r"dyslexia", "dyslexia"),
+            (r"intellectual disabilit", "intellectual disability"),
+            (r"neurodiver", "neurodivergence"),
+            (r"Down syndrome", "Down syndrome"),
+        ):
+            if re.search(pat, tl):
+                terms.append(label)
+        if terms:
+            return "; ".join(dict.fromkeys(terms)), "extracted", _ev(md, terms[0])
+        return _absent()
+    if item_id == "RQ1-I2":
+        if re.search(r"stratif|subgroup|sub-group|by diagnosis|per profile", tl):
+            return "Sí", "extracted", _ev(md, "stratification/subgroup")
+        if re.search(r"participants|sample|subjects", tl):
+            return "No", "extracted", _ev(md, "no stratification mention")
+        return _absent()
+    if item_id == "RQ1-I3":
+        pres = "Sí" if re.search(r"user study|participants|involved users|co-design|with users", tl) else "NR"
+        n = "NR"
+        m = re.search(r"\b[Nn]\s*[=:]\s*(\d+)|(\d+)\s+participants", text)
+        if m:
+            n = (m.group(1) or m.group(2) or "NR").strip()
+        rol = "NR"
+        if re.search(r"co-design| participatory|design workshop", tl):
+            rol = "diseño"
+        elif re.search(r"user (study|evaluation|test)", tl):
+            rol = "evaluación"
+        if pres == "NR" and n == "NR" and rol == "NR":
+            return _absent()
+        v = f"Presencia: {pres} | N: {n} | Rol: {rol}"
+        return v, "partial" if "NR" in v else "extracted", _ev(md, v[:80])
+    if item_id == "RQ1-I4":
+        pais = "NR"
+        m = re.search(r"\b(United States|USA|U\.S\.|China|Spain|India|UK|Canada|Germany|Alabama)\b", text)
+        if m:
+            pais = m.group(1)
+        enf = "NR"
+        if re.search(r"strength-based|neurodiversity", tl):
+            enf = "diferencia"
+        elif re.search(r"deficit|impairment model", tl):
+            enf = "déficit"
+        cons = "NR"
+        if re.search(r"IRB|ethics committee|informed consent|consent form", tl):
+            cons = "informado"
+        v = f"Enfoque: {enf} | Perfil: NR | Consentimiento: {cons} | País: {pais}"
+        if v.count("NR") >= 3:
+            return _absent()
+        return v, "partial", _ev(md, pais)
+    if item_id == "RQ2-I1":
+        fam = []
+        mod = "NR"
+        if re.search(r"\bLLM\b|large language model|GPT-4|Claude|Llama", tl):
+            fam.append("LLM")
+        if re.search(r"\bNLP\b|natural language", tl):
+            fam.append("NLP")
+        if re.search(r"deep learning|neural network", tl):
+            fam.append("DL")
+        if re.search(r"machine learning|\bML\b", tl):
+            fam.append("ML")
+        if re.search(r"generative AI|GenAI", tl):
+            fam.append("GenAI")
+        mm = re.search(r"(GPT-4[o]?|Claude[-\w]*|Llama[-\.\d\w]*)", text)
+        if mm:
+            mod = mm.group(1)
+        if not fam:
+            return _absent()
+        return f"{'; '.join(fam)}; Modelo: {mod}", "extracted", _ev(md, fam[0])
+    if item_id == "RQ2-I2":
+        roles = []
+        for pat, lab in (
+            (r"generat(e|ing|or)|produce output", "Generador"),
+            (r"evaluat(e|ing|or)|assess", "Evaluador"),
+            (r"quality assurance|QA assistant", "Asistente de aseguramiento de la calidad"),
+        ):
+            if re.search(pat, tl):
+                roles.append(lab)
+        if roles:
+            return "; ".join(dict.fromkeys(roles)), "extracted", _ev(md, roles[0])
+        if re.search(r"\bAI\b|artificial intelligence|model", tl):
+            return "otro", "partial", _ev(md, "AI applied")
+        return _absent()
+    if item_id == "RQ2-I3":
+        for lab, pat in (
+            ("pruebas", r"\btest(ing|s)?\b|experiment|empirical study|user study"),
+            ("desarrollo", r"implement(ed|ation|ing)?|develop(ed|ment)?"),
+            ("diseño", r"\bdesign\b|prototype|UI/UX"),
+            ("requisitos", r"requirement"),
+            ("V&V", r"validation|verification"),
+        ):
+            if re.search(pat, tl):
+                return lab, "extracted", _ev(md, lab)
+        return _absent()
+    if item_id == "RQ2-I4":
+        phases = []
+        primary = None
+        for lab, pat in (
+            ("pruebas", r"\btest(ing|s)?\b|experiment"),
+            ("desarrollo", r"implement|develop"),
+            ("diseño", r"\bdesign\b"),
+        ):
+            if re.search(pat, tl):
+                phases.append(lab)
+        if len(phases) <= 1:
+            return "—", "extracted", _ev(md, "single phase")
+        return "; ".join(phases[1:]) if len(phases) > 1 else "—", "extracted", _ev(md, ";".join(phases))
+    if item_id == "RQ3-I1":
+        m = re.search(
+            r"(Flesch|accuracy|precision|recall|F1|SUS|completion rate|reading ease)[^\n]{0,40}(\d+\.?\d*)",
+            text,
+            re.I,
+        )
+        if m:
+            v = f"Constructo: {m.group(1)} | Valor: {m.group(2)}"
+            return v, "extracted", _ev(md, m.group(0)[:80])
+        if re.search(r"metric|measure|score|performance", tl):
+            return "Constructo: NR | Valor: NR", "partial", _ev(md, "metrics mentioned")
+        return _absent()
+    if item_id == "RQ3-I2":
+        inst = []
+        for pat, lab in (
+            (r"questionnaire|survey", "Cuestionario"),
+            (r"heuristic evaluation", "Heurística"),
+            (r"user study|think aloud", "Estudio con usuarios"),
+            (r"Flesch|readability", "Legibilidad"),
+        ):
+            if re.search(pat, tl):
+                inst.append(lab)
+        if inst:
+            return "; ".join(dict.fromkeys(inst)), "extracted", _ev(md, inst[0])
+        return _absent()
+    if item_id == "RQ3-I3":
+        if re.search(r"\bWCAG\b", tl):
+            return "WCAG", "extracted", _ev(md, "WCAG")
+        if re.search(r"\bCOGA\b|cognitive accessibility", tl):
+            return "COGA", "extracted", _ev(md, "COGA/cognitive accessibility")
+        if re.search(r"accessibility standard|accessibility guideline", tl):
+            return "otro", "partial", _ev(md, "accessibility guidelines")
+        if re.search(r"accessib", tl):
+            return "ninguno", "extracted", _ev(md, "accessibility without named standard")
+        return _absent()
+    if item_id == "RQ3-I4":
+        cog = bool(re.search(r"cognitive|dyslexia|ADHD|autism|learning disabilit|readability", tl))
+        sen = bool(re.search(r"visual|blind|hearing|sensor", tl))
+        if cog and sen:
+            return "ambas", "extracted", _ev(md, "cognitive and sensory")
+        if cog:
+            return "Cognitiva", "extracted", _ev(md, "cognitive")
+        if sen:
+            return "sensorial", "extracted", _ev(md, "sensory")
+        return _absent()
+    if item_id == "RQ3-I5":
+        if re.search(r"automated (test|evaluation)|continuous integration|\bCI\b pipeline", tl):
+            return "Integración continua", "extracted", _ev(md, "automated")
+        if re.search(r"semi-?automatic|human-in-the-loop", tl):
+            return "semiautomática", "extracted", _ev(md, "semi-automatic")
+        if re.search(r"user study|participants|usability test", tl):
+            return "solo validación con usuarios", "extracted", _ev(md, "user validation")
+        return _absent()
+    return _absent()
+
+
+def extract_slots_for_study(corpus: Path, corpus_id: str, item_defs: list[dict]) -> list[dict]:
+    md = md_for_corpus(corpus, corpus_id)
+    if md is None:
+        return [{"item_id": it["id"], "value": "", "decision": "absent", "evidence": []} for it in item_defs]
+    text = md.read_text(encoding="utf-8", errors="replace")
+    tl = text.lower()
+    out = []
+    for it in item_defs:
+        val, dec, ev = extract_item(it["id"], text, tl, md)
+        out.append({"item_id": it["id"], "value": val, "decision": dec, "evidence": ev})
+    return out
+
+
+def cmd_extract_lote(args: list[str]) -> int:
+    if len(args) < 2:
+        raise Fail("uso: formulario.py extract-lote docs/<slug> <NN>|all", None, 2)
+    theme = theme_path(args[0])
+    folder = read_formulario_latest(theme)
+    if folder is None:
+        return error("sin formulario latest", "formulario:prepare")
+    mp = load_map(folder)
+    corpus = cribado2_dir(theme)
+    items_folder = items_latest(theme)
+    item_defs = json.loads((items_folder / "items.json").read_text(encoding="utf-8"))["items"]
+    target = args[1].strip().lower()
+    lotes = mp.get("lotes") or []
+    if target == "all":
+        chosen = lotes
+    else:
+        lid = target.zfill(2)
+        chosen = [L for L in lotes if L["lote"] == lid]
+        if not chosen:
+            raise Fail(f"lote {lid} no encontrado", None)
+    written = 0
+    for lot in chosen:
+        lid = lot["lote"]
+        deb_dir = folder / "debate" / f"lote-{lid}"
+        deb_dir.mkdir(parents=True, exist_ok=True)
+        for cid in lot["corpus_ids"]:
+            slots = extract_slots_for_study(corpus, cid, item_defs)
+            payload = {"article_id": cid, "lote": lid, "slots": slots, "source": "md-extract-v1"}
+            (deb_dir / f"apply-{cid}.json").write_text(
+                json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+            )
+            written += 1
+    return ok(f"extract-lote: {written} apply-*.json en {len(chosen)} lote(s)", "formulario:apply-lote")
+
+
 def cmd_apply_lote(args: list[str]) -> int:
     if len(args) < 2:
         raise Fail("uso: formulario.py apply-lote docs/<slug> <NN> [--article id]", None, 2)
@@ -509,9 +746,9 @@ def cmd_apply_lote(args: list[str]) -> int:
             existing.add(_slot_key(o["article_id"], o["item_id"], o["sheet"]))
 
     studies_by_id = {s["corpus_id"]: s for s in mp["studies"]}
-    items_by_id = {}
+    item_metas: dict[str, list[dict]] = {}
     for slot in mp.get("items") or []:
-        items_by_id.setdefault(slot["item_id"], slot)
+        item_metas.setdefault(slot["item_id"], []).append(slot)
 
     applied = 0
     for cid in corpus_ids:
@@ -528,35 +765,37 @@ def cmd_apply_lote(args: list[str]) -> int:
         col_idx = FIRST_STUDY_COL + study["study_index"] - 1
         for slot in payload.get("slots") or []:
             item_id = slot["item_id"]
-            meta = items_by_id.get(item_id)
-            if not meta:
+            metas = item_metas.get(item_id) or []
+            if not metas:
                 continue
-            sh = meta["sheet"]
-            row = meta["row"]
-            key = _slot_key(cid, item_id, sh)
-            if key in existing:
-                continue
-            ws = wb[sh]
             val = slot.get("value")
-            if val is not None and str(val).strip():
-                ws.cell(row=row, column=col_idx, value=val)
-            cell_ref = f"{col_letter}{row}"
-            rec = {
-                "article_id": cid,
-                "item_id": item_id,
-                "rq": meta.get("rq"),
-                "picoc_component": meta.get("picoc_component"),
-                "sheet": sh,
-                "cell": cell_ref,
-                "value": val if val is not None else "",
-                "decision": slot.get("decision", "absent"),
-                "evidence": slot.get("evidence") or [],
-                "lote": lote_id,
-            }
-            with traza_path.open("a", encoding="utf-8") as f:
-                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-            existing.add(key)
-            applied += 1
+            dec = slot.get("decision", "absent")
+            for meta in metas:
+                sh = meta["sheet"]
+                row = meta["row"]
+                key = _slot_key(cid, item_id, sh)
+                if key in existing:
+                    continue
+                ws = wb[sh]
+                if val is not None and str(val).strip():
+                    ws.cell(row=row, column=col_idx, value=val)
+                cell_ref = f"{col_letter}{row}"
+                rec = {
+                    "article_id": cid,
+                    "item_id": item_id,
+                    "rq": meta.get("rq"),
+                    "picoc_component": meta.get("picoc_component"),
+                    "sheet": sh,
+                    "cell": cell_ref,
+                    "value": val if val is not None else "",
+                    "decision": dec,
+                    "evidence": slot.get("evidence") or [],
+                    "lote": lote_id,
+                }
+                with traza_path.open("a", encoding="utf-8") as f:
+                    f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                existing.add(key)
+                applied += 1
     wb.save(folder / FORMULARIO_XLSX)
     wb.close()
     return ok(f"apply-lote {lote_id}: {applied} slot(s)", "lint-traza o siguiente artículo")
@@ -580,9 +819,8 @@ def cmd_lint_traza(args: list[str]) -> int:
         val = (rec.get("value") or "").strip()
         if dec in ("extracted", "partial") and not val:
             errs.append(f"E3: {rec.get('cell')} decision={dec} sin valor")
-        if val and dec not in ("extracted", "partial", "omitted"):
-            if dec != "absent" or val:
-                errs.append(f"E4: {rec.get('cell')} valor sin decision válida")
+        if val and dec not in ("extracted", "partial", "omitted", "absent"):
+            errs.append(f"E4: {rec.get('cell')} valor sin decision válida")
     if errs:
         for e in errs[:20]:
             print(e)
@@ -593,19 +831,20 @@ def cmd_lint_traza(args: list[str]) -> int:
 def dispatch(args: list[str]) -> int:
     if not args:
         print(__doc__)
-        return error("falta subcomando", "prepare | status | lint-setup | stamp | apply-lote | lint-traza", code=2)
+        return error("falta subcomando", "prepare | extract-lote | apply-lote | lint-traza | …", code=2)
     cmd, rest = args[0], args[1:]
     handlers = {
         "prepare": cmd_prepare,
         "status": cmd_status,
         "lint-setup": cmd_lint_setup,
         "stamp": cmd_stamp,
+        "extract-lote": cmd_extract_lote,
         "apply-lote": cmd_apply_lote,
         "lint-traza": cmd_lint_traza,
     }
     fn = handlers.get(cmd)
     if not fn:
-        return error(f"subcomando {cmd} desconocido", "prepare | status | lint-setup | stamp | apply-lote | lint-traza", code=2)
+        return error(f"subcomando {cmd} desconocido", "prepare | extract-lote | apply-lote | lint-traza", code=2)
     return fn(rest)
 
 

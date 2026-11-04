@@ -1,0 +1,16 @@
+{
+  "marco": "PIO",
+  "picoc": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/picoc.md",
+  "picoc_sha": "6c9a53ccbca65897",
+  "cribado2_csv": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/resultados-PIO-cribado-2.csv",
+  "cribado2_sha": "e790596735ef6e36",
+  "items_json": "docs/ia-inclusion-cognitiva-software/resultados/items/2026-11-04-0615/items.json",
+  "items_sha": "2dd51238e0da8a2b",
+  "n_si": 73,
+  "prepare_stamped": "2026-11-04T08:12",
+  "folder": "2026-11-04-0812",
+  "extraccion_complete": true,
+  "extraccion_applied": "2026-11-04T08:20",
+  "extraccion_mode": "md-extract-v1 + apply-lote 01-08",
+  "traza_lines": 1168
+}

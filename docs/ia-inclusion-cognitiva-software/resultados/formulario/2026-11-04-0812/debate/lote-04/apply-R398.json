@@ -1,0 +1,163 @@
+{
+  "article_id": "R398",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "autism/ASD; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "autism/ASD"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "stratification/subgroup"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 203 | Rol: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: 203 | Rol: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: informado | País: China",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "China"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; NLP; DL; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "LLM"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: sus | Valor: 6.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "sustained engagement46."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "fulltext",
+          "quote": "user validation"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

@@ -1,0 +1,163 @@
+{
+  "article_id": "R440",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "learning disabilities; autism/ASD; dyslexia; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "learning disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "no stratification mention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 50 | Rol: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: 50 | Rol: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: informado | País: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NLP; ML; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "NLP"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "Evaluador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: accuracy | Valor: 6",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "accuracy of 45.6"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "fulltext",
+          "quote": "user validation"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

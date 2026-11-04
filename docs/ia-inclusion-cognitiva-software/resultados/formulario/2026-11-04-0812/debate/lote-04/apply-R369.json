@@ -1,0 +1,163 @@
+{
+  "article_id": "R369",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "dyslexia; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "dyslexia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "no stratification mention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 5 | Rol: diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: 5 | Rol: diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: USA",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "USA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "ML; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "ML"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "Evaluador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: NR | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "metrics mentioned"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario; Estudio con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "fulltext",
+          "quote": "user validation"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

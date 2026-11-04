@@ -1,0 +1,163 @@
+{
+  "article_id": "R293",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "autism/ASD; dyslexia; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "autism/ASD"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "no stratification mention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 10 | Rol: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: 10 | Rol: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: China",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "China"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NLP; DL; ML; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "NLP"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: sus | Valor: 4",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "suspected to have 0.4"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario; Legibilidad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "fulltext",
+          "quote": "user validation"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

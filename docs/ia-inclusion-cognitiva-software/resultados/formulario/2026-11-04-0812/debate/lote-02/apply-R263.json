@@ -1,0 +1,163 @@
+{
+  "article_id": "R263",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "dyslexia; neurodivergence",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "dyslexia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "stratification/subgroup"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: NR | Rol: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "Presencia: Sí | N: NR | Rol: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: India",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "India"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "DL; ML; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "DL"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Evaluador",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "Evaluador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; diseño",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "pruebas;desarrollo;diseño"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: accuracy | Valor: 268",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "accuracy rate of 92% in recognizing voice eISSN-268"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "Cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "COGA/cognitive accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "ambas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "cognitive and sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "fulltext",
+          "quote": "user validation"
+        }
+      ]
+    }
+  ],
+  "source": "md-extract-v1"
+}

@@ -71,6 +71,7 @@
     "formulario:lint-setup": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-setup",
     "formulario:stamp": ".venv-formulario/bin/python scripts/resultado-formulario.py stamp",
     "formulario:apply-lote": ".venv-formulario/bin/python scripts/resultado-formulario.py apply-lote",
+    "formulario:extract-lote": ".venv-formulario/bin/python scripts/resultado-formulario.py extract-lote",
     "formulario:lint-traza": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-traza"
   },
   "engines": {
