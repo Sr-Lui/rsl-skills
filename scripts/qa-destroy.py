@@ -1618,6 +1618,7 @@ def _(sb):
         "critico-rsl",
         "resultado-items:prepare",
         "Resumen del protocolo",
+        "Reglas de registro",
         "cuantitativo",
     ):
         sb.check(need in skill, f"rsl-resultado-items/SKILL.md no contiene «{need}»")

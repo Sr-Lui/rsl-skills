@@ -32,9 +32,11 @@ Valores **únicos** permitidos en la tabla y en el Excel:
 
 | Tipo | Cuándo usarlo |
 |------|----------------|
-| **cuantitativo** | Conteos, puntuaciones, porcentajes, escalas numéricas |
-| **cualitativo** | Categorías, texto, presencia/ausencia sin métrica numérica principal |
-| **mixto** | En la misma celda se registran parte numérica y parte categórica o textual (usar poco) |
+| **cuantitativo** | Valor numérico del artículo **o** categoría/binario pensado para **% de estudios** (frecuencia en síntesis) |
+| **cualitativo** | Texto, listas nominales ricas, matices «por qué»; marcos sin conteo principal |
+| **mixto** | Plantilla con subcampos categóricos **y** numéricos en la misma celda |
+
+No fuerces un reparto 50/50: el debate documenta por qué predomina un Tipo en una RQ.
 
 No uses nominal, categórico, numérico ni texto en la columna **Tipo**.
 
@@ -46,9 +48,30 @@ Detalle interno para diseñar la hoja Excel (lint WARN si falta, no FAIL):
 
 Las **Notas** aclaran valores esperados o subcampos.
 
+## Extracción → síntesis (RSL)
+
+Cada ítem debe anticipar **cómo se agregarán los 73 estudios** en Resultados:
+
+| En extracción (Tipo) | En síntesis RSL |
+|----------------------|-----------------|
+| **cuantitativo** | Frecuencia (% estudios por categoría) **o** estadísticos de valores reportados |
+| **cualitativo** + codificación **texto** / nominal rico | **Narrativa** / temas (el «por qué») |
+| **mixto** | Subcampos fijos: frecuencia por subcampo + narrativa en notas |
+
+Reglas operativas (van en **`## Reglas de registro y agregación`** de `items.md`):
+
+- **`NR`** = no reportado en el texto completo (no inferir solo del resumen).
+- **Multivalor:** separar con **`;`** (perfiles, fases secundarias, roles múltiples).
+- **Fases del ciclo de vida (RQ2):** **fase principal** (una categoría) + **otras fases** (lista o `—` si solo una).
+- **No** fusionar en un solo ítem dos dimensiones que luego se cruzan en tablas (p. ej. cobertura cognitivo/sensorial **y** grado de automatización → dos ítems).
+
+## Reglas de registro y agregación (obligatorio en `items.md`)
+
+Sección **`## Reglas de registro y agregación`** después de campos bibliográficos: convenciones anteriores + tabla breve «ítem → agregación prevista» (frecuencia / narrativa / valor numérico).
+
 ## Resumen del protocolo (final de `items.md`)
 
-Después de todas las secciones `## RQn`, incluir **`## Resumen del protocolo`**: por componente, la pregunta y la lista de ítems (id + etiqueta breve + tipo). Es la vista «documento» del protocolo; no sustituye las tablas detalladas.
+Después de todas las secciones `## RQn`, incluir **`## Resumen del protocolo`**: vista **operativa** (la que lee el equipo). Por componente: pregunta acortada y lista `- RQn-Ik — <etiqueta larga 12–22 palabras> (<tipo>)`. La etiqueta del Resumen **no** copia la fila breve de la tabla (≈ ≤12 palabras); **expande** qué se registra y para qué agrega.
 
 ```markdown
 ## Resumen del protocolo
@@ -65,7 +88,8 @@ Después de todas las secciones `## RQn`, incluir **`## Resumen del protocolo`**
 ## Debate (defensor / crítico)
 
 - **Defensor:** conjunto mínimo suficiente; **Tipo** ternario; ítems breves.
-- **Crítico:** refuta tipos no ternarios, etiquetas largas, ítems que mezclan dos dimensiones o ignoran el «Dato a extraer».
+- **Crítico:** refuta tipos mal asignados, etiquetas largas en **tabla**, Resumen demasiado corto (W7), ítems que mezclan dos dimensiones agregables, multifase silenciosa o huecos frente al «Dato a extraer»; pide justificación del balance de Tipos en el debate (sin cuota 50/50).
+- Cierre del debate: sección **`## Mejoras respecto a <carpeta-anterior>`** si la corrida es `rewrite`.
 - **Máximo 2 rondas.** Sin consenso → **ERROR**; no `stamp`.
 
 ## Piloto

@@ -32,6 +32,8 @@ MAX_ITEMS = 5
 MIN_ITEMS = 1
 LABEL_MAX_WORDS = 12
 RESUMEN_SECTION = "Resumen del protocolo"
+REGLAS_SECTION = "Reglas de registro y agregación"
+RESUMEN_LABEL_MIN_WORDS = 8
 ITEM_ID_RE = re.compile(r"^RQ(\d+)-I(\d+)$", re.I)
 PRIMARY_TYPES = frozenset({"cuantitativo", "cualitativo", "mixto"})
 ENCODING_TYPES = frozenset({"categórico", "nominal", "numérico", "texto", "mixto"})
@@ -264,7 +266,9 @@ def parse_items_md(path: Path) -> tuple[list[str], dict[str, list[dict[str, str]
     return rq_ids, items_by_rq, errs, warns
 
 
-def lint_resumen_section(text: str, items_by_rq: dict[str, list[dict[str, str]]], errs: list[str]) -> None:
+def lint_resumen_section(
+    text: str, items_by_rq: dict[str, list[dict[str, str]]], errs: list[str], warns: list[str]
+) -> None:
     if not re.search(rf"^##\s+{re.escape(RESUMEN_SECTION)}\s*$", text, flags=re.M | re.I):
         errs.append(f"E8: falta sección ## {RESUMEN_SECTION} al final de items.md")
         return
@@ -279,6 +283,17 @@ def lint_resumen_section(text: str, items_by_rq: dict[str, list[dict[str, str]]]
             iid = it["id"]
             if not re.search(rf"^\s*[-*]\s+{re.escape(iid)}\b", body, flags=re.M | re.I):
                 errs.append(f"E8: {RESUMEN_SECTION} no lista {iid}")
+    for m in re.finditer(
+        r"^\s*[-*]\s+(RQ\d+-I\d+)\s+—\s+(.+?)\s+\((cuantitativo|cualitativo|mixto)\)\s*$",
+        body,
+        flags=re.M | re.I,
+    ):
+        label = m.group(2).strip()
+        nwords = len(label.split())
+        if nwords < RESUMEN_LABEL_MIN_WORDS:
+            warns.append(
+                f"W7: {m.group(1)} en {RESUMEN_SECTION}: etiqueta corta ({nwords} palabras; objetivo ≥ {RESUMEN_LABEL_MIN_WORDS})"
+            )
 
 
 def lint_items(theme: Path, items_md: Path) -> tuple[list[str], list[str]]:
@@ -287,7 +302,16 @@ def lint_items(theme: Path, items_md: Path) -> tuple[list[str], list[str]]:
     text = items_md.read_text(encoding="utf-8")
     rq_ids, items_by_rq, errs, warns = parse_items_md(items_md)
 
-    lint_resumen_section(text, items_by_rq, errs)
+    if not re.search(rf"^##\s+{re.escape(REGLAS_SECTION)}\s*$", text, flags=re.M | re.I):
+        errs.append(f"E9: falta sección ## {REGLAS_SECTION}")
+
+    lint_resumen_section(text, items_by_rq, errs, warns)
+
+    rq2_items = items_by_rq.get("RQ2", [])
+    if "RQ2" in expected and len(rq2_items) < 4:
+        warns.append(
+            "W6: RQ2 tiene menos de 4 ítems; conviene fase principal + otras fases para síntesis multifase"
+        )
 
     for rq in expected:
         if rq not in rq_ids and rq not in items_by_rq:

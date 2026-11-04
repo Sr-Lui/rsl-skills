@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "marco": "PIO",
+  "theme": "docs/ia-inclusion-cognitiva-software",
+  "picoc": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/picoc.md",
+  "cribado2_csv": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/resultados-PIO-cribado-2.csv",
+  "common_fields": [
+    "id",
+    "titulo",
+    "autores",
+    "anio",
+    "venue",
+    "doi"
+  ],
+  "rqs": [
+    {
+      "id": "RQ1",
+      "component": "P",
+      "items": [
+        {
+          "id": "RQ1-I1",
+          "label": "Perfiles declarados en el estudio",
+          "response_type": "cualitativo",
+          "encoding": "nominal",
+          "hint": "Multivalor con `;` (TEA, TDAH, DI, dislexia…); redacción del artículo",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ1-I2",
+          "label": "Estratificación por perfil",
+          "response_type": "cuantitativo",
+          "encoding": "categórico",
+          "hint": "Sí / No / NR; cómo se reporta en notas",
+          "data_type": "cuantitativo"
+        },
+        {
+          "id": "RQ1-I3",
+          "label": "Participación de personas con la condición",
+          "response_type": "mixto",
+          "encoding": "mixto",
+          "hint": "Plantilla: `Presencia: Sí\\|No\\|NR \\| N: …\\|NR \\| Rol: diseño\\|evaluación\\|ambos\\|NR`",
+          "data_type": "mixto"
+        },
+        {
+          "id": "RQ1-I4",
+          "label": "Marco ético y país del estudio",
+          "response_type": "mixto",
+          "encoding": "mixto",
+          "hint": "Plantilla: `Enfoque: diferencia\\|déficit\\|NR \\| Perfil: deducido\\|almacenado\\|NR \\| Consentimiento: …\\|NR \\| País: …\\|NR`",
+          "data_type": "mixto"
+        }
+      ]
+    },
+    {
+      "id": "RQ2",
+      "component": "I",
+      "items": [
+        {
+          "id": "RQ2-I1",
+          "label": "Familia de técnica de IA",
+          "response_type": "cualitativo",
+          "encoding": "nominal",
+          "hint": "ML, DL, NLP, LLM, GenAI, visión…; `Modelo: nombre \\| NR` en notas",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ2-I2",
+          "label": "Rol de la IA en el estudio",
+          "response_type": "cualitativo",
+          "encoding": "categórico",
+          "hint": "Generador, evaluador, asistente de aseguramiento de la calidad, otro; multivalor con `;` si aplica",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ2-I3",
+          "label": "Fase principal del ciclo de vida",
+          "response_type": "cuantitativo",
+          "encoding": "categórico",
+          "hint": "Requisitos, diseño, desarrollo, personalización en ejecución, pruebas, V&V, auditoría, otro, NR",
+          "data_type": "cuantitativo"
+        },
+        {
+          "id": "RQ2-I4",
+          "label": "Otras fases reportadas",
+          "response_type": "cuantitativo",
+          "encoding": "nominal",
+          "hint": "Lista con `;` o **`—`** si solo una fase; no duplicar la principal",
+          "data_type": "cuantitativo"
+        }
+      ]
+    },
+    {
+      "id": "RQ3",
+      "component": "O",
+      "items": [
+        {
+          "id": "RQ3-I1",
+          "label": "Métrica principal y valor reportado",
+          "response_type": "mixto",
+          "encoding": "mixto",
+          "hint": "Plantilla: `Constructo: … \\| Valor: número+unidad \\| NR`",
+          "data_type": "mixto"
+        },
+        {
+          "id": "RQ3-I2",
+          "label": "Instrumento o protocolo de medición",
+          "response_type": "cualitativo",
+          "encoding": "texto",
+          "hint": "Cuestionario, heurística, tarea…; motivos o limitaciones en notas",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ3-I3",
+          "label": "Marco normativo de accesibilidad",
+          "response_type": "cualitativo",
+          "encoding": "categórico",
+          "hint": "WCAG, COGA, ninguno, otro (especificar), NR",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ3-I4",
+          "label": "Cobertura de la evaluación",
+          "response_type": "cuantitativo",
+          "encoding": "categórico",
+          "hint": "Cognitiva, sensorial, ambas, NR",
+          "data_type": "cuantitativo"
+        },
+        {
+          "id": "RQ3-I5",
+          "label": "Grado de automatización",
+          "response_type": "cuantitativo",
+          "encoding": "categórico",
+          "hint": "Integración continua, semiautomática, solo validación con usuarios, NR",
+          "data_type": "cuantitativo"
+        }
+      ]
+    }
+  ]
+}
