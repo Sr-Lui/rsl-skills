@@ -27,6 +27,8 @@ El agente verifica/instala prerrequisitos (node + pnpm, pipx graphifyy, poppler)
 | `rsl-cribado-2-polish` | Cribado 2, paso 3: mérito SI/PODRIA/NO vía grafo; `cribado2:cuota` con `min_rsl` (relleno leve/alto) | `cribado-2-evaluacion.md` + `.cribado-2/decisiones.jsonl` |
 | `rsl-cribado-2-aplicar` | Tras aprobar la evaluación: `resultados-<MARCO>-cribado-2.csv` (solo filas del corpus cribado-2; ¿Se acepta? SI/NO + Justificación cribado 2) | `resultados-*-cribado-2.csv` + `prisma.json` eligibility |
 | `rsl-resultado-items` | Tras cribado 2: 1–5 **ítems breves**/RQ; Tipo cuantitativo/cualitativo/mixto; resumen final del protocolo; debate + prosa-rsl | `resultados/items/<YYYY-MM-DD-HHMM>/` |
+| `rsl-resultado-formulario-prepare` | Excel UTP vacío estructurado: columnas SI, mapa, biblio CSV→artículo→blanco | `resultados/formulario/<timestamp>/` |
+| `rsl-resultado-formulario-apply` | Lotes de 10: debate + traza + celdas ítem | `debate/lote-NN/`, `extraccion-traza.jsonl` |
 | `rsl-make-paper` | Nueva versión del paper borrador, solo secciones `on` (mejorar) y `rewrite` (reescribir) de `config.yml` (+ agente `citas-rsl` y `redaccion:lint`) | `docs/[titulo-breve]/paper/<fecha>/paper-borrador.md` |
 | `rsl-polish-paper` | Pule esas secciones (`critico-rsl` + `defensor-rsl`; `impacto-social-rsl` si están Justificación u Objetivo; luego `redaccion-rsl` + `citas-rsl`) → texto limpio + traza de debate | `paper/<fecha>/paper-polish.md` + `paper-debate.md` |
 | `rsl-turnitin-informe` | Pre-entrega Turnitin simulado: `turnitin:qualified` + agente `turnitin-rsl` → informe estructurado (path del polish **obligatorio**) | `{stem}-informe-turnitin.md` junto al polish |
@@ -149,6 +151,12 @@ En `theme`, el `<slug>` se omite si solo hay un tema; `refresh`/`status` aceptan
 | `resultado-items:lint docs/<slug>` | Valida `items.md`: 1–5 ítems/RQ; **Tipo** ternario; sección **`## Ítems`**; `items.json` con array **`items`**. |
 | `resultado-items:status docs/<slug>` | PASS / FALTA / DESFASADO (picoc o CSV cambiaron). |
 | `resultado-items:stamp docs/<slug> <carpeta>` | Escribe `manifest.json` y actualiza `latest.txt` tras lint OK. |
+| `formulario:prepare docs/<slug>` | Copia plantilla UTP, extiende columnas (N SI), mapa, biblio desde CSV, columna B ítems. |
+| `formulario:lint-setup docs/<slug>` | Valida mapa ↔ Excel (estructura prepare). |
+| `formulario:stamp docs/<slug> <carpeta>` | `resultados/formulario/latest.txt` + `rsl_pipeline.formulario_latest`. |
+| `formulario:status docs/<slug>` | Estado del formulario; `--progress` cuenta traza ítems. |
+| `formulario:apply-lote docs/<slug> <NN>` | Aplica `debate/lote-NN/apply-<id>.json` → Excel + `extraccion-traza.jsonl`. |
+| `formulario:lint-traza docs/<slug>` | Coherencia traza ↔ celdas ítem. |
 | `turnitin:qualified <archivo.md>` | Texto calificado Turnitin RSL: JSON con oraciones S1…Sn, palabras calificadas y `processable` (≥300 palabras prosa). Entrada de `rsl-turnitin-informe`. |
 | `rsl:source <pdf>` | Convierte un PDF de `global/bibliography/<carpeta>/` en MD junto al PDF (índice con página del PDF) y deja el texto por página en `_raw/`; ERROR si no es un PDF real. |
 | `paper:status docs/<slug>` | Estado del paper según `config.yml`: qué se mejora (on) o reescribe (rewrite), stale, blocked; ERROR si se editó a mano una sección frozen; la línea OK indica el próximo paso. |
@@ -373,6 +381,7 @@ rsl-bootstrap             ← paso 0 (una vez por clon / máquina)
   → (tú: queries de Scopus y WoS, exportaciones en picoc/<fecha>-<MARCO>/) → rsl-cribado-1 → (tú: revisar) → rsl-cribado-1-aplicar
   → rsl-cribado-2 → (tú: pdf-draft + alineamiento) → rsl-cribado-2-memoria → rsl-cribado-2-polish → rsl-cribado-2-aplicar
   → rsl-resultado-items     ← ítems de extracción por RQ (resultados/items/)
+  → rsl-resultado-formulario-prepare → apply  ← formulario UTP (resultados/formulario/)
   → rsl-make-paper          ← paper/<fecha>/paper-borrador.md (secciones on de config.yml)
   → rsl-polish-paper        ← paper-polish.md limpio + paper-debate.md
   → marcar frozen en config.yml lo validado · activar Metodología · (tú: selección PRISMA) · activar Resultados…

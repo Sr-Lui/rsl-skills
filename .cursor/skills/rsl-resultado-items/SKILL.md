@@ -28,7 +28,7 @@ Invoke: `Usa rsl-resultado-items sobre docs/<slug>/` · `rewrite` → nueva carp
 1. Metadatos, objetivo, campos bibliográficos comunes.
 2. **`## Reglas de registro y agregación`** (obligatorio): `NR`, multivalor `;`, fases principal/otras, tabla ítem → frecuencia / narrativa / valor numérico.
 3. Por cada RQ: pregunta literal, dato a extraer del picoc, tabla de ítems.
-4. **`## Ítems`** (final): redacción clara por ítem; sin `(cualitativo)` ni listas de ejemplo; Tipo solo en tabla. **`items.json`** incluye array **`items`** (lista plana con `summary`) para **`rsl-resultado-formulario`**.
+4. **`## Ítems`** (final): redacción clara por ítem; sin `(cualitativo)` ni listas de ejemplo; Tipo solo en tabla. **`items.json`** incluye array **`items`** (lista plana con `summary`) para **`rsl-resultado-formulario-prepare`**.
 
 ### Tabla por RQ
 
@@ -62,7 +62,7 @@ Invoke: `Usa rsl-resultado-items sobre docs/<slug>/` · `rewrite` → nueva carp
 
 ## Cierre
 
-- Éxito: `OK: resultados/items/<carpeta>/ (marco <MARCO>), resultado-items:status PASS. Próximo paso: **rsl-resultado-formulario** (tras `formulario:prepare`).`
+- Éxito: `OK: resultados/items/<carpeta>/ (marco <MARCO>), resultado-items:status PASS. Próximo paso: **rsl-resultado-formulario-prepare**.`
 
 ## Forbidden
 

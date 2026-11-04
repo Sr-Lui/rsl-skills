@@ -1632,6 +1632,22 @@ def _(sb):
     sb.check("humanize-academic-writing" in prosa and "obligatorio" in prosa.casefold(), "prosa-rsl.md no fija humanize como obligatorio")
     red = (ROOT / ".cursor" / "agents" / "redaccion-rsl.md").read_text(encoding="utf-8")
     sb.check("humanize-academic-writing" in red, "redaccion-rsl no referencia humanize-academic-writing")
+
+
+@case("S10", "skills", "formulario prepare/apply skills y comandos package.json")
+def _(sb):
+    for name in ("rsl-resultado-formulario-prepare", "rsl-resultado-formulario-apply"):
+        p = SKILLS / name / "SKILL.md"
+        sb.check(p.is_file(), f"falta {name}/SKILL.md")
+        if p.is_file():
+            txt = p.read_text(encoding="utf-8")
+            sb.check("formulario:" in txt, f"{name} sin comandos formulario")
+    pkg = (ROOT / "package.json").read_text(encoding="utf-8")
+    for cmd in ("formulario:prepare", "formulario:apply-lote", "formulario:lint-setup"):
+        sb.check(cmd in pkg, f"package.json sin {cmd}")
+    sb.check((ROOT / "scripts" / "resultado-formulario.py").is_file(), "falta scripts/resultado-formulario.py")
+    items = (SKILLS / "rsl-resultado-items" / "SKILL.md").read_text(encoding="utf-8")
+    sb.check("rsl-resultado-formulario-prepare" in items, "items skill no apunta a formulario-prepare")
     pb = (ROOT / "playbooks" / "extraccion-items-rsl.md").read_text(encoding="utf-8")
     sb.check("cuantitativo" in pb and "cualitativo" in pb and "mixto" in pb, "extraccion-items-rsl sin ternario de Tipo")
 

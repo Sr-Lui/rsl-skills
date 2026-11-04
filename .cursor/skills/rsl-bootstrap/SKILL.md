@@ -27,6 +27,7 @@ Invocar esta skill **es** la autorización explícita para regenerar los grafos 
 | xlrd (WoS `.xls` en `cribado:prepare`) | `~/.local/share/pipx/venvs/graphifyy/bin/python -c "import xlrd"` | `pipx inject graphifyy xlrd` |
 | poppler | `pdftotext -v`, `pdftohtml -v`, `pdfinfo -v` | Arch `sudo pacman -S poppler` · Debian `sudo apt install poppler-utils` · macOS `brew install poppler` |
 | PyYAML (`paper:status`) | `python3 -c "import yaml"` | Arch `sudo pacman -S python-yaml` · Debian `sudo apt install python3-yaml` · macOS `pip3 install --user pyyaml` |
+| openpyxl (`formulario:*`) | `python3 -c "import openpyxl"` o `.venv-formulario/bin/python -c "import openpyxl"` | Arch `sudo pacman -S python-openpyxl` · o en raíz: `python3 -m venv .venv-formulario && .venv-formulario/bin/pip install openpyxl pyyaml` |
 
    Comandos con `sudo` o gestores del sistema: **pedir confirmación al usuario** antes de ejecutarlos (o que los corra él).
 3. `pnpm install` (workspace root + `tools/*`).
