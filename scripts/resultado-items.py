@@ -30,8 +30,13 @@ ITEMS_JSON = "items.json"
 COL_OK = "¿Se acepta?"
 MAX_ITEMS = 5
 MIN_ITEMS = 1
+LABEL_MAX_WORDS = 12
+RESUMEN_SECTION = "Resumen del protocolo"
 ITEM_ID_RE = re.compile(r"^RQ(\d+)-I(\d+)$", re.I)
-DATA_TYPES = frozenset({"categórico", "nominal", "numérico", "texto", "mixto"})
+PRIMARY_TYPES = frozenset({"cuantitativo", "cualitativo", "mixto"})
+ENCODING_TYPES = frozenset({"categórico", "nominal", "numérico", "texto", "mixto"})
+# legacy alias map (old items.md used these in Tipo column)
+_LEGACY_AS_PRIMARY = frozenset({"categórico", "nominal", "numérico", "texto"})
 DEBATE_MD = "items-debate.md"
 DEBATE_SKELETON = """# Debate — ítems de extracción
 
@@ -214,7 +219,11 @@ def parse_items_md(path: Path) -> tuple[list[str], dict[str, list[dict[str, str]
                 {
                     "id": iid,
                     "label": col(r, "Ítem").strip() or col(r, "Item").strip(),
-                    "data_type": col(r, "Tipo").strip().casefold(),
+                    "response_type": col(r, "Tipo").strip().casefold(),
+                    "encoding": (
+                        col(r, "Codific").strip().casefold()
+                        or col(r, "Codificación").strip().casefold()
+                    ),
                     "hint": col(r, "Notas").strip(),
                 }
             )
@@ -234,19 +243,51 @@ def parse_items_md(path: Path) -> tuple[list[str], dict[str, list[dict[str, str]
             if it["id"] in seen:
                 errs.append(f"E4: id duplicado {it['id']}")
             seen.add(it["id"])
-            dtok = it["data_type"]
-            if dtok and dtok not in DATA_TYPES:
-                errs.append(f"E5: {it['id']} tipo «{dtok}» no válido")
+            rt = it["response_type"]
+            if rt and rt in _LEGACY_AS_PRIMARY:
+                errs.append(
+                    f"E5: {it['id']} usa «{rt}» en Tipo; debe ser cuantitativo, cualitativo o mixto (codificación en columna Codificación)"
+                )
+            elif rt and rt not in PRIMARY_TYPES:
+                errs.append(f"E5: {it['id']} tipo «{rt}» no válido (cuantitativo | cualitativo | mixto)")
+            enc = it["encoding"]
+            if enc and enc not in ENCODING_TYPES:
+                errs.append(f"E5b: {it['id']} codificación «{enc}» no válida")
             if not it["label"]:
                 errs.append(f"E6: {it['id']} sin etiqueta")
+            nwords = len(it["label"].split())
+            if it["label"] and nwords > LABEL_MAX_WORDS:
+                warns.append(f"W4: {it['id']} etiqueta larga ({nwords} palabras; objetivo ≤ {LABEL_MAX_WORDS})")
+            if it["label"] and not enc:
+                warns.append(f"W5: {it['id']} sin codificación (nominal, categórico, numérico o texto)")
 
     return rq_ids, items_by_rq, errs, warns
+
+
+def lint_resumen_section(text: str, items_by_rq: dict[str, list[dict[str, str]]], errs: list[str]) -> None:
+    if not re.search(rf"^##\s+{re.escape(RESUMEN_SECTION)}\s*$", text, flags=re.M | re.I):
+        errs.append(f"E8: falta sección ## {RESUMEN_SECTION} al final de items.md")
+        return
+    m = re.search(
+        rf"^##\s+{re.escape(RESUMEN_SECTION)}\s*$(.*?)(?=^##\s|\Z)",
+        text,
+        flags=re.M | re.S | re.I,
+    )
+    body = m.group(1) if m else ""
+    for rq, items in items_by_rq.items():
+        for it in items:
+            iid = it["id"]
+            if not re.search(rf"^\s*[-*]\s+{re.escape(iid)}\b", body, flags=re.M | re.I):
+                errs.append(f"E8: {RESUMEN_SECTION} no lista {iid}")
 
 
 def lint_items(theme: Path, items_md: Path) -> tuple[list[str], list[str]]:
     _, picoc, _ = picoc_context(theme)
     expected = [r["id"].upper() for r in parse_rqs(picoc)]
+    text = items_md.read_text(encoding="utf-8")
     rq_ids, items_by_rq, errs, warns = parse_items_md(items_md)
+
+    lint_resumen_section(text, items_by_rq, errs)
 
     for rq in expected:
         if rq not in rq_ids and rq not in items_by_rq:
@@ -297,8 +338,10 @@ def emit_json(theme: Path, items_md: Path, marco: str, picoc: Path, csv_path: Pa
                 {
                     "id": it["id"],
                     "label": it["label"],
-                    "data_type": it["data_type"],
+                    "response_type": it["response_type"],
+                    "encoding": it.get("encoding") or "",
                     "hint": it["hint"],
+                    "data_type": it["response_type"],
                 }
             )
         rqs_out.append(

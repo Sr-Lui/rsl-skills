@@ -1617,6 +1617,8 @@ def _(sb):
         "defensor-rsl",
         "critico-rsl",
         "resultado-items:prepare",
+        "Resumen del protocolo",
+        "cuantitativo",
     ):
         sb.check(need in skill, f"rsl-resultado-items/SKILL.md no contiene «{need}»")
     critic = (ROOT / ".cursor" / "agents" / "critico-rsl.md").read_text(encoding="utf-8")
@@ -1629,6 +1631,32 @@ def _(sb):
     sb.check("humanize-academic-writing" in prosa and "obligatorio" in prosa.casefold(), "prosa-rsl.md no fija humanize como obligatorio")
     red = (ROOT / ".cursor" / "agents" / "redaccion-rsl.md").read_text(encoding="utf-8")
     sb.check("humanize-academic-writing" in red, "redaccion-rsl no referencia humanize-academic-writing")
+    pb = (ROOT / "playbooks" / "extraccion-items-rsl.md").read_text(encoding="utf-8")
+    sb.check("cuantitativo" in pb and "cualitativo" in pb and "mixto" in pb, "extraccion-items-rsl sin ternario de Tipo")
+
+
+@case("D-items-01", "destruir", "resultado-items:lint rechaza nominal en columna Tipo")
+def _(sb):
+    t = sb.theme(picoc="PIO", informe=False, paper=False, md=False)
+    (t / "config.yml").write_text(
+        (ROOT / "docs" / "ia-inclusion-cognitiva-software" / "config.yml").read_text(encoding="utf-8"),
+        encoding="utf-8",
+    )
+    items = t / "resultados/items/x/items.md"
+    items.parent.mkdir(parents=True, exist_ok=True)
+    items.write_text(
+        "# Ítems\n\n## RQ1 (P)\n\n### Ítems de extracción\n\n"
+        "| Id | Ítem | Tipo | Codificación | Notas |\n|---|---|---|---|---|\n"
+        "| RQ1-I1 | Perfiles | nominal | nominal | x |\n\n"
+        "## RQ2 (I)\n\n### Ítems\n\n| Id | Ítem | Tipo | Codificación | Notas |\n|---|---|---|---|---|\n"
+        "| RQ2-I1 | Técnica IA | cualitativo | categórico | x |\n\n"
+        "## RQ3 (O)\n\n### Ítems\n\n| Id | Ítem | Tipo | Codificación | Notas |\n|---|---|---|---|---|\n"
+        "| RQ3-I1 | Métrica | cualitativo | categórico | x |\n\n"
+        "## Resumen del protocolo\n\n**Ítems:**\n- RQ1-I1 — Perfiles (cualitativo)\n"
+        "- RQ2-I1 — Técnica (cualitativo)\n- RQ3-I1 — Métrica (cualitativo)\n",
+        encoding="utf-8",
+    )
+    sb.run(["items", "lint", t, items], "ERROR", has="E5")
 
 
 def report_dir() -> Path:

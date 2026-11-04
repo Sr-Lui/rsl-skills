@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "marco": "PIO",
+  "theme": "docs/ia-inclusion-cognitiva-software",
+  "picoc": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/picoc.md",
+  "cribado2_csv": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/resultados-PIO-cribado-2.csv",
+  "common_fields": [
+    "id",
+    "titulo",
+    "autores",
+    "anio",
+    "venue",
+    "doi"
+  ],
+  "rqs": [
+    {
+      "id": "RQ1",
+      "component": "P",
+      "items": [
+        {
+          "id": "RQ1-I1",
+          "label": "Perfiles declarados en el estudio",
+          "response_type": "cualitativo",
+          "encoding": "nominal",
+          "hint": "TEA, TDAH, discapacidad intelectual, dislexia, dificultades de aprendizaje, etc., con la redacción del artículo",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ1-I2",
+          "label": "Estratificación por perfil",
+          "response_type": "cualitativo",
+          "encoding": "categórico",
+          "hint": "Sí o no; indicar cómo se reporta (subgrupos, tareas separadas, etc.)",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ1-I3",
+          "label": "Participación de personas con la condición",
+          "response_type": "mixto",
+          "encoding": "mixto",
+          "hint": "Presencia (sí o no); número aproximado si se reporta; rol (diseño, evaluación, ambos)",
+          "data_type": "mixto"
+        },
+        {
+          "id": "RQ1-I4",
+          "label": "Marco ético y país del estudio",
+          "response_type": "mixto",
+          "encoding": "mixto",
+          "hint": "Diferencia vs déficit; deducción vs almacenamiento del perfil; consentimiento o asentimiento informado; país",
+          "data_type": "mixto"
+        }
+      ]
+    },
+    {
+      "id": "RQ2",
+      "component": "I",
+      "items": [
+        {
+          "id": "RQ2-I1",
+          "label": "Familia de técnica de IA",
+          "response_type": "cualitativo",
+          "encoding": "nominal",
+          "hint": "Aprendizaje automático, aprendizaje profundo, procesamiento de lenguaje natural, LLM, GenAI, visión por computadora, etc.; nombre del modelo en notas si se declara",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ2-I2",
+          "label": "Rol de la IA en el estudio",
+          "response_type": "cualitativo",
+          "encoding": "categórico",
+          "hint": "Generador, evaluador, asistente de aseguramiento de la calidad u otro (especificar)",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ2-I3",
+          "label": "Fase del ciclo de vida del software",
+          "response_type": "cualitativo",
+          "encoding": "categórico",
+          "hint": "Requisitos, diseño, desarrollo, personalización en ejecución, pruebas, verificación y validación, auditoría u otra",
+          "data_type": "cualitativo"
+        }
+      ]
+    },
+    {
+      "id": "RQ3",
+      "component": "O",
+      "items": [
+        {
+          "id": "RQ3-I1",
+          "label": "Métrica o constructo principal",
+          "response_type": "cualitativo",
+          "encoding": "nominal",
+          "hint": "Usabilidad, experiencia de usuario, legibilidad, carga cognitiva, calidad de software, accesibilidad cognitiva, etc.",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ3-I2",
+          "label": "Instrumento o protocolo de medición",
+          "response_type": "cualitativo",
+          "encoding": "texto",
+          "hint": "Cuestionario, heurística, lista de comprobación, tarea observada; descripción breve",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ3-I3",
+          "label": "Marco normativo de accesibilidad",
+          "response_type": "cualitativo",
+          "encoding": "categórico",
+          "hint": "WCAG, COGA, ninguno u otro (especificar)",
+          "data_type": "cualitativo"
+        },
+        {
+          "id": "RQ3-I4",
+          "label": "Cobertura de la evaluación y automatización",
+          "response_type": "mixto",
+          "encoding": "mixto",
+          "hint": "Subcampo 1: cognitiva, sensorial o ambas; subcampo 2: integración continua, semiautomática o solo validación con usuarios",
+          "data_type": "mixto"
+        }
+      ]
+    }
+  ]
+}
