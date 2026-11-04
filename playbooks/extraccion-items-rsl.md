@@ -1,6 +1,6 @@
 # Ítems de extracción RSL (desglose por RQ)
 
-Fuente de verdad para **`rsl-desglose-items`**. La forma del texto en `items.md` sigue [`playbooks/redaccion-academica.md`](redaccion-academica.md) (agente **`redaccion-rsl`** + `pnpm -s redaccion:lint`). Prosa opcional en inglés: skill [humanize-academic-writing](../.agents/skills/humanize-academic-writing/SKILL.md); si choca con R1–R9, gana **redaccion-rsl**.
+Fuente de verdad para **`rsl-desglose-items`**. Prosa: [`playbooks/prosa-rsl.md`](prosa-rsl.md) (**humanize-academic-writing** obligatorio, luego **`redaccion-rsl`** + `pnpm -s redaccion:lint`; R1–R9 en [`redaccion-academica.md`](redaccion-academica.md)).
 
 Normativa: Kitchenham y Charters (2007), § 6.4, pp. 29–34; PRISMA 2020 ítems 9–10 ([`estandares-rsl.md`](estandares-rsl.md) → `extraccion-datos`).
 

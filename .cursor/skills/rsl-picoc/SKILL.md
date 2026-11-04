@@ -49,12 +49,9 @@ Nothing changed (`picoc:latest` OK without a `sugerencia:` line, `picoc:lint` PA
 5. **Completo — debate** (parallel; prompt = only the component table, keywords, the `thesaurus:check` table and the lint output, not whole files; answers of at most 10 items; web only to verify a doubtful term):
    - `critico-rsl` (marco mode): origin in the theme, recall vs. noise per block, blocks that cut the evidence, IEEE Xplore wildcards, generic paper keywords, criteria that exclude valid evidence or cannot be checked.
    - `defensor-rsl` (marco mode): why each block, term and criterion is needed; terms or criteria the literature uses and are missing.
-   - `redaccion-rsl`: prose of concepts, RQs, justifications and criteria only.
-6. **Completo — consolidate:** validate new terms with `thesaurus:check`, write `picoc.md` and `picoc-debate.md` (positions in a few bullets per agent, a decisions table, what is left for the user).
+6. **Completo — consolidate:** validate new terms with `thesaurus:check`, write `picoc.md` and `picoc-debate.md` (positions in a few bullets per agent, a decisions table, what is left for the user). Prosa ([`playbooks/prosa-rsl.md`](../../playbooks/prosa-rsl.md)): **humanize-academic-writing** en conceptos, RQ, justificaciones y criterios; luego **`redaccion-rsl`** (solo esa prosa).
 7. `pnpm -s picoc:lint docs/<slug>` → **PASS** (fix and repeat).
 8. Chat: key decisions; whether section 2 of the informe still links an older version (do not edit it: `rsl-polish-report` refreshes the link); the paper sections now stale or blocked (`pnpm -s paper:status docs/<slug>`, read only); then the Cierre line.
-
-## Cierre
 
 The last message of the skill is exactly one line:
 

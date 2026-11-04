@@ -26,7 +26,7 @@ El agente verifica/instala prerrequisitos (node + pnpm, pipx graphifyy, poppler)
 | `rsl-cribado-2-memoria` | Cribado 2, paso 2: `docs/pdf/` → `docs/md/` + grafo Graphify del corpus (`memoria-traza.json`) | `RSL/picoc/<fecha>-cribado-2-<MARCO>/graphify-out/graph.json` |
 | `rsl-cribado-2-polish` | Cribado 2, paso 3: mérito SI/PODRIA/NO vía grafo; `cribado2:cuota` con `min_rsl` (relleno leve/alto) | `cribado-2-evaluacion.md` + `.cribado-2/decisiones.jsonl` |
 | `rsl-cribado-2-aplicar` | Tras aprobar la evaluación: `resultados-<MARCO>-cribado-2.csv` (solo filas del corpus cribado-2; ¿Se acepta? SI/NO + Justificación cribado 2) | `resultados-*-cribado-2.csv` + `prisma.json` eligibility |
-| `rsl-desglose-items` | Tras cribado 2 aplicado: 1–5 ítems de extracción por RQ (debate defensor/critico, máx. 2 rondas; `redaccion-rsl` + `extraccion-items:lint`) | `docs/[titulo-breve]/resultados/items/<YYYY-MM-DD-HHMM>/` |
+| `rsl-desglose-items` | Tras cribado 2 aplicado: 1–5 ítems de extracción por RQ (debate defensor/critico, máx. 2 rondas; **humanize-academic-writing** → `redaccion-rsl` → `extraccion-items:lint`) | `docs/[titulo-breve]/resultados/items/<YYYY-MM-DD-HHMM>/` |
 | `rsl-make-paper` | Nueva versión del paper borrador, solo secciones `on` (mejorar) y `rewrite` (reescribir) de `config.yml` (+ agente `citas-rsl` y `redaccion:lint`) | `docs/[titulo-breve]/paper/<fecha>/paper-borrador.md` |
 | `rsl-polish-paper` | Pule esas secciones (`critico-rsl` + `defensor-rsl`; `impacto-social-rsl` si están Justificación u Objetivo; luego `redaccion-rsl` + `citas-rsl`) → texto limpio + traza de debate | `paper/<fecha>/paper-polish.md` + `paper-debate.md` |
 | `rsl-turnitin-informe` | Pre-entrega Turnitin simulado: `turnitin:qualified` + agente `turnitin-rsl` → informe estructurado (path del polish **obligatorio**) | `{stem}-informe-turnitin.md` junto al polish |
@@ -100,7 +100,7 @@ global/           ← archivos generales que integra el usuario (líneas UTP, co
 playbooks/        ← protocolos compartidos (vocabulario-controlado.md, redaccion-academica.md, deteccion-escritura-ia-turnitin.md)
 ```
 
-Agentes: `.cursor/agents/` (`critico-rsl`, `defensor-rsl`, `impacto-social-rsl`, `viabilidad-negocio-rsl`, `citas-rsl`, `redaccion-rsl`, `turnitin-rsl`)
+Agentes: `.cursor/agents/` (`critico-rsl`, `defensor-rsl`, `impacto-social-rsl`, `viabilidad-negocio-rsl`, `citas-rsl`, `redaccion-rsl`, `turnitin-rsl`). Prosa: skill [humanize-academic-writing](.agents/skills/humanize-academic-writing/SKILL.md) + [`playbooks/prosa-rsl.md`](playbooks/prosa-rsl.md).
 
 ---
 
@@ -334,7 +334,7 @@ pnpm -s picoc:latest docs/[titulo-breve]   # marco configurado + último picoc (
 pnpm -s picoc:lint docs/[titulo-breve]     # PASS/FAIL del último picoc
 ```
 
-**Redacción:** informe y paper siguen [`playbooks/redaccion-academica.md`](playbooks/redaccion-academica.md): texto final sin notas de trabajo ni marcas como `[citar]`; siglas definidas en su primera aparición y dosificadas; una idea por oración; sin notación ×/+ ni jerga interna en la prosa; citas coherentes con las referencias; título breve y cercano al título tentativo de la ficha. Las skills cierran con `redaccion:lint` (0 FAIL) y el agente `redaccion-rsl`.
+**Redacción:** [`playbooks/prosa-rsl.md`](playbooks/prosa-rsl.md) — **obligatorio:** skill [`humanize-academic-writing`](.agents/skills/humanize-academic-writing/SKILL.md) → agente **`redaccion-rsl`** → `pnpm -s redaccion:lint` (0 FAIL). Reglas R1–R9 en [`playbooks/redaccion-academica.md`](playbooks/redaccion-academica.md). Citas: `paper:status --cites`.
 
 ```bash
 pnpm -s redaccion:lint docs/[titulo-breve]/paper/<fecha>/paper-polish.md

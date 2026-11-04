@@ -4,13 +4,16 @@ Fuente de verdad de **forma** para todo texto entregable que produzca una skill 
 
 Objetivo: prosa final académica, natural y limpia, que un docente lea de corrido sin tropezar con jerga interna, siglas sueltas ni frases comprimidas. Mantener lo que funciona (estructura sólida, vacío auténtico, comparación fina con revisiones previas); no aplanar el contenido.
 
+**Cadena obligatoria antes de dar por cerrada la forma:** [`playbooks/prosa-rsl.md`](prosa-rsl.md) — primero skill **humanize-academic-writing**, luego agente **`redaccion-rsl`**, luego **`redaccion:lint`** (0 FAIL).
+
 ## Herramientas
 
-| Uso | Comando |
-|-----|---------|
-| Chequeo automático de forma | `pnpm -s redaccion:lint <archivo.md>` → FAIL bloquea; WARN se corrige o se justifica |
+| Uso | Comando / recurso |
+|-----|-------------------|
+| Humanizar prosa (paso 1) | [`.agents/skills/humanize-academic-writing/SKILL.md`](../.agents/skills/humanize-academic-writing/SKILL.md) |
+| Chequeo automático de forma (paso 3) | `pnpm -s redaccion:lint <archivo.md>` → FAIL bloquea; WARN se corrige o se justifica |
 | Citas en texto ↔ referencias | `pnpm -s paper:status docs/<slug> --cites [archivo]` |
-| Revisión con juicio (naturalidad, densidad, hilo entre oraciones y párrafos) | agente `redaccion-rsl` (tabla Hilo, R7) |
+| Revisión con juicio (paso 2: naturalidad, densidad, hilo) | agente `redaccion-rsl` (tabla Hilo, R7) |
 | Afirmaciones importantes sin fuente (R8) | agente `critico-rsl` (tabla Sustento) |
 
 `redaccion:lint` analiza solo prosa: omite tablas, código, encabezados, comentarios y la sección Referencias.

@@ -1608,6 +1608,8 @@ def _(sb):
     skill = (SKILLS / "rsl-desglose-items" / "SKILL.md").read_text(encoding="utf-8")
     for need in (
         "extraccion-items-rsl.md",
+        "prosa-rsl.md",
+        "humanize-academic-writing",
         "redaccion-rsl",
         "extraccion-items:stamp",
         "2 rondas",
@@ -1615,7 +1617,6 @@ def _(sb):
         "defensor-rsl",
         "critico-rsl",
         "extraccion-items:prepare",
-        "humanize-academic-writing",
     ):
         sb.check(need in skill, f"rsl-desglose-items/SKILL.md no contiene «{need}»")
     critic = (ROOT / ".cursor" / "agents" / "critico-rsl.md").read_text(encoding="utf-8")
@@ -1624,6 +1625,10 @@ def _(sb):
     sb.check("extraccion-items" in defender, "defensor-rsl sin modo extraccion-items")
     apply_skill = (SKILLS / "rsl-cribado-2-aplicar" / "SKILL.md").read_text(encoding="utf-8")
     sb.check("rsl-desglose-items" in apply_skill, "rsl-cribado-2-aplicar no apunta a rsl-desglose-items")
+    prosa = (ROOT / "playbooks" / "prosa-rsl.md").read_text(encoding="utf-8")
+    sb.check("humanize-academic-writing" in prosa and "obligatorio" in prosa.casefold(), "prosa-rsl.md no fija humanize como obligatorio")
+    red = (ROOT / ".cursor" / "agents" / "redaccion-rsl.md").read_text(encoding="utf-8")
+    sb.check("humanize-academic-writing" in red, "redaccion-rsl no referencia humanize-academic-writing")
 
 
 def report_dir() -> Path:

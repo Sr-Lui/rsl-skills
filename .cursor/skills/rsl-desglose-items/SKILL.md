@@ -4,7 +4,7 @@ description: >-
   Tras cribado 2 aplicado, descompone cada RQ del picoc vigente en 1–5 ítems de
   extracción observables (debate defensor-rsl + critico-rsl, máx. 2 rondas).
   Escribe docs/<slug>/resultados/items/<YYYY-MM-DD-HHMM>/ (items.md, items-debate.md,
-  items.json). Cierra con redaccion-rsl, redaccion:lint y extraccion-items:stamp.
+  items.json). Cierra con playbooks/prosa-rsl.md (humanize-academic-writing → redaccion-rsl → lint) y extraccion-items:stamp.
   Use when the user says rsl-desglose-items.
 ---
 
@@ -39,8 +39,10 @@ Si `extraccion-items:status` PASS y no hay `rewrite` → informar y parar (no nu
 
 ## Prosa
 
-1. Tras consenso defensor/critico: pulir **`items.md`** con subagente **`redaccion-rsl`** (metadatos, objetivo, etiquetas de ítems, notas).
-2. Opcional idioma EN: leer [`.agents/skills/humanize-academic-writing/SKILL.md`](../../../.agents/skills/humanize-academic-writing/SKILL.md); no sustituye redaccion-rsl.
+Cadena obligatoria: [`playbooks/prosa-rsl.md`](../../playbooks/prosa-rsl.md).
+
+1. Tras consenso defensor/critico: aplicar skill **humanize-academic-writing** (`.agents/skills/humanize-academic-writing/SKILL.md`) sobre la prosa de `items.md` (metadatos narrativos, objetivo, etiquetas y notas — no las celdas técnicas de ids).
+2. Subagente **`redaccion-rsl`** sobre el mismo archivo.
 3. `pnpm -s redaccion:lint docs/<slug>/resultados/items/<carpeta>/items.md` → **0 FAIL**
 4. `pnpm -s extraccion-items:lint docs/<slug>` → OK
 5. `pnpm -s extraccion-items:stamp docs/<slug> <carpeta>`
@@ -55,7 +57,7 @@ Si `extraccion-items:status` PASS y no hay `rewrite` → informar y parar (no nu
 6. **Ronda 2** (solo si queda **pendiente**): repetir defensor → crítico → `## Ronda 2 — Decisiones`.
 7. Si tras ronda 2 queda **pendiente** → cierre **ERROR** (resumen, criterios, preguntas al usuario); **no** stamp.
 8. Escribir `items.md` final acordado + `items.json` (esquema del playbook / prepare).
-9. **redaccion-rsl** + **redaccion:lint** + **extraccion-items:lint** + **stamp**.
+9. **Prosa:** humanize-academic-writing → **redaccion-rsl** → **redaccion:lint** → **extraccion-items:lint** → **stamp** (véase `playbooks/prosa-rsl.md`).
 
 ## Plantilla mínima `items.md`
 
