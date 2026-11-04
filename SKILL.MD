@@ -135,16 +135,15 @@ Opcional: `extraccion-decisiones.json` agregado al `stamp`.
 
 ## Corpus PDF vs CSV (tema activo)
 
-Tras intento automático de descarga (2026-11-04):
+Tras alineación manual (2026-11-04, usuario + integración):
 
-- **30 / 40 SI** con PDF usable (`docs/pdf/` en corpus)
-- **4 SI** bajados a `docs/pdf-draft/` — no están en `documentos.json`; ampliar retrieval o alinear
-- **10 SI** requieren descarga manual (tabla abajo)
+- **40 / 40 SI** del CSV con PDF en corpus y `descargado=si`
+- **13 registros** añadidos a `documentos.json` (estudios del CSV que no estaban en retrieval)
+- Graphify cribado-2: **`cribado2:status` OK** — ~7119 nodos, integridad OK
+- Excepción **R567** (no está en los 40 SI): PDF Unpaywall incorrecto → `descargado=no` hasta JMIR manual
+- **R606** (SI R078): PDF corregido desde HAL (`hal-05716911`)
 
-Carpeta corpus:  
-`docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/`
-
-Tras añadir PDFs: `pnpm cribado2:align docs/ia-inclusion-cognitiva-software` → `cribado2:prepare` → `cribado2:build`.
+Tras añadir PDFs: `pnpm cribado2:align` (pdf-draft) → `cribado2:prepare` → `cribado2:build` (usar Python de pipx `graphifyy` si hace falta).
 
 ### Descarga manual pendiente (usuario)
 

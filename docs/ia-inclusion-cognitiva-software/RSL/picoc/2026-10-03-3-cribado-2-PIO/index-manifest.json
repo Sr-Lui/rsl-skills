@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-03T23:26:01+00:00",
+  "updated_at": "2026-11-04T12:49:02+00:00",
   "entries": {
     "docs/pdf/R003-from-granular-grief-to-binary-belief-a-collaborative-optimization-of-annotation-.pdf": {
       "source": "docs/pdf/R003-from-granular-grief-to-binary-belief-a-collaborative-optimization-of-annotation-.pdf",
@@ -11,7 +11,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:12+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13163,alpha:0.95;headings:80",
       "heading_count": 80
     },
@@ -24,7 +24,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:12+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:9713,alpha:0.92;headings:50",
       "heading_count": 50
     },
@@ -37,7 +37,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:12+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8405,alpha:0.93;headings:66",
       "heading_count": 66
     },
@@ -50,7 +50,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:12+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13243,alpha:0.94;headings:47",
       "heading_count": 47
     },
@@ -63,7 +63,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:12+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:3823,alpha:0.94;headings:41",
       "heading_count": 41
     },
@@ -76,7 +76,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7276,alpha:0.96;headings:55",
       "heading_count": 55
     },
@@ -89,7 +89,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:1829,alpha:0.96;headings:30",
       "heading_count": 30
     },
@@ -102,7 +102,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7179,alpha:0.96;headings:52",
       "heading_count": 52
     },
@@ -115,7 +115,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5157,alpha:0.95;headings:42",
       "heading_count": 42
     },
@@ -128,7 +128,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:6401,alpha:0.93;headings:46",
       "heading_count": 46
     },
@@ -141,7 +141,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10680,alpha:0.94;headings:77",
       "heading_count": 77
     },
@@ -154,7 +154,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:12223,alpha:0.93;headings:39",
       "heading_count": 39
     },
@@ -167,7 +167,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11646,alpha:0.96;headings:91",
       "heading_count": 91
     },
@@ -180,7 +180,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5904,alpha:0.94;headings:60",
       "heading_count": 60
     },
@@ -193,7 +193,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7588,alpha:0.93;headings:42",
       "heading_count": 42
     },
@@ -206,7 +206,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:15614,alpha:0.97;headings:55",
       "heading_count": 55
     },
@@ -219,7 +219,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8040,alpha:0.93;headings:59",
       "heading_count": 59
     },
@@ -232,7 +232,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:13+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:1969,alpha:0.95;headings:30",
       "heading_count": 30
     },
@@ -245,7 +245,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:17096,alpha:0.97;headings:85",
       "heading_count": 85
     },
@@ -258,7 +258,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11212,alpha:0.95;headings:51",
       "heading_count": 51
     },
@@ -271,7 +271,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:12005,alpha:0.92;headings:51",
       "heading_count": 51
     },
@@ -284,7 +284,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13266,alpha:0.96;headings:41",
       "heading_count": 41
     },
@@ -297,7 +297,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5235,alpha:0.91;headings:34",
       "heading_count": 34
     },
@@ -310,7 +310,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:15180,alpha:0.94;headings:53",
       "heading_count": 53
     },
@@ -323,7 +323,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8978,alpha:0.95;headings:41",
       "heading_count": 41
     },
@@ -336,7 +336,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:16168,alpha:0.94;headings:54",
       "heading_count": 54
     },
@@ -349,7 +349,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7325,alpha:0.95;headings:37",
       "heading_count": 37
     },
@@ -362,7 +362,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5884,alpha:0.96;headings:32",
       "heading_count": 32
     },
@@ -375,7 +375,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:14+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5325,alpha:0.93;headings:43",
       "heading_count": 43
     },
@@ -388,7 +388,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10891,alpha:0.96;headings:53",
       "heading_count": 53
     },
@@ -401,7 +401,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5602,alpha:0.95;headings:40",
       "heading_count": 40
     },
@@ -414,7 +414,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5468,alpha:0.92;headings:34",
       "heading_count": 34
     },
@@ -427,7 +427,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5881,alpha:0.96;headings:72",
       "heading_count": 72
     },
@@ -440,7 +440,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:1505,alpha:0.97;headings:29",
       "heading_count": 29
     },
@@ -453,7 +453,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8764,alpha:0.96;headings:50",
       "heading_count": 50
     },
@@ -466,7 +466,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:25170,alpha:0.96;headings:92",
       "heading_count": 92
     },
@@ -479,7 +479,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5074,alpha:0.94;headings:51",
       "heading_count": 51
     },
@@ -492,7 +492,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:12261,alpha:0.93;headings:59",
       "heading_count": 59
     },
@@ -505,7 +505,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:3934,alpha:0.93;headings:52",
       "heading_count": 52
     },
@@ -518,7 +518,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5792,alpha:0.95;headings:52",
       "heading_count": 52
     },
@@ -531,7 +531,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13300,alpha:0.97;headings:68",
       "heading_count": 68
     },
@@ -544,7 +544,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:15+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:14242,alpha:0.94;headings:60",
       "heading_count": 60
     },
@@ -557,7 +557,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13185,alpha:0.96;headings:118",
       "heading_count": 118
     },
@@ -570,7 +570,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10118,alpha:0.92;headings:51",
       "heading_count": 51
     },
@@ -583,7 +583,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:14590,alpha:0.94;headings:51",
       "heading_count": 51
     },
@@ -596,7 +596,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:20303,alpha:0.92;headings:74",
       "heading_count": 74
     },
@@ -609,7 +609,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7047,alpha:0.95;headings:54",
       "heading_count": 54
     },
@@ -622,7 +622,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:3416,alpha:0.94;headings:50",
       "heading_count": 50
     },
@@ -635,7 +635,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:4361,alpha:0.94;headings:64",
       "heading_count": 64
     },
@@ -648,7 +648,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13838,alpha:0.95;headings:48",
       "heading_count": 48
     },
@@ -661,7 +661,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8937,alpha:0.93;headings:58",
       "heading_count": 58
     },
@@ -674,7 +674,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:9502,alpha:0.96;headings:40",
       "heading_count": 40
     },
@@ -687,7 +687,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:2895,alpha:0.96;headings:39",
       "heading_count": 39
     },
@@ -700,7 +700,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:16+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:17915,alpha:0.94;headings:53",
       "heading_count": 53
     },
@@ -713,7 +713,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:17+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10456,alpha:0.96;headings:40",
       "heading_count": 40
     },
@@ -726,7 +726,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:17+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:9382,alpha:0.95;headings:42",
       "heading_count": 42
     },
@@ -739,7 +739,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:17+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13009,alpha:0.94;headings:49",
       "heading_count": 49
     },
@@ -752,7 +752,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:17+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:6079,alpha:0.96;headings:72",
       "heading_count": 72
     },
@@ -765,7 +765,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:17+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:16565,alpha:0.95;headings:114",
       "heading_count": 114
     },
@@ -778,7 +778,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:17+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5500,alpha:0.95;headings:42",
       "heading_count": 42
     },
@@ -791,7 +791,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:17+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:21758,alpha:0.92;headings:76",
       "heading_count": 76
     },
@@ -804,7 +804,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10762,alpha:0.91;headings:58",
       "heading_count": 58
     },
@@ -817,7 +817,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7102,alpha:0.94;headings:56",
       "heading_count": 56
     },
@@ -830,7 +830,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10889,alpha:0.94;headings:58",
       "heading_count": 58
     },
@@ -843,7 +843,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11511,alpha:0.96;headings:41",
       "heading_count": 41
     },
@@ -856,7 +856,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13572,alpha:0.96;headings:47",
       "heading_count": 47
     },
@@ -869,7 +869,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10874,alpha:0.93;headings:61",
       "heading_count": 61
     },
@@ -882,7 +882,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8697,alpha:0.94;headings:35",
       "heading_count": 35
     },
@@ -895,7 +895,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5040,alpha:0.97;headings:51",
       "heading_count": 51
     },
@@ -908,7 +908,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5844,alpha:0.94;headings:53",
       "heading_count": 53
     },
@@ -921,7 +921,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7383,alpha:0.94;headings:60",
       "heading_count": 60
     },
@@ -934,7 +934,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11643,alpha:0.97;headings:57",
       "heading_count": 57
     },
@@ -947,7 +947,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:18+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5988,alpha:0.96;headings:44",
       "heading_count": 44
     },
@@ -960,7 +960,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:3368,alpha:0.96;headings:40",
       "heading_count": 40
     },
@@ -973,7 +973,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7662,alpha:0.94;headings:56",
       "heading_count": 56
     },
@@ -986,7 +986,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7368,alpha:0.95;headings:50",
       "heading_count": 50
     },
@@ -999,7 +999,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8731,alpha:0.92;headings:52",
       "heading_count": 52
     },
@@ -1012,7 +1012,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:6490,alpha:0.95;headings:52",
       "heading_count": 52
     },
@@ -1025,7 +1025,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11406,alpha:0.89;headings:52",
       "heading_count": 52
     },
@@ -1038,7 +1038,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:729,alpha:0.94;headings:32",
       "heading_count": 32
     },
@@ -1051,7 +1051,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:3654,alpha:0.93;headings:48",
       "heading_count": 48
     },
@@ -1064,7 +1064,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:2813,alpha:0.76;headings:55",
       "heading_count": 55
     },
@@ -1077,7 +1077,7 @@
       "method": "agent-rag",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:40+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "agent-rag",
       "heading_count": 11
     },
@@ -1090,7 +1090,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8275,alpha:0.97;headings:40",
       "heading_count": 40
     },
@@ -1103,7 +1103,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:4370,alpha:0.94;headings:35",
       "heading_count": 35
     },
@@ -1116,7 +1116,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:19+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:6947,alpha:0.96;headings:64",
       "heading_count": 64
     },
@@ -1129,7 +1129,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8772,alpha:0.96;headings:41",
       "heading_count": 41
     },
@@ -1142,7 +1142,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8190,alpha:0.95;headings:45",
       "heading_count": 45
     },
@@ -1155,7 +1155,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:14415,alpha:0.94;headings:55",
       "heading_count": 55
     },
@@ -1168,7 +1168,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11262,alpha:0.93;headings:70",
       "heading_count": 70
     },
@@ -1181,7 +1181,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:19761,alpha:0.92;headings:53",
       "heading_count": 53
     },
@@ -1194,7 +1194,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:6037,alpha:0.95;headings:38",
       "heading_count": 38
     },
@@ -1207,7 +1207,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:9250,alpha:0.93;headings:62",
       "heading_count": 62
     },
@@ -1220,7 +1220,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:6836,alpha:0.97;headings:35",
       "heading_count": 35
     },
@@ -1233,7 +1233,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:4181,alpha:0.95;headings:36",
       "heading_count": 36
     },
@@ -1246,7 +1246,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11751,alpha:0.95;headings:65",
       "heading_count": 65
     },
@@ -1259,7 +1259,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7608,alpha:0.95;headings:66",
       "heading_count": 66
     },
@@ -1272,7 +1272,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:2029,alpha:0.93;headings:23",
       "heading_count": 23
     },
@@ -1285,7 +1285,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:20+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:1389,alpha:0.96;headings:31",
       "heading_count": 31
     },
@@ -1298,7 +1298,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:9868,alpha:0.96;headings:44",
       "heading_count": 44
     },
@@ -1311,7 +1311,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:3194,alpha:0.97;headings:46",
       "heading_count": 46
     },
@@ -1324,7 +1324,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:9431,alpha:0.94;headings:69",
       "heading_count": 69
     },
@@ -1337,7 +1337,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:12133,alpha:0.97;headings:44",
       "heading_count": 44
     },
@@ -1350,7 +1350,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:9098,alpha:0.96;headings:49",
       "heading_count": 49
     },
@@ -1363,7 +1363,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7859,alpha:0.94;headings:38",
       "heading_count": 38
     },
@@ -1376,7 +1376,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:17958,alpha:0.95;headings:61",
       "heading_count": 61
     },
@@ -1389,7 +1389,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:12133,alpha:0.95;headings:73",
       "heading_count": 73
     },
@@ -1402,7 +1402,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:8351,alpha:0.96;headings:58",
       "heading_count": 58
     },
@@ -1415,7 +1415,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10680,alpha:0.94;headings:48",
       "heading_count": 48
     },
@@ -1428,7 +1428,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:6057,alpha:0.97;headings:56",
       "heading_count": 56
     },
@@ -1441,7 +1441,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:21+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:5485,alpha:0.94;headings:38",
       "heading_count": 38
     },
@@ -1454,7 +1454,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:9958,alpha:0.95;headings:47",
       "heading_count": 47
     },
@@ -1467,7 +1467,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7655,alpha:0.93;headings:40",
       "heading_count": 40
     },
@@ -1480,7 +1480,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11028,alpha:0.95;headings:42",
       "heading_count": 42
     },
@@ -1493,7 +1493,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:7653,alpha:0.96;headings:36",
       "heading_count": 36
     },
@@ -1506,7 +1506,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:21184,alpha:0.94;headings:53",
       "heading_count": 53
     },
@@ -1519,7 +1519,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:11826,alpha:0.90;headings:46",
       "heading_count": 46
     },
@@ -1532,7 +1532,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:13998,alpha:0.96;headings:52",
       "heading_count": 52
     },
@@ -1545,7 +1545,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:10482,alpha:0.98;headings:53",
       "heading_count": 53
     },
@@ -1558,9 +1558,204 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-10-03T23:23:22+00:00",
-      "graphify_indexed_at": "2026-10-03T23:26:01+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
       "notes": "words:16430,alpha:0.93;headings:58",
       "heading_count": 58
+    },
+    "docs/pdf/R012-accessible-technology-for-adults-with-down-syndrome-a-scoping-review.pdf": {
+      "source": "docs/pdf/R012-accessible-technology-for-adults-with-down-syndrome-a-scoping-review.pdf",
+      "source_sha256": "876055aea9d57b73de1aac19b74ea9d408aee055402c59a426667ad540fe378d",
+      "source_bytes": 957398,
+      "md": "docs/md/R012-accessible-technology-for-adults-with-down-syndrome-a-scoping-review.md",
+      "md_sha256": "e38fc78a78771158eba101a4a01acd6d02226fdb8d64fe3d26fc4ffc97b69385",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:20+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:30269,alpha:0.94;headings:106",
+      "heading_count": 106
+    },
+    "docs/pdf/R014-a-review-of-25-years-of-human-computer-interaction-research-on-reading-support-t.pdf": {
+      "source": "docs/pdf/R014-a-review-of-25-years-of-human-computer-interaction-research-on-reading-support-t.pdf",
+      "source_sha256": "55438d414027196fd924ee1f29bf406d7664290189a151db8bd21762835d4466",
+      "source_bytes": 1252662,
+      "md": "docs/md/R014-a-review-of-25-years-of-human-computer-interaction-research-on-reading-support-t.md",
+      "md_sha256": "6ff5796da1ff4a3d708a437edd3adb016ddb0829d50c844f48cc33d84b77714c",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:21+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:22990,alpha:0.90;headings:50",
+      "heading_count": 50
+    },
+    "docs/pdf/R018-enhancing-user-experience-in-virtual-reality-for-children-with-autism-a-signific.pdf": {
+      "source": "docs/pdf/R018-enhancing-user-experience-in-virtual-reality-for-children-with-autism-a-signific.pdf",
+      "source_sha256": "b067c0fb64a13d4166b6505c0dab90711b700efcda4275c1eac57e32dee532cc",
+      "source_bytes": 600456,
+      "md": "docs/md/R018-enhancing-user-experience-in-virtual-reality-for-children-with-autism-a-signific.md",
+      "md_sha256": "7985c2126b865cd726ed3cae0cd9d3f350806b9565f0a9b2d64b39b1d48fee72",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:21+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:10763,alpha:0.93;headings:37",
+      "heading_count": 37
+    },
+    "docs/pdf/R021-a-scoping-review-of-inclusive-and-adaptive-humanai-interaction-design-for-neurod.pdf": {
+      "source": "docs/pdf/R021-a-scoping-review-of-inclusive-and-adaptive-humanai-interaction-design-for-neurod.pdf",
+      "source_sha256": "864a66c6a8d12a1092816129bb113b7e088d1737808b312a0486f95def9d3e00",
+      "source_bytes": 2233770,
+      "md": "docs/md/R021-a-scoping-review-of-inclusive-and-adaptive-humanai-interaction-design-for-neurod.md",
+      "md_sha256": "6c74a91e0a25c3b2c1fe234460c98d2b49eb330e3a8aace81735486f4d929dda",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:21+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:11473,alpha:0.95;headings:67",
+      "heading_count": 67
+    },
+    "docs/pdf/R026-large-language-models-for-web-accessibility-a-systematic-literature-review.pdf": {
+      "source": "docs/pdf/R026-large-language-models-for-web-accessibility-a-systematic-literature-review.pdf",
+      "source_sha256": "06d06211153276c34fb7d457767c8e09379cc6ddda4db46ddc40159d26a171f2",
+      "source_bytes": 742469,
+      "md": "docs/md/R026-large-language-models-for-web-accessibility-a-systematic-literature-review.md",
+      "md_sha256": "688cbe8f03698298a31cb31c4f6672606068abcdcf4dab46dd44cfa06696ad78",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:21+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:11709,alpha:0.91;headings:40",
+      "heading_count": 40
+    },
+    "docs/pdf/R029-cogaset-a-persona-driven-dataset-and-evaluation-framework-for-cognitively-access.pdf": {
+      "source": "docs/pdf/R029-cogaset-a-persona-driven-dataset-and-evaluation-framework-for-cognitively-access.pdf",
+      "source_sha256": "b65cda69fc25e012463eeeacf4e2087a3a0df665e449136a76b13c46f832f121",
+      "source_bytes": 206816,
+      "md": "docs/md/R029-cogaset-a-persona-driven-dataset-and-evaluation-framework-for-cognitively-access.md",
+      "md_sha256": "2bdb16181c0031edd549aca280acbfcef2d3aa7dbc4dfd14fb527a666485e903",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:22+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:3004,alpha:0.92;headings:37",
+      "heading_count": 37
+    },
+    "docs/pdf/R031-toward-neurodivergent-aware-productivity-a-systems-andai-based-human-in-the-loop.pdf": {
+      "source": "docs/pdf/R031-toward-neurodivergent-aware-productivity-a-systems-andai-based-human-in-the-loop.pdf",
+      "source_sha256": "0290c418995138dc318487c3f8a760b4b9d0918b0d5901098d3194941e71d5f7",
+      "source_bytes": 1056157,
+      "md": "docs/md/R031-toward-neurodivergent-aware-productivity-a-systems-andai-based-human-in-the-loop.md",
+      "md_sha256": "d38efffaaf6958e3c2bf64ba0e9833c7c446a86115f2af3915dadc12c849b4b7",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:22+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:9371,alpha:0.97;headings:74",
+      "heading_count": 74
+    },
+    "docs/pdf/R038-summarylens-a-smartphone-app-for-exploring-interactive-use-of-automated-text-sum.pdf": {
+      "source": "docs/pdf/R038-summarylens-a-smartphone-app-for-exploring-interactive-use-of-automated-text-sum.pdf",
+      "source_sha256": "94c5fa171c6514cea1144caa907dbc0cb4b24d4026443ea471bb0c4587754e28",
+      "source_bytes": 2461955,
+      "md": "docs/md/R038-summarylens-a-smartphone-app-for-exploring-interactive-use-of-automated-text-sum.md",
+      "md_sha256": "fd01cb7ab056b4a7c08f069fcabdedd7429b5a8d0066f6bad037762d297537e2",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:22+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:2559,alpha:0.95;headings:34",
+      "heading_count": 34
+    },
+    "docs/pdf/R051-towards-more-accessible-open-source-ai-platforms.pdf": {
+      "source": "docs/pdf/R051-towards-more-accessible-open-source-ai-platforms.pdf",
+      "source_sha256": "bce03127d3fb3066ebff7910922efb3f036762d1ce27c32bc00285a50ef68256",
+      "source_bytes": 2446922,
+      "md": "docs/md/R051-towards-more-accessible-open-source-ai-platforms.md",
+      "md_sha256": "81b0435115c8abb6fbd6d0d1c39783aa8e5ccafa08a5fa3d22b13dad77cb672f",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:22+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:4932,alpha:0.96;headings:35",
+      "heading_count": 35
+    },
+    "docs/pdf/R057-got-it-prompting-readability-using-chatgpt-to-enhance-academic-texts-for-diverse.pdf": {
+      "source": "docs/pdf/R057-got-it-prompting-readability-using-chatgpt-to-enhance-academic-texts-for-diverse.pdf",
+      "source_sha256": "a03df2e564c9b30ba661ce879d4518e2d2b8c261b86e665b9f7174b5e885af76",
+      "source_bytes": 352947,
+      "md": "docs/md/R057-got-it-prompting-readability-using-chatgpt-to-enhance-academic-texts-for-diverse.md",
+      "md_sha256": "05f95cf872687d2c56d02629613540bec0e706f7f2cf42d55711c477c940f339",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:22+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:10284,alpha:0.92;headings:44",
+      "heading_count": 44
+    },
+    "docs/pdf/R077-searchpath-a-visual-reminder-of-past-search-activity-to-support-students-with-dy.pdf": {
+      "source": "docs/pdf/R077-searchpath-a-visual-reminder-of-past-search-activity-to-support-students-with-dy.pdf",
+      "source_sha256": "02a05d12b953e76eafadfdd7ef07dd0bcac4dcaedc15bbf6594e044922460974",
+      "source_bytes": 1116903,
+      "md": "docs/md/R077-searchpath-a-visual-reminder-of-past-search-activity-to-support-students-with-dy.md",
+      "md_sha256": "2a9d98d3da66b27c4d31fb5efe08025dbe55a293caaaa9beb58019a04d8770eb",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:22+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:4989,alpha:0.94;headings:34",
+      "heading_count": 34
+    },
+    "docs/pdf/R082-cognitive-accessibility-in-generative-ai-interfaces-a-systematic-review.pdf": {
+      "source": "docs/pdf/R082-cognitive-accessibility-in-generative-ai-interfaces-a-systematic-review.pdf",
+      "source_sha256": "bb51d6c615b48fc5cdcfd2a7990cbdfa81fa993fe1744e312ee519cca880f84a",
+      "source_bytes": 519457,
+      "md": "docs/md/R082-cognitive-accessibility-in-generative-ai-interfaces-a-systematic-review.md",
+      "md_sha256": "7b3f96a7764246c56620c2861fae105915af50de847e008a0ff16c6cd217c53c",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:22+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:9457,alpha:0.97;headings:53",
+      "heading_count": 53
+    },
+    "docs/pdf/R083-a-little-bit-of-a-life-raft-exploring-the-use-and-experiences-of-chatgpt-as-a-su.pdf": {
+      "source": "docs/pdf/R083-a-little-bit-of-a-life-raft-exploring-the-use-and-experiences-of-chatgpt-as-a-su.pdf",
+      "source_sha256": "2c23dae2c9114bbda25079eb6d8474cec74bc462e334188a7f676ab93b666d9f",
+      "source_bytes": 727319,
+      "md": "docs/md/R083-a-little-bit-of-a-life-raft-exploring-the-use-and-experiences-of-chatgpt-as-a-su.md",
+      "md_sha256": "0feb52352e70084cfb0843938d99c9ee432a302dec31ce44fa80a3346ec0b5b2",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:23+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:18052,alpha:0.93;headings:47",
+      "heading_count": 47
+    },
+    "docs/pdf/R482-towards-inclusive-education-multimodal-classification-of-textbook-images-for-acc.pdf": {
+      "source": "docs/pdf/R482-towards-inclusive-education-multimodal-classification-of-textbook-images-for-acc.pdf",
+      "source_sha256": "d46728888b4e3d28b175d9db691dfba4b2000a2d21de4f850290d9d5fbaa695a",
+      "source_bytes": 8294760,
+      "md": "docs/md/R482-towards-inclusive-education-multimodal-classification-of-textbook-images-for-acc.md",
+      "md_sha256": "074f2272fa43d9f1034274dfffd96a2042e1fb05e375445fe2ef93d4a0542a4d",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:46:23+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:5862,alpha:0.95;headings:50",
+      "heading_count": 50
+    },
+    "docs/pdf/R606-towards-an-automatic-easy-to-read-adaptation-of-morphological-features-in-spanis.pdf": {
+      "source": "docs/pdf/R606-towards-an-automatic-easy-to-read-adaptation-of-morphological-features-in-spanis.pdf",
+      "source_sha256": "4bf698b33183bc9e807184d02afe13bec3532879d6c8900e0b41563ca7130fc6",
+      "source_bytes": 1136410,
+      "md": "docs/md/R606-towards-an-automatic-easy-to-read-adaptation-of-morphological-features-in-spanis.md",
+      "md_sha256": "1bc177818c9d51e88b9043ad8e9d528fbce6475382ea9a19c4b94410c4505973",
+      "method": "pdftotext+structure",
+      "status": "graphify_indexed",
+      "md_created_at": "2026-11-04T12:47:58+00:00",
+      "graphify_indexed_at": "2026-11-04T12:49:02+00:00",
+      "notes": "words:10341,alpha:0.95;headings:70",
+      "heading_count": 70
     }
   }
 }
