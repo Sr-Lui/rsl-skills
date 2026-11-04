@@ -4,19 +4,19 @@
   "slots": [
     {
       "item_id": "RQ1-I1",
-      "value": "El estudio delimita la población en torno a TDAH, dislexia, neurodivergencia, alineado con perfiles de discapacidad cognitiva o neurodivergencia relevantes para la RSL. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "La población del estudio declara perfiles (TDAH; dislexia; neurodivergencia).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
           "loc": "fulltext",
-          "quote": "TDAH, dislexia, neurodivergencia"
+          "quote": "TDAH; dislexia; neurodivergencia"
         }
       ]
     },
     {
       "item_id": "RQ1-I2",
-      "value": "No indica estratificación ni análisis desagregados por perfil cognitivo o neurodivergente; los resultados se reportan sobre la muestra global, limitando comparaciones por subpoblación en el formulario. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "No. No hay desagregación por perfil cognitivo; los resultados corresponden a la muestra global.",
       "decision": "extracted",
       "evidence": [
         {
@@ -28,21 +28,27 @@
     },
     {
       "item_id": "RQ1-I3",
-      "value": "Hay participación de personas en evaluación o diseño (tamaño muestral no precisado en el extracto revisado), relevante para validez centrada en usuarios con necesidades cognitivas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Participación en evaluación o prueba con usuarios (Presencia: Sí | N: NR | Rol: evaluación).",
       "decision": "partial",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
           "loc": "fulltext",
-          "quote": "tamaño muestral no precisado en el extracto revisado"
+          "quote": "NR"
         }
       ]
     },
     {
       "item_id": "RQ1-I4",
-      "value": "—",
-      "decision": "absent",
-      "evidence": []
+      "value": "Marco ético, tratamiento del perfil y contexto del estudio (Enfoque: diferencia | Perfil: almacenado | Consentimiento: NR | País: NR).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "fulltext",
+          "quote": "NR"
+        }
+      ]
     },
     {
       "item_id": "RQ2-I1",
@@ -52,43 +58,43 @@
     },
     {
       "item_id": "RQ2-I2",
-      "value": "El rol principal de la IA es generación de contenido o respuestas y evaluación o medición y asistencia en aseguramiento de calidad dentro del estudio de software o contenido digital accesible. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Rol de la IA en el estudio (Generador; evaluador; asistente de aseguramiento de la calidad).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
           "loc": "fulltext",
-          "quote": "generación de contenido o respuestas"
+          "quote": "Generador"
         }
       ]
     },
     {
       "item_id": "RQ2-I3",
-      "value": "La fase principal vinculada a la IA es pruebas o evaluación empírica del artefacto o de salidas generadas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Pruebas. Fase principal del ciclo de vida del software en la que interviene la IA.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
           "loc": "fulltext",
-          "quote": "pruebas"
+          "quote": "Pruebas"
         }
       ]
     },
     {
       "item_id": "RQ2-I4",
-      "value": "Además de la fase principal, el artículo alude a desarrollo, pruebas en el ciclo de vida. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "desarrollo; pruebas; requisitos. Otras fases del ciclo de vida mencionadas además de la principal.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
           "loc": "fulltext",
-          "quote": "desarrollo, pruebas"
+          "quote": "diseño;desarrollo;pruebas;requisitos"
         }
       ]
     },
     {
       "item_id": "RQ3-I1",
-      "value": "Menciona medidas de desempeño o legibilidad, pero sin un valor numérico principal claro en el extracto revisado. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Constructo: métrica reportada | Valor: NR. Se mencionan métricas, pero sin valor numérico principal claro en el texto.",
       "decision": "partial",
       "evidence": [
         {
@@ -100,19 +106,19 @@
     },
     {
       "item_id": "RQ3-I2",
-      "value": "El protocolo de medición incluye cuestionario o encuesta, estudio con usuarios. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Instrumento o protocolo de medición (cuestionario; estudio con usuarios).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
           "loc": "fulltext",
-          "quote": "cuestionario o encuesta"
+          "quote": "cuestionario"
         }
       ]
     },
     {
       "item_id": "RQ3-I3",
-      "value": "Alinea la evaluación con accesibilidad cognitiva (COGA o equivalente). Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "COGA. Alineación con accesibilidad cognitiva.",
       "decision": "extracted",
       "evidence": [
         {
@@ -124,7 +130,7 @@
     },
     {
       "item_id": "RQ3-I4",
-      "value": "La evaluación combina dimensiones cognitivas y sensoriales. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Ambas. La evaluación aborda dimensiones cognitivas y sensoriales.",
       "decision": "extracted",
       "evidence": [
         {
@@ -136,7 +142,7 @@
     },
     {
       "item_id": "RQ3-I5",
-      "value": "La validación depende principalmente de usuarios, con automatización limitada. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Solo validación con usuarios. La validación depende principalmente de participantes.",
       "decision": "extracted",
       "evidence": [
         {

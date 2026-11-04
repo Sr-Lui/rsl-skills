@@ -4,19 +4,19 @@
   "slots": [
     {
       "item_id": "RQ1-I1",
-      "value": "El estudio delimita la población en torno a dificultades de aprendizaje, discapacidad cognitiva, autismo, dislexia, neurodivergencia, alineado con perfiles de discapacidad cognitiva o neurodivergencia relevantes para la RSL. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "La población del estudio declara perfiles (TEA; DI; dislexia; dificultades de aprendizaje; neurodivergencia).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
           "loc": "fulltext",
-          "quote": "dificultades de aprendizaje, discapacidad cognitiva, autismo, dislexia, neurodivergencia"
+          "quote": "TEA; DI; dislexia; dificultades de aprendizaje; neurodivergencia"
         }
       ]
     },
     {
       "item_id": "RQ1-I2",
-      "value": "No indica estratificación ni análisis desagregados por perfil cognitivo o neurodivergente; los resultados se reportan sobre la muestra global, limitando comparaciones por subpoblación en el formulario. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "No. No hay desagregación por perfil cognitivo; los resultados corresponden a la muestra global.",
       "decision": "extracted",
       "evidence": [
         {
@@ -34,7 +34,7 @@
     },
     {
       "item_id": "RQ1-I4",
-      "value": "El artículo reporta contexto geográfico asociado a Estados Unidos. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Marco ético, tratamiento del perfil y contexto del estudio (Enfoque: diferencia | Perfil: deducido | Consentimiento: NR | País: Estados Unidos).",
       "decision": "partial",
       "evidence": [
         {
@@ -46,79 +46,79 @@
     },
     {
       "item_id": "RQ2-I1",
-      "value": "La intervención de IA se apoya en procesamiento de lenguaje natural, aprendizaje automático, en línea con técnicas aplicadas a accesibilidad o inclusión cognitiva. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Familia de técnica de IA aplicada (NLP; ML | Modelo: NR).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
           "loc": "fulltext",
-          "quote": "procesamiento de lenguaje natural"
+          "quote": "NLP; ML | Modelo: NR"
         }
       ]
     },
     {
       "item_id": "RQ2-I2",
-      "value": "El rol principal de la IA es generación de contenido o respuestas y evaluación o medición y asistencia en aseguramiento de calidad dentro del estudio de software o contenido digital accesible. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Rol de la IA en el estudio (Generador; evaluador; asistente de aseguramiento de la calidad).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
           "loc": "fulltext",
-          "quote": "generación de contenido o respuestas"
+          "quote": "Generador"
         }
       ]
     },
     {
       "item_id": "RQ2-I3",
-      "value": "La fase principal vinculada a la IA es pruebas o evaluación empírica del artefacto o de salidas generadas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Pruebas. Fase principal del ciclo de vida del software en la que interviene la IA.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
           "loc": "fulltext",
-          "quote": "pruebas"
+          "quote": "Pruebas"
         }
       ]
     },
     {
       "item_id": "RQ2-I4",
-      "value": "Además de la fase principal, el artículo alude a desarrollo, pruebas en el ciclo de vida. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "desarrollo; pruebas. Otras fases del ciclo de vida mencionadas además de la principal.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
           "loc": "fulltext",
-          "quote": "desarrollo, pruebas"
+          "quote": "diseño;desarrollo;pruebas"
         }
       ]
     },
     {
       "item_id": "RQ3-I1",
-      "value": "Reporta como métrica principal F1 con valor numérico 0, útil para la síntesis de resultados de accesibilidad cognitiva. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Resultado principal reportado (precision = 1) (Constructo: precision | Valor: 1).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
           "loc": "fulltext",
-          "quote": "F1 # | 20 | `#pdf-p20"
+          "quote": "precision, recall, and F1"
         }
       ]
     },
     {
       "item_id": "RQ3-I2",
-      "value": "El protocolo de medición incluye cuestionario o encuesta, evaluación heurística, índices de legibilidad. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Instrumento o protocolo de medición (cuestionario; heurística; legibilidad).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
           "loc": "fulltext",
-          "quote": "cuestionario o encuesta"
+          "quote": "cuestionario"
         }
       ]
     },
     {
       "item_id": "RQ3-I3",
-      "value": "Alinea la evaluación con accesibilidad cognitiva (COGA o equivalente). Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "COGA. Alineación con accesibilidad cognitiva.",
       "decision": "extracted",
       "evidence": [
         {
@@ -130,7 +130,7 @@
     },
     {
       "item_id": "RQ3-I4",
-      "value": "La evaluación se centra en accesibilidad cognitiva o legibilidad. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Cognitiva. Enfoque en accesibilidad cognitiva o legibilidad.",
       "decision": "extracted",
       "evidence": [
         {

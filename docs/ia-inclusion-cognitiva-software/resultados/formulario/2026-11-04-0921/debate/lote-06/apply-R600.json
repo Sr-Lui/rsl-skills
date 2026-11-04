@@ -4,19 +4,19 @@
   "slots": [
     {
       "item_id": "RQ1-I1",
-      "value": "El estudio delimita la población en torno a dificultades de aprendizaje, discapacidad cognitiva, autismo, neurodivergencia, síndrome de Down, alineado con perfiles de discapacidad cognitiva o neurodivergencia relevantes para la RSL. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "La población del estudio declara perfiles (TEA; DI; dificultades de aprendizaje; discapacidad cognitiva; neurodivergencia; síndrome de Down).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
           "loc": "fulltext",
-          "quote": "dificultades de aprendizaje, discapacidad cognitiva, autismo, neurodivergencia, síndrome de Down"
+          "quote": "TEA; DI; dificultades de aprendizaje; discapacidad cognitiva; neurodivergencia; síndrome de Down"
         }
       ]
     },
     {
       "item_id": "RQ1-I2",
-      "value": "No indica estratificación ni análisis desagregados por perfil cognitivo o neurodivergente; los resultados se reportan sobre la muestra global, limitando comparaciones por subpoblación en el formulario. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "No. No hay desagregación por perfil cognitivo; los resultados corresponden a la muestra global.",
       "decision": "extracted",
       "evidence": [
         {
@@ -28,19 +28,19 @@
     },
     {
       "item_id": "RQ1-I3",
-      "value": "Hay participación de personas en evaluación o diseño (7 participantes), relevante para validez centrada en usuarios con necesidades cognitivas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Participación en evaluación o prueba con usuarios, con n = 7 participantes reportados (Presencia: Sí | N: 7 | Rol: evaluación).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
           "loc": "fulltext",
-          "quote": "7 participantes"
+          "quote": "7"
         }
       ]
     },
     {
       "item_id": "RQ1-I4",
-      "value": "El artículo reporta contexto geográfico asociado a Estados Unidos y  menciona consentimiento informado o aprobación ética. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Marco ético, tratamiento del perfil y contexto del estudio (Enfoque: déficit | Perfil: almacenado | Consentimiento: informado reportado | País: Estados Unidos).",
       "decision": "extracted",
       "evidence": [
         {
@@ -58,43 +58,43 @@
     },
     {
       "item_id": "RQ2-I2",
-      "value": "El rol principal de la IA es generación de contenido o respuestas y evaluación o medición y asistencia en aseguramiento de calidad dentro del estudio de software o contenido digital accesible. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Rol de la IA en el estudio (Generador; evaluador; asistente de aseguramiento de la calidad).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
           "loc": "fulltext",
-          "quote": "generación de contenido o respuestas"
+          "quote": "Generador"
         }
       ]
     },
     {
       "item_id": "RQ2-I3",
-      "value": "La fase principal vinculada a la IA es pruebas o evaluación empírica del artefacto o de salidas generadas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Pruebas. Fase principal del ciclo de vida del software en la que interviene la IA.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
           "loc": "fulltext",
-          "quote": "pruebas"
+          "quote": "Pruebas"
         }
       ]
     },
     {
       "item_id": "RQ2-I4",
-      "value": "Además de la fase principal, el artículo alude a desarrollo, pruebas en el ciclo de vida. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "desarrollo; pruebas; requisitos. Otras fases del ciclo de vida mencionadas además de la principal.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
           "loc": "fulltext",
-          "quote": "desarrollo, pruebas"
+          "quote": "diseño;desarrollo;pruebas;requisitos"
         }
       ]
     },
     {
       "item_id": "RQ3-I1",
-      "value": "Reporta como métrica principal SUS con valor numérico 9, útil para la síntesis de resultados de accesibilidad cognitiva. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Resultado principal reportado (SUS = 79) (Constructo: SUS | Valor: 79).",
       "decision": "extracted",
       "evidence": [
         {
@@ -106,19 +106,19 @@
     },
     {
       "item_id": "RQ3-I2",
-      "value": "El protocolo de medición incluye cuestionario o encuesta, evaluación heurística, estudio con usuarios. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Instrumento o protocolo de medición (cuestionario; heurística; estudio con usuarios).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
           "loc": "fulltext",
-          "quote": "cuestionario o encuesta"
+          "quote": "cuestionario"
         }
       ]
     },
     {
       "item_id": "RQ3-I3",
-      "value": "Alinea la evaluación con accesibilidad cognitiva (COGA o equivalente). Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "COGA. Alineación con accesibilidad cognitiva.",
       "decision": "extracted",
       "evidence": [
         {
@@ -130,7 +130,7 @@
     },
     {
       "item_id": "RQ3-I4",
-      "value": "La evaluación combina dimensiones cognitivas y sensoriales. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Ambas. La evaluación aborda dimensiones cognitivas y sensoriales.",
       "decision": "extracted",
       "evidence": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "item_id": "RQ3-I5",
-      "value": "La validación depende principalmente de usuarios, con automatización limitada. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Solo validación con usuarios. La validación depende principalmente de participantes.",
       "decision": "extracted",
       "evidence": [
         {

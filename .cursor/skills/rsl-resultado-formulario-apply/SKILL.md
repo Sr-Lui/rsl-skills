@@ -9,7 +9,7 @@ description: >-
 
 # rsl-resultado-formulario-apply
 
-Playbooks: [`formulario-apply-rsl.md`](../../playbooks/formulario-apply-rsl.md) · [`formulario-prosa-rsl.md`](../../playbooks/formulario-prosa-rsl.md)
+Playbooks: [`formulario-apply-rsl.md`](../../playbooks/formulario-apply-rsl.md) · [`formulario-prosa-rsl.md`](../../playbooks/formulario-prosa-rsl.md) · [`formulario-extraccion-items-calidad.md`](../../playbooks/formulario-extraccion-items-calidad.md)
 
 Invoke: `Usa rsl-resultado-formulario-apply sobre docs/<slug>/` · `lote 03`
 
@@ -22,9 +22,9 @@ Invoke: `Usa rsl-resultado-formulario-apply sobre docs/<slug>/` · `lote 03`
 
 ## Contrato de celda
 
-- **Español**, 1–3 oraciones (~25–70 palabras): qué dice el artículo sobre **este ítem** (columna B) + enlace breve al **tema RSL**.
-- **No** copiar-pegar inglés del PDF; **no** `hint` literales (`Campo: X | Valor: Y`); **no** `Sí`/`No` solos — **explicar** negativas.
+- **Registro agregable** visible en la celda (literal o entre paréntesis) + **frase breve** en español; humanize pulir la frase, no borrar el dato.
 - **Ausente:** Excel **`—`**, `decision: absent`.
+- Tras todos los lotes: `formulario:lint-prosa` + `formulario:lint-traza`.
 
 ## Procedure por artículo (dentro del lote)
 
@@ -39,7 +39,7 @@ Tras todos los lotes: `formulario:lint-traza` · `formulario:lint-prosa` (cuando
 
 ## Forbidden
 
-- **`pnpm -s formulario:extract-lote`** (bypass; solo qa/dev con acuerdo explícito)
+- **`pnpm -s formulario:draft-lote`** y **`formulario:extract-lote`** en producción (solo qa/dev explícito)
 - `apply-lote` sin debate R1+R2+orquestador cerrado
 - Celdas ítem en inglés crudo o telegrafía
 - Duplicar columna de estudio en hoja sin `placement`; reclasificar naturaleza (volver a **prepare**)

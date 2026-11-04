@@ -1,10 +1,8 @@
-"""Prosa ES para celdas de ítem (formulario apply). Conservador: cite-or-dash."""
+"""Registro agregable + redacción ES breve para celdas de ítem (formulario apply)."""
 from __future__ import annotations
 
 import re
 from pathlib import Path
-
-THEME_HOOK = " Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software."
 
 
 def _ev(rel_fn, md: Path, quote: str) -> list[dict]:
@@ -16,78 +14,108 @@ def _absent():
     return "—", "absent", []
 
 
-def _profiles_es(tl: str) -> list[str]:
+def _cell(register: str, note: str | None = None) -> str:
+    """Registro literal (para agregación) + oración breve en español."""
+    reg = register.strip()
+    if not note or not note.strip():
+        return reg
+    note = note.strip().rstrip(".")
+    if reg in ("Sí", "No", "NR") or (len(reg) > 4 and reg in note):
+        return f"{reg}. {note}."
+    if reg in note:
+        return f"{note}."
+    return f"{reg}. {note}."
+
+
+def _wrap(lead: str, register: str) -> str:
+    """Intro legible con registro entre paréntesis (mixto / plantillas)."""
+    lead = lead.strip().rstrip(".")
+    return f"{lead} ({register})."
+
+
+def _profiles_tokens(tl: str) -> list[str]:
     out = []
-    if re.search(r"learning disabilit", tl):
-        out.append("dificultades de aprendizaje")
-    if re.search(r"cognitive impair|intellectual disabilit", tl):
-        out.append("discapacidad cognitiva")
+    if re.search(r"autism|autistic|\basd\b", tl):
+        out.append("TEA")
     if re.search(r"\badhd\b", tl):
         out.append("TDAH")
-    if re.search(r"autism|autistic|\basd\b", tl):
-        out.append("autismo")
+    if re.search(r"intellectual disabilit|\bDI\b", tl):
+        out.append("DI")
     if re.search(r"dyslexia", tl):
         out.append("dislexia")
+    if re.search(r"learning disabilit", tl):
+        out.append("dificultades de aprendizaje")
+    if re.search(r"cognitive impair", tl):
+        out.append("discapacidad cognitiva")
     if re.search(r"neurodiver", tl):
         out.append("neurodivergencia")
     if re.search(r"down syndrome", tl):
         out.append("síndrome de Down")
-    return out
+    return list(dict.fromkeys(out))
 
 
 def extract_item_prose(
     item_id: str, text: str, tl: str, md: Path, rel_fn
 ) -> tuple[str, str, list]:
     if item_id == "RQ1-I1":
-        prof = _profiles_es(tl)
-        if not prof:
+        tok = _profiles_tokens(tl)
+        if not tok:
             return _absent()
-        lista = ", ".join(dict.fromkeys(prof))
-        v = (
-            f"El estudio delimita la población en torno a {lista}, "
-            f"alineado con perfiles de discapacidad cognitiva o neurodivergencia relevantes para la RSL."
-            + THEME_HOOK
+        reg = "; ".join(tok)
+        return (
+            _wrap("La población del estudio declara perfiles", reg),
+            "extracted",
+            _ev(rel_fn, md, reg),
         )
-        return v, "extracted", _ev(rel_fn, md, lista)
 
     if item_id == "RQ1-I2":
         if re.search(r"stratif|subgroup|sub-group|by diagnosis|per profile|split by", tl):
-            v = (
-                "Sí reporta estratificación o desagregación de resultados según perfiles "
-                "o subgrupos, lo que permite comparar evidencia por población en la síntesis."
-                + THEME_HOOK
+            return (
+                _cell(
+                    "Sí",
+                    "El artículo reporta estratificación o desagregación de resultados por perfil o subgrupo",
+                ),
+                "extracted",
+                _ev(rel_fn, md, "estratificación"),
             )
-            return v, "extracted", _ev(rel_fn, md, "estratificación")
         if re.search(r"participants|sample|subjects|users", tl):
-            v = (
-                "No indica estratificación ni análisis desagregados por perfil cognitivo "
-                "o neurodivergente; los resultados se reportan sobre la muestra global, "
-                "limitando comparaciones por subpoblación en el formulario."
-                + THEME_HOOK
+            return (
+                _cell(
+                    "No",
+                    "No hay desagregación por perfil cognitivo; los resultados corresponden a la muestra global",
+                ),
+                "extracted",
+                _ev(rel_fn, md, "muestra"),
             )
-            return v, "extracted", _ev(rel_fn, md, "muestra")
         return _absent()
 
     if item_id == "RQ1-I3":
         if not re.search(r"participant|user study|users|co-design|involv", tl):
             return _absent()
-        n = None
+        pres = "Sí"
+        n = "NR"
         m = re.search(r"(\d+)\s+participants|\b[Nn]\s*[=:]\s*(\d+)", text)
         if m:
             n = m.group(1) or m.group(2)
-        rol = "evaluación o diseño"
+        rol = "evaluación"
         if re.search(r"co-design|participatory|design workshop", tl):
-            rol = "co-diseño y evaluación"
-        ntxt = f"{n} participantes" if n else "tamaño muestral no precisado en el extracto revisado"
-        v = (
-            f"Hay participación de personas en {rol} ({ntxt}), "
-            f"relevante para validez centrada en usuarios con necesidades cognitivas."
-            + THEME_HOOK
-        )
-        return v, "extracted" if n else "partial", _ev(rel_fn, md, ntxt)
+            rol = "ambos"
+        elif re.search(r"design", tl) and not re.search(r"evaluat|test|study", tl):
+            rol = "diseño"
+        reg = f"Presencia: {pres} | N: {n} | Rol: {rol}"
+        if rol == "ambos":
+            lead = "Participación de personas con la condición en diseño y evaluación"
+        elif rol == "diseño":
+            lead = "Participación en actividades de diseño"
+        else:
+            lead = "Participación en evaluación o prueba con usuarios"
+        if n != "NR":
+            lead += f", con n = {n} participantes reportados"
+        dec = "extracted" if n != "NR" else "partial"
+        return _wrap(lead, reg), dec, _ev(rel_fn, md, n)
 
     if item_id == "RQ1-I4":
-        pais = None
+        pais = "NR"
         for pat, name in (
             (r"\b(Spain|España)\b", "España"),
             (r"\b(United States|USA|U\.S\.)\b", "Estados Unidos"),
@@ -96,93 +124,99 @@ def extract_item_prose(
             (r"\b(UK|United Kingdom)\b", "Reino Unido"),
             (r"\b(Canada)\b", "Canadá"),
             (r"\b(Germany)\b", "Alemania"),
-            (r"\b(Alabama)\b", "Alabama (EE. UU.)"),
         ):
             if re.search(pat, text, re.I):
                 pais = name
                 break
-        cons = "consentimiento informado o aprobación ética" if re.search(
-            r"IRB|ethics committee|informed consent|consent form", tl
-        ) else None
-        parts = []
-        if pais:
-            parts.append(f"contexto geográfico asociado a {pais}")
-        if cons:
-            parts.append(f" menciona {cons}")
-        if not parts:
+        enfoque = "NR"
+        if re.search(r"strength|asset|difference model|social model", tl):
+            enfoque = "diferencia"
+        elif re.search(r"deficit|impairment|disabilit", tl):
+            enfoque = "déficit"
+        perfil = "deducido"
+        if re.search(r"diagnosis|medical record|stored profile", tl):
+            perfil = "almacenado"
+        cons = "NR"
+        if re.search(r"IRB|ethics committee|informed consent|consent form", tl):
+            cons = "informado reportado"
+        if pais == "NR" and enfoque == "NR" and cons == "NR":
             return _absent()
-        v = "El artículo reporta " + " y ".join(parts) + "." + THEME_HOOK
-        return v, "partial" if not cons else "extracted", _ev(rel_fn, md, pais or cons or "")
+        reg = f"Enfoque: {enfoque} | Perfil: {perfil} | Consentimiento: {cons} | País: {pais}"
+        return (
+            _wrap("Marco ético, tratamiento del perfil y contexto del estudio", reg),
+            "partial" if pais == "NR" or cons == "NR" else "extracted",
+            _ev(rel_fn, md, pais),
+        )
 
     if item_id == "RQ2-I1":
         fam = []
-        if re.search(r"\bllm\b|large language model", tl):
-            fam.append("modelos de lenguaje grande (LLM)")
+        if re.search(r"\bllm\b|large language model|genai|generative ai", tl):
+            fam.append("LLM")
         if re.search(r"\bnlp\b|natural language", tl):
-            fam.append("procesamiento de lenguaje natural")
+            fam.append("NLP")
         if re.search(r"deep learning|neural network", tl):
-            fam.append("aprendizaje profundo")
+            fam.append("DL")
         if re.search(r"machine learning|\bml\b", tl):
-            fam.append("aprendizaje automático")
+            fam.append("ML")
+        if re.search(r"computer vision|image recognition", tl):
+            fam.append("visión")
         mod = re.search(r"(GPT-4[o]?|Claude[-\w]*|Llama[-\.\d\w]*)", text, re.I)
         if not fam and not mod:
             return _absent()
-        base = "La intervención de IA se apoya en " + ", ".join(fam) if fam else "El estudio emplea IA"
+        reg = "; ".join(fam) if fam else "IA"
         if mod:
-            base += f", con mención explícita de {mod.group(1)}"
-        v = base + ", en línea con técnicas aplicadas a accesibilidad o inclusión cognitiva." + THEME_HOOK
-        return v, "extracted", _ev(rel_fn, md, fam[0] if fam else mod.group(1))
+            reg += f" | Modelo: {mod.group(1)}"
+        else:
+            reg += " | Modelo: NR"
+        return (
+            _wrap("Familia de técnica de IA aplicada", reg),
+            "extracted",
+            _ev(rel_fn, md, reg),
+        )
 
     if item_id == "RQ2-I2":
         roles = []
         if re.search(r"generat(e|ing)|produce|output", tl):
-            roles.append("generación de contenido o respuestas")
+            roles.append("Generador")
         if re.search(r"evaluat(e|ing|or)|assess|metric", tl):
-            roles.append("evaluación o medición")
+            roles.append("evaluador")
         if re.search(r"quality assurance|assist", tl):
-            roles.append("asistencia en aseguramiento de calidad")
+            roles.append("asistente de aseguramiento de la calidad")
         if not roles:
             if re.search(r"\bai\b|artificial intelligence|model", tl):
-                v = (
-                    "La IA interviene como componente central del artefacto o del experimento, "
-                    "sin un rol SDLC explícito en el texto revisado."
-                    + THEME_HOOK
+                return (
+                    _cell("otro", "La IA es central en el artefacto, sin rol explícito en el ciclo de vida"),
+                    "partial",
+                    _ev(rel_fn, md, "AI"),
                 )
-                return v, "partial", _ev(rel_fn, md, "AI")
             return _absent()
-        v = (
-            "El rol principal de la IA es "
-            + " y ".join(dict.fromkeys(roles))
-            + " dentro del estudio de software o contenido digital accesible."
-            + THEME_HOOK
+        reg = "; ".join(dict.fromkeys(roles))
+        return (
+            _wrap("Rol de la IA en el estudio", reg),
+            "extracted",
+            _ev(rel_fn, md, roles[0]),
         )
-        return v, "extracted", _ev(rel_fn, md, roles[0])
 
     if item_id == "RQ2-I3":
-        for lab, pat, frase in (
-            (
-                "pruebas",
-                r"\btest(ing|s)?\b|experiment|empirical|user study|evaluation",
-                "La fase principal vinculada a la IA es pruebas o evaluación empírica del artefacto o de salidas generadas.",
-            ),
-            (
-                "desarrollo",
-                r"implement(ed|ation)|develop(ed|ment)|built",
-                "La IA se utiliza principalmente en desarrollo o implementación del software o prototipo.",
-            ),
-            (
-                "diseño",
-                r"\bdesign\b|prototype|UI/UX|interface",
-                "La contribución de la IA se sitúa en diseño o prototipado de la solución.",
-            ),
-            (
-                "requisitos",
-                r"requirement|elicitation",
-                "El trabajo aborda requisitos o definición de necesidades con apoyo de IA.",
-            ),
+        # Prioridad SDLC: no usar «Pruebas» solo por user study si hay señal de otra fase
+        for cat, pat in (
+            ("Requisitos", r"requirement|elicitation|user story"),
+            ("Diseño", r"\bdesign\b|prototype|wireframe|UI/UX|interface"),
+            ("Desarrollo", r"implement(ed|ation)|develop(ed|ment)|built|code generat"),
+            ("Personalización en ejecución", r"runtime|personaliz|in situ"),
+            ("V&V", r"verif(y|ication)|validat(ion|e)"),
+            ("Auditoría", r"\baudit\b"),
+            ("Pruebas", r"\btest(ing|s)?\b|experiment|empirical|user study|evaluation"),
         ):
             if re.search(pat, tl):
-                return frase + THEME_HOOK, "extracted", _ev(rel_fn, md, lab)
+                return (
+                    _cell(
+                        cat,
+                        f"Fase principal del ciclo de vida del software en la que interviene la IA",
+                    ),
+                    "extracted",
+                    _ev(rel_fn, md, cat),
+                )
         return _absent()
 
     if item_id == "RQ2-I4":
@@ -191,93 +225,139 @@ def extract_item_prose(
             ("diseño", r"\bdesign\b"),
             ("desarrollo", r"develop|implement"),
             ("pruebas", r"test|evaluat|experiment"),
+            ("requisitos", r"requirement"),
         ):
             if re.search(pat, tl):
                 found.append(lab)
         if len(found) <= 1:
-            v = "Solo se identifica una fase del ciclo de vida vinculada a la IA; no hay otras fases secundarias reportadas." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "una fase")
-        sec = [f for f in found[1:]] or found
-        v = "Además de la fase principal, el artículo alude a " + ", ".join(sec) + " en el ciclo de vida." + THEME_HOOK
-        return v, "extracted", _ev(rel_fn, md, ", ".join(sec))
+            return (
+                _cell("—", "Solo se identifica una fase del ciclo vinculada a la IA"),
+                "extracted",
+                _ev(rel_fn, md, "una fase"),
+            )
+        reg = "; ".join(found[1:] if len(found) > 1 else found)
+        return (
+            _cell(reg, "Otras fases del ciclo de vida mencionadas además de la principal"),
+            "extracted",
+            _ev(rel_fn, md, ";".join(found)),
+        )
 
     if item_id == "RQ3-I1":
         m = re.search(
-            r"(Flesch[^.\n]{0,30}|accuracy|precision|recall|F1|SUS|reading ease)[^.\n]{0,60}(\d+\.?\d*)",
+            r"\b(Flesch[-\w]*|accuracy|precision|recall|F1[- ]?score|SUS|reading ease)\b"
+            r"[^.\n]{0,50}?(\d+\.?\d*)",
             text,
             re.I,
         )
         if m:
-            v = (
-                f"Reporta como métrica principal {m.group(1).strip()} con valor numérico {m.group(2)}, "
-                f"útil para la síntesis de resultados de accesibilidad cognitiva."
-                + THEME_HOOK
+            constructo = m.group(1).strip()
+            valor = m.group(2)
+            reg = f"Constructo: {constructo} | Valor: {valor}"
+            return (
+                _wrap(f"Resultado principal reportado ({constructo} = {valor})", reg),
+                "extracted",
+                _ev(rel_fn, md, m.group(0)[:80]),
             )
-            return v, "extracted", _ev(rel_fn, md, m.group(0)[:80])
         if re.search(r"metric|measure|score|performance|readability", tl):
-            v = (
-                "Menciona medidas de desempeño o legibilidad, pero sin un valor numérico principal "
-                "claro en el extracto revisado."
-                + THEME_HOOK
+            reg = "Constructo: métrica reportada | Valor: NR"
+            return (
+                _cell(reg, "Se mencionan métricas, pero sin valor numérico principal claro en el texto"),
+                "partial",
+                _ev(rel_fn, md, "métricas"),
             )
-            return v, "partial", _ev(rel_fn, md, "métricas")
         return _absent()
 
     if item_id == "RQ3-I2":
         inst = []
         if re.search(r"questionnaire|survey", tl):
-            inst.append("cuestionario o encuesta")
+            inst.append("cuestionario")
         if re.search(r"heuristic", tl):
-            inst.append("evaluación heurística")
+            inst.append("heurística")
         if re.search(r"user study|think aloud|usability", tl):
             inst.append("estudio con usuarios")
         if re.search(r"Flesch|readability", tl):
-            inst.append("índices de legibilidad")
+            inst.append("legibilidad")
         if not inst:
             return _absent()
-        v = "El protocolo de medición incluye " + ", ".join(dict.fromkeys(inst)) + "." + THEME_HOOK
-        return v, "extracted", _ev(rel_fn, md, inst[0])
+        reg = "; ".join(dict.fromkeys(inst))
+        return (
+            _wrap("Instrumento o protocolo de medición", reg),
+            "extracted",
+            _ev(rel_fn, md, inst[0]),
+        )
 
     if item_id == "RQ3-I3":
         if re.search(r"\bWCAG\b", tl):
-            v = "Se referencia explícitamente WCAG como marco de accesibilidad." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "WCAG")
-        if re.search(r"\bCOGA\b|cognitive accessibility", tl):
-            v = "Alinea la evaluación con accesibilidad cognitiva (COGA o equivalente)." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "COGA")
-        if re.search(r"accessib", tl):
-            v = (
-                "Trata accesibilidad pero sin citar un marco normativo concreto (WCAG/COGA) "
-                "en el texto revisado."
-                + THEME_HOOK
+            return (
+                _cell("WCAG", "Marco normativo de accesibilidad referenciado en el estudio"),
+                "extracted",
+                _ev(rel_fn, md, "WCAG"),
             )
-            return v, "partial", _ev(rel_fn, md, "accessibility")
+        if re.search(r"\bCOGA\b|cognitive accessibility", tl):
+            return (
+                _cell("COGA", "Alineación con accesibilidad cognitiva"),
+                "extracted",
+                _ev(rel_fn, md, "COGA"),
+            )
+        if re.search(r"accessib", tl):
+            return (
+                _cell(
+                    "ninguno",
+                    "Trata accesibilidad sin citar WCAG ni COGA de forma explícita",
+                ),
+                "partial",
+                _ev(rel_fn, md, "accessibility"),
+            )
         return _absent()
 
     if item_id == "RQ3-I4":
         cog = bool(re.search(r"cognitive|dyslexia|ADHD|autism|learning disabilit|readability", tl))
         sen = bool(re.search(r"visual|blind|hearing|sensor|motor impairment", tl))
         if cog and sen:
-            v = "La evaluación combina dimensiones cognitivas y sensoriales." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "ambas")
+            return (
+                _cell("Ambas", "La evaluación aborda dimensiones cognitivas y sensoriales"),
+                "extracted",
+                _ev(rel_fn, md, "ambas"),
+            )
         if cog:
-            v = "La evaluación se centra en accesibilidad cognitiva o legibilidad." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "cognitiva")
+            return (
+                _cell("Cognitiva", "Enfoque en accesibilidad cognitiva o legibilidad"),
+                "extracted",
+                _ev(rel_fn, md, "cognitiva"),
+            )
         if sen:
-            v = "Predominan aspectos sensoriales de accesibilidad." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "sensorial")
+            return (
+                _cell("Sensorial", "Predominan aspectos sensoriales de accesibilidad"),
+                "extracted",
+                _ev(rel_fn, md, "sensorial"),
+            )
         return _absent()
 
     if item_id == "RQ3-I5":
-        if re.search(r"automated (test|evaluation)|continuous integration", tl):
-            v = "Describe evaluación automatizada o integrada en pipeline (alta automatización)." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "automated")
+        if re.search(r"automated (test|evaluation)|continuous integration|\bCI\b", tl):
+            return (
+                _cell(
+                    "Integración continua",
+                    "Evaluación automatizada o integrada en el pipeline de desarrollo",
+                ),
+                "extracted",
+                _ev(rel_fn, md, "CI"),
+            )
         if re.search(r"semi-?automatic|human-in-the-loop", tl):
-            v = "Combina pasos automáticos con revisión humana (semiautomática)." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "semi")
+            return (
+                _cell("Semiautomática", "Combina pasos automáticos con revisión humana"),
+                "extracted",
+                _ev(rel_fn, md, "semi"),
+            )
         if re.search(r"user study|participants|usability test", tl):
-            v = "La validación depende principalmente de usuarios, con automatización limitada." + THEME_HOOK
-            return v, "extracted", _ev(rel_fn, md, "users")
+            return (
+                _cell(
+                    "Solo validación con usuarios",
+                    "La validación depende principalmente de participantes",
+                ),
+                "extracted",
+                _ev(rel_fn, md, "users"),
+            )
         return _absent()
 
     return _absent()

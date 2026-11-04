@@ -2,4 +2,4 @@
 
 Borrador prosa ES desde texto completo indexado.
 
-R377: 12 ítems con prosa, 1 ausentes (—).
+R377: 13 ítems con prosa, 0 ausentes (—).

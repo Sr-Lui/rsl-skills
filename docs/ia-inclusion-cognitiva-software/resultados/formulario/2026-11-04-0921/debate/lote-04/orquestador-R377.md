@@ -2,4 +2,4 @@
 
 Veredicto: aceptar borrador draft-lote → apply JSON.
 
-R377: 12 ítems con prosa, 1 ausentes (—).
+R377: 13 ítems con prosa, 0 ausentes (—).

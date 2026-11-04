@@ -7,38 +7,51 @@ Cadena acotada para **texto que va al Excel** (no sustituye [`prosa-rsl.md`](pro
 - **Apply:** cada `value` de ítem RQ (filas 17–33) tras veredicto del orquestador, **antes** de `apply-<id>.json` y `formulario:apply-lote`.
 - **Prepare (biblio):** frases cortas en filas 3–13 cuando el dato viene del artículo o de web (1 línea; no párrafo).
 
-## Paso 1 — humanize-academic-writing (obligatorio en apply)
+## Contrato por `response_type` (items.json)
+
+| Tipo | Registro en la celda | Redacción |
+|------|----------------------|-----------|
+| **cuantitativo** | Categoría/número **`;`** visible (al inicio tipo `No.` / `Pruebas` o en paréntesis) | 1 frase ES que contextualiza sin ocultar el dato |
+| **cualitativo** | Etiquetas **`;`** en el texto o en paréntesis | Matiz breve solo si aporta |
+| **mixto** | Plantilla literal `Presencia: … \| N: …` (habitualmente al final entre paréntesis) | Intro en español que explica el hecho |
+
+**Ausencia:** celda **`—`**, traza `decision: absent`.
+
+Humanize pulir la intro; **no** quitar el registro literal (pipes y subcampos).
+
+## Paso 1 — humanize-academic-writing (apply)
 
 Leer [`.agents/skills/humanize-academic-writing/SKILL.md`](../.agents/skills/humanize-academic-writing/SKILL.md).
 
-Entrada: borrador en **español** del defensor (hecho a partir del MD/PDF indexado, **no** copiar inglés literal).
-
-Objetivo por celda de ítem:
-
-| Parámetro | Guía |
-|-----------|------|
-| Extensión | **1–3 oraciones**, ~25–70 palabras |
-| Contenido | Qué reporta el artículo **respecto al ítem** (texto columna B / `summary` en `items.json`) + enlace breve al **tema RSL** (`informe-polish.md`) |
-| Negativas | Nunca «No» o «Sí» solos; explicar (p. ej. «No estratifica por perfil neurodivergente; analiza la muestra como grupo único») |
-| Ausencia | Celda **`—`**; traza `decision: absent` |
-| Prohibido | Plantillas `Campo: X \| Valor: Y`, listas de keywords en inglés, pegar frases del PDF en EN |
+Humanizar la **nota**, no sustituir el **registro** inicial. No alargar cuantitativos con párrafos genéricos de tema RSL.
 
 ## Paso 2 — Revisión crítico (checklist)
 
 El crítico (`extraccion-formulario`) rechaza si:
 
+- Ítem **cuantitativo** sin categoría/número explícito al inicio.
+- Ítem **mixto** sin claves de plantilla (`Presencia:`, `Constructo:`, …).
 - Queda texto mayoritariamente en inglés sin traducir/sintetizar.
-- Hay menos de ~20 palabras útiles sin ser telegrafía.
-- Persisten pipes `\|` de plantilla de `hint`.
-- Falta relación mínima con el ítem o el tema RSL.
+- Persisten pipes `\|` **fuera** de plantillas mixtas definidas en `items.md`.
 
-## Ejemplos (ítem RQ1-I2 — estratificación)
+## Ejemplos
 
-**Mal:** `No`
+**RQ1-I2 (cuantitativo)**
 
-**Mal:** `no stratification mention`
+- Mal: «No indica estratificación ni análisis desagregados…» (sin **No** explícito).
+- Bien: «**No.** Los resultados se reportan sobre la muestra global, sin desagregación por perfil.»
 
-**Bien:** «El estudio no desagrega resultados por perfil cognitivo o neurodivergente; reporta efectos agregados sobre la muestra global de participantes con dificultades de aprendizaje, lo que limita comparar perfiles en la síntesis de inclusión cognitiva.»
+**RQ1-I1 (cualitativo)**
+
+- Bien: `TEA; dificultades de aprendizaje`
+
+**RQ1-I3 (mixto)**
+
+- Bien: «Participación de personas con la condición en diseño y evaluación (Presencia: Sí | N: NR | Rol: ambos).»
+
+**RQ3-I1 (mixto)**
+
+- Bien: «Resultado principal reportado (precision = 6) (Constructo: precision | Valor: 6).»
 
 ## Biblio (filas 3–13)
 
@@ -46,6 +59,6 @@ El crítico (`extraccion-formulario`) rechaza si:
 - Español; dato atribuible al artículo, CSV o fuente web citada en `biblio-traza.jsonl`.
 - Sin dato fiable → **`—`**.
 
-## Lint (fase script, opcional)
+## Lint
 
-`formulario:lint-prosa` validará telegrafía y plantillas; ver skill **apply**.
+`pnpm -s formulario:lint-prosa docs/<slug>` valida registro por tipo en `extraccion-traza.jsonl`.

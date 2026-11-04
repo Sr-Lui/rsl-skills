@@ -4,19 +4,19 @@
   "slots": [
     {
       "item_id": "RQ1-I1",
-      "value": "El estudio delimita la población en torno a discapacidad cognitiva, TDAH, autismo, dislexia, neurodivergencia, alineado con perfiles de discapacidad cognitiva o neurodivergencia relevantes para la RSL. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "La población del estudio declara perfiles (TEA; TDAH; DI; dislexia; neurodivergencia).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
           "loc": "fulltext",
-          "quote": "discapacidad cognitiva, TDAH, autismo, dislexia, neurodivergencia"
+          "quote": "TEA; TDAH; DI; dislexia; neurodivergencia"
         }
       ]
     },
     {
       "item_id": "RQ1-I2",
-      "value": "No indica estratificación ni análisis desagregados por perfil cognitivo o neurodivergente; los resultados se reportan sobre la muestra global, limitando comparaciones por subpoblación en el formulario. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "No. No hay desagregación por perfil cognitivo; los resultados corresponden a la muestra global.",
       "decision": "extracted",
       "evidence": [
         {
@@ -28,19 +28,19 @@
     },
     {
       "item_id": "RQ1-I3",
-      "value": "Hay participación de personas en co-diseño y evaluación (tamaño muestral no precisado en el extracto revisado), relevante para validez centrada en usuarios con necesidades cognitivas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Participación de personas con la condición en diseño y evaluación (Presencia: Sí | N: NR | Rol: ambos).",
       "decision": "partial",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
           "loc": "fulltext",
-          "quote": "tamaño muestral no precisado en el extracto revisado"
+          "quote": "NR"
         }
       ]
     },
     {
       "item_id": "RQ1-I4",
-      "value": "El artículo reporta contexto geográfico asociado a España. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Marco ético, tratamiento del perfil y contexto del estudio (Enfoque: diferencia | Perfil: almacenado | Consentimiento: NR | País: España).",
       "decision": "partial",
       "evidence": [
         {
@@ -52,55 +52,55 @@
     },
     {
       "item_id": "RQ2-I1",
-      "value": "La intervención de IA se apoya en modelos de lenguaje grande (LLM), procesamiento de lenguaje natural, con mención explícita de LLaMA, en línea con técnicas aplicadas a accesibilidad o inclusión cognitiva. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Familia de técnica de IA aplicada (LLM; NLP | Modelo: LLaMA).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
           "loc": "fulltext",
-          "quote": "modelos de lenguaje grande (LLM)"
+          "quote": "LLM; NLP | Modelo: LLaMA"
         }
       ]
     },
     {
       "item_id": "RQ2-I2",
-      "value": "El rol principal de la IA es generación de contenido o respuestas y evaluación o medición y asistencia en aseguramiento de calidad dentro del estudio de software o contenido digital accesible. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Rol de la IA en el estudio (Generador; evaluador; asistente de aseguramiento de la calidad).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
           "loc": "fulltext",
-          "quote": "generación de contenido o respuestas"
+          "quote": "Generador"
         }
       ]
     },
     {
       "item_id": "RQ2-I3",
-      "value": "La fase principal vinculada a la IA es pruebas o evaluación empírica del artefacto o de salidas generadas. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Pruebas. Fase principal del ciclo de vida del software en la que interviene la IA.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
           "loc": "fulltext",
-          "quote": "pruebas"
+          "quote": "Pruebas"
         }
       ]
     },
     {
       "item_id": "RQ2-I4",
-      "value": "Además de la fase principal, el artículo alude a desarrollo, pruebas en el ciclo de vida. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "desarrollo; pruebas; requisitos. Otras fases del ciclo de vida mencionadas además de la principal.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
           "loc": "fulltext",
-          "quote": "desarrollo, pruebas"
+          "quote": "diseño;desarrollo;pruebas;requisitos"
         }
       ]
     },
     {
       "item_id": "RQ3-I1",
-      "value": "Menciona medidas de desempeño o legibilidad, pero sin un valor numérico principal claro en el extracto revisado. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Constructo: métrica reportada | Valor: NR. Se mencionan métricas, pero sin valor numérico principal claro en el texto.",
       "decision": "partial",
       "evidence": [
         {
@@ -112,19 +112,19 @@
     },
     {
       "item_id": "RQ3-I2",
-      "value": "El protocolo de medición incluye cuestionario o encuesta, evaluación heurística, estudio con usuarios, índices de legibilidad. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Instrumento o protocolo de medición (cuestionario; heurística; estudio con usuarios; legibilidad).",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
           "loc": "fulltext",
-          "quote": "cuestionario o encuesta"
+          "quote": "cuestionario"
         }
       ]
     },
     {
       "item_id": "RQ3-I3",
-      "value": "Alinea la evaluación con accesibilidad cognitiva (COGA o equivalente). Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "COGA. Alineación con accesibilidad cognitiva.",
       "decision": "extracted",
       "evidence": [
         {
@@ -136,7 +136,7 @@
     },
     {
       "item_id": "RQ3-I4",
-      "value": "La evaluación combina dimensiones cognitivas y sensoriales. Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Ambas. La evaluación aborda dimensiones cognitivas y sensoriales.",
       "decision": "extracted",
       "evidence": [
         {
@@ -148,7 +148,7 @@
     },
     {
       "item_id": "RQ3-I5",
-      "value": "Combina pasos automáticos con revisión humana (semiautomática). Aporta evidencia a la RSL sobre IA e inclusión cognitiva en el desarrollo de software.",
+      "value": "Semiautomática. Combina pasos automáticos con revisión humana.",
       "decision": "extracted",
       "evidence": [
         {

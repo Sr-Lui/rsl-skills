@@ -57,7 +57,7 @@ Detalle interno para diseñar la hoja Excel (lint WARN si falta, no FAIL):
 
 Las **Notas** aclaran valores esperados o subcampos.
 
-**Excel de extracción (`rsl-resultado-formulario-apply`):** los `hint` y plantillas de esta tabla sirven para **diseño y síntesis agregada** (`## Reglas de registro`); **no** se copian literales a las celdas del `.xlsx`. Allí va **prosa en español** según [`formulario-prosa-rsl.md`](formulario-prosa-rsl.md).
+**Excel de extracción (`rsl-resultado-formulario-apply`):** los `hint` guían el **registro codificable** en la celda (categoría, número, plantilla mixta, multivalor `;`). La nota en español va **después** del registro, no lo sustituye. Ver [`formulario-prosa-rsl.md`](formulario-prosa-rsl.md).
 
 ## Extracción → síntesis (RSL)
 

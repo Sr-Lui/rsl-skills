@@ -8,6 +8,7 @@
   formulario.py lint-setup docs/<slug> [carpeta]
   formulario.py stamp docs/<slug> <YYYY-MM-DD-HHMM>
   formulario.py apply-lote docs/<slug> <NN> [--article corpus_id]
+  formulario.py lint-prosa docs/<slug> [carpeta]
   formulario.py lint-traza docs/<slug> [carpeta]
 """
 from __future__ import annotations
@@ -664,6 +665,7 @@ def _hit(text: str, pattern: str) -> re.Match | None:
 from formulario_prose_extract import extract_item_prose  # noqa: E402
 from formulario_biblio_enrich import enrich_study  # noqa: E402
 from formulario_classify import classify_from_text, load_overrides  # noqa: E402
+from formulario_lint_prosa import lint_item_value  # noqa: E402
 from formulario_placement import (  # noqa: E402
     column_index,
     column_letter,
@@ -738,7 +740,7 @@ def _write_apply_debate_stubs(deb_dir: Path, cid: str, slots: list[dict]) -> Non
         encoding="utf-8",
     )
     (deb_dir / f"r2-critico-{cid}.md").write_text(
-        f"# R2 crítico — {cid}\n\nChecklist formulario-prosa-rsl: español, sin plantillas, ausente = —.\n\n"
+        f"# R2 crítico — {cid}\n\nChecklist formulario-prosa-rsl: registro agregable por Tipo, nota ES, ausente = —.\n\n"
         f"Revisión automática draft-lote; refinar manualmente si hace falta.\n",
         encoding="utf-8",
     )
@@ -933,6 +935,47 @@ def cmd_lint_traza(args: list[str]) -> int:
     return ok(f"lint-traza PASS ({len(lines)} líneas)")
 
 
+def cmd_lint_prosa(args: list[str]) -> int:
+    if len(args) not in (1, 2):
+        raise Fail("uso: formulario.py lint-prosa docs/<slug> [carpeta]", None, 2)
+    theme = theme_path(args[0])
+    folder = formulario_dir(theme) / args[1] if len(args) == 2 else read_formulario_latest(theme)
+    if folder is None or not folder.is_dir():
+        return error("no hay formulario latest", "formulario:prepare")
+    traza_path = folder / TRAZA_JSONL
+    if not traza_path.is_file():
+        return error("falta extraccion-traza.jsonl", "apply-lote")
+    items_folder = items_latest(theme)
+    item_defs = {
+        it["id"]: it
+        for it in json.loads((items_folder / "items.json").read_text(encoding="utf-8"))["items"]
+    }
+    errs = []
+    warns = []
+    for line in traza_path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        rec = json.loads(line)
+        iid = rec.get("item_id")
+        idef = item_defs.get(iid)
+        if not idef:
+            continue
+        for msg in lint_item_value(
+            iid, idef.get("response_type", ""), rec.get("value") or "", rec.get("decision", "")
+        ):
+            if msg.startswith("WARN"):
+                warns.append(f"{rec.get('cell')}: {msg}")
+            else:
+                errs.append(f"E9: {rec.get('cell')} {msg}")
+    for w in warns[:10]:
+        print(w)
+    for e in errs[:30]:
+        print(e)
+    if errs:
+        return error(f"lint-prosa {len(errs)} FAIL", "corrige apply JSON o debate")
+    return ok(f"lint-prosa PASS ({len(warns)} WARN)")
+
+
 def cmd_biblio_enrich(args: list[str]) -> int:
     if len(args) < 1:
         raise Fail("uso: formulario.py biblio-enrich docs/<slug> [--force]", None, 2)
@@ -1089,6 +1132,25 @@ def cmd_biblio_graphify(args: list[str]) -> int:
     return ok(f"biblio-graphify: {updated} celdas fila 13 actualizadas", "revisa muestras manualmente")
 
 
+def cmd_aggregate_preview(args: list[str]) -> int:
+    if len(args) not in (1, 2):
+        raise Fail("uso: formulario.py aggregate-preview docs/<slug> [carpeta]", None, 2)
+    theme = theme_path(args[0])
+    folder = formulario_dir(theme) / args[1] if len(args) == 2 else read_formulario_latest(theme)
+    if folder is None or not folder.is_dir():
+        return error("sin formulario latest", "formulario:stamp")
+    traza = folder / TRAZA_JSONL
+    if not traza.is_file():
+        return error("falta extraccion-traza.jsonl", "apply-lote")
+    from formulario_aggregate_preview import build_preview  # noqa: E402
+
+    mp = load_map(folder)
+    md = build_preview(traza, mp.get("n_si", 0))
+    out = folder / "aggregate-preview.md"
+    out.write_text(md, encoding="utf-8")
+    return ok(f"aggregate-preview → {rel(out)}", "revisa RQ2-I3 WARN")
+
+
 def dispatch(args: list[str]) -> int:
     if not args:
         print(__doc__)
@@ -1106,6 +1168,8 @@ def dispatch(args: list[str]) -> int:
         "biblio-enrich": cmd_biblio_enrich,
         "biblio-graphify": cmd_biblio_graphify,
         "lint-traza": cmd_lint_traza,
+        "lint-prosa": cmd_lint_prosa,
+        "aggregate-preview": cmd_aggregate_preview,
     }
     fn = handlers.get(cmd)
     if not fn:

@@ -10,6 +10,8 @@ description: >-
 
 Playbooks: [`formulario-prepare-rsl.md`](../../playbooks/formulario-prepare-rsl.md) · [`formulario-prosa-rsl.md`](../../playbooks/formulario-prosa-rsl.md) (biblio: 1 línea ES)
 
+Tras classify, revisar opcionalmente `manifest.nature_needs_review` y `nature-overrides.json` antes de biblio-enrich.
+
 Invoke: `Usa rsl-resultado-formulario-prepare sobre docs/<slug>/`
 
 ## Precondiciones

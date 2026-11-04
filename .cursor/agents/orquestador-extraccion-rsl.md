@@ -16,7 +16,7 @@ Eres el **orquestador de extracción** del formulario RSL.
 
 ## Salida
 
-1. Confirmar que cada `value` pasó **humanize-academic-writing** (español, 1–3 oraciones, sin plantillas `\|`, negativas explicadas).
+1. Confirmar **registro agregable** literal en cada `value` + frase ES (humanize solo la frase).
 2. **`debate/lote-NN/apply-<corpus_id>.json`** — `slots[]`: `item_id`, `value`, `decision`, `evidence[]`
 3. **`extraccion-orquestador.md`** — solo incidencias (`forced_resolution: true`)
 

@@ -15,7 +15,7 @@ Plantilla: [`global/Formulario de extracción de información.xlsx`](global/Form
 | Idioma | **Español** |
 | Forma | 1–3 oraciones; ítem (col. B) + tema RSL |
 | Ausente | **`—`** |
-| Prohibido | EN crudo, `Sí`/`No` solos, plantillas `\|`, **`formulario:extract-lote`** en producción |
+| Prohibido | EN crudo, **solo** `Sí`/`No` sin registro ni nota, prosa cuantitativa sin categoría/número, **`formulario:extract-lote`** en producción |
 
 Prosa: [`playbooks/formulario-prosa-rsl.md`](playbooks/formulario-prosa-rsl.md) + **humanize-academic-writing**
 
@@ -30,7 +30,7 @@ Campos enrich: **editorial**, **país**, **contexto**, **volumen**, **tamaño mu
 | Comando | Skill |
 |---------|--------|
 | `formulario:prepare` · **`classify-nature`** · **`biblio-enrich`** · `lint-setup` · `stamp` | prepare |
-| `formulario:apply-lote` · `lint-traza` · `lint-prosa` (futuro) | apply |
+| `formulario:apply-lote` · `lint-traza` · **`lint-prosa`** · **`aggregate-preview`** | apply |
 | `formulario:extract-lote` | **No producción** (qa/dev) |
 
 Python: `.venv-formulario` (`openpyxl`, `pyyaml`).

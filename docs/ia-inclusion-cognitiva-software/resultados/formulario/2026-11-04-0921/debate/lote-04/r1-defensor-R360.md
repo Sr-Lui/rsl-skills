@@ -2,4 +2,4 @@
 
 Borrador prosa ES desde texto completo indexado.
 
-R360: 12 ítems con prosa, 1 ausentes (—).
+R360: 13 ítems con prosa, 0 ausentes (—).

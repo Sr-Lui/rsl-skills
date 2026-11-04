@@ -9,8 +9,8 @@ Prosa: [`formulario-prosa-rsl.md`](formulario-prosa-rsl.md) (**humanize-academic
 | Regla | Detalle |
 |-------|---------|
 | Idioma | **Español** (informe RSL) |
-| Forma | 1–3 oraciones, precisas, orientadas al ítem (columna B) |
-| Tema RSL | Una frase de encaje con `informe-polish.md` cuando aplique |
+| Forma | **Registro agregable primero** (según `response_type`); luego 0–2 frases de contexto |
+| Tema RSL | No sustituir el registro con párrafos genéricos de encaje |
 | Evidencia | Graphify cribado-2 + MD/PDF con `loc`; traza `evidence[]` |
 | Ausente | Excel **`—`**, `decision: absent` |
 | Prohibido | `formulario:extract-lote`, inglés crudo, `Sí`/`No` solos, `\|` tipo plantilla |
