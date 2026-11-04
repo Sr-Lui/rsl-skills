@@ -8,8 +8,10 @@ import type { BoxId, ExportQuality } from '../types'
 interface PrismaState {
   texts: Record<BoxId, string>
   quality: ExportQuality
+  sourceRelPath: string | null
   setText: (id: BoxId, value: string) => void
   setQuality: (quality: ExportQuality) => void
+  setSourceRelPath: (relPath: string | null) => void
   reset: () => void
   loadFromJson: (data: any) => void
 }
@@ -29,8 +31,8 @@ function formatIdentificationText(
   formatN: (val: number | null | undefined) => string | number,
 ): string {
   const lines = [
-    'Registros identificados de*:',
-    `Bases de datos (n = ${formatN(id.databases)})`,
+    `Registros identificados de* (n = ${formatN(id.databases)})`,
+    'Bases de datos:',
   ]
 
   const sources: { name: string; n: number }[] = [...(id.sources ?? [])]
@@ -59,10 +61,12 @@ export const usePrismaStore = create<PrismaState>()(
     (set) => ({
       texts: DEFAULT_TEXTS,
       quality: DEFAULT_QUALITY,
+      sourceRelPath: null,
       setText: (id, value) =>
         set((state) => ({ texts: { ...state.texts, [id]: value } })),
       setQuality: (quality) => set({ quality }),
-      reset: () => set({ texts: DEFAULT_TEXTS }),
+      setSourceRelPath: (relPath) => set({ sourceRelPath: relPath }),
+      reset: () => set({ texts: DEFAULT_TEXTS, sourceRelPath: null }),
       loadFromJson: (data: any) => {
         set((state) => {
           const newTexts = { ...state.texts }
@@ -113,7 +117,7 @@ export const usePrismaStore = create<PrismaState>()(
     }),
     {
       name: 'prisma-flow',
-      version: 7,
+      version: 8,
       storage: createJSONStorage(() => localStorage),
       skipHydration: true,
       partialize: ({ texts, quality }): PersistedPrismaState => ({
@@ -121,7 +125,7 @@ export const usePrismaStore = create<PrismaState>()(
         quality,
       }),
       migrate: (persistedState: any, version: number) => {
-        if (version < 7) {
+        if (version < 8) {
           return {
             ...persistedState,
             texts: DEFAULT_TEXTS,

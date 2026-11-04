@@ -3,18 +3,13 @@ import { useRef } from 'react'
 
 import { ExportToolbar } from '@/features/prisma/components/export-toolbar'
 import { PrismaDiagram } from '@/features/prisma/components/prisma-diagram'
-import { useHydrateStore } from '@/features/prisma/hooks/use-hydrate-store'
-
-/** PRISMA del tema activo (sincronizar tras cribado2:apply). */
-const THEME_PRISMA_JSON =
-  'docs/ia-inclusion-cognitiva-software/picoc/2026-10-01-PICO/prisma.json'
+import { usePrismaStore } from '@/features/prisma/store/use-prisma-store'
 
 export const Route = createFileRoute('/')({ component: Home })
 
 function Home() {
   const diagramRef = useRef<HTMLDivElement>(null)
-
-  useHydrateStore(THEME_PRISMA_JSON)
+  const sourceRelPath = usePrismaStore((s) => s.sourceRelPath)
 
   return (
     <div className="flex h-screen flex-col">
@@ -24,7 +19,10 @@ function Home() {
             Diagrama PRISMA
           </h1>
           <p className="hidden text-xs text-muted-foreground lg:block">
-            Fuente: <span className="font-mono">{THEME_PRISMA_JSON}</span>
+            Fuente:{' '}
+            <span className="font-mono">
+              {sourceRelPath ?? 'último picoc/…/prisma.json del tema'}
+            </span>
           </p>
         </div>
         <ExportToolbar targetRef={diagramRef} />

@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import type { Ref } from 'react'
 
+import { useHydrateStore } from '../hooks/use-hydrate-store'
 import { PHASES } from '../constants/phases'
 import type { PhaseDefinition } from '../types'
 import { FlowArrow } from './flow-arrow'
@@ -12,6 +13,8 @@ interface PrismaDiagramProps {
 }
 
 export function PrismaDiagram({ ref }: PrismaDiagramProps) {
+  useHydrateStore()
+
   return (
     <div ref={ref} className="group/diagram flex flex-col bg-white p-12">
       <div className="mb-4 flex gap-4">

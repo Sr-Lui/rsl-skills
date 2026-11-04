@@ -2,60 +2,40 @@ import { createServerFn } from '@tanstack/react-start'
 import fs from 'node:fs'
 import path from 'node:path'
 
-function findLatestPrismaJson(dir: string): { path: string; mtime: number } | null {
-  let latest: { path: string; mtime: number } | null = null
+import { THEME_SLUG } from '../constants/theme'
+import {
+  repoRootFromPrismaFlowCwd,
+  resolveLatestPrismaRelPath,
+} from '../lib/resolve-latest-prisma'
 
-  function search(currentPath: string, depth: number) {
-    if (depth > 5) return // Limit depth to avoid searching too much
-    
-    let entries;
-    try {
-      entries = fs.readdirSync(currentPath, { withFileTypes: true })
-    } catch {
-      return
-    }
-
-    for (const entry of entries) {
-      const fullPath = path.join(currentPath, entry.name)
-      
-      if (entry.isDirectory()) {
-        // Skip node_modules and other hidden folders to be fast
-        if (!entry.name.startsWith('.') && entry.name !== 'node_modules') {
-          search(fullPath, depth + 1)
-        }
-      } else if (entry.isFile() && entry.name === 'prisma.json') {
-        // Check if it's inside a picoc folder
-        if (fullPath.includes('/picoc/')) {
-          const stats = fs.statSync(fullPath)
-          if (!latest || stats.mtimeMs > latest.mtime) {
-            latest = { path: fullPath, mtime: stats.mtimeMs }
-          }
-        }
-      }
-    }
-  }
-
-  search(dir, 0)
-  return latest
+export type ThemePrismaPayload = {
+  data: Record<string, unknown>
+  relPath: string
 }
 
-export const getLatestPrismaData = createServerFn({ method: 'GET' }).handler(
-  async () => {
+export const getThemePrismaData = createServerFn({ method: 'GET' })
+  .inputValidator((slug: string) => slug)
+  .handler(async ({ data: themeSlug }): Promise<ThemePrismaPayload | null> => {
     try {
-      // Root of the workspace (assuming tools/prisma-flow is the cwd or we can go up)
-      const workspaceRoot = path.resolve(process.cwd(), '../../docs')
-      
-      const latest = findLatestPrismaJson(workspaceRoot)
-      
-      if (latest) {
-        const content = fs.readFileSync(latest.path, 'utf-8')
-        return JSON.parse(content)
-      }
-      
-      return null
+      const repoRoot = repoRootFromPrismaFlowCwd()
+      const rel = resolveLatestPrismaRelPath(repoRoot, themeSlug)
+      if (!rel) return null
+      const full = path.join(repoRoot, rel)
+      const data = JSON.parse(fs.readFileSync(full, 'utf-8')) as Record<
+        string,
+        unknown
+      >
+      return { data, relPath: rel }
     } catch (e) {
-      console.error('Error finding latest prisma.json:', e)
+      console.error('Error loading theme prisma.json:', e)
       return null
     }
-  }
+  })
+
+/** @deprecated Usa getThemePrismaData; mantiene compatibilidad con el slug por defecto. */
+export const getLatestPrismaData = createServerFn({ method: 'GET' }).handler(
+  async () => {
+    const result = await getThemePrismaData({ data: THEME_SLUG })
+    return result?.data ?? null
+  },
 )

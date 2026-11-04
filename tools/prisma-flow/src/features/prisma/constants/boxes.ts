@@ -4,7 +4,7 @@ export const BOXES: Record<BoxId, BoxDefinition> = {
   identified: {
     label: 'Registros identificados',
     defaultText:
-      'Registros identificados de*:\nBases de datos (n = )\nScopus (n = )\nWeb of Science (n = )',
+      'Registros identificados de* (n = )\nBases de datos:\nScopus (n = )\nWeb of Science (n = )',
   },
   removed: {
     label: 'Registros eliminados antes del cribado',
