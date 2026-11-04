@@ -709,7 +709,8 @@ def cmd_extract_lote(args: list[str]) -> int:
                 json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
             )
             written += 1
-    return ok(f"extract-lote: {written} apply-*.json en {len(chosen)} lote(s)", "formulario:apply-lote")
+    print("WARN: extract-lote no es flujo de producción; usa rsl-resultado-formulario-apply + debate + humanize.")
+    return ok(f"extract-lote: {written} apply-*.json en {len(chosen)} lote(s)", "solo qa/dev — no usar en RSL final")
 
 
 def cmd_apply_lote(args: list[str]) -> int:

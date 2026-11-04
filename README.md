@@ -155,7 +155,8 @@ En `theme`, el `<slug>` se omite si solo hay un tema; `refresh`/`status` aceptan
 | `formulario:lint-setup docs/<slug>` | Valida mapa ↔ Excel (estructura prepare). |
 | `formulario:stamp docs/<slug> <carpeta>` | `resultados/formulario/latest.txt` + `rsl_pipeline.formulario_latest`. |
 | `formulario:status docs/<slug>` | Estado del formulario; `--progress` cuenta traza ítems. |
-| `formulario:apply-lote docs/<slug> <NN>` | Aplica `debate/lote-NN/apply-<id>.json` → Excel + `extraccion-traza.jsonl`. |
+| `formulario:apply-lote docs/<slug> <NN>` | Tras debate + **humanize**: aplica `debate/lote-NN/apply-<id>.json` → Excel + traza. |
+| `formulario:extract-lote …` | **No producción** (qa/dev). Usar skill **apply** con prosa ES. |
 | `formulario:lint-traza docs/<slug>` | Coherencia traza ↔ celdas ítem. |
 | `turnitin:qualified <archivo.md>` | Texto calificado Turnitin RSL: JSON con oraciones S1…Sn, palabras calificadas y `processable` (≥300 palabras prosa). Entrada de `rsl-turnitin-informe`. |
 | `rsl:source <pdf>` | Convierte un PDF de `global/bibliography/<carpeta>/` en MD junto al PDF (índice con página del PDF) y deja el texto por página en `_raw/`; ERROR si no es un PDF real. |

@@ -1,39 +1,37 @@
 ---
 name: rsl-resultado-formulario-prepare
 description: >-
-  Prepara el Excel UTP de extracción: copia plantilla, extiende columnas por cada SI del CSV,
-  formulario-map.json, columna B con summary de ítems, perfil bibliográfico filas 3–13
-  (CSV → artículo → blanco). Cierra con formulario:lint-setup y formulario:stamp.
-  Use rsl-resultado-formulario-prepare tras rsl-resultado-items.
+  Prepara Excel UTP: columnas SI, mapa, columna B ítems, biblio filas 3–13 (CSV → artículo → web → —).
+  Cierra con lint-setup y stamp. Use rsl-resultado-formulario-prepare tras rsl-resultado-items.
 ---
 
 # rsl-resultado-formulario-prepare
 
-Playbook: [`playbooks/formulario-prepare-rsl.md`](../../playbooks/formulario-prepare-rsl.md) · Spec: [`SKILL.MD`](../../../SKILL.MD)
+Playbooks: [`formulario-prepare-rsl.md`](../../playbooks/formulario-prepare-rsl.md) · [`formulario-prosa-rsl.md`](../../playbooks/formulario-prosa-rsl.md) (biblio 1 línea)
 
 Invoke: `Usa rsl-resultado-formulario-prepare sobre docs/<slug>/`
 
 ## Precondiciones
 
-- `pnpm -s resultado-items:status docs/<slug>` → PASS
-- `pnpm -s cribado2:status docs/<slug>` → OK
-- `.venv-formulario` con openpyxl (`python3 -m venv .venv-formulario && .venv-formulario/bin/pip install openpyxl`) o `python-openpyxl` del sistema
+- `resultado-items:status` PASS · `cribado2:status` OK
+- `.venv-formulario` (openpyxl + pyyaml) o `python-openpyxl` / PyYAML sistema
 
 ## Procedure
 
 1. `pnpm -s formulario:prepare docs/<slug>`
-2. Campos biblio vacíos tras CSV: por columna estudio, `pnpm -s cribado2:query docs/<slug> "…"`; solo escribir si el texto completo lo dice; si no → **blanco**
-3. Opcional: `biblio-traza.jsonl` con `source`: csv | article | blank
-4. `pnpm -s formulario:lint-setup docs/<slug> <YYYY-MM-DD-HHMM>` (carpeta del prepare)
-5. `pnpm -s formulario:status docs/<slug>`
-6. `pnpm -s formulario:stamp docs/<slug> <YYYY-MM-DD-HHMM>`
-
-## Cierre
-
-`OK: formulario preparado. Próximo: **rsl-resultado-formulario-apply** (lote 01).`
+2. Por columna estudio, completar **filas 8–10, 12–13** (y 8 editorial si falta):
+   - CSV → `cribado2:query` / MD → celda **una línea** ES
+   - Anotar `biblio-traza.jsonl` (`source`: csv | article)
+3. **Paso final:** agente **background** + **WebSearch** solo para celdas aún vacías (DOI+título) → traza `web` o **`—`**
+4. `pnpm -s formulario:lint-setup docs/<slug> <carpeta>`
+5. `pnpm -s formulario:stamp docs/<slug> <carpeta>`
 
 ## Forbidden
 
-- Rellenar filas ítem 17–33 (datos C+) — eso es **apply**
-- Inferir biblio del abstract o de otro estudio
-- Editar picoc, CSV, items.json, plantilla global
+- Rellenar filas ítem **17–33** (apply)
+- Inferir biblio solo del abstract
+- Invocar `extract-lote`
+
+## Cierre
+
+`OK: formulario preparado. Próximo: **rsl-resultado-formulario-apply** lote 01.`

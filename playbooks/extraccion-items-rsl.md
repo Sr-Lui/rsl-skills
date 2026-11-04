@@ -48,6 +48,8 @@ Detalle interno para diseñar la hoja Excel (lint WARN si falta, no FAIL):
 
 Las **Notas** aclaran valores esperados o subcampos.
 
+**Excel de extracción (`rsl-resultado-formulario-apply`):** los `hint` y plantillas de esta tabla sirven para **diseño y síntesis agregada** (`## Reglas de registro`); **no** se copian literales a las celdas del `.xlsx`. Allí va **prosa en español** según [`formulario-prosa-rsl.md`](formulario-prosa-rsl.md).
+
 ## Extracción → síntesis (RSL)
 
 Cada ítem debe anticipar **cómo se agregarán los 73 estudios** en Resultados:
