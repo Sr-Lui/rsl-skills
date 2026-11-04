@@ -31,7 +31,7 @@ COL_OK = "¿Se acepta?"
 MAX_ITEMS = 5
 MIN_ITEMS = 1
 LABEL_MAX_WORDS = 12
-RESUMEN_SECTION = "Resumen del protocolo"
+RESUMEN_SECTION = "Ítems"  # sección final operativa en items.md (antes «Resumen del protocolo»)
 REGLAS_SECTION = "Reglas de registro y agregación"
 RESUMEN_LABEL_MIN_WORDS = 8
 ITEM_ID_RE = re.compile(r"^RQ(\d+)-I(\d+)$", re.I)
@@ -266,6 +266,23 @@ def parse_items_md(path: Path) -> tuple[list[str], dict[str, list[dict[str, str]
     return rq_ids, items_by_rq, errs, warns
 
 
+def parse_items_summary_section(text: str) -> dict[str, str]:
+    """Etiquetas operativas de la sección ## Ítems (bullets RQn-Ik — …)."""
+    m = re.search(
+        rf"^##\s+{re.escape(RESUMEN_SECTION)}\s*$(.*?)(?=^##\s|\Z)",
+        text,
+        flags=re.M | re.S | re.I,
+    )
+    if not m:
+        return {}
+    body = m.group(1)
+    out: dict[str, str] = {}
+    for bm in re.finditer(r"^\s*[-*]\s+(RQ\d+-I\d+)\s+—\s+(.+)\s*$", body, flags=re.M | re.I):
+        label = re.sub(r"\s+\((cuantitativo|cualitativo|mixto)\)\s*$", "", bm.group(2).strip(), flags=re.I)
+        out[bm.group(1).upper()] = label
+    return out
+
+
 def lint_resumen_section(
     text: str, items_by_rq: dict[str, list[dict[str, str]]], errs: list[str], warns: list[str]
 ) -> None:
@@ -283,12 +300,8 @@ def lint_resumen_section(
             iid = it["id"]
             if not re.search(rf"^\s*[-*]\s+{re.escape(iid)}\b", body, flags=re.M | re.I):
                 errs.append(f"E8: {RESUMEN_SECTION} no lista {iid}")
-    for m in re.finditer(
-        r"^\s*[-*]\s+(RQ\d+-I\d+)\s+—\s+(.+?)\s+\((cuantitativo|cualitativo|mixto)\)\s*$",
-        body,
-        flags=re.M | re.I,
-    ):
-        label = m.group(2).strip()
+    for m in re.finditer(r"^\s*[-*]\s+(RQ\d+-I\d+)\s+—\s+(.+)\s*$", body, flags=re.M | re.I):
+        label = re.sub(r"\s+\((cuantitativo|cualitativo|mixto)\)\s*$", "", m.group(2).strip(), flags=re.I)
         nwords = len(label.split())
         if nwords < RESUMEN_LABEL_MIN_WORDS:
             warns.append(
@@ -346,26 +359,40 @@ def lint_items(theme: Path, items_md: Path) -> tuple[list[str], list[str]]:
                     errs.append(f"E7: items.json sin bloque {rq}")
                 elif len(block.get("items") or []) != len(items_by_rq.get(rq, [])):
                     warns.append(f"W3: items.json y items.md difieren en conteo de {rq}")
+            if "items" not in data or not isinstance(data.get("items"), list):
+                warns.append("W8: items.json sin array «items» (lista plana para formulario)")
 
     return errs, warns
 
 
 def emit_json(theme: Path, items_md: Path, marco: str, picoc: Path, csv_path: Path) -> dict:
+    text = items_md.read_text(encoding="utf-8")
+    summaries = parse_items_summary_section(text)
     rq_ids, items_by_rq, _, _ = parse_items_md(items_md)
     picoc_rows = {r["id"].upper(): r for r in parse_rqs(picoc)}
     rqs_out = []
+    flat_items: list[dict] = []
     for rq in sorted(rq_ids, key=lambda x: int(x[2:])):
         block = picoc_rows.get(rq, {})
         items = []
         for it in items_by_rq.get(rq, []):
-            items.append(
+            iid = it["id"]
+            row = {
+                "id": iid,
+                "label": it["label"],
+                "summary": summaries.get(iid.upper(), it["label"]),
+                "response_type": it["response_type"],
+                "encoding": it.get("encoding") or "",
+                "hint": it["hint"],
+                "data_type": it["response_type"],
+            }
+            items.append(row)
+            flat_items.append(
                 {
-                    "id": it["id"],
-                    "label": it["label"],
-                    "response_type": it["response_type"],
-                    "encoding": it.get("encoding") or "",
-                    "hint": it["hint"],
-                    "data_type": it["response_type"],
+                    "id": iid,
+                    "rq": rq,
+                    "component": block.get("component", ""),
+                    **row,
                 }
             )
         rqs_out.append(
@@ -376,12 +403,13 @@ def emit_json(theme: Path, items_md: Path, marco: str, picoc: Path, csv_path: Pa
             }
         )
     return {
-        "version": 1,
+        "version": 2,
         "marco": marco,
         "theme": rel(theme),
         "picoc": rel(picoc),
         "cribado2_csv": rel(csv_path),
         "common_fields": ["id", "titulo", "autores", "anio", "venue", "doi"],
+        "items": flat_items,
         "rqs": rqs_out,
     }
 

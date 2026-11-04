@@ -21,14 +21,14 @@ Invoke: `Usa rsl-resultado-items sobre docs/<slug>/` · `rewrite` → nueva carp
 | **Codificación** | `nominal` · `categórico` · `numérico` · `texto` (opcional `mixto`) | Recomendado (WARN si falta) |
 | **Notas** | Valores esperados, subcampos | No |
 
-**Ítem breve** en tabla; **etiqueta larga** solo en Resumen del protocolo.
+**Ítem breve** en tabla; redacción operativa en **`## Ítems`** (final del documento).
 
 ## Estructura de `items.md`
 
 1. Metadatos, objetivo, campos bibliográficos comunes.
 2. **`## Reglas de registro y agregación`** (obligatorio): `NR`, multivalor `;`, fases principal/otras, tabla ítem → frecuencia / narrativa / valor numérico.
 3. Por cada RQ: pregunta literal, dato a extraer del picoc, tabla de ítems.
-4. **`## Resumen del protocolo`** (al final): **etiquetas largas** (12–22 palabras) + `(<tipo>)`; vista operativa — no copiar la celda breve de la tabla.
+4. **`## Ítems`** (final): redacción clara por ítem; sin `(cualitativo)` ni listas de ejemplo; Tipo solo en tabla. **`items.json`** incluye array **`items`** (lista plana con `summary`) para **`rsl-resultado-formulario`**.
 
 ### Tabla por RQ
 
@@ -39,7 +39,7 @@ Invoke: `Usa rsl-resultado-items sobre docs/<slug>/` · `rewrite` → nueva carp
 ### Resumen (ejemplo)
 
 ```markdown
-## Resumen del protocolo
+## Ítems
 
 ### P — Población (RQ1)
 
@@ -57,7 +57,7 @@ Invoke: `Usa rsl-resultado-items sobre docs/<slug>/` · `rewrite` → nueva carp
 1. `pnpm -s resultado-items:prepare docs/<slug>`
 2. Contexto: picoc, `paper-polish.md` (RQ1 ética si aplica), grafo del tema.
 3. Ronda 1 **defensor-rsl** / **critico-rsl** (`modo: extraccion-items`) → decisiones (máx. 2 rondas).
-4. `items.md` con **Reglas**, tablas + **Resumen del protocolo**; en `rewrite`, **`## Mejoras respecto a <carpeta-anterior>`** en `items-debate.md`.
+4. `items.md` con **Reglas**, tablas + **`## Ítems`**; en `rewrite`, **`## Mejoras respecto a <carpeta-anterior>`** en `items-debate.md`.
 5. Prosa: skill **humanize-academic-writing** → **`redaccion-rsl`** → `pnpm -s redaccion:lint` → `resultado-items:lint` → `resultado-items:stamp` ([`prosa-rsl.md`](../../playbooks/prosa-rsl.md)).
 
 ## Cierre
@@ -67,6 +67,6 @@ Invoke: `Usa rsl-resultado-items sobre docs/<slug>/` · `rewrite` → nueva carp
 ## Forbidden
 
 - Tipos distintos de cuantitativo/cualitativo/mixto en columna **Tipo**.
-- Stamp sin `## Reglas de registro y agregación`, sin resumen o sin listar todos los ids.
+- Stamp sin `## Reglas de registro y agregación`, sin **`## Ítems`**, o sin listar todos los ids.
 - Más de 5 ítems por RQ sin acuerdo del usuario.
 - Editar `picoc/`, informe, CSV, `config.yml`.

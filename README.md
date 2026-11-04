@@ -146,7 +146,7 @@ En `theme`, el `<slug>` se omite si solo hay un tema; `refresh`/`status` aceptan
 | `picoc:lint docs/<slug>` | OK/ERROR del último picoc: marco = `config.yml`, pregunta general = § 1.2 de la ficha, una fila por componente 1:1 con las queries Scopus/WoS/IEEE Xplore, T = filtro de año, 1 RQ por componente, descriptores IEEE preferidos, libres al final, 5 o 6 keywords del paper (una por componente como mínimo) y al final criterios de inclusión y exclusión breves (idioma, tipo de documento y años de T). |
 | `redaccion:lint <archivo.md>` | Forma académica de informe o paper: FAIL por marcas pendientes (`[citar]`, TODO…), notas internas (panel, `topic.md`…) o siglas sin definir; avisos por frases largas, notación ×/+ y exceso de siglas. Los marcadores del usuario (`n = X`, `[[ AGREGAR DIAGRAMA ]]`) no fallan: se cuentan en la línea OK. |
 | `resultado-items:prepare docs/<slug>` | Tras cribado 2 aplicado: RQs del picoc, CSV cribado-2, n SI y carpeta timestamp sugerida (`resultados/items/YYYY-MM-DD-HHMM/`). |
-| `resultado-items:lint docs/<slug>` | Valida `items.md`: 1–5 ítems/RQ; **Tipo** = cuantitativo \| cualitativo \| mixto; sección **Resumen del protocolo**; ids `RQn-Ik`. |
+| `resultado-items:lint docs/<slug>` | Valida `items.md`: 1–5 ítems/RQ; **Tipo** ternario; sección **`## Ítems`**; `items.json` con array **`items`**. |
 | `resultado-items:status docs/<slug>` | PASS / FALTA / DESFASADO (picoc o CSV cambiaron). |
 | `resultado-items:stamp docs/<slug> <carpeta>` | Escribe `manifest.json` y actualiza `latest.txt` tras lint OK. |
 | `turnitin:qualified <archivo.md>` | Texto calificado Turnitin RSL: JSON con oraciones S1…Sn, palabras calificadas y `processable` (≥300 palabras prosa). Entrada de `rsl-turnitin-informe`. |

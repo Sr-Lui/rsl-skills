@@ -69,20 +69,19 @@ Reglas operativas (van en **`## Reglas de registro y agregación`** de `items.md
 
 Sección **`## Reglas de registro y agregación`** después de campos bibliográficos: convenciones anteriores + tabla breve «ítem → agregación prevista» (frecuencia / narrativa / valor numérico).
 
-## Resumen del protocolo (final de `items.md`)
+## Ítems (final de `items.md`)
 
-Después de todas las secciones `## RQn`, incluir **`## Resumen del protocolo`**: vista **operativa** (la que lee el equipo). Por componente: pregunta acortada y lista `- RQn-Ik — <etiqueta larga 12–22 palabras> (<tipo>)`. La etiqueta del Resumen **no** copia la fila breve de la tabla (≈ ≤12 palabras); **expande** qué se registra y para qué agrega.
+Después de todas las secciones `## RQn`, incluir **`## Ítems`**: vista operativa (la que lee el equipo y **`rsl-resultado-formulario`** vía `items.json`). Por componente: pregunta acortada y lista `- RQn-Ik — <redacción clara>` sin listas de ejemplo ni **Tipo** al final.
 
 ```markdown
-## Resumen del protocolo
+## Ítems
 
 ### P — Población (RQ1)
 
 **Pregunta:** ¿…?
 
 **Ítems:**
-- RQ1-I1 — … (cualitativo)
-- RQ1-I2 — … (cuantitativo)
+- RQ1-I1 — …
 ```
 
 ## Debate (defensor / crítico)

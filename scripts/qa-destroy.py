@@ -1617,7 +1617,7 @@ def _(sb):
         "defensor-rsl",
         "critico-rsl",
         "resultado-items:prepare",
-        "Resumen del protocolo",
+        "Ítems",
         "Reglas de registro",
         "cuantitativo",
     ):
@@ -1653,7 +1653,7 @@ def _(sb):
         "| RQ2-I1 | Técnica IA | cualitativo | categórico | x |\n\n"
         "## RQ3 (O)\n\n### Ítems\n\n| Id | Ítem | Tipo | Codificación | Notas |\n|---|---|---|---|---|\n"
         "| RQ3-I1 | Métrica | cualitativo | categórico | x |\n\n"
-        "## Resumen del protocolo\n\n**Ítems:**\n- RQ1-I1 — Perfiles (cualitativo)\n"
+        "## Ítems\n\n**Ítems:**\n- RQ1-I1 — Perfiles declarados en el estudio con redacción del artículo\n"
         "- RQ2-I1 — Técnica (cualitativo)\n- RQ3-I1 — Métrica (cualitativo)\n",
         encoding="utf-8",
     )

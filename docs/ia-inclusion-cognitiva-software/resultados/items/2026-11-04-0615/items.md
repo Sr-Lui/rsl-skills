@@ -74,35 +74,35 @@ Para que las respuestas sean comparables entre estudios, el registro sigue las c
 | RQ3-I4 | Cobertura de la evaluación | cuantitativo | categórico | Cognitiva, sensorial, ambas, NR |
 | RQ3-I5 | Grado de automatización | cuantitativo | categórico | Integración continua, semiautomática, solo validación con usuarios, NR |
 
-## Resumen del protocolo
+## Ítems
 
 ### P — Población (RQ1)
 
 **Pregunta:** ¿Qué perfiles abordan los estudios y con qué estratificación y participación de usuarios?
 
 **Ítems:**
-- RQ1-I1 — Perfiles de discapacidad cognitiva o neurodivergencia que declara el estudio, con la redacción del artículo (TEA, TDAH, discapacidad intelectual, dislexia…) (cualitativo)
-- RQ1-I2 — Si el estudio estratifica o desagrega análisis por perfil cognitivo o neurodivergente (Sí / No / NR) (cuantitativo)
-- RQ1-I3 — Participación de personas con la condición: presencia, número aproximado si se reporta y rol en diseño o evaluación (mixto)
-- RQ1-I4 — Enfoque sobre la condición, tratamiento del perfil, consentimiento o asentimiento informado y país del estudio (mixto)
+- RQ1-I1 — Perfiles de discapacidad cognitiva o neurodivergencia que el estudio declara, con la redacción del artículo
+- RQ1-I2 — Si el estudio estratifica o desagrega resultados por perfil cognitivo o neurodivergente
+- RQ1-I3 — Participación de personas con la condición en diseño o evaluación, y número de participantes si se reporta
+- RQ1-I4 — Enfoque sobre la condición, tratamiento del perfil, consentimiento o asentimiento informado y país del estudio
 
 ### I — Intervención (RQ2)
 
 **Pregunta:** ¿Qué técnicas de inteligencia artificial, con qué rol y en qué fases del ciclo de vida del software?
 
 **Ítems:**
-- RQ2-I1 — Familia de técnica de inteligencia artificial aplicada y nombre del modelo si el artículo lo declara (cualitativo)
-- RQ2-I2 — Rol de la inteligencia artificial en el proceso (generador, evaluador, asistente de aseguramiento de la calidad u otro) (cualitativo)
-- RQ2-I3 — Fase principal del ciclo de vida del software en la que interviene la técnica (cuantitativo)
-- RQ2-I4 — Otras fases del ciclo de vida que el estudio también aborda, además de la principal (cuantitativo)
+- RQ2-I1 — Familia de técnica de inteligencia artificial aplicada y modelo concreto si el artículo lo nombra
+- RQ2-I2 — Rol de la inteligencia artificial en el proceso de desarrollo o evaluación del software
+- RQ2-I3 — Fase principal del ciclo de vida del software en la que interviene la técnica
+- RQ2-I4 — Otras fases del ciclo de vida que el estudio también aborda además de la principal
 
 ### O — Resultados (RQ3)
 
 **Pregunta:** ¿Qué métricas y marcos normativos reportan, con qué automatización y contraste cognitivo frente a sensorial?
 
 **Ítems:**
-- RQ3-I1 — Constructo o métrica principal de evaluación y valor numérico reportado en el artículo, si existe (mixto)
-- RQ3-I2 — Instrumento, cuestionario, heurística o protocolo con el que se midió, y matices cualitativos en notas (cualitativo)
-- RQ3-I3 — Marco normativo de accesibilidad invocado (WCAG, COGA, ninguno u otro) (cualitativo)
-- RQ3-I4 — Si la evaluación cubre accesibilidad cognitiva, sensorial o ambas (cuantitativo)
-- RQ3-I5 — Grado de automatización de la evaluación (integración continua, semiautomática o solo usuarios) (cuantitativo)
+- RQ3-I1 — Métrica o constructo principal de evaluación y valor numérico cuando el artículo lo reporta
+- RQ3-I2 — Instrumento o protocolo de medición empleado en el estudio
+- RQ3-I3 — Marco normativo de accesibilidad al que se adscribe el estudio
+- RQ3-I4 — Cobertura de la evaluación respecto a discapacidad cognitiva, sensorial o ambas
+- RQ3-I5 — Grado de automatización de la evaluación que reporta el estudio
