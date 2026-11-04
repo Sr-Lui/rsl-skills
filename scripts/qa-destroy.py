@@ -38,7 +38,7 @@ SCRIPT_OF = {
     "bib": "scripts/graphify-bibliography.py",
     "crib": "scripts/cribado.py",
     "crib2": "scripts/cribado2.py",
-    "items": "scripts/extraccion-items.py",
+    "items": "scripts/resultado-items.py",
 }
 
 
@@ -1603,28 +1603,28 @@ def _(sb):
             sb.check((ROOT / "global" / "bibliography" / folder / f"{key}.md").exists(), f"falta el MD de {key} en global/bibliography/{folder}/")
 
 
-@case("S09", "skills", "rsl-desglose-items exige debate (2 rondas), redaccion-rsl, lint y ERROR sin consenso")
+@case("S09", "skills", "rsl-resultado-items exige debate (2 rondas), redaccion-rsl, lint y ERROR sin consenso")
 def _(sb):
-    skill = (SKILLS / "rsl-desglose-items" / "SKILL.md").read_text(encoding="utf-8")
+    skill = (SKILLS / "rsl-resultado-items" / "SKILL.md").read_text(encoding="utf-8")
     for need in (
         "extraccion-items-rsl.md",
         "prosa-rsl.md",
         "humanize-academic-writing",
         "redaccion-rsl",
-        "extraccion-items:stamp",
+        "resultado-items:stamp",
         "2 rondas",
         "pendiente",
         "defensor-rsl",
         "critico-rsl",
-        "extraccion-items:prepare",
+        "resultado-items:prepare",
     ):
-        sb.check(need in skill, f"rsl-desglose-items/SKILL.md no contiene «{need}»")
+        sb.check(need in skill, f"rsl-resultado-items/SKILL.md no contiene «{need}»")
     critic = (ROOT / ".cursor" / "agents" / "critico-rsl.md").read_text(encoding="utf-8")
     defender = (ROOT / ".cursor" / "agents" / "defensor-rsl.md").read_text(encoding="utf-8")
     sb.check("extraccion-items" in critic, "critico-rsl sin modo extraccion-items")
     sb.check("extraccion-items" in defender, "defensor-rsl sin modo extraccion-items")
     apply_skill = (SKILLS / "rsl-cribado-2-aplicar" / "SKILL.md").read_text(encoding="utf-8")
-    sb.check("rsl-desglose-items" in apply_skill, "rsl-cribado-2-aplicar no apunta a rsl-desglose-items")
+    sb.check("rsl-resultado-items" in apply_skill, "rsl-cribado-2-aplicar no apunta a rsl-resultado-items")
     prosa = (ROOT / "playbooks" / "prosa-rsl.md").read_text(encoding="utf-8")
     sb.check("humanize-academic-writing" in prosa and "obligatorio" in prosa.casefold(), "prosa-rsl.md no fija humanize como obligatorio")
     red = (ROOT / ".cursor" / "agents" / "redaccion-rsl.md").read_text(encoding="utf-8")

@@ -5,7 +5,7 @@ description: >-
   playbooks/redaccion-academica.md: hilo y cohesión entre oraciones y párrafos,
   naturalidad, siglas definidas y dosificadas, densidad de frases, notación de
   trabajo, marcas editoriales y título. Usar en rsl-make-report / rsl-polish-report /
-  rsl-picoc / rsl-make-paper / rsl-polish-paper / rsl-desglose-items antes de cerrar.
+  rsl-picoc / rsl-make-paper / rsl-polish-paper / rsl-resultado-items antes de cerrar.
   La cadena de forma está en playbooks/prosa-rsl.md (humanize-academic-writing → redaccion-rsl → redaccion:lint).
 ---
 

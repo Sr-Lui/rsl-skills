@@ -31,7 +31,7 @@ Si humanize y R1–R9 chocan, **gana redaccion-rsl** (y el lint).
 
 | Quién | Cuándo humanize |
 |-------|-----------------|
-| Skills `rsl-make-report`, `rsl-polish-report`, `rsl-picoc`, `rsl-make-paper`, `rsl-polish-paper`, `rsl-desglose-items`, `rsl-turnitin-arreglar` | Antes de invocar `redaccion-rsl` en el cierre de forma |
+| Skills `rsl-make-report`, `rsl-polish-report`, `rsl-picoc`, `rsl-make-paper`, `rsl-polish-paper`, `rsl-resultado-items`, `rsl-turnitin-arreglar` | Antes de invocar `redaccion-rsl` en el cierre de forma |
 | Agente **`redaccion-rsl`** | Asume que el operador ya humanizó; si recibe borrador crudo, aplica mentalmente las estrategias del skill humanize y luego R1–R9 |
 | **`critico-rsl`**, **`citas-rsl`**, **`turnitin-rsl`** | No humanizan; solo mencionan forma si oculta un error de contenido |
 

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Desglose de ítems de extracción por RQ (post cribado 2).
+"""Ítems de extracción por RQ (post cribado 2) — skill rsl-resultado-items.
 
 Uso:
-  extraccion-items.py prepare docs/<slug>
-  extraccion-items.py lint docs/<slug> [resultados/items/<carpeta>/items.md]
-  extraccion-items.py status docs/<slug>
-  extraccion-items.py stamp docs/<slug> <carpeta-timestamp>
+  resultado-items.py prepare docs/<slug>
+  resultado-items.py lint docs/<slug> [resultados/items/<carpeta>/items.md]
+  resultado-items.py status docs/<slug>
+  resultado-items.py stamp docs/<slug> <carpeta-timestamp>
 """
 from __future__ import annotations
 
@@ -32,6 +32,35 @@ MAX_ITEMS = 5
 MIN_ITEMS = 1
 ITEM_ID_RE = re.compile(r"^RQ(\d+)-I(\d+)$", re.I)
 DATA_TYPES = frozenset({"categórico", "nominal", "numérico", "texto", "mixto"})
+DEBATE_MD = "items-debate.md"
+DEBATE_SKELETON = """# Debate — ítems de extracción
+
+## Ronda 1 — Defensor
+
+(pendiente)
+
+## Ronda 1 — Crítico
+
+(pendiente)
+
+## Ronda 1 — Decisiones
+
+| RQ | Id | Decisión | Notas |
+|----|-----|----------|-------|
+
+## Ronda 2 — Defensor
+
+(solo si quedó pendiente)
+
+## Ronda 2 — Crítico
+
+(solo si quedó pendiente)
+
+## Ronda 2 — Decisiones
+
+| RQ | Id | Decisión | Notas |
+|----|-----|----------|-------|
+"""
 
 
 def rel(p: Path) -> str:
@@ -256,9 +285,43 @@ def lint_items(theme: Path, items_md: Path) -> tuple[list[str], list[str]]:
     return errs, warns
 
 
+def emit_json(theme: Path, items_md: Path, marco: str, picoc: Path, csv_path: Path) -> dict:
+    rq_ids, items_by_rq, _, _ = parse_items_md(items_md)
+    picoc_rows = {r["id"].upper(): r for r in parse_rqs(picoc)}
+    rqs_out = []
+    for rq in sorted(rq_ids, key=lambda x: int(x[2:])):
+        block = picoc_rows.get(rq, {})
+        items = []
+        for it in items_by_rq.get(rq, []):
+            items.append(
+                {
+                    "id": it["id"],
+                    "label": it["label"],
+                    "data_type": it["data_type"],
+                    "hint": it["hint"],
+                }
+            )
+        rqs_out.append(
+            {
+                "id": rq,
+                "component": block.get("component", ""),
+                "items": items,
+            }
+        )
+    return {
+        "version": 1,
+        "marco": marco,
+        "theme": rel(theme),
+        "picoc": rel(picoc),
+        "cribado2_csv": rel(csv_path),
+        "common_fields": ["id", "titulo", "autores", "anio", "venue", "doi"],
+        "rqs": rqs_out,
+    }
+
+
 def cmd_prepare(args: list[str]) -> int:
     if len(args) != 1:
-        raise Fail("uso: extraccion-items.py prepare docs/<slug>", None, 2)
+        raise Fail("uso: resultado-items.py prepare docs/<slug>", None, 2)
     theme = theme_path(args[0])
     marco, picoc, _ = picoc_context(theme)
     csv_path = cribado2_csv(picoc)
@@ -276,41 +339,46 @@ def cmd_prepare(args: list[str]) -> int:
         "timestamp": dest,
     }
     print(json.dumps(payload, ensure_ascii=False, indent=2))
+    folder = theme / ITEMS_ROOT / dest
+    folder.mkdir(parents=True, exist_ok=True)
+    debate = folder / DEBATE_MD
+    if not debate.is_file():
+        debate.write_text(DEBATE_SKELETON, encoding="utf-8")
     return ok(
         f"prepare {rel(theme)} ({len(rqs)} RQ, {n_si} SI en cribado 2)",
-        f"escribe {ITEMS_ROOT}/{dest}/{ITEMS_MD} y Usa rsl-desglose-items",
+        f"escribe {ITEMS_ROOT}/{dest}/{ITEMS_MD} y Usa rsl-resultado-items",
     )
 
 
 def cmd_status(args: list[str]) -> int:
     if len(args) != 1:
-        raise Fail("uso: extraccion-items.py status docs/<slug>", None, 2)
+        raise Fail("uso: resultado-items.py status docs/<slug>", None, 2)
     theme = theme_path(args[0])
     marco, picoc, _ = picoc_context(theme)
     csv_path = cribado2_csv(picoc)
     latest = read_latest(theme)
     if latest is None:
-        return error("FALTA desglose de ítems", f"Usa rsl-desglose-items sobre {rel(theme)}/")
+        return error("FALTA desglose de ítems", f"Usa rsl-resultado-items sobre {rel(theme)}/")
 
     manifest = latest / MANIFEST
     if manifest.is_file():
         meta = json.loads(manifest.read_text(encoding="utf-8"))
         if meta.get("picoc_sha") != file_sha(picoc):
-            return error("DESFASADO (cambió picoc)", f"Usa rsl-desglose-items sobre {rel(theme)}/ rewrite")
+            return error("DESFASADO (cambió picoc)", f"Usa rsl-resultado-items sobre {rel(theme)}/ rewrite")
         if meta.get("cribado2_sha") != file_sha(csv_path):
-            return error("DESFASADO (cambió CSV cribado 2)", f"Usa rsl-desglose-items sobre {rel(theme)}/ rewrite")
+            return error("DESFASADO (cambió CSV cribado 2)", f"Usa rsl-resultado-items sobre {rel(theme)}/ rewrite")
 
     errs, warns = lint_items(theme, latest / ITEMS_MD)
     for w in warns:
         print(f"WARN {w}")
     if errs:
-        return error(f"lint falla ({len(errs)} error(es))", "corrige items.md y extraccion-items:lint")
+        return error(f"lint falla ({len(errs)} error(es))", "corrige items.md y resultado-items:lint")
     return ok(f"PASS {rel(latest)} · marco {marco}")
 
 
 def cmd_lint(args: list[str]) -> int:
     if len(args) not in (1, 2):
-        raise Fail("uso: extraccion-items.py lint docs/<slug> [items.md]", None, 2)
+        raise Fail("uso: resultado-items.py lint docs/<slug> [items.md]", None, 2)
     theme = theme_path(args[0])
     if len(args) == 2:
         target = Path(args[1])
@@ -319,7 +387,7 @@ def cmd_lint(args: list[str]) -> int:
     else:
         folder = read_latest(theme)
         if folder is None:
-            return error("E1: no hay latest", f"Usa rsl-desglose-items sobre {rel(theme)}/")
+            return error("E1: no hay latest", f"Usa rsl-resultado-items sobre {rel(theme)}/")
         target = folder / ITEMS_MD
 
     errs, warns = lint_items(theme, target)
@@ -334,7 +402,7 @@ def cmd_lint(args: list[str]) -> int:
 
 def cmd_stamp(args: list[str]) -> int:
     if len(args) != 2:
-        raise Fail("uso: extraccion-items.py stamp docs/<slug> <YYYY-MM-DD-HHMM>", None, 2)
+        raise Fail("uso: resultado-items.py stamp docs/<slug> <YYYY-MM-DD-HHMM>", None, 2)
     theme = theme_path(args[0])
     marco, picoc, _ = picoc_context(theme)
     csv_path = cribado2_csv(picoc)
@@ -348,6 +416,9 @@ def cmd_stamp(args: list[str]) -> int:
         for e in errs:
             print(e)
         return error("stamp abortado por lint", "corrige items.md")
+
+    payload = emit_json(theme, items_md, marco, picoc, csv_path)
+    (folder / ITEMS_JSON).write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     manifest = {
         "marco": marco,

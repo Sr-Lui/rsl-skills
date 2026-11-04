@@ -1,6 +1,6 @@
 # Ítems de extracción RSL (desglose por RQ)
 
-Fuente de verdad para **`rsl-desglose-items`**. Prosa: [`playbooks/prosa-rsl.md`](prosa-rsl.md) (**humanize-academic-writing** obligatorio, luego **`redaccion-rsl`** + `pnpm -s redaccion:lint`; R1–R9 en [`redaccion-academica.md`](redaccion-academica.md)).
+Fuente de verdad para **`rsl-resultado-items`**. Prosa: [`playbooks/prosa-rsl.md`](prosa-rsl.md) (**humanize-academic-writing** obligatorio, luego **`redaccion-rsl`** + `pnpm -s redaccion:lint`; R1–R9 en [`redaccion-academica.md`](redaccion-academica.md)).
 
 Normativa: Kitchenham y Charters (2007), § 6.4, pp. 29–34; PRISMA 2020 ítems 9–10 ([`estandares-rsl.md`](estandares-rsl.md) → `extraccion-datos`).
 
@@ -53,4 +53,4 @@ Descartar ítems «curiosos» que no enlazan con el objetivo de la RSL (pregunta
 
 ## Piloto
 
-Kitchenham recomienda pilotar el formulario en una muestra de estudios incluidos; la ejecución del piloto queda fuera de `rsl-desglose-items` (skill de extracción / Excel).
+Kitchenham recomienda pilotar el formulario en una muestra de estudios incluidos; la ejecución del piloto queda fuera de `rsl-resultado-items` (skill de extracción / Excel).

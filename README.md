@@ -26,7 +26,7 @@ El agente verifica/instala prerrequisitos (node + pnpm, pipx graphifyy, poppler)
 | `rsl-cribado-2-memoria` | Cribado 2, paso 2: `docs/pdf/` → `docs/md/` + grafo Graphify del corpus (`memoria-traza.json`) | `RSL/picoc/<fecha>-cribado-2-<MARCO>/graphify-out/graph.json` |
 | `rsl-cribado-2-polish` | Cribado 2, paso 3: mérito SI/PODRIA/NO vía grafo; `cribado2:cuota` con `min_rsl` (relleno leve/alto) | `cribado-2-evaluacion.md` + `.cribado-2/decisiones.jsonl` |
 | `rsl-cribado-2-aplicar` | Tras aprobar la evaluación: `resultados-<MARCO>-cribado-2.csv` (solo filas del corpus cribado-2; ¿Se acepta? SI/NO + Justificación cribado 2) | `resultados-*-cribado-2.csv` + `prisma.json` eligibility |
-| `rsl-desglose-items` | Tras cribado 2 aplicado: 1–5 ítems de extracción por RQ (debate defensor/critico, máx. 2 rondas; **humanize-academic-writing** → `redaccion-rsl` → `extraccion-items:lint`) | `docs/[titulo-breve]/resultados/items/<YYYY-MM-DD-HHMM>/` |
+| `rsl-resultado-items` | Tras cribado 2 aplicado: 1–5 ítems de extracción por RQ (debate defensor/critico, máx. 2 rondas; **humanize-academic-writing** → `redaccion-rsl` → `resultado-items:lint`) | `docs/[titulo-breve]/resultados/items/<YYYY-MM-DD-HHMM>/` |
 | `rsl-make-paper` | Nueva versión del paper borrador, solo secciones `on` (mejorar) y `rewrite` (reescribir) de `config.yml` (+ agente `citas-rsl` y `redaccion:lint`) | `docs/[titulo-breve]/paper/<fecha>/paper-borrador.md` |
 | `rsl-polish-paper` | Pule esas secciones (`critico-rsl` + `defensor-rsl`; `impacto-social-rsl` si están Justificación u Objetivo; luego `redaccion-rsl` + `citas-rsl`) → texto limpio + traza de debate | `paper/<fecha>/paper-polish.md` + `paper-debate.md` |
 | `rsl-turnitin-informe` | Pre-entrega Turnitin simulado: `turnitin:qualified` + agente `turnitin-rsl` → informe estructurado (path del polish **obligatorio**) | `{stem}-informe-turnitin.md` junto al polish |
@@ -145,10 +145,10 @@ En `theme`, el `<slug>` se omite si solo hay un tema; `refresh`/`status` aceptan
 | `picoc:latest docs/<slug>` | Marco configurado en `config.yml` + último `picoc/<fecha>-<MARCO>/picoc.md`: OK, DESFASADO (cambiaste el marco) o FALTA → correr `rsl-picoc`; también imprime la carpeta de la siguiente versión. |
 | `picoc:lint docs/<slug>` | OK/ERROR del último picoc: marco = `config.yml`, pregunta general = § 1.2 de la ficha, una fila por componente 1:1 con las queries Scopus/WoS/IEEE Xplore, T = filtro de año, 1 RQ por componente, descriptores IEEE preferidos, libres al final, 5 o 6 keywords del paper (una por componente como mínimo) y al final criterios de inclusión y exclusión breves (idioma, tipo de documento y años de T). |
 | `redaccion:lint <archivo.md>` | Forma académica de informe o paper: FAIL por marcas pendientes (`[citar]`, TODO…), notas internas (panel, `topic.md`…) o siglas sin definir; avisos por frases largas, notación ×/+ y exceso de siglas. Los marcadores del usuario (`n = X`, `[[ AGREGAR DIAGRAMA ]]`) no fallan: se cuentan en la línea OK. |
-| `extraccion-items:prepare docs/<slug>` | Tras cribado 2 aplicado: RQs del picoc, CSV cribado-2, n SI y carpeta timestamp sugerida (`resultados/items/YYYY-MM-DD-HHMM/`). |
-| `extraccion-items:lint docs/<slug>` | Valida el `items.md` de `latest.txt`: 1–5 ítems por RQ, ids `RQn-Ik`, tipos de dato. |
-| `extraccion-items:status docs/<slug>` | PASS / FALTA / DESFASADO (picoc o CSV cambiaron). |
-| `extraccion-items:stamp docs/<slug> <carpeta>` | Escribe `manifest.json` y actualiza `latest.txt` tras lint OK. |
+| `resultado-items:prepare docs/<slug>` | Tras cribado 2 aplicado: RQs del picoc, CSV cribado-2, n SI y carpeta timestamp sugerida (`resultados/items/YYYY-MM-DD-HHMM/`). |
+| `resultado-items:lint docs/<slug>` | Valida el `items.md` de `latest.txt`: 1–5 ítems por RQ, ids `RQn-Ik`, tipos de dato. |
+| `resultado-items:status docs/<slug>` | PASS / FALTA / DESFASADO (picoc o CSV cambiaron). |
+| `resultado-items:stamp docs/<slug> <carpeta>` | Escribe `manifest.json` y actualiza `latest.txt` tras lint OK. |
 | `turnitin:qualified <archivo.md>` | Texto calificado Turnitin RSL: JSON con oraciones S1…Sn, palabras calificadas y `processable` (≥300 palabras prosa). Entrada de `rsl-turnitin-informe`. |
 | `rsl:source <pdf>` | Convierte un PDF de `global/bibliography/<carpeta>/` en MD junto al PDF (índice con página del PDF) y deja el texto por página en `_raw/`; ERROR si no es un PDF real. |
 | `paper:status docs/<slug>` | Estado del paper según `config.yml`: qué se mejora (on) o reescribe (rewrite), stale, blocked; ERROR si se editó a mano una sección frozen; la línea OK indica el próximo paso. |
@@ -372,7 +372,7 @@ rsl-bootstrap             ← paso 0 (una vez por clon / máquina)
   → rsl-polish-report
   → (tú: queries de Scopus y WoS, exportaciones en picoc/<fecha>-<MARCO>/) → rsl-cribado-1 → (tú: revisar) → rsl-cribado-1-aplicar
   → rsl-cribado-2 → (tú: pdf-draft + alineamiento) → rsl-cribado-2-memoria → rsl-cribado-2-polish → rsl-cribado-2-aplicar
-  → rsl-desglose-items     ← ítems de extracción por RQ (resultados/items/)
+  → rsl-resultado-items     ← ítems de extracción por RQ (resultados/items/)
   → rsl-make-paper          ← paper/<fecha>/paper-borrador.md (secciones on de config.yml)
   → rsl-polish-paper        ← paper-polish.md limpio + paper-debate.md
   → marcar frozen en config.yml lo validado · activar Metodología · (tú: selección PRISMA) · activar Resultados…

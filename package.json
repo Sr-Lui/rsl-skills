@@ -60,10 +60,10 @@
     "cribado2:apply": "python3 scripts/cribado2.py apply",
     "qa:destroy": "python3 scripts/qa-destroy.py",
     "rsl:source": "python3 scripts/rsl-source.py",
-    "extraccion-items:prepare": "python3 scripts/extraccion-items.py prepare",
-    "extraccion-items:lint": "python3 scripts/extraccion-items.py lint",
-    "extraccion-items:status": "python3 scripts/extraccion-items.py status",
-    "extraccion-items:stamp": "python3 scripts/extraccion-items.py stamp"
+    "resultado-items:prepare": "python3 scripts/resultado-items.py prepare",
+    "resultado-items:lint": "python3 scripts/resultado-items.py lint",
+    "resultado-items:status": "python3 scripts/resultado-items.py status",
+    "resultado-items:stamp": "python3 scripts/resultado-items.py stamp"
   },
   "engines": {
     "node": ">=18"
