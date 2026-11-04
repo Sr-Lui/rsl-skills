@@ -58,11 +58,11 @@ Invoke: `Usa rsl-resultado-items sobre docs/<slug>/` · `rewrite` → nueva carp
 2. Contexto: picoc, `paper-polish.md` (RQ1 ética si aplica), grafo del tema.
 3. Ronda 1 **defensor-rsl** / **critico-rsl** (`modo: extraccion-items`) → decisiones (máx. 2 rondas).
 4. `items.md` con **Reglas**, tablas + **`## Ítems`**; en `rewrite`, **`## Mejoras respecto a <carpeta-anterior>`** en `items-debate.md`.
-5. Prosa: skill **humanize-academic-writing** → **`redaccion-rsl`** → `pnpm -s redaccion:lint` → `resultado-items:lint` → `resultado-items:stamp` ([`prosa-rsl.md`](../../playbooks/prosa-rsl.md)).
+5. Prosa: skill **humanize-academic-writing** → **`redaccion-rsl`** → `pnpm -s redaccion:lint` → `resultado-items:lint` → `resultado-items:stamp` ([`prosa-rsl.md`](../../playbooks/prosa-rsl.md)). El stamp sincroniza `rsl_pipeline.items_*` en `RSL/index-manifest.json`.
 
 ## Cierre
 
-- Éxito: `OK: resultados/items/<carpeta>/ (marco <MARCO>), resultado-items:status PASS. Próximo paso: skill formulario Excel (pendiente).`
+- Éxito: `OK: resultados/items/<carpeta>/ (marco <MARCO>), resultado-items:status PASS. Próximo paso: **rsl-resultado-formulario** (tras `formulario:prepare`).`
 
 ## Forbidden
 

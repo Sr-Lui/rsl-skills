@@ -528,6 +528,12 @@ def cmd_stamp(args: list[str]) -> int:
     (folder / MANIFEST).write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     items_dir(theme).mkdir(parents=True, exist_ok=True)
     (items_dir(theme) / LATEST_FILE).write_text(args[1].strip() + "\n", encoding="utf-8")
+    try:
+        from rsl_pipeline_manifest import sync_pipeline
+
+        sync_pipeline(theme)
+    except ValueError:
+        pass
     return ok(f"latest → {ITEMS_ROOT}/{args[1].strip()}")
 
 

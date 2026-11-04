@@ -35,3 +35,12 @@ Re-ejecución formal del cierre (lint + stamp). Sin cambio de ítems respecto a 
 ## Ronda 2
 
 (no necesaria)
+
+## Alineación corpus (2026-11-04)
+
+| Fuente | Conteo |
+|--------|--------|
+| `resultados-PIO-cribado-2.csv` | **52** registros · **40** SI · **12** NO |
+| Metadatos ítems (`items.md` / `manifest.json`) | `n_incluidos_si` = **40** (no 73 SI+PODRIA del polish) |
+| `cribado-2-evaluacion.md` | Vista CSV única; hash ligado a `.cribado-2/decisiones.jsonl` |
+| `RSL/index-manifest.json` | Bloque `rsl_pipeline` (picoc, CSV, corpus, graph, ítems) |

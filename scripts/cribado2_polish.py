@@ -423,6 +423,69 @@ def decisions_hash(decisions: list[dict]) -> str:
     return hashlib.sha256(payload.encode()).hexdigest()[:12]
 
 
+def write_eval_aplicado_csv(
+    corpus: Path,
+    folder: Path,
+    root: Path,
+    h: str,
+    csv_path: Path,
+) -> None:
+    """Informe en corpus alineado al CSV cribado-2 (único universo formulario)."""
+    cat = json.loads((corpus / "documentos.json").read_text(encoding="utf-8"))
+    picoc_ref = cat.get("picoc") or rel(folder / "picoc.md", root)
+
+    def cell_title(s: str, n: int = 55) -> str:
+        s = table_cell(s or "")
+        return s if len(s) <= n else s[: n - 1] + "…"
+
+    with csv_path.open(encoding="utf-8-sig", newline="") as fh:
+        rows = list(csv.DictReader(fh))
+    si = sum(1 for r in rows if (r.get(COL_OK) or "").strip().upper() == "SI")
+    no = len(rows) - si
+
+    lines = [
+        "# Cribado 2 — evaluación aplicada (CSV)",
+        "",
+        f"<!-- cribado2:hash={h} -->",
+        "",
+        f"Picoc: `{picoc_ref}` · Corpus memoria: `{rel(corpus, root)}/`",
+        "",
+        f"**Universo del formulario y la extracción:** únicamente "
+        f"[`{rel(csv_path, root)}`]({rel(csv_path, root)}) — "
+        f"**{len(rows)}** registros, **{si}** SI, **{no}** NO.",
+        "",
+        "Las decisiones ampliadas del corpus (SI · PODRIA · cuota min_rsl) permanecen en "
+        f"`{rel(corpus / WORK / DECISIONES, root)}`; no añaden columnas al Excel salvo que figuren en el CSV.",
+        "",
+        "| # | id | titulo | ¿Se acepta? | Justificación cribado 2 |",
+        "|---:|---|---|---|---|",
+    ]
+    for i, r in enumerate(rows, 1):
+        rid = (r.get("Id") or r.get("id") or "").strip()
+        title = r.get("Título") or r.get("Titulo") or ""
+        acc = (r.get(COL_OK) or "").strip()
+        why = r.get(COL_WHY2) or r.get("Justificación cribado 2") or ""
+        lines.append(f"| {i} | {rid} | {cell_title(title)} | {acc} | {table_cell(why)} |")
+    lines.append("")
+    (corpus / EVAL_MD).write_text("\n".join(lines), encoding="utf-8")
+
+
+def cmd_eval_aplicado_csv(theme: Path, corpus: Path, folder: Path, root: Path) -> int:
+    w = work_dir(corpus)
+    dec_path = w / DECISIONES
+    marco = pv.dir_marco(folder / "picoc.md") or "MARCO"
+    csv_path = folder / f"resultados-{marco}-cribado-2.csv"
+    if not csv_path.is_file():
+        return error(f"falta {rel(csv_path, root)}", f"pnpm -s cribado2:apply {rel(theme, root)}")
+    if dec_path.is_file():
+        decisions = [json.loads(l) for l in dec_path.read_text(encoding="utf-8").splitlines() if l.strip()]
+        h = decisions_hash(decisions)
+    else:
+        h = hashlib.sha256(csv_path.read_bytes()).hexdigest()[:12]
+    write_eval_aplicado_csv(corpus, folder, root, h, csv_path)
+    return ok(f"{rel(corpus / EVAL_MD, root)} desde CSV ({rel(csv_path, root)})")
+
+
 def cmd_polish_report(theme: Path, corpus: Path, folder: Path, root: Path) -> int:
     w = work_dir(corpus)
     dec_path = w / DECISIONES
@@ -680,7 +743,15 @@ def cmd_apply(theme: Path, corpus: Path, folder: Path, root: Path) -> int:
         folder, theme, corpus, assessed, included, dict(excluded_criteria)
     )
     si = sum(1 for r in out_rows if r[-2] == "SI")
+    write_eval_aplicado_csv(corpus, folder, root, h, dest)
+    try:
+        from rsl_pipeline_manifest import sync_pipeline
+
+        sync_pipeline(theme)
+    except ValueError:
+        pass
     return ok(
-        f"{rel(dest, root)} con {len(out_rows)} registros (¿Se acepta? SI {si}, NO {len(out_rows) - si}); prisma eligibility actualizado",
+        f"{rel(dest, root)} con {len(out_rows)} registros (¿Se acepta? SI {si}, NO {len(out_rows) - si}); "
+        f"{rel(corpus / EVAL_MD, root)} actualizado; prisma eligibility actualizado",
         "revisión humana del CSV; usa el corpus aceptado en síntesis del paper",
     )

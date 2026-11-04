@@ -31,7 +31,7 @@ Invoke: `Usa rsl-cribado-2-aplicar sobre docs/<slug>/`.
 
 ## Procedure
 
-1. `pnpm -s cribado2:apply docs/<slug>`. ERROR if hash mismatch → `pnpm -s cribado2:polish-report docs/<slug>`.
+1. `pnpm -s cribado2:apply docs/<slug>`. ERROR if hash mismatch → `pnpm -s cribado2:polish-report docs/<slug>`. Tras OK: actualiza `cribado-2-evaluacion.md` **solo desde el CSV** y `RSL/index-manifest.json` (`rsl_pipeline`).
 2. Chat: SI/NO counts, path to `-cribado-2.csv`, PRISMA eligibility line, `min_rsl` / cuota warning if any. Cierre.
 
 ## Cierre

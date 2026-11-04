@@ -57,6 +57,7 @@ from cribado2_integrity import (  # noqa: E402
 from cribado2_polish import (  # noqa: E402
     cmd_apply as polish_apply,
     cmd_cuota as polish_cuota,
+    cmd_eval_aplicado_csv as polish_eval_csv,
     cmd_polish_merge as polish_merge,
     cmd_polish_prepare as polish_prepare,
     cmd_polish_report as polish_report,
@@ -846,6 +847,12 @@ def cmd_build(theme: Path) -> int:
             f"integridad PDF/MD falló ({len(rep['errors'])} registro(s))",
             f"corrige PDF o MD y pnpm -s cribado2:prepare {rel(theme)} / cribado2:build",
         )
+    try:
+        from rsl_pipeline_manifest import sync_pipeline
+
+        sync_pipeline(theme)
+    except ValueError:
+        pass
     return ok(f"memoria de {len(meta['files'])} MD en {rel(lay.out / 'graph.json')} ({meta['nodes']} nodos, {meta['edges']} aristas)",
               "Usa rsl-cribado-2-polish sobre el tema cuando el grafo esté listo")
 
@@ -922,6 +929,7 @@ def main(args: list[str]) -> int:
         "cuota": lambda t: _polish_cmd(t, polish_cuota),
         "polish-report": lambda t: _polish_cmd(t, polish_report),
         "apply": lambda t: _polish_cmd(t, polish_apply),
+        "eval-csv": lambda t: _polish_cmd(t, polish_eval_csv),
     }
     if cmd in simple and not rest:
         return simple[cmd](theme)

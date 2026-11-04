@@ -980,6 +980,11 @@
           "fuente": "unpaywall-landing",
           "url": "http://hdl.handle.net/20.500.11850/800662",
           "resultado": "no es PDF (text/html)"
+        },
+        {
+          "fuente": "unpaywall-landing",
+          "url": "https://doi.org/10.3929/ethz-c-000800662",
+          "resultado": "no es PDF (text/html)"
         }
       ],
       "duda": true,
@@ -1935,11 +1940,6 @@
           "resultado": "no es PDF (text/html)"
         },
         {
-          "fuente": "pmc",
-          "url": "https://europepmc.org/articles/PMC7883547?pdf=render",
-          "resultado": "HTTP 403"
-        },
-        {
           "fuente": "doi-landing",
           "url": "https://doi.org/10.1007/s00521-021-05695-3",
           "resultado": "no es PDF (text/html)"
@@ -2078,14 +2078,14 @@
       "id": "R567",
       "titulo": "Leveraging Knowledge Graphs and Natural Language Processing for Automated Web Resource Labeling and Knowledge Mobilization in Neurodevelopmental Disorders: Development and Usability Study",
       "doi": "10.2196/45268",
-      "descargado": "no",
-      "porque": "Unpaywall devolvió PDF incorrecto (Dropout JMLR); pendiente JMIR 10.2196/45268.",
-      "pdf": null,
+      "descargado": "si",
+      "porque": "",
+      "pdf": "docs/pdf/R567-leveraging-knowledge-graphs-and-natural-language-processing-for-automated-web-re.pdf",
       "fuente": "unpaywall",
-      "url": null,
+      "url": "https://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf",
       "enlace_manual": null,
-      "sha256": null,
-      "bytes": null,
+      "sha256": "9c196ccbe6c6a595a1adba6cd030d35f7c2e548bbf5e7f1278b0109d8dd9ebaa",
+      "bytes": 2869095,
       "intentos": [
         {
           "fuente": "unpaywall",
@@ -2129,11 +2129,6 @@
           "fuente": "unpaywall",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10859776/pdf/nihms-1962884.pdf",
           "resultado": "no es PDF (text/html)"
-        },
-        {
-          "fuente": "pmc",
-          "url": "https://europepmc.org/articles/PMC10859776?pdf=render",
-          "resultado": "HTTP 500"
         },
         {
           "fuente": "doi-landing",
@@ -2383,28 +2378,18 @@
       "id": "R606",
       "titulo": "Towards an Automatic Easy-to-Read Adaptation of Morphological Features in Spanish Texts",
       "doi": "10.1007/978-3-031-42280-5_12",
-      "descargado": "no",
-      "porque": "No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo.",
-      "pdf": null,
-      "fuente": null,
-      "url": null,
+      "descargado": "si",
+      "porque": "",
+      "pdf": "docs/pdf/R606-towards-an-automatic-easy-to-read-adaptation-of-morphological-features-in-spanis.pdf",
+      "fuente": "unpaywall-landing",
+      "url": "https://zenodo.org/records/8018593/files/User-Evaluation-Report-Data-Superlatives.pdf",
       "enlace_manual": "https://ifip.hal.science/hal-05716911",
-      "sha256": null,
-      "bytes": null,
+      "sha256": "dfa7551f374dbcdcf8946f175719999b5f594cb4283e42cac0d862650c4c4bf7",
+      "bytes": 245250,
       "intentos": [
         {
           "fuente": "unpaywall-landing",
           "url": "https://ifip.hal.science/hal-05716911",
-          "resultado": "no es PDF (text/html)"
-        },
-        {
-          "fuente": "unpaywall-landing",
-          "url": "https://doi.org/10.5281/zenodo.8018593",
-          "resultado": "HTTP 403"
-        },
-        {
-          "fuente": "doi-landing",
-          "url": "https://doi.org/10.1007/978-3-031-42280-5_12",
           "resultado": "no es PDF (text/html)"
         }
       ],

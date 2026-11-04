@@ -58,6 +58,8 @@
     "cribado2:cuota": "python3 scripts/cribado2.py cuota",
     "cribado2:polish-report": "python3 scripts/cribado2.py polish-report",
     "cribado2:apply": "python3 scripts/cribado2.py apply",
+    "cribado2:eval-csv": "python3 scripts/cribado2.py eval-csv",
+    "rsl:pipeline-sync": "python3 scripts/rsl_pipeline_manifest.py sync",
     "qa:destroy": "python3 scripts/qa-destroy.py",
     "rsl:source": "python3 scripts/rsl-source.py",
     "resultado-items:prepare": "python3 scripts/resultado-items.py prepare",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T10:20:37+00:00",
+  "updated_at": "2026-11-04T12:26:31+00:00",
   "entries": {
     "informe.md": {
       "source": "informe.md",
@@ -119,5 +119,17 @@
       "notes": "theme markdown",
       "heading_count": 14
     }
+  },
+  "rsl_pipeline": {
+    "picoc_dir": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO",
+    "picoc_md": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/picoc.md",
+    "cribado2_csv": "docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/resultados-PIO-cribado-2.csv",
+    "cribado2_corpus": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO",
+    "cribado2_graph": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/graphify-out/graph.json",
+    "formulario_template": "global/Formulario de extracción de información.xlsx",
+    "items_latest": "docs/ia-inclusion-cognitiva-software/resultados/items/2026-11-04-0615",
+    "items_json": "docs/ia-inclusion-cognitiva-software/resultados/items/2026-11-04-0615/items.json",
+    "items_md": "docs/ia-inclusion-cognitiva-software/resultados/items/2026-11-04-0615/items.md",
+    "updated_at": "2026-11-04T12:26:31+00:00"
   }
 }

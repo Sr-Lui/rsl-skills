@@ -1,6 +1,6 @@
 # Ítems de extracción
 
-**Tema:** Inteligencia artificial en el ciclo de vida del software para accesibilidad cognitiva · **Marco:** población, intervención y resultado (PIO) · **Picoc:** versión 2026-10-03-3-PIO · **Incluidos (SI):** 73 · **Fecha:** 2026-11-04
+**Tema:** Inteligencia artificial en el ciclo de vida del software para accesibilidad cognitiva · **Marco:** población, intervención y resultado (PIO) · **Picoc:** versión 2026-10-03-3-PIO · **Registros CSV cribado 2:** 52 · **Incluidos (SI):** 40 · **Fecha:** 2026-11-04
 
 ## Objetivo de extracción
 
