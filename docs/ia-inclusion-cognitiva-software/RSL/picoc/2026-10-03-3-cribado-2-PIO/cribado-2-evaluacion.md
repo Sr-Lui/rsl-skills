@@ -4,61 +4,155 @@
 
 Picoc: `docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/picoc.md` · Corpus memoria: `docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/`
 
-**Universo del formulario y la extracción:** únicamente [`docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/resultados-PIO-cribado-2.csv`](docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/resultados-PIO-cribado-2.csv) — **52** registros, **40** SI, **12** NO.
+**Universo del formulario y la extracción:** únicamente [`docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/resultados-PIO-cribado-2.csv`](docs/ia-inclusion-cognitiva-software/picoc/2026-10-03-3-PIO/resultados-PIO-cribado-2.csv) — **146** registros, **73** SI, **73** NO.
 
 Las decisiones ampliadas del corpus (SI · PODRIA · cuota min_rsl) permanecen en `docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/.cribado-2/decisiones.jsonl`; no añaden columnas al Excel salvo que figuren en el CSV.
 
 | # | id | titulo | ¿Se acepta? | Justificación cribado 2 |
 |---:|---|---|---|---|
-| 1 | R001 | A Novel Fuzzy Logic System for Real-Time Text Difficul… | SI | PWA dislexia con fuzzy logic y React; IA en producto, fase SDLC no explícita. |
-| 2 | R002 | Conversational Voice User Interfaces Supporting Indivi… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
-| 3 | R008 | Design and Implementation of a Voice-Based Electronic … | SI | Sistema voz ANN/HMM con dislexia; implementación sin marco fase SDLC. |
-| 4 | R009 | Lexical Simplification System to Improve Web Accessibi… | SI | Sistema ML simplificación léxica discapacidad intelectual/aprendizaje; no SDLC. |
-| 5 | R010 | Design and Evaluation of a Generative Artificial Intel… | SI | LD y GenAI: marco y prototipo móvil planificado; evaluación empírica aún limitada. |
-| 6 | R011 | Prompt Engineering Versus Model Selection for Cognitiv… | SI | Experimento prompts versus modelos LLM legibilidad; sin artefacto software SDLC. |
-| 7 | R012 | Accessible Technology for Adults with Down Syndrome: A… | SI | Scoping review tecnología accesible síndrome Down; no IA en fases SDLC. |
-| 8 | R013 | Generative Artificial Intelligence and Large Language … | NO | Scoping GenAI en rehabilitación y discapacidad; no ingeniería software SDLC. |
-| 9 | R014 | A Review of 25 Years of Human-Computer Interaction Res… | SI | Revisión HCI lectura TEA/TDAH/dislexia; artefactos históricos, no IA-SDLC focal. |
-| 10 | R018 | Enhancing User Experience in Virtual Reality for Child… | SI | Revisión SLR VR experiencia niños autismo; sin IA en fase SDLC software. |
-| 11 | R021 | A scoping review of inclusive and adaptive human–AI in… | SI | Scoping AI e interacción neurodiversidad; sin foco explícito fases SDLC software. |
-| 12 | R022 | FROM EXCLUSION TO EMPOWERMENT: REDESIGNING E-LEARNING … | SI | Marco cualitativo e-learning inclusivo; sin artefacto evaluado ni fase SDLC. |
-| 13 | R023 | LLM-Driven Accessible Interface: A Model-Based Approach | SI | MDE más LLM genera interfaces accesibles; diseño, modelado e implementación evaluados. |
-| 14 | R024 | AI-Supported UI Design for Enhanced Development of Neu… | SI | IA apoya diseño UI neurodivergent-friendly en desarrollo de sistemas TI. |
-| 15 | R026 | Large Language Models for Web Accessibility: A Systema… | SI | SLR LLM en accesibilidad web y workflows desarrollo; población neurodivergente no acotada. |
-| 16 | R029 | COGASet: A Persona-Driven Dataset and Evaluation Frame… | SI | COGASet: dataset y marco evaluación/testing accesibilidad cognitiva contenido LLM. |
-| 17 | R031 | Toward Neurodivergent-Aware Productivity: A Systems an… | SI | Framework TDAH con system design, requisitos y ML human-in-the-loop productividad. |
-| 18 | R032 | An Augmented Reality and AI-Based System for Contextua… | SI | AR+IA guía electrodomésticos; cognición leve genérica, no SDLC ni población PICOC. |
-| 19 | R038 | SummaryLens - A Smartphone App for Exploring Interacti… | SI | Prototipo SummaryLens NLP; menciona dislexia pero no IA en ciclo SDLC. |
-| 20 | R044 | Evaluating large language models for ADHD education: A… | NO | Compara LLM para contenido educación TEA; tutoría, no artefacto software SDLC. |
-| 21 | R051 | Towards More Accessible Open Source AI Platforms | SI | Accesibilidad HuggingFace para aprendizaje IA; barreras cognitivas, SDLC parcial. |
-| 22 | R057 | Got It! Prompting Readability Using ChatGPT to Enhance… | SI | ChatGPT simplifica textos académicos dislexia; sin artefacto desarrollo software. |
-| 23 | R063 | First steps in the development of a support applicatio… | SI | FACILE: elicitación requisitos E2R y diseño aplicación IA accesibilidad cognitiva. |
-| 24 | R066 | Exploring Large Language Models to generate Easy to Re… | SI | LLM generan E2R para cognitivo/intelectual; pipeline ML, fase SDLC poco explícita. |
-| 25 | R067 | Towards Designing a Set of Usability and Accessibility… | SI | GenAI diseña heurísticas U+A y evalúa sistemas para discapacidad cognitiva. |
-| 26 | R068 | MTCAI: Leveraging AI to Simplify Medical Reports for A… | SI | MTCAI simplifica informes médicos IDD; producto IA, no fase SDLC declarada. |
-| 27 | R073 | Helping or Hindering: Inclusive Design of Automated Ta… | SI | Diseño iterativo sistema prompting automatizado trabajadores discapacidad cognitiva. |
-| 28 | R074 | Scaffolding Metacognition with GenAI: Exploring Design… | SI | Co-diseño GenAI metacognición TDAH; direcciones diseño, artefacto SE no central. |
-| 29 | R077 | SearchPath: A Visual Reminder of Past Search Activity … | SI | SearchPath prototipo búsqueda estudiantes dislexia; desarrollo HCI sin IA-SDLC. |
-| 30 | R078 | Towards an Automatic Easy-to-Read Adaptation of Morpho… | SI | IA adapta morfología E2R español; accesibilidad cognitiva, SDLC no articulado. |
-| 31 | R080 | Accessible Application Prototype for Improving Digital… | SI | Prototipo móvil para dislexia con diseño centrado en el usuario; desarrollo de aplicación con análisis inteligente del texto y sugerencias basadas en IA (Abstract/Relevance hooks, p.1–6). |
-| 32 | R082 | Cognitive Accessibility in Generative AI Interfaces: A… | SI | Revisión sistemática sobre accesibilidad cognitiva de interfaces GAI textuales; sintetiza siete estudios pero no interviene IA en ninguna fase SDLC de un artefacto evaluado (Abstract). |
-| 33 | R083 | "A little bit of a life raft" - Exploring the Use and … | SI | Estudio cualitativo de apropiación de ChatGPT por adultos con TDAH; herramienta general no diseñada en el estudio ni fases de ingeniería de software reportadas. |
-| 34 | R084 | Towards Inclusive Education: Multimodal Classification… | SI | Marco ML multimodal para clasificar imágenes de libros de texto orientado a trastornos del neurodesarrollo; desarrollo e implementación del sistema de clasificación. |
-| 35 | R085 | Iris: A Content Management System Supporting Typograph… | SI | CMS Iris con LLM para simplificación tipográfica y accesibilidad; artefacto evaluado con usuarios con dislexia y otras necesidades cognitivas (Abstract). |
-| 36 | R091 | LLM Use in Early Prototyping | NO | R091: MD sin DOI y título no coincide con el PDF indexado. |
-| 37 | R093 | Affective User Experience (AUX) in Immersive Environme… | NO | Revisión sistemática PRISMA de experiencia afectiva en entornos inmersivos para TEA; no reporta intervención de IA en ciclo de vida del software del estudio. |
-| 38 | R094 | Rethinking Productivity with GenAI: A Neurodivergent S… | NO | Entrevistas sobre productividad académica con GenAI en estudiantes neurodivergentes; sin diseño, desarrollo ni evaluación de artefacto software. |
-| 39 | R095 | PlanTEA-WM: A Multi-User Web Platform for Routine Plan… | SI | Plataforma web PlanTEA-WM con LLM que genera rutinas visuales para TEA; desarrollo de plataforma multiusuario (Abstract). |
-| 40 | R097 | Let AI Read First: Enhancing Reading Abilities for Ind… | SI | Sistema LARF anota textos con IA/LLM para dislexia; ensayo con 150 participantes sobre artefacto de lectura desarrollado. |
-| 41 | R098 | A gamified solution to promote positive habits in chil… | SI | Task Complete gamificado para discapacidad intelectual; heurística de usabilidad asistida por LLM durante el diseño del juego. |
-| 42 | R099 | Towards a Technology that Improves Focus, Comprehensio… | SI | Prototipo e-learning con resúmenes IA, chatbot y andamiaje visual para estudiantes universitarios con TDAH; desarrollo de tecnología evaluada. |
-| 43 | R100 | The impact of technology on people with autism spectru… | NO | Revisión sistemática publicada en Sensors 2019 (fuera de la ventana 2021–2026 de CI1). |
-| 44 | R102 | Towards Inclusive Reading: A Neural Text Generation Fr… | SI | Marco de generación neuronal (GPT/T5) para texto accesible en dislexia; propuesta e implementación del framework evaluada. |
-| 45 | R104 | AI applications in education: Technological innovation… | NO | Estudio cualitativo con docentes sobre apps IA existentes para dislexia/disgrafía; no desarrolla ni evalúa artefacto propio ni fase SDLC. |
-| 46 | R105 | AI-Driven Interpretation of Nonverbal Communication in… | SI | Sistema AR de subtítulos con IA interpretando comunicación no verbal; estudio incluye participantes ADHD/dislexia y desarrollo del artefacto. |
-| 47 | R111 | Co-Design and Feasibility Testing of an AI-Based Virtu… | SI | Co-diseño, desarrollo y prueba de viabilidad de aplicación VR con agentes generativos para preparación sanitaria en discapacidad intelectual. |
-| 48 | R117 | Assessing The Performance of Artificial Intelligence M… | NO | Compara precisión y legibilidad de respuestas informativas de ChatGPT/Gemini/Copilot sobre TEA; no evalúa desarrollo ni artefacto software del estudio. |
-| 49 | R123 | AI testing, evaluation, verification and validation fo… | SI | Marco TEVV para pruebas, verificación y validación de IA en accesibilidad, centrado en neurodiversidad; fase de testing/auditoría explícita. |
-| 50 | R132 | Large language models for autism: evaluating theory of… | NO | Juego gamificado con LLM para entrenar theory of mind en autismo; producto principal es tutor/intervención social, sin intervención de IA en fases SDLC. |
-| 51 | R135 | UDL and AI-based educational personalization: effects … | NO | Cuasi-experimento escolar con personalización UDL y analítica adaptativa IA; intervención pedagógica sin reportar fase del ciclo de vida del software. |
-| 52 | R139 | Functionality, safety and usability of a digital platf… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 1 | R003 | From Granular Grief to Binary Belief: A Collaborative … | NO | Estudio sobre técnicas de anotación de discurso antiautista; no evalúa artefacto de software en fases del CDV. |
+| 2 | R016 | Prompt Engineering Versus Model Selection for Cognitiv… | SI | Experimento factorial de prompts y modelos LLM para accesibilidad cognitiva; sin desarrollo ni evaluación de software propio. |
+| 3 | R030 | FROM EXCLUSION TO EMPOWERMENT: REDESIGNING E-LEARNING … | NO | Marco cualitativo de e-learning inclusivo con IA; no reporta intervención de IA en ciclo de vida del software. |
+| 4 | R040 | An Intelligent Assistive System for Autistic Learners | SI | Diseño e implementación de sistema asistivo con ML y eye-tracking para aprendices autistas; evaluación empírica del artefacto. |
+| 5 | R047 | Online coding of the Brief Observation of Social Commu… | NO | Plataforma para codificar medida clínica BOSCC en niños con TEA; foco en respuesta a tratamiento, no software inclusivo. |
+| 6 | R058 | Design and Evaluation of a Rule-Based Expert System fo… | NO | Sistema experto para cribado temprano de discapacidades de aprendizaje; la IA diagnostica sin artefacto de accesibilidad evaluado. |
+| 7 | R093 | Iris: A Content Management System Supporting Typograph… | NO | Comunicación breve SIGCSE (2 páginas) sobre CMS Iris con LLM; acta de congreso fuera del alcance. |
+| 8 | R106 | ATECA: a Web Application to Facilitate Easy-to-Read Ad… | SI | Aplicación web ATECA con IA para adaptación a lectura fácil en discapacidad cognitiva; desarrollo y piloto del artefacto. |
+| 9 | R123 | CNReader: a reading practice tool designed for Chinese… | SI | Herramienta CNReader con soporte de lectura IA para niños con dislexia; diseño, implementación y evaluación experimental. |
+| 10 | R145 | A user-centred approach to enhancing engagement and ta… | SI | Prototipo ADHDvance LearnAR con GenAI para estudiantes con TDAH; DBR con diseño centrado en usuario y evaluación. |
+| 11 | R147 | Optimising Dyslexia Intervention Leveraging a Mobile A… | SI | App móvil adaptativa con IA para intervención fonológica en dislexia; producto terapéutico-tutor más que fases del CDV. |
+| 12 | R151 | Understanding end-user contexts and identifying design… | NO | Estudio de contexto y preferencias de diseño para CDS de detección temprana de autismo; sin artefacto inclusivo evaluado. |
+| 13 | R162 | Designing and implementing SMILE: An AI-driven platfor… | NO | Plataforma SMILE orientada a bienestar de profesionales sanitarios; población neurodivergente no es foco empírico principal. |
+| 14 | R170 | SeekPCMdb: knowledge on disease-associated protein-cod… | NO | Base de conocimiento SeekPCMdb sobre mutaciones y enfermedades; sin población cognitiva ni ciclo de vida de software. |
+| 15 | R171 | Real-Time Word-Level Temporal Segmentation in Streamin… | NO | Segmentación temporal en reconocimiento de voz para subtítulos; accesibilidad auditiva sin población del PICOC. |
+| 16 | R173 | Triple-Shield Privacy in Healthcare: Federated Learnin… | SI | Marco Triple-Shield de privacidad para apps gamificadas de salud mental en niños con TDAH; propuesta arquitectónica más que evaluación SDLC. |
+| 17 | R177 | BEACH-Gaze: Supporting Descriptive and Predictive Gaze… | NO | Plataforma abierta BEACH-Gaze para analítica de mirada; sin población neurodivergente ni accesibilidad cognitiva. |
+| 18 | R183 | Using AI to enhance healthcare resource management and… | SI | Comparación RAG y chatbots para coordinación de servicios autismo; herramientas IA sin reporte de desarrollo de software inclusivo. |
+| 19 | R187 | Understanding Human-AI Misalignment in LLM-Based Job-S… | SI | Análisis de desalineación humano-IA en chatbot de empleo para neurodivergentes; estudio de uso, no ciclo de vida del software. |
+| 20 | R193 | "you're Not Listening": LLM Smart Speakers' Need to Le… | SI | Provocaciones de diseño para altavoces LLM con usuaria con discapacidad intelectual; aporta fase diseño, sin implementación evaluada. |
+| 21 | R197 | A collaborative approach to the evaluation of cognitiv… | SI | Evaluación participativa de accesibilidad cognitiva de agente conversacional sanitario con personas con deterioro cognitivo. |
+| 22 | R199 | “An App That Truly Works for Us”: Co-Designing a Mobil… | SI | Co-diseño y necesidades para app mHealth culturalmente adaptada a jóvenes autistas latinos; fases requisitos y diseño UX. |
+| 23 | R203 | LingoLift: Supporting Educators in Personalized Oral L… | SI | LingoLift: desarrollo e implementación de sistema GenAI para enseñanza oral personalizada a niños autistas. |
+| 24 | R208 | MTCAI: Leveraging AI to Simplify Medical Reports for A… | SI | MTCAI desarrollado con LLM para simplificar informes médicos a adultos con discapacidad intelectual; evaluación participativa. |
+| 25 | R219 | Accessible Application Prototype for Improving Digital… | SI | Prototipo móvil accesible para lectura digital en dislexia con DCU, personalización y sugerencias inteligentes de accesibilidad. |
+| 26 | R227 | Designing Tangible User Interfaces for Neurodiversity:… | NO | Componentes de diseño inclusivo para interfaces tangibles en neurodiversidad; sin intervención de IA en el CDV. |
+| 27 | R228 | LLM Use in Early Prototyping | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 28 | R233 | PlanTEA-WM: A Multi-User Web Platform for Routine Plan… | SI | Plataforma web PlanTEA-WM con LLM para rutinas en TEA; diseño multiusuario, desarrollo y evaluación preliminar. |
+| 29 | R234 | KG-GNN Enhanced Reasoning for Autism LLM | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 30 | R239 | Towards Inclusive Reading: A Neural Text Generation Fr… | SI | Marco de generación neuronal de texto amigable para dislexia con GPT/T5; fine-tuning y experimento con estudiantes. |
+| 31 | R246 | A Novel Fuzzy Logic System for Real-Time Text Difficul… | SI | Sistema difuso en tiempo real para dificultad textual en apps móviles de lectura para dislexia; desarrollo FastAPI/React. |
+| 32 | R263 | Design and Implementation of a Voice-Based Electronic … | SI | Sistema de voz ANN/HMM para consulta de notas; menciona dislexia pero población principal es discapacidad física. |
+| 33 | R264 | Design and Evaluation of a Generative Artificial Intel… | SI | Estudiantes con discapacidades de aprendizaje y marco GenAI con prototipo móvil planificado; comunicación breve de congreso y evaluación empírica aún limitada. |
+| 34 | R285 | Emotion-aware text simplification of user generated co… | SI | Adultos con discapacidad intelectual y simplificación de redes sociales con LLM; experimento de prompts sin artefacto de software en fase SDLC. |
+| 35 | R286 | An Augmented Reality and AI-Based System for Contextua… | NO | Sistema AR+IA para electrodomésticos validado en muestra no clínica; población neurodivergente del marco no acotada y sin IA en ciclo de vida del software. |
+| 36 | R293 | An AI-Powered Reading Assistant for Dyslexic Students:… | SI | Asistente de lectura con grafos de conocimiento y microservicios para dislexia; diseño, implementación y evaluación con adaptación en tiempo real. |
+| 37 | R296 | Including people in the automatic text adaptation proc… | SI | Adaptación automática de textos con estudiantes con discapacidad intelectual; proceso empírico iterativo sin explicitar fases SDLC del motor de adaptación. |
+| 38 | R299 | AI-Driven Inclusive Manufacturing Interfaces: Leveragi… | NO | Acta ACM APIT 2025 sobre interfaz de manufactura con dislexia; comunicación de congreso pese al desarrollo del sistema. |
+| 39 | R300 | Development and usability of a mobile artificial intel… | SI | Plataforma móvil IVORY con OCR e IA para trastornos del desarrollo infantil; desarrollo y usabilidad sin marco explícito de ingeniería de software. |
+| 40 | R306 | Teach Yourself to Learn (Facial) Expressions: An Accep… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 41 | R311 | GenRole: Personalizing Role Play for Educators Support… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 42 | R317 | Interactive Intent-Based Image Recommendations for Ass… | SI | Prototipo de comunicación aumentativa con GenAI e imágenes por intención; estudio iterativo con adultos con discapacidad intelectual. |
+| 43 | R327 | An Evidence-Based AI Virtual Assistant for Young Peopl… | SI | Co-diseño y prototipo SmartADHD con LLM para jóvenes con TDAH; fases de diseño, desarrollo y prueba con experiencia vivida. |
+| 44 | R337 | Towards Designing a Set of Usability and Accessibility… | SI | GenAI apoya generación de heurísticas U+A para diversidad cognitiva; evaluación heurística más que desarrollo de producto software. |
+| 45 | R338 | Assessment of a Digital Health Platform Using Web Anal… | NO | Evaluación cuantitativa RE-AIM de la plataforma LONDI para trastornos del aprendizaje; analítica web sin IA en fases del ciclo de vida del software. |
+| 46 | R345 | Human-centered AI for inclusive tourism: enhancing tra… | SI | Planificador CARES con IA centrada en la persona para adultos autistas; diseño, desarrollo y prueba de itinerarios colaborativos. |
+| 47 | R347 | Scaffolding Metacognition with GenAI: Exploring Design… | SI | Co-diseño con universitarios con TDAH y direcciones de diseño GenAI para metacognición; sin implementación completa del sistema. |
+| 48 | R356 | LLM-Guided Image Recommendation for Supporting Intent … | SI | Recomendación de imágenes con LLM para comunicación no verbal e discapacidad intelectual; prototipo en etapa temprana (acta de congreso). |
+| 49 | R360 | Towards a Technology that Improves Focus, Comprehensio… | SI | Herramienta e-learning UCD con resúmenes IA y chatbot para TDAH en HE; prototipo de alta fidelidad en comunicación breve de congreso. |
+| 50 | R369 | AI-Driven Interpretation of Nonverbal Communication in… | SI | Sistema AR de subtítulos con IA para señales no verbales y aprendices neurodiversos; desarrollo del artefacto con foco en accesibilidad, SDLC poco explicitado. |
+| 51 | R376 | Teaching Spell Checkers to Teach: Pedagogical Program … | SI | SPIRE integra síntesis de programas pedagógicos en corrector ortográfico para trastornos del aprendizaje basados en lenguaje; diseño e implementación del sistema interactivo. |
+| 52 | R377 | AI-based Q-learning model for personalized learning st… | SI | Modelo Q-learning para aprendizaje personalizado de estudiantes con discapacidad; enfoque algorítmico sin marco claro de fases SDLC. |
+| 53 | R378 | Why Students Leave the LMS: Executive Function Demands… | NO | Entrevistas cualitativas sobre LMS y funciones ejecutivas en cursos de ingeniería de software; sin IA en el ciclo de vida del software estudiado. |
+| 54 | R391 | Simple.Text: A Tool for the Automatic Transformation o… | SI | Simple.Text transforma textos españoles a lectura fácil para discapacidad cognitiva; herramienta NLP diseñada e implementada en el proyecto ClearText. |
+| 55 | R393 | I Can Do It: Exploring Voice Assistants for Adults wit… | SI | Estudio de ocho semanas con asistentes de voz comerciales y adultos con discapacidad intelectual; consideraciones de diseño sin desarrollo de software propio. |
+| 56 | R394 | Co-Design and Feasibility Testing of an AI-Based Virtu… | SI | Co-diseño y prueba de viabilidad de aplicación VR con agente GenAI para preparación sanitaria en discapacidad intelectual. |
+| 57 | R396 | AI-enhanced human-machine collaboration for supporting… | SI | Colaboración humano-máquina con visión, robótica y GenAI para operarios con dificultades matemáticas de aprendizaje; sistema desarrollado y probado en laboratorio. |
+| 58 | R398 | A DeepSeek cross-modal platform for personalized art e… | SI | Plataforma cross-modal DeepSeek para educación artística personalizada en TEA; modelos generativos y perfiles de usuario evaluados. |
+| 59 | R399 | LLM-Driven Accessible Interface: A Model-Based Approach | SI | MDE con LLM genera interfaces accesibles adaptativas; arquitectura, modelado, pipeline de adaptación y caso de estudio implementados. |
+| 60 | R401 | The AI scaffold and engagement spectrum as a novel UDL… | NO | Marco pedagógico UDL con espectro de uso de IA y andamiaje para dislexia; entrevistas y encuesta sin artefacto de software en SDLC. |
+| 61 | R403 | Interaction Design of ASD Children's Online Health Com… | SI | Diseño de interacción de comunidad en línea para niños con autismo a partir de SNA y NLP; propuesta de sistema más que ciclo de vida software con IA. |
+| 62 | R425 | Gathering Requirements for Stress Management in Autist… | SI | Recogida de requisitos con adultos autistas para intervenciones AR de gestión del estrés; fase explícita de requisitos hacia desarrollo futuro. |
+| 63 | R433 | Large Language Model–Assisted Annotation Framework for… | NO | Marco de anotación asistida por LLM para análisis de comunidades de autismo en foros; pipeline de investigación, no producto software evaluado. |
+| 64 | R440 | Exploring AI Technology in Grammar Performance Testing… | SI | Evaluación cuasiexperimental de herramienta IA de gramática con niños con discapacidades de aprendizaje; uso de herramienta más que desarrollo SDLC. |
+| 65 | R445 | Fuzzy-Based Sensor Fusion for Cognitive Load Assessmen… | NO | Fusión difusa y sensores para estimar carga cognitiva en manufactura; no evalúa un artefacto de software en el ciclo de vida. |
+| 66 | R450 | Functionality, safety and usability of a digital platf… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 67 | R453 | AI, autism, and the architecture of voice: from engine… | SI | Marco sobre exclusión en IA y autismo no verbal; métricas de diseño y gobernanza del ciclo de vida sin estudio empírico de desarrollo software. |
+| 68 | R457 | ADAPT: An Agentic AI Framework for People with Disabil… | SI | Marco agentic ADAPT con prototipo para neurodivergencia; foco en salud nutricional y simulación sintética, SDLC de software poco explícito. |
+| 69 | R461 | Enhancing Adaptive Personalized Learning Interfaces wi… | NO | Acta IndiaHCI 2025 que compara LMS con GenAI para TDAH; aporte en UX sin reporte de ingeniería del ciclo de vida del software. |
+| 70 | R463 | A machine learning-based classification model to suppo… | NO | Modelo ML que clasifica herramientas digitales para dislexia universitaria; no desarrolla ni evalúa un producto software en SDLC. |
+| 71 | R473 | A Low-Resource Speech-Driven NLP Pipeline for Sinhala … | SI | Pipeline STT-NLP-TTS asistivo para dislexia en cingalés implementado; comunicación de congreso con SDLC descrito de forma acotada. |
+| 72 | R482 | Towards Inclusive Education: Multimodal Classification… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 73 | R490 | A Juicy Haptics Enhanced Keyboard for a Touch-Typing C… | NO | Acta TEI 2025 sobre teclado háptico para mecanografía; diseño de hardware interactivo sin IA en fases del ciclo de vida del software. |
+| 74 | R493 | Let AI Read First: Enhancing Reading Abilities for Ind… | NO | Extended abstract CHI EA 2025 con LARF y LLM para dislexia; evidencia sólida pero formato de acta limita el detalle metodológico SDLC. |
+| 75 | R495 | A gamified solution to promote positive habits in chil… | SI | Task Complete: solución web gamificada para discapacidad intelectual con UCD, desarrollo, WCAG y evaluación heurística asistida por LLM. |
+| 76 | R497 | Cognitive Dimensions of Feedback Uptake: Comparing AI-… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 77 | R504 | PICTALKY: Augmentative and Alternative Communication f… | SI | Demo ACL PICTALKY: sistema AAC con módulos neuronales y arquitectura web; acta breve con evaluación modular limitada. |
+| 78 | R520 | Buddy - A Personal Companion to Match People with Cogn… | NO | Capítulo Springer Buddy: repositorio web y recomendador de AT para discapacidad cognitiva; capítulo de libro sin ciclo de vida software con IA. |
+| 79 | R522 | The effect of consanguineous marriage on reading disab… | NO | IALPF predice riesgo de dislexia y rutas de aprendizaje adaptativo; tutor inteligente educativo sin intervención en ingeniería de software. |
+| 80 | R527 | Enabling secure and inclusive education for students w… | SI | Sistema HSBCS con ML y blockchain para educación inclusiva de estudiantes con discapacidad; diseño, despliegue y prueba del artefacto. |
+| 81 | R529 | Speech synthesis using generative adversarial network … | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 82 | R538 | Drawing Interpretation Using Neural Networks and Acces… | SI | App móvil PandaSays con MobileNet para interpretar dibujos de niños con autismo; entrenamiento en Python e implementación de accesibilidad. |
+| 83 | R539 | AI-Supported UI Design for Enhanced Development of Neu… | NO | Acta NORDDESIGN sobre diseño de UI neurodivergente con IA; propuesta metodológica sin desarrollo evaluado de producto software. |
+| 84 | R549 | EASIER corpus: A lexical simplification resource for p… | SI | Corpus EASIER y plataforma de simplificación lexical para discapacidad cognitiva; recurso y herramienta con foco en datos más que en SDLC. |
+| 85 | R559 | Effects of walking speed on the classification of gait… | NO | Comunicación de congreso que clasifica marcha en autismo con ML; biomarcador cinético sin artefacto de software ni población en uso de software. |
+| 86 | R565 | Writing Analytics and AI for Special Education: Prelim… | NO | Capítulo AIED 2024 de analítica de escritura y sesgo de IA en TEA; análisis de textos sin desarrollo de sistema software. |
+| 87 | R566 | The Experience of Using Artificial Intelligence for th… | NO | Estudio en coreano sobre estrategias de servicios comunitarios con IA para autonomía; texto no en inglés ni español y sin artefacto SDLC. |
+| 88 | R567 | Leveraging Knowledge Graphs and Natural Language Proce… | NO | PDF indexado incorrecto (Unpaywall JMLR); pendiente JMIR 10.2196/45268. |
+| 89 | R568 | Development of an Alcohol Refusal Training in Immersiv… | NO | PDF recuperado es solo diagrama de diálogo VR; no documenta ciclo de vida del software del entrenamiento de rechazo al alcohol. |
+| 90 | R571 | Dyslexia Data Consortium Repository: A Data Sharing an… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 91 | R577 | When Worlds Collide: AI-Created, Human-Mediated Video … | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 92 | R581 | LaMPost: AI Writing Assistance for Adults with Dyslexi… | SI | LaMPost: prototipo de editor de correo con LLM para adultos con dislexia; diseño de funciones, implementación y evaluación con usuarios. |
+| 93 | R582 | CWITR: A Corpus for Automatic Complex Word Identificat… | NO | Corpus CWITR para identificación de palabras complejas en turco; acta NLPIR sin población neurodivergente ni producto software evaluado. |
+| 94 | R583 | Design of Generative Multimodal AI Agents to Enable Pe… | SI | Agentes multimodales generativos para discapacidad de aprendizaje; acta ACM con prototipos de laboratorio y pipeline de modelos. |
+| 95 | R587 | First steps in the development of a support applicatio… | SI | FACILE: elicitación de requisitos y diseño de aplicación IA para adaptación lectura fácil y accesibilidad cognitiva. |
+| 96 | R588 | ADHD-KG: a knowledge graph of attention deficit hypera… | NO | Grafo de conocimiento ADHD para integrar fuentes médicas; no interviene en ciclo de vida de software inclusivo. |
+| 97 | R595 | Cognitive Simplification Operations Improve Text Simpl… | SI | Operaciones de simplificación cognitiva con modelos neuronales; aporte NLP para lectura fácil sin estudio con usuarios ni artefacto software. |
+| 98 | R600 | Helping or Hindering: Inclusive Design of Automated Ta… | SI | Diseño iterativo de sistema de prompting automatizado para trabajadores con discapacidad cognitiva; análisis de tareas y refinamiento. |
+| 99 | R604 | Agreement and disagreement between major emotion recog… | NO | Comparación de sistemas comerciales de reconocimiento emocional facial; sin población con discapacidad cognitiva ni neurodivergencia. |
+| 100 | R605 | BeadMuse AI: Enhancing Inclusive and Independent Craft… | SI | BeadMuse AI: web con plantillas adaptativas para artesanía e discapacidad intelectual; acta IoT 2023 con evaluación preliminar. |
+| 101 | R606 | Towards an Automatic Easy-to-Read Adaptation of Morpho… | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 102 | R617 | Digital Comprehensibility Assessment of Simplified Tex… | SI | Estudio CHI 2024 de comprensión digital de textos simplificados con personas con discapacidad intelectual; foco en evaluación, no en desarrollo SDLC. |
+| 103 | R620 | Interactive Concept-map Based Summaries for SEND Child… | NO | Propuesta IJCAI-22 AI for Good sobre mapas conceptuales para SEND; comunicación de congreso sin evaluación empírica del software prometido. |
+| 104 | R623 | A Reading Comprehension Interface for Students with Le… | SI | Interfaz NLP de comprensión lectora co-diseñada con logopedas y desplegada como prueba de concepto; acta ICMI Companion con evaluación clínica inicial. |
+| 105 | R626 | Which Are the Needs of People with Learning Disorders … | SI | Cuestionarios y estudio de usuario OLOS para museos inclusivos en dislexia; directrices ligadas a sistema con IA sin ciclo SDLC detallado. |
+| 106 | R627 | Empowering Children with Special Needs (CwSN) in Compu… | SI | Herramienta ML de gestos para enseñar conversiones numéricas a CwSN en informática; desarrollo, implementación y evaluación mixta. |
+| 107 | R628 | Maximizing Equitable Reach and Accessibility of ETDs | NO | Póster sobre accesibilidad de tesis electrónicas centrado en barreras visuales; no acota población cognitiva ni IA en ciclo de vida del software. |
+| 108 | R630 | Gaze-Based Interaction Adaptation for People with Invo… | SI | Algoritmo de seguimiento ocular con adaptación a movimientos involuntarios desarrollado y probado con parálisis cerebral e discapacidad intelectual. |
+| 109 | R643 | Lexical Simplification System to Improve Web Accessibi… | SI | Sistema web de simplificación léxica en español con ML e integración CWI/SG para discapacidad cognitiva y aprendizaje; diseño e implementación. |
+| 110 | R647 | CO-DESIGN WITH PERSONS WITH DISABILITIES AS AN INNOVAT… | SI | Co-diseño con discapacidad intelectual y AAC usando IA multimodal SmartCognition; prototipos y preparación de rediseño más que producto evaluado. |
+| 111 | R662 | Use of recommendation models to provide support to dys… | NO | Modelos de filtrado colaborativo entrenados sobre cuestionarios recomiendan herramientas digitales para dislexia; no desarrolla artefacto software con IA. |
+| 112 | R663 | DIAUTIS III: A Fuzzy and Affective Platform for Obtain… | SI | Plataforma DIAUTIS III con lógica difusa y juegos serios para modelos mentales en autismo; diseño e implementación informática del sistema. |
+| 113 | R679 | Ability + Motivation: Understanding Factors that Influ… | NO | Entrevistas sobre sistemas de avisos para discapacidad cognitiva; sugerencias de diseño sin desarrollo ni evaluación de software con IA. |
+| 114 | R691 | Understanding the experience of neurodivergent workers… | NO | Estudio cualitativo de trabajadores neurodiversos en microtareas de anotación de imagen y texto; plataforma de investigación sin IA en SDLC accesible. |
+| 115 | R693 | A Computer-Assisted Writing Tool for an Extended Varie… | SI | Herramienta asistida por ordenador para Leichte Sprache ampliada; desarrollo basado en treebanks y apoyo a redactores con discapacidad cognitiva. |
+| 116 | R705 | QuickPic AAC: An AI-Based Application to Enable Just-i… | SI | Aplicación QuickPic AAC con GPT-3.5 genera tableros just-in-time para usuarios con habla mínima; desarrollo y usabilidad clínica evaluados. |
+| 117 | R708 | Identifying Reading Fluency in Pupils with and without… | NO | Modelo ML clasifica dislexia a partir de fluidez oral y aplicación de legibilidad; cribado diagnóstico sin artefacto de software en ciclo SDLC. |
+| 118 | R710 | Development and validation of a rapid and precise onli… | SI | Evaluación en línea ROAR-SRE de eficiencia lectora con formularios emparejados generados por IA; población escolar general, no neurodivergencia acotada. |
+| 119 | R713 | Co-designing a Museum Application with People with Int… | SI | Co-diseño ACCESS+ para museo con personas con discapacidad intelectual; aplicación accesible desarrollada, rediseñada y evaluada con usuarios. |
+| 120 | R717 | Development of an Interactive Dashboard for Analyzing … | NO | Revisión de 25 estudios de predicción TEA con ML y dashboard Tableau; síntesis secundaria y analítica diagnóstica, no desarrollo software accesible. |
+| 121 | R721 | Exploring Large Language Models to generate Easy to Re… | SI | Fine-tuning Llama2 y experimentos LLM simplifican textos a lectura fácil en español para discapacidad cognitiva; corpus paralelo y evaluación experta. |
+| 122 | R736 | Enabling text comprehensibility assessment for people … | NO | App móvil Okra facilita estudios de comprensibilidad con discapacidad intelectual; herramienta de evaluación desarrollada sin técnicas IA en SDLC. |
+| 123 | R745 | Enhancing home-based physical activity for neurodiverg… | NO | Adaptación del programa InPACT at Home con GenAI para instrucciones de actividad física en niños neurodiversos; intervención sanitaria, no ciclo de vida del software. |
+| 124 | R769 | Easy-read and large language models: on the ethical di… | NO | Análisis ético de simplificación easy-read con LLM para discapacidad mental; posicionamiento normativo sin diseño ni evaluación de artefacto software. |
+| 125 | R831 | Triggering autonomy, not just automation: Design impli… | SI | Prototipo de domótica con LLM co-diseñado y evaluado con personas con discapacidad intelectual y cuidadores; implicaciones de diseño y prueba de uso. |
+| 126 | R842 | Can Artificial Intelligence Tools Generate Text That i… | NO | Compara ChatGPT y otras IA generando textos para práctica lectora en dificultades de lectura; uso de herramientas comerciales, no desarrollo SDLC. |
+| 127 | R864 | AI testing, evaluation, verification and validation fo… | NO | Marco teórico de prueba y validación IA para accesibilidad sintetiza literatura; artículo hypothesis and theory sin estudio empírico primario propio. |
+| 128 | R880 | Creating an API Ecosystem for Assistive Technologies O… | SI | Ecosistema API GraphQL y microservicios para tecnologías de apoyo orientadas a discapacidad cognitiva; arquitectura implementada con casos de uso. |
+| 129 | R930 | Navigating Accessibility and Inclusivity: Perceptions … | NO | No se pudo obtener el texto completo. Figura como acceso abierto, pero el documento es de pago o no se dispone de acceso al mismo. |
+| 130 | R977 | Evaluating PlanTEA: the practice of a UX evaluation me… | NO | Valida metodología UX específica para adultos con TEA aplicada a PlanTEA; evaluación de producto existente sin intervención de IA en ingeniería software. |
+| 131 | R1061 | CoGenASD: A tool for the co-design and generation of c… | SI | CoGenASD integra co-diseño y MDD para generación semi-automática de apps multiplataforma TEA; herramienta SoftwareX con código reproducible. |
+| 132 | R1081 | UDL and AI-based educational personalization: effects … | NO | Cuasi-experimento UDL con analítica adaptativa e IA en aulas para trastornos del neurodesarrollo; práctica pedagógica sin artefacto software en SDLC. |
+| 133 | R1104 | Accessible Augmented Reality in Sheltered Workshops: A… | NO | Evaluación mixta de AR comercial en talleres para discapacidad mental; estudio de usabilidad de sistema existente sin IA en ciclo de vida del software. |
+| 134 | R012 | Integrating artificial intelligence and natural langua… | NO | Sin decisión en cribado 2. |
+| 135 | R014 | Intelligent Techniques for Autism Spectrum Disorder Di… | NO | Sin decisión en cribado 2. |
+| 136 | R018 | Generative Artificial Intelligence and Large Language … | NO | Sin decisión en cribado 2. |
+| 137 | R021 | Limitations of Binary Classification for Long-Horizon … | NO | Sin decisión en cribado 2. |
+| 138 | R026 | Associative Concept Network Analysis-Driven Insights f… | NO | Sin decisión en cribado 2. |
+| 139 | R029 | Efficacy, User Engagement, and Acceptability of Cognit… | NO | Sin decisión en cribado 2. |
+| 140 | R031 | Improving Learning Among Children with ADHD Through AI… | NO | Sin decisión en cribado 2. |
+| 141 | R038 | Toward Neurodivergent-Aware Productivity: A Systems an… | NO | Sin decisión en cribado 2. |
+| 142 | R051 | Helping or Homogenizing? GenAI as a Design Partner to … | NO | Sin decisión en cribado 2. |
+| 143 | R057 | Feasibility and Acceptability of an AI-Driven Conversa… | NO | Sin decisión en cribado 2. |
+| 144 | R077 | Estimation of head motion in structural MRI and its im… | NO | Sin decisión en cribado 2. |
+| 145 | R082 | Validation Framework for Robust and Explainable Machin… | NO | Sin decisión en cribado 2. |
+| 146 | R083 | Finding the forest in the trees: Using machine learnin… | NO | Sin decisión en cribado 2. |

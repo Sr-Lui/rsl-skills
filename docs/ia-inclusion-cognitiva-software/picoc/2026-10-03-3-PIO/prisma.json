@@ -26,13 +26,14 @@
     "not_retrieved": 11
   },
   "eligibility": {
-    "assessed": 120,
+    "assessed": 135,
     "excluded_reasons": {
       "CI4": 25,
       "CE1": 8,
       "CE5": 11,
       "CI3": 7,
       "CE2": 1,
+      "retrieval": 2,
       "CE3": 1,
       "CI2": 1,
       "CE4": 2

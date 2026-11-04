@@ -11,7 +11,7 @@ Invoke previsto: `Usa rsl-resultado-formulario sobre docs/<slug>/`.
 Rellenar el Excel UTP [`global/Formulario de extracción de información.xlsx`](global/Formulario%20de%20extracción%20de%20información.xlsx) (hojas **Cuantitativo** / **Cualitativo**) a partir de:
 
 - `items.json` vía `resultados/items/latest.txt` (13 ítems, `summary`, `response_type`, `hint`)
-- `resultados-<MARCO>-cribado-2.csv` — **único universo de columnas** (52 registros; 40 SI en tema activo)
+- `resultados-<MARCO>-cribado-2.csv` — universo PRISMA cribado 2 (**146** filas en tema activo; **73** con `¿Se acepta?` = SI, incluye PODRIA/relleno según `cribado2:apply`)
 - Graphify cribado-2: `pnpm cribado2:query docs/<slug> "…"`
 - Debate **defensor-rsl** / **critico-rsl** (modo `extraccion-formulario`) + **orquestador-extraccion-rsl**
 
@@ -137,7 +137,7 @@ Opcional: `extraccion-decisiones.json` agregado al `stamp`.
 
 Tras alineación manual (2026-11-04, usuario + integración):
 
-- **40 / 40 SI** del CSV con PDF en corpus y `descargado=si`
+- **73 / 73 SI** del CSV (146 filas) con PDF en corpus cuando `descargado=si` — revalidar cobertura tras apply
 - **13 registros** añadidos a `documentos.json` (estudios del CSV que no estaban en retrieval)
 - Graphify cribado-2: **`cribado2:status` OK** — ~7119 nodos, integridad OK
 - Excepción **R567** (no está en los 40 SI): PDF Unpaywall incorrecto → `descargado=no` hasta JMIR manual

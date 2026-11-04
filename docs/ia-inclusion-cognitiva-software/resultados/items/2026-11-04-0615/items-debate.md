@@ -40,7 +40,6 @@ Re-ejecución formal del cierre (lint + stamp). Sin cambio de ítems respecto a 
 
 | Fuente | Conteo |
 |--------|--------|
-| `resultados-PIO-cribado-2.csv` | **52** registros · **40** SI · **12** NO |
-| Metadatos ítems (`items.md` / `manifest.json`) | `n_incluidos_si` = **40** (no 73 SI+PODRIA del polish) |
-| `cribado-2-evaluacion.md` | Vista CSV única; hash ligado a `.cribado-2/decisiones.jsonl` |
-| `RSL/index-manifest.json` | Bloque `rsl_pipeline` (picoc, CSV, corpus, graph, ítems) |
+| `resultados-PIO-cribado-2.csv` (vía `cribado2:apply`) | **146** registros · **73** SI · **73** NO |
+| Metadatos ítems | `n_incluidos_si` = **73** (= SI+PODRIA+relleno en CSV, cuota `min_rsl`) |
+| Nota | El commit `8d8d31c` redujo el CSV a 52 filas por error; restaurado con apply |
