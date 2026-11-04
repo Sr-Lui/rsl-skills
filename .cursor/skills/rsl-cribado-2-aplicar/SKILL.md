@@ -37,7 +37,7 @@ Invoke: `Usa rsl-cribado-2-aplicar sobre docs/<slug>/`.
 ## Cierre
 
 - Failure: `ERROR: <mensaje>. <arreglo>`.
-- Success: `OK: picoc/<carpeta>/resultados-<MARCO>-cribado-2.csv con <n> registros (SI <a>, NO <b>). Próximo paso: síntesis / paper (sección resultados).`
+- Success: `OK: picoc/<carpeta>/resultados-<MARCO>-cribado-2.csv con <n> registros (SI <a>, NO <b>). Próximo paso: Usa rsl-desglose-items sobre docs/<slug>/.`
 
 ## Forbidden
 

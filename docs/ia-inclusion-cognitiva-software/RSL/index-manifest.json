@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "updated_at": "2026-09-28T03:44:22+00:00",
+  "updated_at": "2026-11-04T10:20:37+00:00",
   "entries": {
     "informe.md": {
       "source": "informe.md",
-      "source_sha256": "f961ebcadbe15f21821456045a9da6575eeb742485f8f1c89f24d18ae672eb0d",
-      "source_bytes": 10529,
+      "source_sha256": "93802352eb6229eb6fd4b1cea9441df93fa85f6b8ddbdf132aef8602b381c4ac",
+      "source_bytes": 8608,
       "md": "informe.md",
-      "md_sha256": "f961ebcadbe15f21821456045a9da6575eeb742485f8f1c89f24d18ae672eb0d",
+      "md_sha256": "93802352eb6229eb6fd4b1cea9441df93fa85f6b8ddbdf132aef8602b381c4ac",
       "method": "theme-md",
       "status": "graphify_indexed",
-      "md_created_at": "2026-09-05T03:14:36+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "md_created_at": "2026-11-04T10:20:34+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "theme markdown",
       "heading_count": 11
     },
@@ -24,7 +24,7 @@
       "method": "theme-md",
       "status": "graphify_indexed",
       "md_created_at": "2026-09-05T03:08:41+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "theme markdown",
       "heading_count": 29
     },
@@ -37,7 +37,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-09-05T03:08:41+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "words:13220,alpha:0.93;headings:52",
       "heading_count": 52
     },
@@ -50,7 +50,7 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-09-05T03:08:41+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "words:11983,alpha:0.93;headings:37",
       "heading_count": 37
     },
@@ -63,74 +63,61 @@
       "method": "pdftotext+structure",
       "status": "graphify_indexed",
       "md_created_at": "2026-09-05T03:14:36+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "words:11709,alpha:0.91;headings:36",
       "heading_count": 36
     },
     "informe-polish.md": {
       "source": "informe-polish.md",
-      "source_sha256": "cc1997a5b60db1615160d964f215f4205fe237a676d9095dee8801fe2fcf98de",
-      "source_bytes": 9722,
+      "source_sha256": "9d2b511d546e20c166d36806bd2cd62c2a84acaea56248b5db44421a47177af0",
+      "source_bytes": 9703,
       "md": "informe-polish.md",
-      "md_sha256": "cc1997a5b60db1615160d964f215f4205fe237a676d9095dee8801fe2fcf98de",
+      "md_sha256": "9d2b511d546e20c166d36806bd2cd62c2a84acaea56248b5db44421a47177af0",
       "method": "theme-md",
       "status": "graphify_indexed",
-      "md_created_at": "2026-09-28T03:41:06+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "md_created_at": "2026-11-04T10:20:34+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "theme markdown",
       "heading_count": 11
     },
-    "picoc.md": {
-      "source": "picoc.md",
-      "source_sha256": "e106c91243514d6d9706e545a61758f2aa8e01c3aa0de10cbbf56278dbc91284",
-      "source_bytes": 14380,
-      "md": "picoc.md",
-      "md_sha256": "e106c91243514d6d9706e545a61758f2aa8e01c3aa0de10cbbf56278dbc91284",
+    "paper/2026-09-29-5/paper-borrador.md": {
+      "source": "paper/2026-09-29-5/paper-borrador.md",
+      "source_sha256": "ab5be598358f3475b43839af4af60085b64aeee55447a2db2468ea988975d280",
+      "source_bytes": 34696,
+      "md": "paper/2026-09-29-5/paper-borrador.md",
+      "md_sha256": "ab5be598358f3475b43839af4af60085b64aeee55447a2db2468ea988975d280",
       "method": "theme-md",
       "status": "graphify_indexed",
-      "md_created_at": "2026-09-28T03:41:06+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "md_created_at": "2026-11-04T10:20:34+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "theme markdown",
-      "heading_count": 13
+      "heading_count": 14
     },
-    "paper/2026-09-05/paper-borrador.md": {
-      "source": "paper/2026-09-05/paper-borrador.md",
-      "source_sha256": "793156bb8c3801867162707ae236f2d674c51d99770dea82e329dcc5b249b4f4",
-      "source_bytes": 19365,
-      "md": "paper/2026-09-05/paper-borrador.md",
-      "md_sha256": "793156bb8c3801867162707ae236f2d674c51d99770dea82e329dcc5b249b4f4",
+    "paper/2026-09-29-5/paper-debate.md": {
+      "source": "paper/2026-09-29-5/paper-debate.md",
+      "source_sha256": "7b0853d059f8323d5a1f4e682c842609b911e4884d2fc0abd2f7117dfd9b78f5",
+      "source_bytes": 6168,
+      "md": "paper/2026-09-29-5/paper-debate.md",
+      "md_sha256": "7b0853d059f8323d5a1f4e682c842609b911e4884d2fc0abd2f7117dfd9b78f5",
       "method": "theme-md",
       "status": "graphify_indexed",
-      "md_created_at": "2026-09-28T03:41:06+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "md_created_at": "2026-11-04T10:20:34+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "theme markdown",
-      "heading_count": 8
+      "heading_count": 6
     },
-    "paper/2026-09-05/paper-debate.md": {
-      "source": "paper/2026-09-05/paper-debate.md",
-      "source_sha256": "c086a35437947b000d258277f579aa02374d0e49e4724a33420b9c62742a32a2",
-      "source_bytes": 2760,
-      "md": "paper/2026-09-05/paper-debate.md",
-      "md_sha256": "c086a35437947b000d258277f579aa02374d0e49e4724a33420b9c62742a32a2",
+    "paper/2026-09-29-5/paper-polish.md": {
+      "source": "paper/2026-09-29-5/paper-polish.md",
+      "source_sha256": "845368bd730eb407c8cab9b0995cb58dfc0a200938c221d66f612d4368cec908",
+      "source_bytes": 31277,
+      "md": "paper/2026-09-29-5/paper-polish.md",
+      "md_sha256": "845368bd730eb407c8cab9b0995cb58dfc0a200938c221d66f612d4368cec908",
       "method": "theme-md",
       "status": "graphify_indexed",
-      "md_created_at": "2026-09-28T03:41:06+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
+      "md_created_at": "2026-11-04T10:20:34+00:00",
+      "graphify_indexed_at": "2026-11-04T10:20:37+00:00",
       "notes": "theme markdown",
-      "heading_count": 9
-    },
-    "paper/2026-09-05/paper-polish.md": {
-      "source": "paper/2026-09-05/paper-polish.md",
-      "source_sha256": "fcd2d8fc6e2a4a8c1e0de9365740159bdee290fae867ae2a7add2eb5014806f2",
-      "source_bytes": 7591,
-      "md": "paper/2026-09-05/paper-polish.md",
-      "md_sha256": "fcd2d8fc6e2a4a8c1e0de9365740159bdee290fae867ae2a7add2eb5014806f2",
-      "method": "theme-md",
-      "status": "graphify_indexed",
-      "md_created_at": "2026-09-28T03:41:06+00:00",
-      "graphify_indexed_at": "2026-09-28T03:44:22+00:00",
-      "notes": "theme markdown",
-      "heading_count": 8
+      "heading_count": 14
     }
   }
 }

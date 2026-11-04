@@ -38,6 +38,7 @@ SCRIPT_OF = {
     "bib": "scripts/graphify-bibliography.py",
     "crib": "scripts/cribado.py",
     "crib2": "scripts/cribado2.py",
+    "items": "scripts/extraccion-items.py",
 }
 
 
@@ -1601,6 +1602,28 @@ def _(sb):
             sb.check(key in txt, f"el catálogo no lista {key}")
             sb.check((ROOT / "global" / "bibliography" / folder / f"{key}.md").exists(), f"falta el MD de {key} en global/bibliography/{folder}/")
 
+
+@case("S09", "skills", "rsl-desglose-items exige debate (2 rondas), redaccion-rsl, lint y ERROR sin consenso")
+def _(sb):
+    skill = (SKILLS / "rsl-desglose-items" / "SKILL.md").read_text(encoding="utf-8")
+    for need in (
+        "extraccion-items-rsl.md",
+        "redaccion-rsl",
+        "extraccion-items:stamp",
+        "2 rondas",
+        "pendiente",
+        "defensor-rsl",
+        "critico-rsl",
+        "extraccion-items:prepare",
+        "humanize-academic-writing",
+    ):
+        sb.check(need in skill, f"rsl-desglose-items/SKILL.md no contiene «{need}»")
+    critic = (ROOT / ".cursor" / "agents" / "critico-rsl.md").read_text(encoding="utf-8")
+    defender = (ROOT / ".cursor" / "agents" / "defensor-rsl.md").read_text(encoding="utf-8")
+    sb.check("extraccion-items" in critic, "critico-rsl sin modo extraccion-items")
+    sb.check("extraccion-items" in defender, "defensor-rsl sin modo extraccion-items")
+    apply_skill = (SKILLS / "rsl-cribado-2-aplicar" / "SKILL.md").read_text(encoding="utf-8")
+    sb.check("rsl-desglose-items" in apply_skill, "rsl-cribado-2-aplicar no apunta a rsl-desglose-items")
 
 
 def report_dir() -> Path:
