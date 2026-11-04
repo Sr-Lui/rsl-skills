@@ -16,6 +16,7 @@ import hashlib
 import json
 import re
 import shutil
+import subprocess
 import sys
 from copy import copy
 from pathlib import Path
@@ -42,6 +43,8 @@ FORMULARIO_XLSX = "Formulario.xlsx"
 MAP_JSON = "formulario-map.json"
 MANIFEST = "manifest.json"
 TRAZA_JSONL = "extraccion-traza.jsonl"
+BIBLIO_TRAZA = "biblio-traza.jsonl"
+BIBLIO_ENRICH_ROWS = (8, 9, 10, 12, 13)
 COL_OK = "¿Se acepta?"
 SHEETS = ("Cuantitativo", "Cualitativo")
 FIRST_STUDY_COL = 3
@@ -495,6 +498,7 @@ def _hit(text: str, pattern: str) -> re.Match | None:
 
 
 from formulario_prose_extract import extract_item_prose  # noqa: E402
+from formulario_biblio_enrich import enrich_study  # noqa: E402
 
 
 def extract_item(item_id: str, text: str, tl: str, md: Path) -> tuple[str, str, list]:
@@ -747,6 +751,151 @@ def cmd_lint_traza(args: list[str]) -> int:
     return ok(f"lint-traza PASS ({len(lines)} líneas)")
 
 
+def cmd_biblio_enrich(args: list[str]) -> int:
+    if len(args) < 1:
+        raise Fail("uso: formulario.py biblio-enrich docs/<slug> [--force]", None, 2)
+    theme = theme_path(args[0])
+    force = "--force" in args
+    folder = read_formulario_latest(theme)
+    if folder is None:
+        return error("sin formulario latest", "formulario:prepare")
+    mp = load_map(folder)
+    marco, picoc = picoc_context(theme)
+    csv_path = cribado2_csv(picoc)
+    si = si_rows(csv_path)
+    by_id = {(r.get("Id") or "").strip(): r for r in si}
+    corpus = cribado2_dir(theme)
+    traza_path = folder / BIBLIO_TRAZA
+    traza_path.write_text("", encoding="utf-8")
+
+    wb = load_workbook(folder / FORMULARIO_XLSX)
+    filled_cells = 0
+    dash_cells = 0
+    for study in mp["studies"]:
+        cid = study["corpus_id"]
+        col_idx = FIRST_STUDY_COL + study["study_index"] - 1
+        row_csv = by_id.get(study["csv_id"]) or by_id.get(cid) or {}
+        revista = csv_field(row_csv, "Revista") if row_csv else ""
+        resumen = csv_field(row_csv, "Resumen") if row_csv else ""
+        md = md_for_corpus(corpus, cid)
+        md_text = md.read_text(encoding="utf-8", errors="replace") if md else None
+        fields = enrich_study(study.get("doi") or "", revista, resumen, md_text, cid)
+        for excel_row, (val, source, evidence) in fields.items():
+            for sheet_name in SHEETS:
+                ws = wb[sheet_name]
+                cur = ws.cell(row=excel_row, column=col_idx).value
+                if cur and str(cur).strip() and str(cur).strip() != "—" and not force:
+                    continue
+                ws.cell(row=excel_row, column=col_idx, value=val)
+            if val == "—":
+                dash_cells += 1
+            else:
+                filled_cells += 1
+            rec = {
+                "study_id": cid,
+                "row": excel_row,
+                "value": val,
+                "source": source,
+                "evidence": evidence,
+                "doi": study.get("doi"),
+            }
+            with traza_path.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    wb.save(folder / FORMULARIO_XLSX)
+    wb.close()
+
+    manifest_path = folder / MANIFEST
+    if manifest_path.is_file():
+        man = json.loads(manifest_path.read_text(encoding="utf-8"))
+        man["biblio_enriched"] = True
+        man["biblio_traza"] = BIBLIO_TRAZA
+        manifest_path.write_text(json.dumps(man, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    return ok(
+        f"biblio-enrich: {len(mp['studies'])} estudios; "
+        f"{filled_cells} celdas con dato, {dash_cells} con — (filas 8–10,12–13)",
+        "formulario:lint-setup",
+    )
+
+
+def _graphify_muestra(theme: Path, corpus_id: str) -> tuple[str, dict] | None:
+    graph = cribado2_dir(theme) / "graphify-out" / "graph.json"
+    if not graph.is_file():
+        return None
+    q = (
+        f"Estudio {corpus_id}: ¿cuántos participantes, usuarios, entrevistas, "
+        f"respuestas o casos de prueba reporta? Cita el número exacto del texto."
+    )
+    try:
+        r = subprocess.run(
+            ["graphify", "query", q, "--graph", str(graph)],
+            capture_output=True,
+            text=True,
+            timeout=90,
+        )
+    except subprocess.TimeoutExpired:
+        return None
+    if r.returncode != 0:
+        return None
+    out = (r.stdout or "") + (r.stderr or "")
+    m = re.search(r"\b[Nn]\s*=\s*(\d+)\b", out)
+    if m:
+        n = m.group(1)
+        ctx = out.lower()[max(0, m.start() - 30) : m.end() + 30]
+        if "response" in ctx or "respuesta" in ctx:
+            return f"n = {n} respuestas (Graphify)", {"graphify_excerpt": out[:500]}
+        return f"n = {n} participantes (Graphify)", {"graphify_excerpt": out[:500]}
+    for pat, label in (
+        (r"(\d+)\s+participants?", "participantes"),
+        (r"(\d+)\s+participantes", "participantes"),
+        (r"(\d+)\s+users", "usuarios"),
+        (r"(\d+)\s+children", "participantes"),
+    ):
+        m2 = re.search(pat, out, re.I)
+        if m2:
+            return f"n = {m2.group(1)} {label} (Graphify)", {"graphify_excerpt": out[:500]}
+    return None
+
+
+def cmd_biblio_graphify(args: list[str]) -> int:
+    """Segunda pasada: tamaño muestra (fila 13) vía graphify para celdas —."""
+    if len(args) < 1:
+        raise Fail("uso: formulario.py biblio-graphify docs/<slug>", None, 2)
+    theme = theme_path(args[0])
+    folder = read_formulario_latest(theme)
+    if folder is None:
+        return error("sin formulario latest", "formulario:prepare")
+    mp = load_map(folder)
+    wb = load_workbook(folder / FORMULARIO_XLSX)
+    ws = wb["Cuantitativo"]
+    updated = 0
+    traza_path = folder / BIBLIO_TRAZA
+    for study in mp["studies"]:
+        col_idx = FIRST_STUDY_COL + study["study_index"] - 1
+        cur = ws.cell(row=13, column=col_idx).value
+        if cur and str(cur).strip() not in ("", "—"):
+            continue
+        hit = _graphify_muestra(theme, study["corpus_id"])
+        if not hit:
+            continue
+        val, ev = hit
+        for sheet_name in SHEETS:
+            wb[sheet_name].cell(row=13, column=col_idx, value=val)
+        rec = {
+            "study_id": study["corpus_id"],
+            "row": 13,
+            "value": val,
+            "source": "graphify",
+            "evidence": ev,
+        }
+        with traza_path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        updated += 1
+    wb.save(folder / FORMULARIO_XLSX)
+    wb.close()
+    return ok(f"biblio-graphify: {updated} celdas fila 13 actualizadas", "revisa muestras manualmente")
+
+
 def dispatch(args: list[str]) -> int:
     if not args:
         print(__doc__)
@@ -760,6 +909,8 @@ def dispatch(args: list[str]) -> int:
         "extract-lote": cmd_extract_lote,
         "draft-lote": cmd_draft_lote,
         "apply-lote": cmd_apply_lote,
+        "biblio-enrich": cmd_biblio_enrich,
+        "biblio-graphify": cmd_biblio_graphify,
         "lint-traza": cmd_lint_traza,
     }
     fn = handlers.get(cmd)

@@ -70,7 +70,8 @@
     "formulario:status": ".venv-formulario/bin/python scripts/resultado-formulario.py status",
     "formulario:lint-setup": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-setup",
     "formulario:stamp": ".venv-formulario/bin/python scripts/resultado-formulario.py stamp",
-    "formulario:draft-lote": ".venv-formulario/bin/python scripts/resultado-formulario.py draft-lote",
+    "formulario:biblio-enrich": ".venv-formulario/bin/python scripts/resultado-formulario.py biblio-enrich",
+    "formulario:biblio-graphify": ".venv-formulario/bin/python scripts/resultado-formulario.py biblio-graphify",
     "formulario:apply-lote": ".venv-formulario/bin/python scripts/resultado-formulario.py apply-lote",
     "formulario:extract-lote": ".venv-formulario/bin/python scripts/resultado-formulario.py extract-lote",
     "formulario:lint-traza": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-traza"

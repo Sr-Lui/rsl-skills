@@ -12,5 +12,7 @@
   "extraccion_complete": true,
   "extraccion_stamped": "2026-11-04T08:46-05:00",
   "extraccion_source": "apply-prose-v2",
-  "traza_lines": 1168
+  "traza_lines": 1168,
+  "biblio_enriched": true,
+  "biblio_traza": "biblio-traza.jsonl"
 }
