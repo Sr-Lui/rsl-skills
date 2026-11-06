@@ -6,7 +6,7 @@ Plantilla: [`global/Formulario de extracción de información.xlsx`](global/Form
 
 ## Cadena
 
-`rsl-resultado-items` → **prepare** (biblio + mapa) → **apply** (ítems RQ + traza) → polish (futuro)
+`rsl-resultado-items` → **prepare** (biblio + mapa) → **apply** (ítems RQ + traza) → **`rsl-resultado-sintesis`** (Resultados por ítem; [`playbooks/sintesis-resultados-rsl.md`](playbooks/sintesis-resultados-rsl.md)) → gráficas en Python (futuro)
 
 ## Contrato de celda (apply)
 
@@ -32,6 +32,7 @@ Campos enrich: **editorial**, **país**, **contexto**, **volumen**, **tamaño mu
 | `formulario:prepare` · **`classify-nature`** · **`biblio-enrich`** · `lint-setup` · `stamp` | prepare |
 | `formulario:apply-lote` · `lint-traza` · **`lint-prosa`** · **`aggregate-preview`** | apply |
 | `formulario:extract-lote` | **No producción** (qa/dev) |
+| `sintesis:prepare` · `general` · `codify-auto` · `aggregate` · `borrador` · `debate-index` · `lint` · `stamp` | rsl-resultado-sintesis |
 
 Python: `.venv-formulario` (`openpyxl`, `pyyaml`).
 

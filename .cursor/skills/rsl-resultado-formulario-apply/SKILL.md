@@ -69,4 +69,4 @@ Luego re-aplicar lotes si el Excel ya tenía ítems.
 
 ## Cierre
 
-`OK: extracción apply completa (prosa ES). Próximo: rsl-resultado-formulario-polish (futuro).`
+`OK: extracción apply completa (prosa ES). Próximo: **rsl-resultado-sintesis** (síntesis de resultados por ítem).`

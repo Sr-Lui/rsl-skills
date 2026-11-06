@@ -78,7 +78,16 @@
     "formulario:lint-prosa": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-prosa",
     "formulario:extract-lote": ".venv-formulario/bin/python scripts/resultado-formulario.py extract-lote",
     "formulario:lint-traza": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-traza",
-    "formulario:aggregate-preview": ".venv-formulario/bin/python scripts/resultado-formulario.py aggregate-preview"
+    "formulario:aggregate-preview": ".venv-formulario/bin/python scripts/resultado-formulario.py aggregate-preview",
+    "sintesis:prepare": ".venv-formulario/bin/python scripts/resultado-sintesis.py prepare",
+    "sintesis:general": ".venv-formulario/bin/python scripts/resultado-sintesis.py general",
+    "sintesis:codify-auto": ".venv-formulario/bin/python scripts/resultado-sintesis.py codify-auto",
+    "sintesis:aggregate": ".venv-formulario/bin/python scripts/resultado-sintesis.py aggregate",
+    "sintesis:borrador": ".venv-formulario/bin/python scripts/resultado-sintesis.py borrador",
+    "sintesis:debate-index": ".venv-formulario/bin/python scripts/resultado-sintesis.py debate-index",
+    "sintesis:status": ".venv-formulario/bin/python scripts/resultado-sintesis.py status",
+    "sintesis:lint": ".venv-formulario/bin/python scripts/resultado-sintesis.py lint",
+    "sintesis:stamp": ".venv-formulario/bin/python scripts/resultado-sintesis.py stamp"
   },
   "engines": {
     "node": ">=18"

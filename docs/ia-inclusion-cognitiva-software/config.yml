@@ -30,9 +30,6 @@ Metodología:
   ecuacion-busqueda: on
   criterios-seleccion: on
   seleccion-prisma: on
-  calidad: off
-  extraccion-datos: off
-  sintesis: off
 
 Resultados:
   distribucion: off

@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-06",
+  "total": 2,
+  "failed": 0,
+  "proposed": [],
+  "cases": [
+    {
+      "id": "S10",
+      "group": "skills",
+      "desc": "formulario prepare/apply skills y comandos package.json",
+      "failed": false,
+      "crash": null,
+      "steps": []
+    },
+    {
+      "id": "S11",
+      "group": "skills",
+      "desc": "rsl-resultado-sintesis: skill, playbook, agentes y comandos",
+      "failed": false,
+      "crash": null,
+      "steps": []
+    }
+  ]
+}

@@ -1655,6 +1655,31 @@ def _(sb):
     sb.check("cuantitativo" in pb and "cualitativo" in pb and "mixto" in pb, "extraccion-items-rsl sin ternario de Tipo")
 
 
+@case("S11", "skills", "rsl-resultado-sintesis: skill, playbook, agentes y comandos")
+def _(sb):
+    p = SKILLS / "rsl-resultado-sintesis" / "SKILL.md"
+    sb.check(p.is_file(), "falta rsl-resultado-sintesis/SKILL.md")
+    if p.is_file():
+        txt = p.read_text(encoding="utf-8")
+        sb.check("sintesis:" in txt, "rsl-resultado-sintesis sin comandos sintesis:")
+        sb.check("Detalle gráfica" in txt, "rsl-resultado-sintesis no exige «Detalle gráfica»")
+        sb.check("tercera ronda" in txt.casefold(), "rsl-resultado-sintesis no documenta la tercera ronda")
+    pb = ROOT / "playbooks" / "sintesis-resultados-rsl.md"
+    sb.check(pb.is_file(), "falta playbooks/sintesis-resultados-rsl.md")
+    if pb.is_file():
+        t = pb.read_text(encoding="utf-8")
+        sb.check("Ejemplos correctos" in t and "objetivo" in t.casefold(), "playbook sin ejemplos o sin tono objetivo")
+        sb.check("Sin citas a estudios individuales" in t, "playbook no prohíbe citar estudios individuales")
+    sb.check((ROOT / ".cursor" / "agents" / "orquestador-sintesis-rsl.md").is_file(), "falta orquestador-sintesis-rsl")
+    for ag in ("defensor-rsl", "critico-rsl"):
+        txt = (ROOT / ".cursor" / "agents" / f"{ag}.md").read_text(encoding="utf-8")
+        sb.check("sintesis-resultado" in txt and "sintesis-bloques" in txt, f"{ag} sin modos de síntesis")
+    pkg = (ROOT / "package.json").read_text(encoding="utf-8")
+    for cmd in ("sintesis:prepare", "sintesis:aggregate", "sintesis:lint", "sintesis:stamp", "sintesis:debate-index"):
+        sb.check(cmd in pkg, f"package.json sin {cmd}")
+    sb.check((ROOT / "scripts" / "resultado-sintesis.py").is_file(), "falta scripts/resultado-sintesis.py")
+
+
 @case("D-items-01", "destruir", "resultado-items:lint rechaza nominal en columna Tipo")
 def _(sb):
     t = sb.theme(picoc="PIO", informe=False, paper=False, md=False)

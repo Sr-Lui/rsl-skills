@@ -29,6 +29,7 @@ El agente verifica/instala prerrequisitos (node + pnpm, pipx graphifyy, poppler)
 | `rsl-resultado-items` | Tras cribado 2: 1–5 **ítems breves**/RQ; Tipo cuantitativo/cualitativo/mixto; resumen final del protocolo; debate + prosa-rsl | `resultados/items/<YYYY-MM-DD-HHMM>/` |
 | `rsl-resultado-formulario-prepare` | Excel UTP vacío estructurado: columnas SI, mapa, biblio CSV→artículo→blanco | `resultados/formulario/<timestamp>/` |
 | `rsl-resultado-formulario-apply` | Lotes de 10: debate + traza + celdas ítem | `debate/lote-NN/`, `extraccion-traza.jsonl` |
+| `rsl-resultado-sintesis` | Síntesis de resultados por ítem desde el formulario vigente: bloques (ítems solos o agrupados), `X% (n=Y)`, tono objetivo, sin citar estudios; tablas y figuras (sin dibujar: «Detalle gráfica» + spec JSON); debate defensor/crítico/orquestador con 2 rondas y 3.ª final si no hay acuerdo | `resultados/sintesis/<fecha>/sintesis-resultados.md` + `sintesis-debate.md` |
 | `rsl-make-paper` | Nueva versión del paper borrador, solo secciones `on` (mejorar) y `rewrite` (reescribir) de `config.yml` (+ agente `citas-rsl` y `redaccion:lint`) | `docs/[titulo-breve]/paper/<fecha>/paper-borrador.md` |
 | `rsl-polish-paper` | Pule esas secciones (`critico-rsl` + `defensor-rsl`; `impacto-social-rsl` si están Justificación u Objetivo; luego `redaccion-rsl` + `citas-rsl`) → texto limpio + traza de debate | `paper/<fecha>/paper-polish.md` + `paper-debate.md` |
 | `rsl-turnitin-informe` | Pre-entrega Turnitin simulado: `turnitin:qualified` + agente `turnitin-rsl` → informe estructurado (path del polish **obligatorio**) | `{stem}-informe-turnitin.md` junto al polish |
@@ -160,6 +161,7 @@ En `theme`, el `<slug>` se omite si solo hay un tema; `refresh`/`status` aceptan
 | `formulario:apply-lote docs/<slug> <NN>` | Tras debate + **humanize**: aplica `debate/lote-NN/apply-<id>.json` → Excel + traza. |
 | `formulario:extract-lote …` | **No producción** (qa/dev). Usar skill **apply** con prosa ES. |
 | `formulario:lint-traza docs/<slug>` | Coherencia traza ↔ celdas ítem. |
+| `sintesis:prepare` · `general` · `codify-auto` · `aggregate` · `borrador` · `debate-index` · `status` · `lint` · `stamp` | Skill **rsl-resultado-sintesis**: matriz estudio × ítem, tablas B00 y por bloque, codificación, índice del debate (R3), lint de Resultados (cifras, sin citas, tono objetivo, Tabla/Figura, Detalle gráfica) y sellado. |
 | `turnitin:qualified <archivo.md>` | Texto calificado Turnitin RSL: JSON con oraciones S1…Sn, palabras calificadas y `processable` (≥300 palabras prosa). Entrada de `rsl-turnitin-informe`. |
 | `rsl:source <pdf>` | Convierte un PDF de `global/bibliography/<carpeta>/` en MD junto al PDF (índice con página del PDF) y deja el texto por página en `_raw/`; ERROR si no es un PDF real. |
 | `paper:status docs/<slug>` | Estado del paper según `config.yml`: qué se mejora (on) o reescribe (rewrite), stale, blocked; ERROR si se editó a mano una sección frozen; la línea OK indica el próximo paso. |
