@@ -1,15 +1,38 @@
-"""Valida celdas de ítem según response_type (registro agregable + nota)."""
+"""Valida celdas de ítem según response_type y calidad de extraccion-traza.jsonl.
+
+Incluye: duplicados de texto entre ítems distintos (mismo estudio), evidencia mínima
+y heurística WARN de plantilla repetida entre estudios.
+"""
 from __future__ import annotations
 
+import json
 import re
+from collections import Counter, defaultdict
+from pathlib import Path
+from typing import Any
 
 ITEM_IDS = frozenset(
     f"RQ{r}-I{i}" for r in (1, 2, 3) for i in range(1, 6) if not (r == 1 and i > 4) and not (r == 2 and i > 4)
 )
 
+# Mismo párrafo en dos ítems distintos del mismo estudio (caracteres tras normalizar espacios).
+MIN_DUP_VALUE_LEN = 48
+# Cita mínima en evidence[].quote (decision con contenido).
+MIN_QUOTE_LEN = 40
+# Valor idéntico en muchos estudios → posible copy-paste (WARN, no FAIL).
+MIN_TEMPLATE_VALUE_LEN = 80
+# Fracción de la muestra SI que debe repetir el mismo texto para disparar WARN plantilla.
+TEMPLATE_WARN_FRAC = 0.35
+TEMPLATE_WARN_MIN_STUDIES = 5
+
 
 def _norm(s: str) -> str:
     return (s or "").strip()
+
+
+def normalize_value_for_dup(s: str) -> str:
+    """Colapsa espacios para comparar duplicados entre ítems."""
+    return " ".join(_norm(s).split())
 
 
 def lint_item_value(item_id: str, response_type: str, value: str, decision: str) -> list[str]:
@@ -94,3 +117,254 @@ def _lint_cualitativo(item_id: str, val: str) -> list[str]:
     if item_id in ("RQ1-I1", "RQ2-I1", "RQ2-I2", "RQ3-I3") and len(val) > 120 and ";" not in val:
         return [f"WARN {item_id}: cualitativo nominal/categórico largo sin ; — revisar etiquetas"]
     return []
+
+
+def _rq3_i1_valor_has_numeric(val: str) -> bool:
+    m = re.search(r"Valor:\s*([^\|]+)", val, re.I)
+    if not m:
+        return False
+    part = m.group(1).strip()
+    if re.search(r"\bNR\b", part, re.I):
+        return False
+    return bool(re.search(r"\d", part))
+
+
+def lint_evidence_row(rec: dict[str, Any], item_id: str | None) -> list[str]:
+    """FAIL: evidencia vacía o quote corto; RQ3-I1 con número exige dígito en al menos una quote."""
+    dec = (rec.get("decision") or "").strip()
+    val = _norm(rec.get("value") or "")
+    cell = rec.get("cell") or "?"
+
+    if dec == "absent" or val in ("", "—"):
+        return []
+
+    evs = rec.get("evidence") or []
+    if not isinstance(evs, list) or not evs:
+        return [f"{cell}: evidence[] vacío (se requiere al menos una cita)"]
+
+    errs: list[str] = []
+    any_numeric_quote = False
+    for i, ev in enumerate(evs):
+        if not isinstance(ev, dict):
+            errs.append(f"{cell}: evidence[{i}] no es objeto JSON")
+            continue
+        src = (ev.get("src") or "").strip()
+        loc = (ev.get("loc") or "").strip()
+        quote = (ev.get("quote") or "").strip()
+        if not src:
+            errs.append(f"{cell}: evidence[{i}] falta src")
+        if not loc:
+            errs.append(f"{cell}: evidence[{i}] falta loc")
+        if len(quote) < MIN_QUOTE_LEN:
+            errs.append(
+                f"{cell}: evidence[{i}] quote demasiado corto ({len(quote)}<{MIN_QUOTE_LEN} caracteres)"
+            )
+        if quote and re.search(r"\d", quote):
+            any_numeric_quote = True
+
+    if item_id == "RQ3-I1" and _rq3_i1_valor_has_numeric(val) and evs and not any_numeric_quote:
+        errs.append(
+            f"{cell}: RQ3-I1 reporta Valor numérico: al menos una evidence.quote debe contener la cifra"
+        )
+
+    return errs
+
+
+def _whitelist_covers_duplicate(
+    article_id: str,
+    item_ids: frozenset[str],
+    whitelist: list[dict[str, Any]],
+) -> bool:
+    for entry in whitelist:
+        if (entry.get("article_id") or "").strip() != article_id:
+            continue
+        items = entry.get("item_ids") or entry.get("items") or []
+        if not isinstance(items, (list, tuple)):
+            continue
+        s = frozenset(str(x).strip() for x in items if str(x).strip())
+        if item_ids <= s or item_ids == s:
+            return True
+    return False
+
+
+def lint_duplicate_item_values(
+    records: list[dict[str, Any]],
+    whitelist: list[dict[str, Any]],
+) -> list[str]:
+    """
+    FAIL si el mismo texto largo (mismo estudio) aparece en dos item_id distintos.
+    El mismo item_id en dos hojas (mixto) se deduplica por (article_id, item_id).
+    """
+    by_study_item: dict[tuple[str, str], dict[str, Any]] = {}
+    for rec in records:
+        aid = (rec.get("article_id") or "").strip()
+        iid = (rec.get("item_id") or "").strip()
+        if not aid or not iid:
+            continue
+        key = (aid, iid)
+        dec = (rec.get("decision") or "").strip()
+        val = _norm(rec.get("value") or "")
+        if dec not in ("extracted", "partial", "omitted") or val in ("", "—"):
+            continue
+        by_study_item[key] = rec
+
+    by_study_norm: dict[str, dict[str, list[str]]] = defaultdict(lambda: defaultdict(list))
+    for (aid, iid), rec in by_study_item.items():
+        nv = normalize_value_for_dup(rec.get("value") or "")
+        if len(nv) < MIN_DUP_VALUE_LEN:
+            continue
+        by_study_norm[aid][nv].append(iid)
+
+    errs: list[str] = []
+    for aid, norm_map in by_study_norm.items():
+        for norm_val, iids in norm_map.items():
+            distinct = sorted(frozenset(iids))
+            if len(distinct) <= 1:
+                continue
+            pair_set = frozenset(distinct)
+            if _whitelist_covers_duplicate(aid, pair_set, whitelist):
+                continue
+            preview = (norm_val[:72] + "…") if len(norm_val) > 72 else norm_val
+            errs.append(
+                f"E10: {aid} mismo texto en ítems distintos {', '.join(distinct)} "
+                f"(≥{MIN_DUP_VALUE_LEN} caracteres). … «{preview}». "
+                f"Añade duplicate_value_whitelist en manifest.json si es excepción documentada."
+            )
+    return errs
+
+
+def lint_template_repeated_across_studies(
+    records: list[dict[str, Any]],
+    n_si: int,
+) -> list[str]:
+    """WARN: mismo valor largo en >= fracción de estudios para un mismo item_id."""
+    threshold = max(TEMPLATE_WARN_MIN_STUDIES, int(n_si * TEMPLATE_WARN_FRAC))
+    by_item_norm: dict[str, Counter[str]] = defaultdict(Counter)
+    for rec in records:
+        iid = (rec.get("item_id") or "").strip()
+        dec = (rec.get("decision") or "").strip()
+        val = _norm(rec.get("value") or "")
+        aid = (rec.get("article_id") or "").strip()
+        if not iid or not aid or dec not in ("extracted", "partial", "omitted"):
+            continue
+        if val in ("", "—"):
+            continue
+        nv = normalize_value_for_dup(val)
+        if len(nv) < MIN_TEMPLATE_VALUE_LEN:
+            continue
+        by_item_norm[iid][nv] += 1
+
+    warns: list[str] = []
+    for iid, ctr in by_item_norm.items():
+        for norm_val, cnt in ctr.items():
+            if cnt >= threshold:
+                pv = (norm_val[:60] + "…") if len(norm_val) > 60 else norm_val
+                warns.append(
+                    f"WARN {iid}: mismo texto en {cnt}/{n_si} estudios (≥{MIN_TEMPLATE_VALUE_LEN} "
+                    f"car.) — posible plantilla sin leer: «{pv}»"
+                )
+    return warns
+
+
+def load_duplicate_whitelist(folder: Path) -> list[dict[str, Any]]:
+    man_path = folder / "manifest.json"
+    if not man_path.is_file():
+        return []
+    try:
+        man = json.loads(man_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    w = man.get("duplicate_value_whitelist")
+    if isinstance(w, list):
+        return [x for x in w if isinstance(x, dict)]
+    return []
+
+
+def load_traza_records(traza_path: Path) -> tuple[list[dict[str, Any]] | None, str | None]:
+    """Carga extraccion-traza.jsonl. Devuelve (records, error_message)."""
+    if not traza_path.is_file():
+        return None, "falta extraccion-traza.jsonl"
+    records: list[dict[str, Any]] = []
+    for line_no, raw in enumerate(traza_path.read_text(encoding="utf-8").splitlines(), start=1):
+        if not raw.strip():
+            continue
+        try:
+            records.append(json.loads(raw))
+        except json.JSONDecodeError as e:
+            return None, f"línea {line_no} JSON inválido: {e}"
+    return records, None
+
+
+def lint_extraccion_manifest_complete(folder: Path) -> list[str]:
+    """FAIL si extraccion_complete no es true (cierre con formulario:stamp)."""
+    man_path = folder / "manifest.json"
+    if not man_path.is_file():
+        return ["E12: falta manifest.json"]
+    try:
+        man = json.loads(man_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        return [f"E12: manifest.json inválido: {e}"]
+    if man.get("extraccion_complete") is not True:
+        return [
+            "E12: manifest extraccion_complete != true — cierra con "
+            "`pnpm -s formulario:stamp docs/<slug> <carpeta>` tras lint-traza y lint-prosa PASS"
+        ]
+    return []
+
+
+def lint_traza_structure(lines: list[dict[str, Any]], expected: int) -> tuple[list[str], list[str]]:
+    """Estructura de traza (E3, E4, E8, E11). Retorna (errs, warns)."""
+    errs: list[str] = []
+    warns: list[str] = []
+    if len(lines) > expected:
+        errs.append(f"E8: traza {len(lines)} líneas > esperado {expected}")
+    if len(lines) < expected:
+        errs.append(f"E11: extracción incompleta en la traza ({len(lines)}/{expected} líneas)")
+    for rec in lines:
+        dec = rec.get("decision")
+        val = _norm(rec.get("value") or "")
+        cell = rec.get("cell") or "?"
+        if dec in ("extracted", "partial") and not val:
+            errs.append(f"E3: {cell} decision={dec} sin valor")
+        if val and dec not in ("extracted", "partial", "omitted", "absent"):
+            errs.append(f"E4: {cell} valor sin decision válida")
+    return errs, warns
+
+
+def run_lint_prosa_checks(
+    folder: Path,
+    item_defs: dict[str, dict[str, Any]],
+    *,
+    n_si: int,
+) -> tuple[list[str], list[str]]:
+    """
+    Prosa de ítem + evidencia + duplicados entre ítems + WARN plantilla entre estudios.
+    """
+    records, err = load_traza_records(folder / "extraccion-traza.jsonl")
+    if err:
+        return ([err], [])
+    assert records is not None
+    whitelist = load_duplicate_whitelist(folder)
+    errs: list[str] = []
+    warns: list[str] = []
+
+    for rec in records:
+        iid = rec.get("item_id")
+        if not isinstance(iid, str):
+            continue
+        idef = item_defs.get(iid)
+        if not idef:
+            continue
+        for msg in lint_item_value(
+            iid, idef.get("response_type", ""), rec.get("value") or "", rec.get("decision", "")
+        ):
+            if msg.startswith("WARN"):
+                warns.append(f"{rec.get('cell')}: {msg}")
+            else:
+                errs.append(f"E9: {rec.get('cell')} {msg}")
+        errs.extend(lint_evidence_row(rec, iid))
+
+    errs.extend(lint_duplicate_item_values(records, whitelist))
+    warns.extend(lint_template_repeated_across_studies(records, n_si))
+
+    return errs, warns

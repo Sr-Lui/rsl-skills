@@ -36,10 +36,13 @@ Invoke: `Usa rsl-resultado-sintesis sobre docs/<slug>/`
 
 ## Precondiciones
 
-- `resultados/formulario/latest.txt` con la extracción completa (`formulario:lint-traza` PASS).
+- `resultados/formulario/latest.txt` apunta a una carpeta con **`manifest.json` → `extraccion_complete: true`** (solo lo fija **`pnpm -s formulario:stamp`** tras apply).
+- Mismo gate que **`pnpm -s formulario:lint-traza`** y **`pnpm -s formulario:lint-prosa`** (estructura de traza, prosa, evidencia, sin duplicar texto entre ítems distintos por estudio).
 - `resultados/items/latest.txt` → `items.json`.
 
 ## Procedure
+
+0. **Gate formulario.** Si `sintesis:prepare` falla, el tema tiene `resultados/formulario/<carpeta>/formulario-bloqueante.md` con la lista de FAIL y un prompt para **rsl-resultado-formulario-apply**. **No** continuar síntesis ni recodificar extracción aquí.
 
 1. **`pnpm -s sintesis:prepare docs/<slug>`** crea la carpeta `resultados/sintesis/<fecha>/` con:
    - `matriz.json`: estudio × ítem leído del Excel vía `placement`; un estudio mixto cuenta una vez; base por ítem;
@@ -101,6 +104,7 @@ En el mensaje final al usuario, repite la línea «Tercera ronda» tal como la i
 
 ## Forbidden
 
+- Corregir celdas del Excel, la traza `extraccion-traza.jsonl` o la codificación de ítems cuando el fallo es de **apply**; usar `formulario-bloqueante.md` y volver a **rsl-resultado-formulario-apply** + `formulario:stamp`.
 - Citar estudios individuales en `sintesis-resultados.md` ([n], autor y año, Rnnn) o resumir artículo por artículo.
 - Valorar, recomendar o interpretar en Resultados.
 - Cifras que no salgan de `tablas/<bloque>.json`; cambiar cifras en humanize o redacción.

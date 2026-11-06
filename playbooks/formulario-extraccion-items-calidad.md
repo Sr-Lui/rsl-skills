@@ -6,6 +6,12 @@ Complementa [`formulario-apply-rsl.md`](formulario-apply-rsl.md) y [`formulario-
 
 1. MD cribado-2: `RSL/picoc/…-cribado-2-…/docs/md/<corpus_id>-*.md` (Methods, Evaluation, Results).
 2. `pnpm -s cribado2:query docs/<slug> "…"` con cita en `evidence[]` (`src`, `loc`, `quote`).
+3. Cada `quote` con texto suficiente (**≥ 40 caracteres**); si **RQ3-I1** reporta un número en `Valor:`, al menos una cita debe incluir esa cifra.
+
+## Duplicados y plantillas
+
+- No copiar el mismo párrafo largo a **varios ítems** del mismo artículo (mezcla de dimensiones; el lint `formulario:lint-prosa` hace FAIL).
+- Si el mismo texto largo aparece en muchos estudios para un ítem, `lint-prosa` emite **WARN** (revisar si se coló plantilla sin leer el MD).
 
 ## Ítems de alta prioridad (sesgo conocido en borradores automáticos)
 
@@ -41,4 +47,4 @@ Complementa [`formulario-apply-rsl.md`](formulario-apply-rsl.md) y [`formulario-
 
 ## Gate piloto (lote 01)
 
-Tras `formulario:aggregate-preview`, si **RQ2-I3** concentra >80 % en una categoría, revisar manualmente antes de lotes 02–08.
+Tras `formulario:aggregate-preview`, si **RQ2-I3** concentra >80 % en una categoría, revisar manualmente antes de lotes 02–08. Muestrear además 3–5 celdas al azar: si el párrafo es idéntico entre artículos para el mismo ítem, volver a leer el MD.

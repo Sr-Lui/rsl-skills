@@ -33,6 +33,8 @@ Ejemplo (5 estudios): Cuant. cabeceras 1, 3, 4, 5 · Cual. cabeceras 2, 3, 5.
 ## Contrato de celda
 
 - **Registro agregable** visible en la celda (literal o entre paréntesis) + **frase breve** en español; humanize pulir la frase, no borrar el dato.
+- **Unicidad por ítem:** no pegar el mismo párrafo en **dos `item_id` distintos** del mismo estudio (el mixto duplica el mismo ítem en dos hojas: eso sí es correcto). Si una excepción documentada lo exige, añade una fila en `manifest.json` → `duplicate_value_whitelist`.
+- **Evidencia:** cada slot con contenido lleva `evidence[]` con `src`, `loc` y `quote` (**≥ 40 caracteres**); si `RQ3-I1` tiene **Valor** numérico, al menos una `quote` debe **incluir la cifra**.
 - **Ausente:** Excel **`—`**, `decision: absent`.
 - Tras todos los lotes: `formulario:lint-prosa` + `formulario:lint-traza`.
 
@@ -46,6 +48,8 @@ Ejemplo (5 estudios): Cuant. cabeceras 1, 3, 4, 5 · Cual. cabeceras 2, 3, 5.
 6. `debate/lote-NN/apply-<corpus_id>.json` → `pnpm -s formulario:apply-lote docs/<slug> NN [--article id]`
 
 Tras todos los lotes: `formulario:lint-traza` · `formulario:lint-prosa` (cuando exista).
+
+**Cierre:** `pnpm -s formulario:stamp docs/<slug> <carpeta>` — exige `lint-setup`, `lint-traza` y `lint-prosa` PASS y deja `extraccion_complete: true` en `manifest.json` + `resultados/formulario/latest.txt`.
 
 ## Forbidden
 
@@ -69,4 +73,4 @@ Luego re-aplicar lotes si el Excel ya tenía ítems.
 
 ## Cierre
 
-`OK: extracción apply completa (prosa ES). Próximo: **rsl-resultado-sintesis** (síntesis de resultados por ítem).`
+`OK: extracción apply completa (prosa ES), stamp y extraccion_complete. Próximo: **rsl-resultado-sintesis** (síntesis de resultados por ítem).`

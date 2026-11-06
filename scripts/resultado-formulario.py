@@ -628,6 +628,18 @@ def cmd_stamp(args: list[str]) -> int:
     code = cmd_lint_setup([args[0], args[1].strip()])
     if code != 0:
         return error("stamp abortado", "lint-setup")
+    code = cmd_lint_traza([args[0], args[1].strip()])
+    if code != 0:
+        return error("stamp abortado", "formulario:lint-traza")
+    code = cmd_lint_prosa([args[0], args[1].strip()])
+    if code != 0:
+        return error("stamp abortado", "formulario:lint-prosa")
+    manifest_path = folder / MANIFEST
+    if manifest_path.is_file():
+        man = json.loads(manifest_path.read_text(encoding="utf-8"))
+        man["extraccion_complete"] = True
+        man["extraccion_stamped"] = dt.datetime.now().isoformat(timespec="minutes")
+        manifest_path.write_text(json.dumps(man, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     formulario_dir(theme).mkdir(parents=True, exist_ok=True)
     (formulario_dir(theme) / LATEST_FILE).write_text(args[1].strip() + "\n", encoding="utf-8")
     try:
@@ -636,7 +648,7 @@ def cmd_stamp(args: list[str]) -> int:
         sync_pipeline(theme, formulario_latest=rel(folder))
     except ValueError:
         pass
-    return ok(f"latest → {FORMULARIO_ROOT}/{args[1].strip()}", "rsl-resultado-formulario-apply lote 01")
+    return ok(f"latest → {FORMULARIO_ROOT}/{args[1].strip()}", "rsl-resultado-sintesis (sintesis:prepare)")
 
 
 def _slot_key(corpus_id: str, item_id: str, sheet: str) -> tuple[str, str, str]:
@@ -665,7 +677,11 @@ def _hit(text: str, pattern: str) -> re.Match | None:
 from formulario_prose_extract import extract_item_prose  # noqa: E402
 from formulario_biblio_enrich import enrich_study  # noqa: E402
 from formulario_classify import classify_from_text, load_overrides  # noqa: E402
-from formulario_lint_prosa import lint_item_value  # noqa: E402
+from formulario_lint_prosa import (  # noqa: E402
+    lint_traza_structure,
+    load_traza_records,
+    run_lint_prosa_checks,
+)
 from formulario_placement import (  # noqa: E402
     assign_placements,
     column_index,
@@ -923,20 +939,14 @@ def cmd_lint_traza(args: list[str]) -> int:
     traza_path = folder / TRAZA_JSONL
     if not traza_path.is_file():
         return error("falta extraccion-traza.jsonl", "apply-lote")
-    lines = [json.loads(l) for l in traza_path.read_text(encoding="utf-8").splitlines() if l.strip()]
+    lines, parse_err = load_traza_records(traza_path)
+    if parse_err:
+        return error(parse_err, "corrige extraccion-traza.jsonl")
+    assert lines is not None
     expected = expected_traza_slots(mp)
-    errs = []
-    if len(lines) > expected:
-        errs.append(f"E8: traza {len(lines)} líneas > esperado {expected}")
-    for rec in lines:
-        dec = rec.get("decision")
-        val = (rec.get("value") or "").strip()
-        if dec in ("extracted", "partial") and not val:
-            errs.append(f"E3: {rec.get('cell')} decision={dec} sin valor")
-        if val and dec not in ("extracted", "partial", "omitted", "absent"):
-            errs.append(f"E4: {rec.get('cell')} valor sin decision válida")
+    errs, _ = lint_traza_structure(lines, expected)
     if errs:
-        for e in errs[:20]:
+        for e in errs[:30]:
             print(e)
         return error(f"lint-traza {len(errs)} FAIL", "corrige traza o Excel")
     return ok(f"lint-traza PASS ({len(lines)} líneas)")
@@ -949,34 +959,19 @@ def cmd_lint_prosa(args: list[str]) -> int:
     folder = formulario_dir(theme) / args[1] if len(args) == 2 else read_formulario_latest(theme)
     if folder is None or not folder.is_dir():
         return error("no hay formulario latest", "formulario:prepare")
-    traza_path = folder / TRAZA_JSONL
-    if not traza_path.is_file():
+    if not (folder / TRAZA_JSONL).is_file():
         return error("falta extraccion-traza.jsonl", "apply-lote")
     items_folder = items_latest(theme)
     item_defs = {
         it["id"]: it
         for it in json.loads((items_folder / "items.json").read_text(encoding="utf-8"))["items"]
     }
-    errs = []
-    warns = []
-    for line in traza_path.read_text(encoding="utf-8").splitlines():
-        if not line.strip():
-            continue
-        rec = json.loads(line)
-        iid = rec.get("item_id")
-        idef = item_defs.get(iid)
-        if not idef:
-            continue
-        for msg in lint_item_value(
-            iid, idef.get("response_type", ""), rec.get("value") or "", rec.get("decision", "")
-        ):
-            if msg.startswith("WARN"):
-                warns.append(f"{rec.get('cell')}: {msg}")
-            else:
-                errs.append(f"E9: {rec.get('cell')} {msg}")
-    for w in warns[:10]:
+    mp = load_map(folder)
+    n_si = int(mp.get("n_si") or 0)
+    errs, warns = run_lint_prosa_checks(folder, item_defs, n_si=n_si)
+    for w in warns[:25]:
         print(w)
-    for e in errs[:30]:
+    for e in errs[:40]:
         print(e)
     if errs:
         return error(f"lint-prosa {len(errs)} FAIL", "corrige apply JSON o debate")

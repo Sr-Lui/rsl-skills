@@ -41,6 +41,15 @@ from formulario_placement import (  # noqa: E402
     placement_cell,
 )
 
+from formulario_lint_prosa import (  # noqa: E402
+    lint_extraccion_manifest_complete,
+    lint_traza_structure,
+    load_traza_records,
+    run_lint_prosa_checks,
+)
+
+FORMULARIO_BLOQUEANTE = "formulario-bloqueante.md"
+
 ROOT = Path(__file__).resolve().parent.parent
 FORMULARIO_ROOT = "resultados/formulario"
 ITEMS_ROOT = "resultados/items"
@@ -333,6 +342,98 @@ def item_short(item_id: str) -> str:
     return item_id.replace("/", "-")
 
 
+def write_formulario_bloqueante(
+    theme: Path,
+    form: Path,
+    *,
+    gate_errs: list[str],
+    gate_warns: list[str],
+) -> None:
+    """Escribe reporte reproducible cuando sintesis:prepare no puede continuar."""
+    slug = rel(theme)
+    folder_name = form.name
+    lines: list[str] = [
+        "# Formulario bloqueante — no continuar síntesis",
+        "",
+        f"**Tema:** `{slug}`",
+        f"**Carpeta:** `resultados/formulario/{folder_name}/`",
+        "",
+        "## Por qué",
+        "",
+        "El formulario no supera el gate automático (`formulario:lint-traza`, `formulario:lint-prosa`, "
+        "`manifest.extraccion_complete`). La síntesis no debe recodificar celdas ni corregir extracción aquí; "
+        "corregir con **rsl-resultado-formulario-apply** y cerrar con `formulario:stamp`.",
+        "",
+        "## Errores (FAIL)",
+        "",
+    ]
+    for i, e in enumerate(gate_errs, start=1):
+        lines.append(f"{i}. {e}")
+    if not gate_errs:
+        lines.append("(ninguno — error inesperado)")
+    lines += ["", "## Avisos (WARN)", ""]
+    for w in gate_warns[:40]:
+        lines.append(f"- {w}")
+    if not gate_warns:
+        lines.append("(ninguno)")
+    lines += [
+        "",
+        "## Comandos",
+        "",
+        "```bash",
+        f"pnpm -s formulario:lint-traza {slug} {folder_name}",
+        f"pnpm -s formulario:lint-prosa {slug} {folder_name}",
+        "```",
+        "",
+        "Tras corregir todos los FAIL: `pnpm -s formulario:stamp docs/<slug> <carpeta>` "
+        "(marca `extraccion_complete` y actualiza `latest.txt`).",
+        "",
+        "## Prompt para rsl-resultado-formulario-apply",
+        "",
+        "```text",
+        f"Usa rsl-resultado-formulario-apply sobre {slug}. ",
+        "Corrige la extracción en los lotes afectados: evidencia con quote≥40 y loc concretos; ",
+        "un valor no puede copiarse en dos item_id distintos del mismo estudio (salvo excepción en ",
+        "manifest duplicate_value_whitelist). Vuelve a aplicar apply-lote, luego ",
+        f"pnpm -s formulario:lint-traza {slug} {folder_name} y ",
+        f"pnpm -s formulario:lint-prosa {slug} {folder_name}; cierra con ",
+        f"pnpm -s formulario:stamp {slug} {folder_name}.",
+        "```",
+        "",
+    ]
+    (form / FORMULARIO_BLOQUEANTE).write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def _gate_formulario_para_sintesis(theme: Path, form: Path, mp: dict, item_defs: dict) -> None:
+    """Levanta Fail y escribe formulario-bloqueante.md si el formulario no califica."""
+    gate_errs: list[str] = []
+    gate_warns: list[str] = []
+
+    gate_errs.extend(lint_extraccion_manifest_complete(form))
+
+    traza_path = form / TRAZA_JSONL
+    records, parse_err = load_traza_records(traza_path)
+    if parse_err:
+        gate_errs.append(parse_err)
+    expected = expected_traza_slots(mp)
+    if records is not None:
+        tr_errs, _ = lint_traza_structure(records, expected)
+        gate_errs.extend(tr_errs)
+
+    n_si = int(mp.get("n_si") or 0)
+    prose_errs, prose_warns = run_lint_prosa_checks(form, item_defs, n_si=n_si)
+    gate_errs.extend(prose_errs)
+    gate_warns.extend(prose_warns)
+
+    if gate_errs:
+        write_formulario_bloqueante(theme, form, gate_errs=gate_errs, gate_warns=gate_warns)
+        preview = gate_errs[0][:200]
+        raise Fail(
+            f"formulario no válido para síntesis ({len(gate_errs)} FAIL). Primer error: {preview}",
+            f"lee {rel(form / FORMULARIO_BLOQUEANTE)} y ejecuta rsl-resultado-formulario-apply",
+        )
+
+
 # ───────────────────────── prepare ─────────────────────────
 
 
@@ -345,18 +446,12 @@ def cmd_prepare(args: list[str]) -> int:
     mp = json.loads((form / MAP_JSON).read_text(encoding="utf-8"))
     for s in mp.get("studies") or []:
         ensure_placement(s)
-    traza = form / TRAZA_JSONL
-    if not traza.is_file():
-        raise Fail("falta extraccion-traza.jsonl en el formulario", "rsl-resultado-formulario-apply")
-    n_traza = sum(1 for line in traza.read_text(encoding="utf-8").splitlines() if line.strip())
-    expected = expected_traza_slots(mp)
-    if n_traza < expected:
-        raise Fail(
-            f"extracción incompleta en el formulario ({n_traza}/{expected} celdas en la traza)",
-            "termina rsl-resultado-formulario-apply y formulario:lint-traza",
-        )
     items_data = json.loads((itf / "items.json").read_text(encoding="utf-8"))
     item_defs = {it["id"]: it for it in items_data.get("items") or []}
+    _gate_formulario_para_sintesis(theme, form, mp, item_defs)
+    bloq = form / FORMULARIO_BLOQUEANTE
+    if bloq.is_file():
+        bloq.unlink()
 
     wb = load_workbook(form / FORMULARIO_XLSX, read_only=True, data_only=True)
     slots_by_item: dict[str, list[dict]] = {}

@@ -33,6 +33,8 @@ El crítico (`extraccion-formulario`) rechaza si:
 - Ítem **mixto** sin claves de plantilla (`Presencia:`, `Constructo:`, …).
 - Queda texto mayoritariamente en inglés sin traducir/sintetizar.
 - Persisten pipes `\|` **fuera** de plantillas mixtas definidas en `items.md`.
+- **Dos ítems distintos** del mismo estudio comparten el mismo párrafo largo (salvo excepción en `duplicate_value_whitelist`).
+- **`evidence[]`** vacío o con `quote` demasiado corto (menos de 40 caracteres) cuando `decision` tiene contenido.
 
 ## Ejemplos
 
@@ -61,4 +63,4 @@ El crítico (`extraccion-formulario`) rechaza si:
 
 ## Lint
 
-`pnpm -s formulario:lint-prosa docs/<slug>` valida registro por tipo en `extraccion-traza.jsonl`.
+`pnpm -s formulario:lint-prosa docs/<slug>` valida registro por tipo, evidencia y duplicados en `extraccion-traza.jsonl`.

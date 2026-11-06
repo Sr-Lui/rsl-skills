@@ -4,6 +4,10 @@ Contrato de la sección **Resultados** de la RSL a partir del formulario de extr
 
 **Los ejemplos de la sección «Ejemplos correctos» mandan.** Si una regla y un ejemplo chocan, gana el ejemplo.
 
+## 0. Precondiciones del formulario
+
+Antes de `sintesis:prepare`, el formulario vigente debe pasar el mismo gate que `pnpm -s formulario:lint-traza` y `pnpm -s formulario:lint-prosa`, y `manifest.json` debe tener **`extraccion_complete: true`** (solo lo fija `pnpm -s formulario:stamp` tras apply). Si falla, se genera `resultados/formulario/<carpeta>/formulario-bloqueante.md` y **no** se debe recodificar la extracción en el debate de síntesis: volver a **rsl-resultado-formulario-apply** hasta PASS y stamp.
+
 ## 1. Qué es sintetizar
 
 La síntesis recopila y resume los resultados de los artículos incluidos. La información extraída (población, intervención, contexto, tipo y tamaño de muestra, resultados, conclusiones) se tabula de forma coherente con las preguntas de investigación del marco (PIO, PICO…).
