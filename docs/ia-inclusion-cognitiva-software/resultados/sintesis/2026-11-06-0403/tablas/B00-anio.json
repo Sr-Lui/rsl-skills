@@ -1,0 +1,168 @@
+{
+  "bloque": "B00-anio",
+  "tipo": "general",
+  "base": {
+    "N": 73,
+    "descripcion": "estudios incluidos"
+  },
+  "periodo": "2021–2027",
+  "pico": {
+    "anio": "2026",
+    "n": 26,
+    "pct": 36
+  },
+  "categorias": [
+    {
+      "categoria": "2021",
+      "n": 2,
+      "pct": 3,
+      "estudios": [
+        63,
+        66
+      ],
+      "por_naturaleza": {
+        "cuantitativo": 1,
+        "cualitativo": 1
+      }
+    },
+    {
+      "categoria": "2022",
+      "n": 3,
+      "pct": 4,
+      "estudios": [
+        48,
+        50,
+        55
+      ],
+      "por_naturaleza": {
+        "mixto": 1,
+        "cuantitativo": 2
+      }
+    },
+    {
+      "categoria": "2023",
+      "n": 4,
+      "pct": 5,
+      "estudios": [
+        51,
+        53,
+        59,
+        69
+      ],
+      "por_naturaleza": {
+        "cualitativo": 3,
+        "mixto": 1
+      }
+    },
+    {
+      "categoria": "2024",
+      "n": 16,
+      "pct": 22,
+      "estudios": [
+        27,
+        49,
+        52,
+        54,
+        56,
+        57,
+        58,
+        60,
+        61,
+        62,
+        64,
+        65,
+        67,
+        68,
+        70,
+        72
+      ],
+      "por_naturaleza": {
+        "cualitativo": 7,
+        "mixto": 5,
+        "cuantitativo": 4
+      }
+    },
+    {
+      "categoria": "2025",
+      "n": 21,
+      "pct": 29,
+      "estudios": [
+        2,
+        3,
+        4,
+        7,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        30,
+        31,
+        32,
+        35,
+        39,
+        42,
+        43,
+        46,
+        47
+      ],
+      "por_naturaleza": {
+        "cuantitativo": 8,
+        "mixto": 5,
+        "cualitativo": 8
+      }
+    },
+    {
+      "categoria": "2026",
+      "n": 26,
+      "pct": 36,
+      "estudios": [
+        1,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        21,
+        22,
+        23,
+        25,
+        26,
+        28,
+        29,
+        33,
+        34,
+        36,
+        37,
+        38,
+        40,
+        41,
+        44,
+        45,
+        73
+      ],
+      "por_naturaleza": {
+        "cuantitativo": 9,
+        "mixto": 6,
+        "cualitativo": 11
+      }
+    },
+    {
+      "categoria": "2027",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        71
+      ],
+      "por_naturaleza": {
+        "mixto": 1
+      }
+    }
+  ]
+}

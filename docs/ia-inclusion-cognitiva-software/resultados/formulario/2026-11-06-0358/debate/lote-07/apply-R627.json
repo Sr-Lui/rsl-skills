@@ -1,0 +1,158 @@
+{
+  "article_id": "R627",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "La población del estudio declara perfiles (DI; dificultades de aprendizaje; discapacidad cognitiva; neurodivergencia).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "DI; dificultades de aprendizaje; discapacidad cognitiva; neurodivergencia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. No hay desagregación por perfil cognitivo; los resultados corresponden a la muestra global.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "muestra"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participación en evaluación o prueba con usuarios, con n = 1536 participantes reportados (Presencia: Sí | N: 1536 | Rol: evaluación).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "1536"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Marco ético, tratamiento del perfil y contexto del estudio (Enfoque: diferencia | Perfil: deducido | Consentimiento: informado reportado | País: India).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "India"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Familia de técnica de IA aplicada (DL; ML | Modelo: NR).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "DL; ML | Modelo: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Rol de la IA en el estudio (Generador; evaluador; asistente de aseguramiento de la calidad).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Fase principal del ciclo de vida del software en la que interviene la IA.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "Desarrollo"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; pruebas. Otras fases del ciclo de vida mencionadas además de la principal.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "diseño;desarrollo;pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Resultado principal reportado (accuracy = 100) (Constructo: accuracy | Valor: 100).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "accuracy score of 100"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA. Alineación con accesibilidad cognitiva.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "COGA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Ambas. La evaluación aborda dimensiones cognitivas y sensoriales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "ambas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. La validación depende principalmente de participantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "fulltext",
+          "quote": "users"
+        }
+      ]
+    }
+  ],
+  "source": "apply-prose-v3-calidad",
+  "humanize": "draft-lote (revisar con humanize-academic-writing en polish)"
+}

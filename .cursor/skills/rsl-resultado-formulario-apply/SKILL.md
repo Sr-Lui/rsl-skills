@@ -33,23 +33,24 @@ Ejemplo (5 estudios): Cuant. cabeceras 1, 3, 4, 5 · Cual. cabeceras 2, 3, 5.
 ## Contrato de celda
 
 - **Registro agregable** visible en la celda (literal o entre paréntesis) + **frase breve** en español; humanize pulir la frase, no borrar el dato.
+- **Registro vs matiz:** el registro puede repetirse entre estudios si la literatura converge; la **frase de matiz** debe ser **específica del estudio** (detalle factual del MD), no la misma oración genérica en todo el lote. Si no hay matiz fiable, acorta el texto o usa `partial` y apóyate en una cita literal fuerte en `evidence`.
 - **Unicidad por ítem:** no pegar el mismo párrafo en **dos `item_id` distintos** del mismo estudio (el mixto duplica el mismo ítem en dos hojas: eso sí es correcto). Si una excepción documentada lo exige, añade una fila en `manifest.json` → `duplicate_value_whitelist`.
-- **Evidencia:** cada slot con contenido lleva `evidence[]` con `src`, `loc` y `quote` (**≥ 40 caracteres**); si `RQ3-I1` tiene **Valor** numérico, al menos una `quote` debe **incluir la cifra**.
+- **Evidencia:** cada slot con contenido lleva `evidence[]` con `src` (ruta al MD del cribado-2 bajo el repo), `loc` (ancla reproducible: `p.`, `l.`, `§`, `Sección …`, etc.; **no** `fulltext` salvo `manifest.json` → `evidence_loc_whitelist`) y `quote` (**≥ 40 caracteres**, **substring literal** del fichero `src`, no copia del `value` de la celda); si `RQ3-I1` tiene **Valor** numérico, al menos una `quote` debe **incluir la cifra**.
 - **Ausente:** Excel **`—`**, `decision: absent`.
-- Tras todos los lotes: `formulario:lint-prosa` + `formulario:lint-traza`.
+- Validación en cadena: `pnpm -s formulario:lint-traza docs/<slug>` (estructura + evidencia) y `pnpm -s formulario:lint-prosa docs/<slug>` (prosa + dominancia + duplicados entre ítems; WARN de plantilla entre estudios salvo modo estricto en stamp).
 
 ## Procedure por artículo (dentro del lote)
 
-1. `cribado2:query` + MD/PDF indexado.
-2. **R1 defensor-rsl** (`extraccion-formulario`) → `debate/lote-NN/r1-defensor-<corpus_id>.md`
+1. **Lectura por estudio:** MD del cribado-2 (`RSL/picoc/…/docs/md/<corpus_id>-*.md`) en los pasajes relevantes; luego **`pnpm -s cribado2:query docs/<slug> "<pregunta con item/corpus_id>"`** (ejecuta `graphify query` sobre `cribado2/.../graphify-out/graph.json`) como **cruce**, no sustituto del MD; si no basta, fragmento del PDF.
+2. **R1 defensor-rsl** (`extraccion-formulario`) → `debate/lote-NN/r1-defensor-<corpus_id>.md` (deja una línea: pregunta a cribado2 + síntesis o «sin hit útil»).
 3. **R2 critico-rsl** → `r2-critico-<corpus_id>.md` (checklist en formulario-prosa-rsl)
 4. **R3** + **orquestador-extraccion-rsl** si aplica
 5. Skill **humanize-academic-writing** sobre cada `value` final
 6. `debate/lote-NN/apply-<corpus_id>.json` → `pnpm -s formulario:apply-lote docs/<slug> NN [--article id]`
 
-Tras todos los lotes: `formulario:lint-traza` · `formulario:lint-prosa` (cuando exista).
+Tras todos los lotes: `pnpm -s formulario:lint-traza docs/<slug>` · `pnpm -s formulario:lint-prosa docs/<slug>`.
 
-**Cierre:** `pnpm -s formulario:stamp docs/<slug> <carpeta>` — exige `lint-setup`, `lint-traza` y `lint-prosa` PASS y deja `extraccion_complete: true` en `manifest.json` + `resultados/formulario/latest.txt`.
+**Cierre:** `pnpm -s formulario:stamp docs/<slug> <carpeta>` — exige `lint-setup` PASS y **`lint-traza --strict`** + **`lint-prosa --strict`** (0 WARN) y bloquea `extraccion_complete` si `manifest.nature_needs_review` no está vacío, salvo **`--allow-nature-review`**. Escribe `extraccion_complete: true` y actualiza `resultados/formulario/latest.txt`.
 
 ## Forbidden
 

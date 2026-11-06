@@ -49,7 +49,7 @@ Invoke: `Usa rsl-resultado-formulario-prepare sobre docs/<slug>/`
    PASS: `nature_classified`, fila 2 = **`si_order`** por columna (E1/E8), biblio 8–10/12–13 en placement.
 
 6. **`pnpm -s formulario:stamp docs/<slug> <carpeta>`**  
-   Actualiza `latest.txt` · `manifest.json` (`biblio_enriched`, etc.).
+   Tras **lint-setup** PASS: actualiza `resultados/formulario/latest.txt`. Si aún **no** hay `extraccion-traza.jsonl` (antes del apply), **no** ejecuta lint de ítems y deja `extraccion_complete: false` + `formulario_stamped` en `manifest.json`. Cuando apply haya generado traza y pase `lint-traza` + `lint-prosa`, un nuevo `stamp` fija `extraccion_complete: true` (cierre de extracción).
 
 ## Contrato biblio (filas 8–10, 12–13)
 

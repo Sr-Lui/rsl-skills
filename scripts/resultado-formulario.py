@@ -8,8 +8,9 @@
   formulario.py lint-setup docs/<slug> [carpeta]
   formulario.py stamp docs/<slug> <YYYY-MM-DD-HHMM>
   formulario.py apply-lote docs/<slug> <NN> [--article corpus_id]
-  formulario.py lint-prosa docs/<slug> [carpeta]
-  formulario.py lint-traza docs/<slug> [carpeta]
+  formulario.py lint-prosa docs/<slug> [carpeta] [--strict]
+  formulario.py lint-traza docs/<slug> [carpeta] [--strict]
+  formulario.py stamp docs/<slug> <carpeta> [--allow-nature-review]
 """
 from __future__ import annotations
 
@@ -619,36 +620,68 @@ def cmd_status(args: list[str]) -> int:
 
 
 def cmd_stamp(args: list[str]) -> int:
-    if len(args) != 2:
-        raise Fail("uso: formulario.py stamp docs/<slug> <carpeta>", None, 2)
-    theme = theme_path(args[0])
-    folder = formulario_dir(theme) / args[1].strip()
+    allow_review = "--allow-nature-review" in args
+    rest = [a for a in args if a != "--allow-nature-review"]
+    if len(rest) != 2:
+        raise Fail(
+            "uso: formulario.py stamp docs/<slug> <carpeta> [--allow-nature-review]",
+            None,
+            2,
+        )
+    theme = theme_path(rest[0])
+    folder = formulario_dir(theme) / rest[1].strip()
     if not (folder / FORMULARIO_XLSX).is_file():
         raise Fail(f"no existe {rel(folder)}", "formulario:prepare")
-    code = cmd_lint_setup([args[0], args[1].strip()])
+    code = cmd_lint_setup([rest[0], rest[1].strip()])
     if code != 0:
         return error("stamp abortado", "lint-setup")
-    code = cmd_lint_traza([args[0], args[1].strip()])
-    if code != 0:
-        return error("stamp abortado", "formulario:lint-traza")
-    code = cmd_lint_prosa([args[0], args[1].strip()])
-    if code != 0:
-        return error("stamp abortado", "formulario:lint-prosa")
+    traza_path = folder / TRAZA_JSONL
+    has_traza = False
+    if traza_path.is_file():
+        has_traza = any(line.strip() for line in traza_path.read_text(encoding="utf-8").splitlines())
     manifest_path = folder / MANIFEST
-    if manifest_path.is_file():
-        man = json.loads(manifest_path.read_text(encoding="utf-8"))
-        man["extraccion_complete"] = True
-        man["extraccion_stamped"] = dt.datetime.now().isoformat(timespec="minutes")
-        manifest_path.write_text(json.dumps(man, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    man = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.is_file() else {}
+    stamp_ts = dt.datetime.now().isoformat(timespec="minutes")
+    if has_traza:
+        needs = man.get("nature_needs_review") if isinstance(man.get("nature_needs_review"), list) else []
+        if needs and not allow_review:
+            print(
+                f"E7: nature_needs_review no vacío ({len(needs)} estudio(s)) — "
+                "resuelve con nature-overrides + classify-nature --force, o reintenta stamp con "
+                "`--allow-nature-review` si aceptas el riesgo.",
+            )
+            return error("stamp abortado", "naturaleza en revisión")
+        if allow_review and needs:
+            print(
+                f"WARN: stamp con --allow-nature-review ({len(needs)} en nature_needs_review) — "
+                "revisa placement antes de síntesis.",
+            )
+        code = cmd_lint_traza([rest[0], rest[1].strip(), "--strict"])
+        if code != 0:
+            return error("stamp abortado", "formulario:lint-traza --strict")
+        code = cmd_lint_prosa([rest[0], rest[1].strip(), "--strict"])
+        if code != 0:
+            return error("stamp abortado", "formulario:lint-prosa --strict")
+        if manifest_path.is_file():
+            man["extraccion_complete"] = True
+            man["extraccion_stamped"] = stamp_ts
+            manifest_path.write_text(json.dumps(man, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        next_step = "rsl-resultado-sintesis (sintesis:prepare)"
+    else:
+        if manifest_path.is_file():
+            man["extraccion_complete"] = False
+            man["formulario_stamped"] = stamp_ts
+            manifest_path.write_text(json.dumps(man, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        next_step = "rsl-resultado-formulario-apply lote 01"
     formulario_dir(theme).mkdir(parents=True, exist_ok=True)
-    (formulario_dir(theme) / LATEST_FILE).write_text(args[1].strip() + "\n", encoding="utf-8")
+    (formulario_dir(theme) / LATEST_FILE).write_text(rest[1].strip() + "\n", encoding="utf-8")
     try:
         from rsl_pipeline_manifest import sync_pipeline
 
         sync_pipeline(theme, formulario_latest=rel(folder))
     except ValueError:
         pass
-    return ok(f"latest → {FORMULARIO_ROOT}/{args[1].strip()}", "rsl-resultado-sintesis (sintesis:prepare)")
+    return ok(f"latest → {FORMULARIO_ROOT}/{rest[1].strip()}", next_step)
 
 
 def _slot_key(corpus_id: str, item_id: str, sheet: str) -> tuple[str, str, str]:
@@ -678,6 +711,7 @@ from formulario_prose_extract import extract_item_prose  # noqa: E402
 from formulario_biblio_enrich import enrich_study  # noqa: E402
 from formulario_classify import classify_from_text, load_overrides  # noqa: E402
 from formulario_lint_prosa import (  # noqa: E402
+    lint_traza_evidence,
     lint_traza_structure,
     load_traza_records,
     run_lint_prosa_checks,
@@ -929,10 +963,16 @@ def cmd_apply_lote(args: list[str]) -> int:
 
 
 def cmd_lint_traza(args: list[str]) -> int:
-    if len(args) not in (1, 2):
-        raise Fail("uso: formulario.py lint-traza docs/<slug> [carpeta]", None, 2)
-    theme = theme_path(args[0])
-    folder = formulario_dir(theme) / args[1] if len(args) == 2 else read_formulario_latest(theme)
+    strict = "--strict" in args
+    rest = [a for a in args if a != "--strict"]
+    if len(rest) not in (1, 2):
+        raise Fail(
+            "uso: formulario.py lint-traza docs/<slug> [carpeta] [--strict]",
+            None,
+            2,
+        )
+    theme = theme_path(rest[0])
+    folder = formulario_dir(theme) / rest[1] if len(rest) == 2 else read_formulario_latest(theme)
     if folder is None:
         return error("sin formulario", "prepare")
     mp = load_map(folder)
@@ -945,18 +985,48 @@ def cmd_lint_traza(args: list[str]) -> int:
     assert lines is not None
     expected = expected_traza_slots(mp)
     errs, _ = lint_traza_structure(lines, expected)
+    errs.extend(lint_traza_evidence(folder, repo_root=ROOT))
     if errs:
-        for e in errs[:30]:
+        for e in errs[:60]:
             print(e)
         return error(f"lint-traza {len(errs)} FAIL", "corrige traza o Excel")
-    return ok(f"lint-traza PASS ({len(lines)} líneas)")
+    tail = " · estructura + evidencia"
+    if strict:
+        items_folder = items_latest(theme)
+        item_defs = {
+            it["id"]: it
+            for it in json.loads((items_folder / "items.json").read_text(encoding="utf-8"))["items"]
+        }
+        n_si = int(mp.get("n_si") or 0)
+        perrs, pwarns = run_lint_prosa_checks(
+            folder, item_defs, n_si=n_si, strict=True, check_evidence=False
+        )
+        for w in pwarns[:25]:
+            print(w)
+        for e in perrs[:40]:
+            print(e)
+        if perrs:
+            return error(f"lint-traza --strict {len(perrs)} FAIL", "corrige apply JSON")
+        if pwarns:
+            return error(
+                f"lint-traza --strict: {len(pwarns)} WARN no permitidos",
+                "corrige prosa o use lint-traza sin --strict",
+            )
+        tail += " · strict prosa (0 WARN)"
+    return ok(f"lint-traza PASS ({len(lines)} líneas){tail}")
 
 
 def cmd_lint_prosa(args: list[str]) -> int:
-    if len(args) not in (1, 2):
-        raise Fail("uso: formulario.py lint-prosa docs/<slug> [carpeta]", None, 2)
-    theme = theme_path(args[0])
-    folder = formulario_dir(theme) / args[1] if len(args) == 2 else read_formulario_latest(theme)
+    strict = "--strict" in args
+    rest = [a for a in args if a != "--strict"]
+    if len(rest) not in (1, 2):
+        raise Fail(
+            "uso: formulario.py lint-prosa docs/<slug> [carpeta] [--strict]",
+            None,
+            2,
+        )
+    theme = theme_path(rest[0])
+    folder = formulario_dir(theme) / rest[1] if len(rest) == 2 else read_formulario_latest(theme)
     if folder is None or not folder.is_dir():
         return error("no hay formulario latest", "formulario:prepare")
     if not (folder / TRAZA_JSONL).is_file():
@@ -968,14 +1038,24 @@ def cmd_lint_prosa(args: list[str]) -> int:
     }
     mp = load_map(folder)
     n_si = int(mp.get("n_si") or 0)
-    errs, warns = run_lint_prosa_checks(folder, item_defs, n_si=n_si)
+    errs, warns = run_lint_prosa_checks(
+        folder, item_defs, n_si=n_si, strict=strict, check_evidence=False
+    )
     for w in warns[:25]:
         print(w)
     for e in errs[:40]:
         print(e)
     if errs:
         return error(f"lint-prosa {len(errs)} FAIL", "corrige apply JSON o debate")
-    return ok(f"lint-prosa PASS ({len(warns)} WARN)")
+    if strict and warns:
+        for w in warns[:25]:
+            print(w)
+        return error(
+            f"lint-prosa --strict: {len(warns)} WARN no permitidos",
+            "corrige items o use lint-prosa sin --strict",
+        )
+    strict_note = " · strict" if strict else ""
+    return ok(f"lint-prosa PASS ({len(warns)} WARN){strict_note}")
 
 
 def cmd_biblio_enrich(args: list[str]) -> int:

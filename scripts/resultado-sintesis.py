@@ -43,6 +43,7 @@ from formulario_placement import (  # noqa: E402
 
 from formulario_lint_prosa import (  # noqa: E402
     lint_extraccion_manifest_complete,
+    lint_traza_evidence,
     lint_traza_structure,
     load_traza_records,
     run_lint_prosa_checks,
@@ -419,9 +420,12 @@ def _gate_formulario_para_sintesis(theme: Path, form: Path, mp: dict, item_defs:
     if records is not None:
         tr_errs, _ = lint_traza_structure(records, expected)
         gate_errs.extend(tr_errs)
+        gate_errs.extend(lint_traza_evidence(form, repo_root=ROOT))
 
     n_si = int(mp.get("n_si") or 0)
-    prose_errs, prose_warns = run_lint_prosa_checks(form, item_defs, n_si=n_si)
+    prose_errs, prose_warns = run_lint_prosa_checks(
+        form, item_defs, n_si=n_si, strict=True, check_evidence=False
+    )
     gate_errs.extend(prose_errs)
     gate_warns.extend(prose_warns)
 

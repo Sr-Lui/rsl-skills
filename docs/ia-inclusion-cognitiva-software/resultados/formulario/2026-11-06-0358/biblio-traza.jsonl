@@ -1,0 +1,365 @@
+{"study_id": "R016", "row": 8, "value": "IEEE", "source": "web", "evidence": {"publisher": "Institute of Electrical and Electronics Engineers (IEEE)"}, "doi": "10.1109/access.2026.3667133"}
+{"study_id": "R016", "row": 9, "value": "Arabia Saudita", "source": "web", "evidence": {"affiliations": ["Arabia Saudita"]}, "doi": "10.1109/access.2026.3667133"}
+{"study_id": "R016", "row": 12, "value": "14", "source": "web", "evidence": {"volume": "14"}, "doi": "10.1109/access.2026.3667133"}
+{"study_id": "R016", "row": 13, "value": "n = 240 respuestas generadas", "source": "article", "evidence": {"pattern": "\\(\\s*[Nn]\\s*=\\s*(\\d+)\\s+responses?\\)", "n": "240"}, "doi": "10.1109/access.2026.3667133"}
+{"study_id": "R016", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; experimento controlado (laboratorio o en línea).", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "experimento controlado (laboratorio o en línea)"]}, "doi": "10.1109/access.2026.3667133"}
+{"study_id": "R040", "row": 8, "value": "John Wiley & Sons", "source": "web", "evidence": {"publisher": "Wiley"}, "doi": "10.1002/eng2.70455"}
+{"study_id": "R040", "row": 9, "value": "Bangladesh; Estados Unidos", "source": "web", "evidence": {"affiliations": ["Bangladesh", "Estados Unidos"]}, "doi": "10.1002/eng2.70455"}
+{"study_id": "R040", "row": 12, "value": "7 (11)", "source": "web", "evidence": {"volume": "7", "issue": "11"}, "doi": "10.1002/eng2.70455"}
+{"study_id": "R040", "row": 13, "value": "n = 10 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "10"}, "doi": "10.1002/eng2.70455"}
+{"study_id": "R040", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "desarrollo y evaluación de artefacto software"]}, "doi": "10.1002/eng2.70455"}
+{"study_id": "R106", "row": 8, "value": "Ediciones Universidad de Salamanca", "source": "web", "evidence": {"publisher": "Ediciones Universidad de Salamanca"}, "doi": "10.14201/scero.32147"}
+{"study_id": "R106", "row": 9, "value": "Argentina", "source": "article", "evidence": {"match": "argentina"}, "doi": "10.14201/scero.32147"}
+{"study_id": "R106", "row": 12, "value": "56 (2)", "source": "web", "evidence": {"volume": "56", "issue": "2"}, "doi": "10.14201/scero.32147"}
+{"study_id": "R106", "row": 13, "value": "164 personas con discapacidad cognitiva y 73 expertos en lectura fácil (encuestas en línea)", "source": "article", "evidence": {"manual": true}, "doi": "10.14201/scero.32147"}
+{"study_id": "R106", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.14201/scero.32147"}
+{"study_id": "R123", "row": 8, "value": "Springer Nature", "source": "web", "evidence": {"publisher": "Springer Science and Business Media LLC"}, "doi": "10.1057/s41599-025-05079-1"}
+{"study_id": "R123", "row": 9, "value": "Singapur", "source": "article", "evidence": {"match": "singapore"}, "doi": "10.1057/s41599-025-05079-1"}
+{"study_id": "R123", "row": 12, "value": "12 (1)", "source": "web", "evidence": {"volume": "12", "issue": "1"}, "doi": "10.1057/s41599-025-05079-1"}
+{"study_id": "R123", "row": 13, "value": "n = 3 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "3"}, "doi": "10.1057/s41599-025-05079-1"}
+{"study_id": "R123", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1057/s41599-025-05079-1"}
+{"study_id": "R145", "row": 8, "value": "Springer Nature", "source": "web", "evidence": {"publisher": "Springer Science and Business Media LLC"}, "doi": "10.1007/s44217-026-01264-9"}
+{"study_id": "R145", "row": 9, "value": "Sudáfrica", "source": "article", "evidence": {"match": "south africa"}, "doi": "10.1007/s44217-026-01264-9"}
+{"study_id": "R145", "row": 12, "value": "5 (1)", "source": "web", "evidence": {"volume": "5", "issue": "1"}, "doi": "10.1007/s44217-026-01264-9"}
+{"study_id": "R145", "row": 13, "value": "n = 1 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "1"}, "doi": "10.1007/s44217-026-01264-9"}
+{"study_id": "R145", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1007/s44217-026-01264-9"}
+{"study_id": "R147", "row": 8, "value": "International Association of Online Engineering", "source": "web", "evidence": {"publisher": "International Association of Online Engineering (IAOE)"}, "doi": "10.3991/ijim.v20i09.61571"}
+{"study_id": "R147", "row": 9, "value": "Indonesia", "source": "article", "evidence": {"match": "indonesia"}, "doi": "10.3991/ijim.v20i09.61571"}
+{"study_id": "R147", "row": 12, "value": "20 (09)", "source": "web", "evidence": {"volume": "20", "issue": "09"}, "doi": "10.3991/ijim.v20i09.61571"}
+{"study_id": "R147", "row": 13, "value": "n = 2 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "2"}, "doi": "10.3991/ijim.v20i09.61571"}
+{"study_id": "R147", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.3991/ijim.v20i09.61571"}
+{"study_id": "R173", "row": 8, "value": "MDPI AG", "source": "web", "evidence": {"publisher": "MDPI AG"}, "doi": "10.3390/jcp5030045"}
+{"study_id": "R173", "row": 9, "value": "Grecia", "source": "web", "evidence": {"affiliations": ["Grecia"]}, "doi": "10.3390/jcp5030045"}
+{"study_id": "R173", "row": 12, "value": "5 (3)", "source": "web", "evidence": {"volume": "5", "issue": "3"}, "doi": "10.3390/jcp5030045"}
+{"study_id": "R173", "row": 13, "value": "n = 25 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "25"}, "doi": "10.3390/jcp5030045"}
+{"study_id": "R173", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública"]}, "doi": "10.3390/jcp5030045"}
+{"study_id": "R183", "row": 8, "value": "Public Library of Science", "source": "web", "evidence": {"publisher": "Public Library of Science (PLoS)"}, "doi": "10.1371/journal.pone.0342700"}
+{"study_id": "R183", "row": 9, "value": "Estados Unidos", "source": "article", "evidence": {"match": "united states"}, "doi": "10.1371/journal.pone.0342700"}
+{"study_id": "R183", "row": 12, "value": "21 (3)", "source": "web", "evidence": {"volume": "21", "issue": "3"}, "doi": "10.1371/journal.pone.0342700"}
+{"study_id": "R183", "row": 13, "value": "n = 36 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+children\\b", "n": "36"}, "doi": "10.1371/journal.pone.0342700"}
+{"study_id": "R183", "row": 10, "value": "Contexto: servicios de autismo en Alabama (EE. UU.); atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["servicios de autismo en Alabama (EE. UU.)", "atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.1371/journal.pone.0342700"}
+{"study_id": "R187", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3663547.3746361"}
+{"study_id": "R187", "row": 9, "value": "Estados Unidos", "source": "web", "evidence": {"affiliations": ["Estados Unidos"]}, "doi": "10.1145/3663547.3746361"}
+{"study_id": "R187", "row": 12, "value": "Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility", "source": "web", "evidence": {"container-title": "Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility"}, "doi": "10.1145/3663547.3746361"}
+{"study_id": "R187", "row": 13, "value": "n = 15 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "15"}, "doi": "10.1145/3663547.3746361"}
+{"study_id": "R187", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1145/3663547.3746361"}
+{"study_id": "R193", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3816046.3816307"}
+{"study_id": "R193", "row": 9, "value": "Reino Unido; Bélgica", "source": "web", "evidence": {"affiliations": ["Reino Unido", "Bélgica"]}, "doi": "10.1145/3816046.3816307"}
+{"study_id": "R193", "row": 12, "value": "Proceedings of the 8th ACM Conference on Conversational User Interfaces", "source": "web", "evidence": {"container-title": "Proceedings of the 8th ACM Conference on Conversational User Interfaces"}, "doi": "10.1145/3816046.3816307"}
+{"study_id": "R193", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.1145/3816046.3816307"}
+{"study_id": "R193", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; hogar inteligente.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "hogar inteligente"]}, "doi": "10.1145/3816046.3816307"}
+{"study_id": "R197", "row": 8, "value": "Oxford University Press", "source": "web", "evidence": {"publisher": "Oxford University Press (OUP)"}, "doi": "10.1093/iwc/iwaf034"}
+{"study_id": "R197", "row": 9, "value": "Finlandia", "source": "article", "evidence": {"match": "finland"}, "doi": "10.1093/iwc/iwaf034"}
+{"study_id": "R197", "row": 12, "value": "38 (1)", "source": "web", "evidence": {"volume": "38", "issue": "1"}, "doi": "10.1093/iwc/iwaf034"}
+{"study_id": "R197", "row": 13, "value": "n = 3 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "3"}, "doi": "10.1093/iwc/iwaf034"}
+{"study_id": "R197", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.1093/iwc/iwaf034"}
+{"study_id": "R199", "row": 8, "value": "Springer Nature", "source": "web", "evidence": {"publisher": "Springer Science and Business Media LLC"}, "doi": "10.1007/s41347-026-00628-0"}
+{"study_id": "R199", "row": 9, "value": "Estados Unidos", "source": "article", "evidence": {"match": "united states"}, "doi": "10.1007/s41347-026-00628-0"}
+{"study_id": "R199", "row": 12, "value": "Online first (sin volumen en Crossref)", "source": "web", "evidence": {"doi": "10.1007/s41347-026-00628-0"}, "doi": "10.1007/s41347-026-00628-0"}
+{"study_id": "R199", "row": 13, "value": "n = 5 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+adults with", "n": "5"}, "doi": "10.1007/s41347-026-00628-0"}
+{"study_id": "R199", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.1007/s41347-026-00628-0"}
+{"study_id": "R203", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3772318.3790284"}
+{"study_id": "R203", "row": 9, "value": "China", "source": "web", "evidence": {"affiliations": ["China"]}, "doi": "10.1145/3772318.3790284"}
+{"study_id": "R203", "row": 12, "value": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems", "source": "web", "evidence": {"container-title": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"}, "doi": "10.1145/3772318.3790284"}
+{"study_id": "R203", "row": 13, "value": "n = 1 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "1"}, "doi": "10.1145/3772318.3790284"}
+{"study_id": "R203", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; evaluación con usuarios.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "evaluación con usuarios"]}, "doi": "10.1145/3772318.3790284"}
+{"study_id": "R208", "row": 8, "value": "John Wiley & Sons", "source": "web", "evidence": {"publisher": "Wiley"}, "doi": "10.1111/jppi.70061"}
+{"study_id": "R208", "row": 9, "value": "Estados Unidos", "source": "web", "evidence": {"affiliations": ["Estados Unidos"]}, "doi": "10.1111/jppi.70061"}
+{"study_id": "R208", "row": 12, "value": "23 (2)", "source": "web", "evidence": {"volume": "23", "issue": "2"}, "doi": "10.1111/jppi.70061"}
+{"study_id": "R208", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.1111/jppi.70061"}
+{"study_id": "R208", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.1111/jppi.70061"}
+{"study_id": "R219", "row": 8, "value": "The Science and Information Organization", "source": "web", "evidence": {"publisher": "The Science and Information Organization"}, "doi": "10.14569/ijacsa.2025.0161229"}
+{"study_id": "R219", "row": 9, "value": "Perú", "source": "article", "evidence": {"match": "perú"}, "doi": "10.14569/ijacsa.2025.0161229"}
+{"study_id": "R219", "row": 12, "value": "16 (12)", "source": "web", "evidence": {"volume": "16", "issue": "12"}, "doi": "10.14569/ijacsa.2025.0161229"}
+{"study_id": "R219", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.14569/ijacsa.2025.0161229"}
+{"study_id": "R219", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "desarrollo y evaluación de artefacto software"]}, "doi": "10.14569/ijacsa.2025.0161229"}
+{"study_id": "R233", "row": 8, "value": "IEEE", "source": "web", "evidence": {"publisher": "Institute of Electrical and Electronics Engineers (IEEE)"}, "doi": "10.1109/access.2025.3617152"}
+{"study_id": "R233", "row": 9, "value": "España", "source": "web", "evidence": {"affiliations": ["España"]}, "doi": "10.1109/access.2025.3617152"}
+{"study_id": "R233", "row": 12, "value": "13", "source": "web", "evidence": {"volume": "13"}, "doi": "10.1109/access.2025.3617152"}
+{"study_id": "R233", "row": 13, "value": "n = 100 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+children\\b", "n": "100"}, "doi": "10.1109/access.2025.3617152"}
+{"study_id": "R233", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "desarrollo y evaluación de artefacto software"]}, "doi": "10.1109/access.2025.3617152"}
+{"study_id": "R239", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3696593.3696625"}
+{"study_id": "R239", "row": 9, "value": "Brasil", "source": "article", "evidence": {"match": "brazil"}, "doi": "10.1145/3696593.3696625"}
+{"study_id": "R239", "row": 12, "value": "Proceedings of the 11th International Conference on Software Development and Technologies for Enh…", "source": "web", "evidence": {"container-title": "Proceedings of the 11th International Conference on Software Development and Technologies for Enh…"}, "doi": "10.1145/3696593.3696625"}
+{"study_id": "R239", "row": 13, "value": "n = 14 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "14"}, "doi": "10.1145/3696593.3696625"}
+{"study_id": "R239", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1145/3696593.3696625"}
+{"study_id": "R246", "row": 8, "value": "The Science and Information Organization", "source": "web", "evidence": {"publisher": "The Science and Information Organization"}, "doi": "10.14569/ijacsa.2025.0161224"}
+{"study_id": "R246", "row": 9, "value": "Perú", "source": "article", "evidence": {"match": "perú"}, "doi": "10.14569/ijacsa.2025.0161224"}
+{"study_id": "R246", "row": 12, "value": "16 (12)", "source": "web", "evidence": {"volume": "16", "issue": "12"}, "doi": "10.14569/ijacsa.2025.0161224"}
+{"study_id": "R246", "row": 13, "value": "n = 40 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "40"}, "doi": "10.14569/ijacsa.2025.0161224"}
+{"study_id": "R246", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "desarrollo y evaluación de artefacto software"]}, "doi": "10.14569/ijacsa.2025.0161224"}
+{"study_id": "R263", "row": 8, "value": "National Institute of Professional Engineers and Scientists", "source": "web", "evidence": {"publisher": "National Institute of Professional Engineers and Scientists"}, "doi": "10.37933/nipes/7.4.2025.1324"}
+{"study_id": "R263", "row": 9, "value": "República Checa", "source": "article", "evidence": {"match": "czech republic"}, "doi": "10.37933/nipes/7.4.2025.1324"}
+{"study_id": "R263", "row": 12, "value": "7 (4)", "source": "web", "evidence": {"volume": "7", "issue": "4"}, "doi": "10.37933/nipes/7.4.2025.1324"}
+{"study_id": "R263", "row": 13, "value": "n = 000 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+students\\b", "n": "000"}, "doi": "10.37933/nipes/7.4.2025.1324"}
+{"study_id": "R263", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.37933/nipes/7.4.2025.1324"}
+{"study_id": "R264", "row": 8, "value": "Association for the Advancement of Artificial Intelligence", "source": "web", "evidence": {"publisher": "Association for the Advancement of Artificial Intelligence (AAAI)"}, "doi": "10.1609/aaai.v39i28.35229"}
+{"study_id": "R264", "row": 9, "value": "Finlandia", "source": "article", "evidence": {"match": "finland"}, "doi": "10.1609/aaai.v39i28.35229"}
+{"study_id": "R264", "row": 12, "value": "39 (28)", "source": "web", "evidence": {"volume": "39", "issue": "28"}, "doi": "10.1609/aaai.v39i28.35229"}
+{"study_id": "R264", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.1609/aaai.v39i28.35229"}
+{"study_id": "R264", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1609/aaai.v39i28.35229"}
+{"study_id": "R285", "row": 8, "value": "Association for Computational Linguistics", "source": "web", "evidence": {"publisher": "Association for Computational Linguistics"}, "doi": "10.18653/v1/2026.wassa-1.10"}
+{"study_id": "R285", "row": 9, "value": "Reino Unido", "source": "article", "evidence": {"match": "united kingdom"}, "doi": "10.18653/v1/2026.wassa-1.10"}
+{"study_id": "R285", "row": 12, "value": "The Proceedings for the 15th Workshop on Computational Approaches to Subjectivity, Sentiment Soci…", "source": "web", "evidence": {"container-title": "The Proceedings for the 15th Workshop on Computational Approaches to Subjectivity, Sentiment Soci…"}, "doi": "10.18653/v1/2026.wassa-1.10"}
+{"study_id": "R285", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.18653/v1/2026.wassa-1.10"}
+{"study_id": "R285", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.18653/v1/2026.wassa-1.10"}
+{"study_id": "R293", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3806980.3806981"}
+{"study_id": "R293", "row": 9, "value": "China", "source": "web", "evidence": {"affiliations": ["China"]}, "doi": "10.1145/3806980.3806981"}
+{"study_id": "R293", "row": 12, "value": "Proceedings of the 2026 International Conference on Big Data and Informatization Education", "source": "web", "evidence": {"container-title": "Proceedings of the 2026 International Conference on Big Data and Informatization Education"}, "doi": "10.1145/3806980.3806981"}
+{"study_id": "R293", "row": 13, "value": "n = 2 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "2"}, "doi": "10.1145/3806980.3806981"}
+{"study_id": "R293", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1145/3806980.3806981"}
+{"study_id": "R296", "row": 8, "value": "Informa UK Limited", "source": "web", "evidence": {"publisher": "Informa UK Limited"}, "doi": "10.1080/17483107.2025.2536701"}
+{"study_id": "R296", "row": 9, "value": "Australia", "source": "article", "evidence": {"match": "australia"}, "doi": "10.1080/17483107.2025.2536701"}
+{"study_id": "R296", "row": 12, "value": "21 (2)", "source": "web", "evidence": {"volume": "21", "issue": "2"}, "doi": "10.1080/17483107.2025.2536701"}
+{"study_id": "R296", "row": 13, "value": "n = 27 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+students\\b", "n": "27"}, "doi": "10.1080/17483107.2025.2536701"}
+{"study_id": "R296", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1080/17483107.2025.2536701"}
+{"study_id": "R300", "row": 8, "value": "SAGE Publications", "source": "web", "evidence": {"publisher": "SAGE Publications"}, "doi": "10.1177/14604582251345331"}
+{"study_id": "R300", "row": 9, "value": "Corea del Sur; Hansung University; Harvard Medical School", "source": "web", "evidence": {"affiliations": ["Corea del Sur", "Hansung University", "Harvard Medical School", "Mclean Hospital"]}, "doi": "10.1177/14604582251345331"}
+{"study_id": "R300", "row": 12, "value": "31 (2)", "source": "web", "evidence": {"volume": "31", "issue": "2"}, "doi": "10.1177/14604582251345331"}
+{"study_id": "R300", "row": 13, "value": "n = 88 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "88"}, "doi": "10.1177/14604582251345331"}
+{"study_id": "R300", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.1177/14604582251345331"}
+{"study_id": "R317", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3800645.3813056"}
+{"study_id": "R317", "row": 9, "value": "Australia", "source": "web", "evidence": {"affiliations": ["Australia"]}, "doi": "10.1145/3800645.3813056"}
+{"study_id": "R317", "row": 12, "value": "Proceedings of the 2026 Designing Interactive Systems Conference", "source": "web", "evidence": {"container-title": "Proceedings of the 2026 Designing Interactive Systems Conference"}, "doi": "10.1145/3800645.3813056"}
+{"study_id": "R317", "row": 13, "value": "n = 2 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "2"}, "doi": "10.1145/3800645.3813056"}
+{"study_id": "R317", "row": 10, "value": "Contexto: evaluación con usuarios.", "source": "article", "evidence": {"themes": ["evaluación con usuarios"]}, "doi": "10.1145/3800645.3813056"}
+{"study_id": "R327", "row": 8, "value": "JMIR Publications Inc.", "source": "web", "evidence": {"publisher": "JMIR Publications Inc."}, "doi": "10.2196/85013"}
+{"study_id": "R327", "row": 9, "value": "Reino Unido", "source": "article", "evidence": {"match": "united kingdom"}, "doi": "10.2196/85013"}
+{"study_id": "R327", "row": 12, "value": "10", "source": "web", "evidence": {"volume": "10"}, "doi": "10.2196/85013"}
+{"study_id": "R327", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.2196/85013"}
+{"study_id": "R327", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.2196/85013"}
+{"study_id": "R337", "row": 8, "value": "MDPI AG", "source": "web", "evidence": {"publisher": "MDPI AG"}, "doi": "10.3390/info15120769"}
+{"study_id": "R337", "row": 9, "value": "España", "source": "web", "evidence": {"affiliations": ["España"]}, "doi": "10.3390/info15120769"}
+{"study_id": "R337", "row": 12, "value": "15 (12)", "source": "web", "evidence": {"volume": "15", "issue": "12"}, "doi": "10.3390/info15120769"}
+{"study_id": "R337", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.3390/info15120769"}
+{"study_id": "R337", "row": 10, "value": "Estudio reportado en contexto asociado a España.", "source": "partial", "evidence": {}, "doi": "10.3390/info15120769"}
+{"study_id": "R345", "row": 8, "value": "Elsevier", "source": "web", "evidence": {"publisher": "Elsevier BV"}, "doi": "10.1016/j.ijhcs.2025.103696"}
+{"study_id": "R345", "row": 9, "value": "Italia", "source": "article", "evidence": {"match": "italy"}, "doi": "10.1016/j.ijhcs.2025.103696"}
+{"study_id": "R345", "row": 12, "value": "208", "source": "web", "evidence": {"volume": "208"}, "doi": "10.1016/j.ijhcs.2025.103696"}
+{"study_id": "R345", "row": 13, "value": "n = 1 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "1"}, "doi": "10.1016/j.ijhcs.2025.103696"}
+{"study_id": "R345", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1016/j.ijhcs.2025.103696"}
+{"study_id": "R347", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3772318.3790697"}
+{"study_id": "R347", "row": 9, "value": "China", "source": "web", "evidence": {"affiliations": ["China"]}, "doi": "10.1145/3772318.3790697"}
+{"study_id": "R347", "row": 12, "value": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems", "source": "web", "evidence": {"container-title": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"}, "doi": "10.1145/3772318.3790697"}
+{"study_id": "R347", "row": 13, "value": "n = 1 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "1"}, "doi": "10.1145/3772318.3790697"}
+{"study_id": "R347", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.1145/3772318.3790697"}
+{"study_id": "R356", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3764687.3769943"}
+{"study_id": "R356", "row": 9, "value": "Australia", "source": "web", "evidence": {"affiliations": ["Australia"]}, "doi": "10.1145/3764687.3769943"}
+{"study_id": "R356", "row": 12, "value": "Proceedings of the 37th Australian Conference on Human-Computer Interaction", "source": "web", "evidence": {"container-title": "Proceedings of the 37th Australian Conference on Human-Computer Interaction"}, "doi": "10.1145/3764687.3769943"}
+{"study_id": "R356", "row": 13, "value": "n = 12 estudiantes de posgrado", "source": "article", "evidence": {"pattern": "Twelve postgraduate students"}, "doi": "10.1145/3764687.3769943"}
+{"study_id": "R356", "row": 10, "value": "Estudio reportado en contexto asociado a Australia.", "source": "partial", "evidence": {}, "doi": "10.1145/3764687.3769943"}
+{"study_id": "R360", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3663547.3759705"}
+{"study_id": "R360", "row": 9, "value": "Reino Unido", "source": "web", "evidence": {"affiliations": ["Reino Unido"]}, "doi": "10.1145/3663547.3759705"}
+{"study_id": "R360", "row": 12, "value": "Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility", "source": "web", "evidence": {"container-title": "Proceedings of the 27th International ACM SIGACCESS Conference on Computers and Accessibility"}, "doi": "10.1145/3663547.3759705"}
+{"study_id": "R360", "row": 13, "value": "n = 7 estudiantes universitarios con TDAH", "source": "article", "evidence": {"pattern": "evaluated with seven university\\s+students"}, "doi": "10.1145/3663547.3759705"}
+{"study_id": "R360", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1145/3663547.3759705"}
+{"study_id": "R369", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3698061.3734421"}
+{"study_id": "R369", "row": 9, "value": "Estados Unidos", "source": "web", "evidence": {"affiliations": ["Estados Unidos"]}, "doi": "10.1145/3698061.3734421"}
+{"study_id": "R369", "row": 12, "value": "Proceedings of the 2025 Conference on Creativity and Cognition", "source": "web", "evidence": {"container-title": "Proceedings of the 2025 Conference on Creativity and Cognition"}, "doi": "10.1145/3698061.3734421"}
+{"study_id": "R369", "row": 13, "value": "n = 24 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "24"}, "doi": "10.1145/3698061.3734421"}
+{"study_id": "R369", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; evaluación con usuarios; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "evaluación con usuarios", "desarrollo y evaluación de artefacto software"]}, "doi": "10.1145/3698061.3734421"}
+{"study_id": "R376", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3742413.3789137"}
+{"study_id": "R376", "row": 9, "value": "Estados Unidos", "source": "web", "evidence": {"affiliations": ["Estados Unidos"]}, "doi": "10.1145/3742413.3789137"}
+{"study_id": "R376", "row": 12, "value": "Proceedings of the 31st International Conference on Intelligent User Interfaces", "source": "web", "evidence": {"container-title": "Proceedings of the 31st International Conference on Intelligent User Interfaces"}, "doi": "10.1145/3742413.3789137"}
+{"study_id": "R376", "row": 13, "value": "n = 2 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "2"}, "doi": "10.1145/3742413.3789137"}
+{"study_id": "R376", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1145/3742413.3789137"}
+{"study_id": "R377", "row": 8, "value": "American Institute of Mathematical Sciences", "source": "web", "evidence": {"publisher": "American Institute of Mathematical Sciences (AIMS)"}, "doi": "10.3934/steme.2026025"}
+{"study_id": "R377", "row": 9, "value": "Arabia Saudita", "source": "article", "evidence": {"match": "saudi arabia"}, "doi": "10.3934/steme.2026025"}
+{"study_id": "R377", "row": 12, "value": "6 (4)", "source": "web", "evidence": {"volume": "6", "issue": "4"}, "doi": "10.3934/steme.2026025"}
+{"study_id": "R377", "row": 13, "value": "n = 24 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "24"}, "doi": "10.3934/steme.2026025"}
+{"study_id": "R377", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.3934/steme.2026025"}
+{"study_id": "R391", "row": 8, "value": "Incoma Ltd. Shoumen, BULGARIA", "source": "web", "evidence": {"publisher": "Incoma Ltd. Shoumen, BULGARIA"}, "doi": "10.26615/978-954-452-098-4-024"}
+{"study_id": "R391", "row": 9, "value": "Suiza", "source": "article", "evidence": {"match": "switzerland"}, "doi": "10.26615/978-954-452-098-4-024"}
+{"study_id": "R391", "row": 12, "value": "2025", "source": "web", "evidence": {"volume": "2025"}, "doi": "10.26615/978-954-452-098-4-024"}
+{"study_id": "R391", "row": 13, "value": "Herramienta Simple.Text; evaluación técnica sin n de usuarios reportado", "source": "article", "evidence": {"manual": true}, "doi": "10.26615/978-954-452-098-4-024"}
+{"study_id": "R391", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.26615/978-954-452-098-4-024"}
+{"study_id": "R393", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3772318.3790573"}
+{"study_id": "R393", "row": 9, "value": "Australia", "source": "web", "evidence": {"affiliations": ["Australia"]}, "doi": "10.1145/3772318.3790573"}
+{"study_id": "R393", "row": 12, "value": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems", "source": "web", "evidence": {"container-title": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"}, "doi": "10.1145/3772318.3790573"}
+{"study_id": "R393", "row": 13, "value": "n = 1 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "1"}, "doi": "10.1145/3772318.3790573"}
+{"study_id": "R393", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; hogar inteligente.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "hogar inteligente"]}, "doi": "10.1145/3772318.3790573"}
+{"study_id": "R394", "row": 8, "value": "John Wiley & Sons", "source": "web", "evidence": {"publisher": "Wiley"}, "doi": "10.1111/jar.70219"}
+{"study_id": "R394", "row": 9, "value": "Australia", "source": "web", "evidence": {"affiliations": ["Australia"]}, "doi": "10.1111/jar.70219"}
+{"study_id": "R394", "row": 12, "value": "39 (2)", "source": "web", "evidence": {"volume": "39", "issue": "2"}, "doi": "10.1111/jar.70219"}
+{"study_id": "R394", "row": 13, "value": "n = 2 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "2"}, "doi": "10.1111/jar.70219"}
+{"study_id": "R394", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.1111/jar.70219"}
+{"study_id": "R396", "row": 8, "value": "Elsevier", "source": "web", "evidence": {"publisher": "Elsevier BV"}, "doi": "10.1016/j.cirpj.2026.03.009"}
+{"study_id": "R396", "row": 9, "value": "Polonia", "source": "article", "evidence": {"match": "poland"}, "doi": "10.1016/j.cirpj.2026.03.009"}
+{"study_id": "R396", "row": 12, "value": "67", "source": "web", "evidence": {"volume": "67"}, "doi": "10.1016/j.cirpj.2026.03.009"}
+{"study_id": "R396", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.1016/j.cirpj.2026.03.009"}
+{"study_id": "R396", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1016/j.cirpj.2026.03.009"}
+{"study_id": "R398", "row": 8, "value": "Springer Nature", "source": "web", "evidence": {"publisher": "Springer Science and Business Media LLC"}, "doi": "10.1038/s41598-025-28518-0"}
+{"study_id": "R398", "row": 9, "value": "China", "source": "article", "evidence": {"match": "china"}, "doi": "10.1038/s41598-025-28518-0"}
+{"study_id": "R398", "row": 12, "value": "15 (1)", "source": "web", "evidence": {"volume": "15", "issue": "1"}, "doi": "10.1038/s41598-025-28518-0"}
+{"study_id": "R398", "row": 13, "value": "n = 203 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "203"}, "doi": "10.1038/s41598-025-28518-0"}
+{"study_id": "R398", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1038/s41598-025-28518-0"}
+{"study_id": "R399", "row": 8, "value": "Springer Nature", "source": "web", "evidence": {"publisher": "Springer Nature Switzerland"}, "doi": "10.1007/978-3-032-22937-3_4"}
+{"study_id": "R399", "row": 9, "value": "Alemania", "source": "article", "evidence": {"match": "germany"}, "doi": "10.1007/978-3-032-22937-3_4"}
+{"study_id": "R399", "row": 12, "value": "Lecture Notes in Computer Science", "source": "web", "evidence": {"container-title": "Lecture Notes in Computer Science"}, "doi": "10.1007/978-3-032-22937-3_4"}
+{"study_id": "R399", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.1007/978-3-032-22937-3_4"}
+{"study_id": "R399", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "co-diseño participativo con usuarios"]}, "doi": "10.1007/978-3-032-22937-3_4"}
+{"study_id": "R403", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3788910.3788993"}
+{"study_id": "R403", "row": 9, "value": "China", "source": "web", "evidence": {"affiliations": ["China"]}, "doi": "10.1145/3788910.3788993"}
+{"study_id": "R403", "row": 12, "value": "Proceedings of the 2025 International Conference on Digital Society and Intelligent Computing", "source": "web", "evidence": {"container-title": "Proceedings of the 2025 International Conference on Digital Society and Intelligent Computing"}, "doi": "10.1145/3788910.3788993"}
+{"study_id": "R403", "row": 13, "value": "n = 151 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+users\\b", "n": "151"}, "doi": "10.1145/3788910.3788993"}
+{"study_id": "R403", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.1145/3788910.3788993"}
+{"study_id": "R425", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "Association for Computing Machinery (ACM)"}, "doi": "10.1145/3777370"}
+{"study_id": "R425", "row": 9, "value": "Reino Unido", "source": "web", "evidence": {"affiliations": ["Reino Unido"]}, "doi": "10.1145/3777370"}
+{"study_id": "R425", "row": 12, "value": "18 (4)", "source": "web", "evidence": {"volume": "18", "issue": "4"}, "doi": "10.1145/3777370"}
+{"study_id": "R425", "row": 13, "value": "n = 1 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "1"}, "doi": "10.1145/3777370"}
+{"study_id": "R425", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.1145/3777370"}
+{"study_id": "R440", "row": 8, "value": "MDPI AG", "source": "web", "evidence": {"publisher": "MDPI AG"}, "doi": "10.3390/educsci15030351"}
+{"study_id": "R440", "row": 9, "value": "Grecia; United Arab Emirates", "source": "web", "evidence": {"affiliations": ["Grecia", "United Arab Emirates"]}, "doi": "10.3390/educsci15030351"}
+{"study_id": "R440", "row": 12, "value": "15 (3)", "source": "web", "evidence": {"volume": "15", "issue": "3"}, "doi": "10.3390/educsci15030351"}
+{"study_id": "R440", "row": 13, "value": "n = 100 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+children\\b", "n": "100"}, "doi": "10.3390/educsci15030351"}
+{"study_id": "R440", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.3390/educsci15030351"}
+{"study_id": "R453", "row": 8, "value": "Springer Nature", "source": "web", "evidence": {"publisher": "Springer Science and Business Media LLC"}, "doi": "10.1007/s00146-026-03044-3"}
+{"study_id": "R453", "row": 9, "value": "Estados Unidos (California)", "source": "article", "evidence": {"match": "california"}, "doi": "10.1007/s00146-026-03044-3"}
+{"study_id": "R453", "row": 12, "value": "41 (7)", "source": "web", "evidence": {"volume": "41", "issue": "7"}, "doi": "10.1007/s00146-026-03044-3"}
+{"study_id": "R453", "row": 13, "value": "Ensayo conceptual sobre voz e IA (sin estudio empírico con n)", "source": "article", "evidence": {"manual": true}, "doi": "10.1007/s00146-026-03044-3"}
+{"study_id": "R453", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1007/s00146-026-03044-3"}
+{"study_id": "R457", "row": 8, "value": "King Salman Center for Disability Research", "source": "web", "evidence": {"publisher": "King Salman Center for Disability Research"}, "doi": "10.57197/jdr-2026-0830"}
+{"study_id": "R457", "row": 9, "value": "Arabia Saudita", "source": "article", "evidence": {"match": "saudi arabia"}, "doi": "10.57197/jdr-2026-0830"}
+{"study_id": "R457", "row": 12, "value": "5 (2)", "source": "web", "evidence": {"volume": "5", "issue": "2"}, "doi": "10.57197/jdr-2026-0830"}
+{"study_id": "R457", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.57197/jdr-2026-0830"}
+{"study_id": "R457", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.57197/jdr-2026-0830"}
+{"study_id": "R473", "row": 8, "value": "Incoma Ltd. Shoumen, BULGARIA", "source": "web", "evidence": {"publisher": "Incoma Ltd. Shoumen, BULGARIA"}, "doi": "10.26615/978-954-452-098-4-106"}
+{"study_id": "R473", "row": 9, "value": "Reino Unido", "source": "article", "evidence": {"match": "united kingdom"}, "doi": "10.26615/978-954-452-098-4-106"}
+{"study_id": "R473", "row": 12, "value": "2025", "source": "web", "evidence": {"volume": "2025"}, "doi": "10.26615/978-954-452-098-4-106"}
+{"study_id": "R473", "row": 13, "value": "n = 9 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+adults\\b", "n": "9"}, "doi": "10.26615/978-954-452-098-4-106"}
+{"study_id": "R473", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "desarrollo y evaluación de artefacto software"]}, "doi": "10.26615/978-954-452-098-4-106"}
+{"study_id": "R495", "row": 8, "value": "Sociedade Brasileira de Computacao - SB", "source": "web", "evidence": {"publisher": "Sociedade Brasileira de Computacao - SB"}, "doi": "10.5753/jis.2025.5644"}
+{"study_id": "R495", "row": 9, "value": "Suiza", "source": "article", "evidence": {"match": "switzerland"}, "doi": "10.5753/jis.2025.5644"}
+{"study_id": "R495", "row": 12, "value": "16 (1)", "source": "web", "evidence": {"volume": "16", "issue": "1"}, "doi": "10.5753/jis.2025.5644"}
+{"study_id": "R495", "row": 13, "value": "n = 30 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+children\\b", "n": "30"}, "doi": "10.5753/jis.2025.5644"}
+{"study_id": "R495", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.5753/jis.2025.5644"}
+{"study_id": "R504", "row": 8, "value": "Association for Computational Linguistics", "source": "web", "evidence": {"publisher": "Association for Computational Linguistics"}, "doi": "10.18653/v1/2022.aacl-demo.3"}
+{"study_id": "R504", "row": 9, "value": "Estados Unidos", "source": "article", "evidence": {"match": "united states"}, "doi": "10.18653/v1/2022.aacl-demo.3"}
+{"study_id": "R504", "row": 12, "value": "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computationa…", "source": "web", "evidence": {"container-title": "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computationa…"}, "doi": "10.18653/v1/2022.aacl-demo.3"}
+{"study_id": "R504", "row": 13, "value": "Desarrollo de PICTalky; estudio empírico con usuarios no reportado", "source": "article", "evidence": {"manual": true}, "doi": "10.18653/v1/2022.aacl-demo.3"}
+{"study_id": "R504", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.18653/v1/2022.aacl-demo.3"}
+{"study_id": "R527", "row": 8, "value": "Informa UK Limited", "source": "web", "evidence": {"publisher": "Informa UK Limited"}, "doi": "10.1080/2331186x.2024.2391620"}
+{"study_id": "R527", "row": 9, "value": "Arabia Saudita; Uae", "source": "web", "evidence": {"affiliations": ["Arabia Saudita", "Uae"]}, "doi": "10.1080/2331186x.2024.2391620"}
+{"study_id": "R527", "row": 12, "value": "11 (1)", "source": "web", "evidence": {"volume": "11", "issue": "1"}, "doi": "10.1080/2331186x.2024.2391620"}
+{"study_id": "R527", "row": 13, "value": "n = 62 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+students\\b", "n": "62"}, "doi": "10.1080/2331186x.2024.2391620"}
+{"study_id": "R527", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1080/2331186x.2024.2391620"}
+{"study_id": "R538", "row": 8, "value": "MDPI AG", "source": "web", "evidence": {"publisher": "MDPI AG"}, "doi": "10.3390/computation10110202"}
+{"study_id": "R538", "row": 9, "value": "Rumanía", "source": "web", "evidence": {"affiliations": ["Rumanía"]}, "doi": "10.3390/computation10110202"}
+{"study_id": "R538", "row": 12, "value": "10 (11)", "source": "web", "evidence": {"volume": "10", "issue": "11"}, "doi": "10.3390/computation10110202"}
+{"study_id": "R538", "row": 13, "value": "n = 6 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+children\\b", "n": "6"}, "doi": "10.3390/computation10110202"}
+{"study_id": "R538", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "desarrollo y evaluación de artefacto software"]}, "doi": "10.3390/computation10110202"}
+{"study_id": "R549", "row": 8, "value": "Public Library of Science", "source": "web", "evidence": {"publisher": "Public Library of Science (PLoS)"}, "doi": "10.1371/journal.pone.0283622"}
+{"study_id": "R549", "row": 9, "value": "Países Bajos", "source": "article", "evidence": {"match": "netherlands"}, "doi": "10.1371/journal.pone.0283622"}
+{"study_id": "R549", "row": 12, "value": "18 (4)", "source": "web", "evidence": {"volume": "18", "issue": "4"}, "doi": "10.1371/journal.pone.0283622"}
+{"study_id": "R549", "row": 13, "value": "n = 45 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "45"}, "doi": "10.1371/journal.pone.0283622"}
+{"study_id": "R549", "row": 10, "value": "Estudio reportado en contexto asociado a Países Bajos.", "source": "partial", "evidence": {}, "doi": "10.1371/journal.pone.0283622"}
+{"study_id": "R581", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "Association for Computing Machinery (ACM)"}, "doi": "10.1145/3626952"}
+{"study_id": "R581", "row": 9, "value": "Estados Unidos", "source": "web", "evidence": {"affiliations": ["Estados Unidos"]}, "doi": "10.1145/3626952"}
+{"study_id": "R581", "row": 12, "value": "67 (9)", "source": "web", "evidence": {"volume": "67", "issue": "9"}, "doi": "10.1145/3626952"}
+{"study_id": "R581", "row": 13, "value": "n = 32 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "32"}, "doi": "10.1145/3626952"}
+{"study_id": "R581", "row": 10, "value": "Estudio reportado en contexto asociado a Estados Unidos.", "source": "partial", "evidence": {}, "doi": "10.1145/3626952"}
+{"study_id": "R583", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3610661.3617514"}
+{"study_id": "R583", "row": 9, "value": "India", "source": "web", "evidence": {"affiliations": ["India"]}, "doi": "10.1145/3610661.3617514"}
+{"study_id": "R583", "row": 12, "value": "International Cconference on Multimodal Interaction", "source": "web", "evidence": {"container-title": "International Cconference on Multimodal Interaction"}, "doi": "10.1145/3610661.3617514"}
+{"study_id": "R583", "row": 13, "value": "n = 5 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+children\\b", "n": "5"}, "doi": "10.1145/3610661.3617514"}
+{"study_id": "R583", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1145/3610661.3617514"}
+{"study_id": "R587", "row": 8, "value": "Springer Nature", "source": "web", "evidence": {"publisher": "Springer Science and Business Media LLC"}, "doi": "10.1007/s10209-022-00946-z"}
+{"study_id": "R587", "row": 9, "value": "Indonesia", "source": "article", "evidence": {"match": "indonesia"}, "doi": "10.1007/s10209-022-00946-z"}
+{"study_id": "R587", "row": 12, "value": "23 (1)", "source": "web", "evidence": {"volume": "23", "issue": "1"}, "doi": "10.1007/s10209-022-00946-z"}
+{"study_id": "R587", "row": 13, "value": "n = 34 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "34"}, "doi": "10.1007/s10209-022-00946-z"}
+{"study_id": "R587", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1007/s10209-022-00946-z"}
+{"study_id": "R595", "row": 8, "value": "Association for Computational Linguistics", "source": "web", "evidence": {"publisher": "Association for Computational Linguistics"}, "doi": "10.18653/v1/2022.conll-1.17"}
+{"study_id": "R595", "row": 9, "value": "Estados Unidos", "source": "article", "evidence": {"match": "united states"}, "doi": "10.18653/v1/2022.conll-1.17"}
+{"study_id": "R595", "row": 12, "value": "Proceedings of the 26th Conference on Computational Natural Language Learning (CoNLL)", "source": "web", "evidence": {"container-title": "Proceedings of the 26th Conference on Computational Natural Language Learning (CoNLL)"}, "doi": "10.18653/v1/2022.conll-1.17"}
+{"study_id": "R595", "row": 13, "value": "n = 1", "source": "article", "evidence": {"pattern": "\\b[Nn]\\s*=\\s*(\\d+)\\b", "n": "1"}, "doi": "10.18653/v1/2022.conll-1.17"}
+{"study_id": "R595", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.18653/v1/2022.conll-1.17"}
+{"study_id": "R600", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "Association for Computing Machinery (ACM)"}, "doi": "10.1145/3628447"}
+{"study_id": "R600", "row": 9, "value": "University Of Colorado Denver", "source": "web", "evidence": {"affiliations": ["University Of Colorado Denver"]}, "doi": "10.1145/3628447"}
+{"study_id": "R600", "row": 12, "value": "16 (4)", "source": "web", "evidence": {"volume": "16", "issue": "4"}, "doi": "10.1145/3628447"}
+{"study_id": "R600", "row": 13, "value": "n = 4 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "4"}, "doi": "10.1145/3628447"}
+{"study_id": "R600", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1145/3628447"}
+{"study_id": "R605", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3627050.3631580"}
+{"study_id": "R605", "row": 9, "value": "Japón", "source": "web", "evidence": {"affiliations": ["Japón"]}, "doi": "10.1145/3627050.3631580"}
+{"study_id": "R605", "row": 12, "value": "Proceedings of the International Conference on the Internet of Things", "source": "web", "evidence": {"container-title": "Proceedings of the International Conference on the Internet of Things"}, "doi": "10.1145/3627050.3631580"}
+{"study_id": "R605", "row": 13, "value": "n = 2 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "2"}, "doi": "10.1145/3627050.3631580"}
+{"study_id": "R605", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.1145/3627050.3631580"}
+{"study_id": "R617", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3613904.3642570"}
+{"study_id": "R617", "row": 9, "value": "Suiza; Alemania", "source": "web", "evidence": {"affiliations": ["Suiza", "Alemania"]}, "doi": "10.1145/3613904.3642570"}
+{"study_id": "R617", "row": 12, "value": "Proceedings of the CHI Conference on Human Factors in Computing Systems", "source": "web", "evidence": {"container-title": "Proceedings of the CHI Conference on Human Factors in Computing Systems"}, "doi": "10.1145/3613904.3642570"}
+{"study_id": "R617", "row": 13, "value": "n = 20 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "20"}, "doi": "10.1145/3613904.3642570"}
+{"study_id": "R617", "row": 10, "value": "Estudio reportado en contexto asociado a Suiza; Alemania.", "source": "partial", "evidence": {}, "doi": "10.1145/3613904.3642570"}
+{"study_id": "R623", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3610661.3616176"}
+{"study_id": "R623", "row": 9, "value": "Italia", "source": "web", "evidence": {"affiliations": ["Italia"]}, "doi": "10.1145/3610661.3616176"}
+{"study_id": "R623", "row": 12, "value": "International Cconference on Multimodal Interaction", "source": "web", "evidence": {"container-title": "International Cconference on Multimodal Interaction"}, "doi": "10.1145/3610661.3616176"}
+{"study_id": "R623", "row": 13, "value": "Interfaz evaluada en sesiones clínicas (n de estudiantes no unificado)", "source": "article", "evidence": {"manual": true}, "doi": "10.1145/3610661.3616176"}
+{"study_id": "R623", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.1145/3610661.3616176"}
+{"study_id": "R626", "row": 8, "value": "MDPI AG", "source": "web", "evidence": {"publisher": "MDPI AG"}, "doi": "10.3390/app14093711"}
+{"study_id": "R626", "row": 9, "value": "Italia", "source": "web", "evidence": {"affiliations": ["Italia"]}, "doi": "10.3390/app14093711"}
+{"study_id": "R626", "row": 12, "value": "14 (9)", "source": "web", "evidence": {"volume": "14", "issue": "9"}, "doi": "10.3390/app14093711"}
+{"study_id": "R626", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.3390/app14093711"}
+{"study_id": "R626", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; museo y accesibilidad cultural; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "museo y accesibilidad cultural", "desarrollo y evaluación de artefacto software"]}, "doi": "10.3390/app14093711"}
+{"study_id": "R627", "row": 8, "value": "University of Southern Mississippi", "source": "web", "evidence": {"publisher": "University of Southern Mississippi"}, "doi": "10.18785/jetde.1702.12"}
+{"study_id": "R627", "row": 9, "value": "India", "source": "article", "evidence": {"match": "india"}, "doi": "10.18785/jetde.1702.12"}
+{"study_id": "R627", "row": 12, "value": "17 (2)", "source": "web", "evidence": {"volume": "17", "issue": "2"}, "doi": "10.18785/jetde.1702.12"}
+{"study_id": "R627", "row": 13, "value": "n = 1536 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "1536"}, "doi": "10.18785/jetde.1702.12"}
+{"study_id": "R627", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.18785/jetde.1702.12"}
+{"study_id": "R630", "row": 8, "value": "Association for the Advancement of Artificial Intelligence", "source": "web", "evidence": {"publisher": "Association for the Advancement of Artificial Intelligence (AAAI)"}, "doi": "10.1609/aaai.v38i21.30519"}
+{"study_id": "R630", "row": 9, "value": "Suiza", "source": "article", "evidence": {"match": "switzerland"}, "doi": "10.1609/aaai.v38i21.30519"}
+{"study_id": "R630", "row": 12, "value": "38 (21)", "source": "web", "evidence": {"volume": "38", "issue": "21"}, "doi": "10.1609/aaai.v38i21.30519"}
+{"study_id": "R630", "row": 13, "value": "n = 400 participantes", "source": "article", "evidence": {"pattern": "\\(\\s*[Nn]\\s*=\\s*(\\d+)\\s*\\)", "n": "400"}, "doi": "10.1609/aaai.v38i21.30519"}
+{"study_id": "R630", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; evaluación con usuarios.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "evaluación con usuarios"]}, "doi": "10.1609/aaai.v38i21.30519"}
+{"study_id": "R643", "row": 8, "value": "IEEE", "source": "web", "evidence": {"publisher": "Institute of Electrical and Electronics Engineers (IEEE)"}, "doi": "10.1109/access.2021.3072697"}
+{"study_id": "R643", "row": 9, "value": "Suiza", "source": "article", "evidence": {"match": "switzerland"}, "doi": "10.1109/access.2021.3072697"}
+{"study_id": "R643", "row": 12, "value": "9", "source": "web", "evidence": {"volume": "9"}, "doi": "10.1109/access.2021.3072697"}
+{"study_id": "R643", "row": 13, "value": "Sistema EASIER; evaluación con corpus (sin n de participantes humanos)", "source": "article", "evidence": {"manual": true}, "doi": "10.1109/access.2021.3072697"}
+{"study_id": "R643", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.1109/access.2021.3072697"}
+{"study_id": "R647", "row": 8, "value": "The Design Society", "source": "web", "evidence": {"publisher": "The Design Society"}, "doi": "10.35199/epde.2024.95"}
+{"study_id": "R647", "row": 9, "value": "Reino Unido", "source": "article", "evidence": {"match": "united kingdom"}, "doi": "10.35199/epde.2024.95"}
+{"study_id": "R647", "row": 12, "value": "Proceedings of the International Conference on Engineering and Product Design Education, EPDE 2024", "source": "web", "evidence": {"container-title": "Proceedings of the International Conference on Engineering and Product Design Education, EPDE 2024"}, "doi": "10.35199/epde.2024.95"}
+{"study_id": "R647", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.35199/epde.2024.95"}
+{"study_id": "R647", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.35199/epde.2024.95"}
+{"study_id": "R663", "row": 8, "value": "The Science and Information Organization", "source": "web", "evidence": {"publisher": "The Science and Information Organization"}, "doi": "10.14569/ijacsa.2024.0150835"}
+{"study_id": "R663", "row": 9, "value": "España", "source": "article", "evidence": {"match": "spain"}, "doi": "10.14569/ijacsa.2024.0150835"}
+{"study_id": "R663", "row": 12, "value": "15 (8)", "source": "web", "evidence": {"volume": "15", "issue": "8"}, "doi": "10.14569/ijacsa.2024.0150835"}
+{"study_id": "R663", "row": 13, "value": "n = 10", "source": "article", "evidence": {"pattern": "\\b[Nn]\\s*=\\s*(\\d+)\\b", "n": "10"}, "doi": "10.14569/ijacsa.2024.0150835"}
+{"study_id": "R663", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.14569/ijacsa.2024.0150835"}
+{"study_id": "R693", "row": 8, "value": "Frontiers Media SA", "source": "web", "evidence": {"publisher": "Frontiers Media SA"}, "doi": "10.3389/fcomm.2021.689009"}
+{"study_id": "R693", "row": 9, "value": "Reino Unido", "source": "article", "evidence": {"match": "united kingdom"}, "doi": "10.3389/fcomm.2021.689009"}
+{"study_id": "R693", "row": 12, "value": "6", "source": "web", "evidence": {"volume": "6"}, "doi": "10.3389/fcomm.2021.689009"}
+{"study_id": "R693", "row": 13, "value": "n = 10 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "10"}, "doi": "10.3389/fcomm.2021.689009"}
+{"study_id": "R693", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "co-diseño participativo con usuarios"]}, "doi": "10.3389/fcomm.2021.689009"}
+{"study_id": "R705", "row": 8, "value": "MDPI AG", "source": "web", "evidence": {"publisher": "MDPI AG"}, "doi": "10.3390/ijerph21091150"}
+{"study_id": "R705", "row": 9, "value": "Estados Unidos; Canadá", "source": "web", "evidence": {"affiliations": ["Estados Unidos", "Canadá"]}, "doi": "10.3390/ijerph21091150"}
+{"study_id": "R705", "row": 12, "value": "21 (9)", "source": "web", "evidence": {"volume": "21", "issue": "9"}, "doi": "10.3390/ijerph21091150"}
+{"study_id": "R705", "row": 13, "value": "n = 2 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "2"}, "doi": "10.3390/ijerph21091150"}
+{"study_id": "R705", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.3390/ijerph21091150"}
+{"study_id": "R710", "row": 8, "value": "Frontiers Media SA", "source": "web", "evidence": {"publisher": "Frontiers Media SA"}, "doi": "10.3389/feduc.2024.1494431"}
+{"study_id": "R710", "row": 9, "value": "Estados Unidos", "source": "article", "evidence": {"match": "united states"}, "doi": "10.3389/feduc.2024.1494431"}
+{"study_id": "R710", "row": 12, "value": "9", "source": "web", "evidence": {"volume": "9"}, "doi": "10.3389/feduc.2024.1494431"}
+{"study_id": "R710", "row": 13, "value": "n = 83 participantes", "source": "article", "evidence": {"pattern": "\\b[Nn]\\s*=\\s*(\\d+)\\s+participants?", "n": "83"}, "doi": "10.3389/feduc.2024.1494431"}
+{"study_id": "R710", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.3389/feduc.2024.1494431"}
+{"study_id": "R713", "row": 8, "value": "ACM", "source": "web", "evidence": {"publisher": "ACM"}, "doi": "10.1145/3605655.3605687"}
+{"study_id": "R713", "row": 9, "value": "Suiza; Italia", "source": "web", "evidence": {"affiliations": ["Suiza", "Italia"]}, "doi": "10.1145/3605655.3605687"}
+{"study_id": "R713", "row": 12, "value": "Proceedings of the European Conference on Cognitive Ergonomics 2023", "source": "web", "evidence": {"container-title": "Proceedings of the European Conference on Cognitive Ergonomics 2023"}, "doi": "10.1145/3605655.3605687"}
+{"study_id": "R713", "row": 13, "value": "n = 20 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "20"}, "doi": "10.1145/3605655.3605687"}
+{"study_id": "R713", "row": 10, "value": "Contexto: museo y accesibilidad cultural; co-diseño participativo con usuarios.", "source": "article", "evidence": {"themes": ["museo y accesibilidad cultural", "co-diseño participativo con usuarios"]}, "doi": "10.1145/3605655.3605687"}
+{"study_id": "R721", "row": 8, "value": "Frontiers Media SA", "source": "web", "evidence": {"publisher": "Frontiers Media SA"}, "doi": "10.3389/fcomp.2024.1394705"}
+{"study_id": "R721", "row": 9, "value": "Portugal", "source": "article", "evidence": {"match": "portugal"}, "doi": "10.3389/fcomp.2024.1394705"}
+{"study_id": "R721", "row": 12, "value": "6", "source": "web", "evidence": {"volume": "6"}, "doi": "10.3389/fcomp.2024.1394705"}
+{"study_id": "R721", "row": 13, "value": "n = 430 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+students\\b", "n": "430"}, "doi": "10.3389/fcomp.2024.1394705"}
+{"study_id": "R721", "row": 10, "value": "Contexto: contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar"]}, "doi": "10.3389/fcomp.2024.1394705"}
+{"study_id": "R831", "row": 8, "value": "Elsevier", "source": "web", "evidence": {"publisher": "Elsevier BV"}, "doi": "10.1016/j.ijhcs.2026.103938"}
+{"study_id": "R831", "row": 9, "value": "Reino Unido", "source": "article", "evidence": {"match": "united kingdom"}, "doi": "10.1016/j.ijhcs.2026.103938"}
+{"study_id": "R831", "row": 12, "value": "218", "source": "web", "evidence": {"volume": "218"}, "doi": "10.1016/j.ijhcs.2026.103938"}
+{"study_id": "R831", "row": 13, "value": "n = 28 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+participants?", "n": "28"}, "doi": "10.1016/j.ijhcs.2026.103938"}
+{"study_id": "R831", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; hogar inteligente.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "hogar inteligente"]}, "doi": "10.1016/j.ijhcs.2026.103938"}
+{"study_id": "R880", "row": 8, "value": "IEEE", "source": "web", "evidence": {"publisher": "Institute of Electrical and Electronics Engineers (IEEE)"}, "doi": "10.1109/access.2024.3487308"}
+{"study_id": "R880", "row": 9, "value": "España", "source": "web", "evidence": {"affiliations": ["España"]}, "doi": "10.1109/access.2024.3487308"}
+{"study_id": "R880", "row": 12, "value": "12", "source": "web", "evidence": {"volume": "12"}, "doi": "10.1109/access.2024.3487308"}
+{"study_id": "R880", "row": 13, "value": "n = 2 participantes", "source": "article", "evidence": {"pattern": "(\\d+)\\s+users\\b", "n": "2"}, "doi": "10.1109/access.2024.3487308"}
+{"study_id": "R880", "row": 10, "value": "Contexto: atención sanitaria o e-salud pública; contexto educativo universitario o escolar.", "source": "article", "evidence": {"themes": ["atención sanitaria o e-salud pública", "contexto educativo universitario o escolar"]}, "doi": "10.1109/access.2024.3487308"}
+{"study_id": "R1061", "row": 8, "value": "Elsevier", "source": "web", "evidence": {"publisher": "Elsevier BV"}, "doi": "10.1016/j.softx.2026.102512"}
+{"study_id": "R1061", "row": 9, "value": "España", "source": "article", "evidence": {"match": "spain"}, "doi": "10.1016/j.softx.2026.102512"}
+{"study_id": "R1061", "row": 12, "value": "33", "source": "web", "evidence": {"volume": "33"}, "doi": "10.1016/j.softx.2026.102512"}
+{"study_id": "R1061", "row": 13, "value": "Revisión bibliográfica (sin n empírico)", "source": "article", "evidence": {}, "doi": "10.1016/j.softx.2026.102512"}
+{"study_id": "R1061", "row": 10, "value": "Contexto: contexto educativo universitario o escolar; co-diseño participativo con usuarios; desarrollo y evaluación de artefacto software.", "source": "article", "evidence": {"themes": ["contexto educativo universitario o escolar", "co-diseño participativo con usuarios", "desarrollo y evaluación de artefacto software"]}, "doi": "10.1016/j.softx.2026.102512"}

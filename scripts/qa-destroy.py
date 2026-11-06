@@ -1644,6 +1644,8 @@ def _(sb):
             sb.check("formulario:" in txt, f"{name} sin comandos formulario")
             if name.endswith("apply"):
                 sb.check("extract-lote" in txt and "Forbidden" in txt or "No usar" in txt, f"{name} no prohíbe extract-lote")
+                sb.check("cribado2:query" in txt, f"{name} no exige cribado2:query")
+                sb.check("allow-nature-review" in txt, f"{name} no documenta --allow-nature-review")
     sb.check((ROOT / "playbooks" / "formulario-prosa-rsl.md").is_file(), "falta formulario-prosa-rsl.md")
     pkg = (ROOT / "package.json").read_text(encoding="utf-8")
     for cmd in ("formulario:prepare", "formulario:apply-lote", "formulario:lint-setup"):

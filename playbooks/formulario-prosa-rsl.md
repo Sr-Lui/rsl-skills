@@ -17,13 +17,19 @@ Cadena acotada para **texto que va al Excel** (no sustituye [`prosa-rsl.md`](pro
 
 **Ausencia:** celda **`—`**, traza `decision: absent`.
 
+## Registro vs matiz (anti–plantilla)
+
+- **Registro agregable** (inicio de la celda, categoría, `Sí`/`No`, subcampos de plantilla mixta) puede coincidir entre muchos estudios si los artículos convergen.
+- **Matiz / contexto** no debe ser la **misma oración** repetida en lote tras lote: debe basarse en **hechos del MD de ese estudio** (diseño, población, tarea, métrica). Si no hay matiz, acorta o usa `partial` y refuerza **`evidence.quote`** con literal del MD.
+- **humanize-academic-writing:** pulir la **nota**, no sustituir el registro; **no** uniformar el matiz con formulaciones genéricas del tema RSL.
+
 Humanize pulir la intro; **no** quitar el registro literal (pipes y subcampos).
 
 ## Paso 1 — humanize-academic-writing (apply)
 
 Leer [`.agents/skills/humanize-academic-writing/SKILL.md`](../.agents/skills/humanize-academic-writing/SKILL.md).
 
-Humanizar la **nota**, no sustituir el **registro** inicial. No alargar cuantitativos con párrafos genéricos de tema RSL.
+Humanizar la **nota**, no sustituir el **registro** inicial. No alargar cuantitativos con párrafos genéricos de tema RSL. **Diferenciar** el matiz entre estudios cuando el registro sea idéntico.
 
 ## Paso 2 — Revisión crítico (checklist)
 
@@ -35,6 +41,7 @@ El crítico (`extraccion-formulario`) rechaza si:
 - Persisten pipes `\|` **fuera** de plantillas mixtas definidas en `items.md`.
 - **Dos ítems distintos** del mismo estudio comparten el mismo párrafo largo (salvo excepción en `duplicate_value_whitelist`).
 - **`evidence[]`** vacío o con `quote` demasiado corto (menos de 40 caracteres) cuando `decision` tiene contenido.
+- `loc` vago (`fulltext`) o `quote` idéntico al `value` / no literal en el MD `src`.
 
 ## Ejemplos
 
@@ -63,4 +70,5 @@ El crítico (`extraccion-formulario`) rechaza si:
 
 ## Lint
 
-`pnpm -s formulario:lint-prosa docs/<slug>` valida registro por tipo, evidencia y duplicados en `extraccion-traza.jsonl`.
+- `pnpm -s formulario:lint-traza docs/<slug>` — estructura de la traza **y** evidencia (`loc`, `quote` literal, `src` existente).
+- `pnpm -s formulario:lint-prosa docs/<slug>` — registro por tipo, dominancia sospechosa, duplicados entre ítems, WARN de plantilla entre estudios (el **stamp** usa `--strict` en ambos: 0 WARN).

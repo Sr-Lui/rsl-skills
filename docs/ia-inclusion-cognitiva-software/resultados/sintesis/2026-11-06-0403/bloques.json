@@ -1,0 +1,217 @@
+{
+  "version": 1,
+  "nota": "Bloques B00 fijos (caracterización). Los bloques RQ los propone defensor-rsl (modo sintesis-bloques).",
+  "bloques": [
+    {
+      "id": "B00-anio",
+      "seccion": "3.1",
+      "titulo": "Frecuencia de publicaciones por año",
+      "items": [],
+      "agregacion": "general",
+      "sintesis": "aditiva",
+      "presentacion": "figura",
+      "motivo_presentacion": "Cambio en el tiempo"
+    },
+    {
+      "id": "B00-enfoque",
+      "seccion": "3.1",
+      "titulo": "Enfoques metodológicos empleados",
+      "items": [],
+      "agregacion": "general",
+      "sintesis": "aditiva",
+      "presentacion": "texto",
+      "motivo_presentacion": "Tres categorías; basta el texto"
+    },
+    {
+      "id": "B00-tipo",
+      "seccion": "3.1",
+      "titulo": "Tipo de documento",
+      "items": [],
+      "agregacion": "general",
+      "sintesis": "aditiva",
+      "presentacion": "texto",
+      "motivo_presentacion": "Dos categorías; basta el texto"
+    },
+    {
+      "id": "B00-pais",
+      "seccion": "3.1",
+      "titulo": "Distribución geográfica de los estudios",
+      "items": [],
+      "agregacion": "general",
+      "sintesis": "aditiva",
+      "presentacion": "tabla",
+      "motivo_presentacion": "Comparación simple de categorías de tamaño medio"
+    },
+    {
+      "id": "B00-muestra",
+      "seccion": "3.1",
+      "titulo": "Tamaño de las muestras",
+      "items": [],
+      "agregacion": "general",
+      "sintesis": "aditiva",
+      "presentacion": "texto",
+      "motivo_presentacion": "Rango y mediana; basta el texto"
+    },
+    {
+      "id": "RQ1-B1",
+      "rq": "RQ1",
+      "titulo": "Perfiles de discapacidad cognitiva o neurodivergencia abordados",
+      "items": [
+        "RQ1-I1"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "figura",
+      "motivo_presentacion": "Siete categorías de perfil específico, multivalor, de un ítem nominal (base n=49); las barras horizontales con X% (n=Y) resaltan el patrón de concentración. La etiqueta paraguas «Neurodivergencia» no se dibuja: se menciona en una frase",
+      "plan_recodificacion": "En codificacion/RQ1-I1.jsonl (auto: false): quitar la categoría paraguas «Neurodivergencia», que figura en el valor bruto de las 49 filas; el estudio que solo declara neurodivergencia pasa a «Sin perfil específico» (n=1). En codebook.md se definen DI (diagnóstico de discapacidad intelectual) frente a «Discapacidad cognitiva» (término genérico del artículo) y se fusionan si el valor bruto no las distingue"
+    },
+    {
+      "id": "RQ1-B2",
+      "rq": "RQ1",
+      "titulo": "Estratificación por perfil y participación de personas con la condición",
+      "items": [
+        "RQ1-I2",
+        "RQ1-I3"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "tabla",
+      "motivo_presentacion": "Pocas categorías agrupadas por subcampo (estratificación, presencia y rol) con bases distintas (43 y 73) que la tabla declara por fila; el rango y la mediana de N de personas con la condición van en la tabla y en el texto, separados de B00-muestra",
+      "plan_recodificacion": "Determinista desde matriz.json (muestra.tipo y muestra_raw): «sin_participantes» (15) y «otro» con unidades no humanas (p. ej. «240 respuestas generadas») → Presencia: No y sin Rol; «nr» (4) → verificar en el MD del estudio (RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/<Id>-*.md) y, si no se confirma, Presencia: NR. El Rol solo se registra cuando la presencia es real. N se agrega solo para presencia Sí con N numérico de personas con la condición"
+    },
+    {
+      "id": "RQ1-B3",
+      "rq": "RQ1",
+      "titulo": "Enfoque sobre la condición, tratamiento del perfil y consentimiento informado",
+      "items": [
+        "RQ1-I4"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "tabla",
+      "motivo_presentacion": "Tres subcampos (enfoque, perfil y consentimiento) agrupados en una sola tabla. País no se tabula: discrepa de B00-pais en 53 de 73 estudios y la distribución geográfica que se publica es la de 3.1",
+      "plan_recodificacion": "Quitar las categorías «País: …» de codificacion/RQ1-I4.jsonl (auto: false) salvo que la verificación en el MD (RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/<Id>-*.md) confirme el país del estudio frente a la afiliación; si no se confirma, la Nota. remite a 3.1. «Consentimiento: NR» se informa como no reportado, no como categoría",
+      "integracion": "Cierre de RQ1: se integra RQ1-I1 (cualitativo, perfiles) con RQ1-I2 (cuantitativo, estratificación) en los 19 estudios mixtos comunes; solo los que estratifican y declaran perfil permiten el contraste"
+    },
+    {
+      "id": "RQ2-B1",
+      "rq": "RQ2",
+      "titulo": "Familias de técnicas de inteligencia artificial y modelos reportados",
+      "items": [
+        "RQ2-I1"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "tabla",
+      "motivo_presentacion": "Dos grupos de categorías (familia de técnica y modelo nombrado) de tamaño medio, separados en la tabla; «Modelo: NR» (31) no es fila: va en la Nota.",
+      "plan_recodificacion": "En codificacion/RQ2-I1.jsonl (auto: false): «Modelo: NR» se trata como NR del subcampo; «Modelo: Llamada» → «Modelo: Llama» tras verificar en el MD (RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/<Id>-*.md); la familia genérica «IA» (n=1) se recodifica a una familia concreta si el MD la nombra o a NR"
+    },
+    {
+      "id": "RQ2-B2",
+      "rq": "RQ2",
+      "titulo": "Perfiles neurodivergentes frente a familias de inteligencia artificial",
+      "items": [
+        "RQ1-I1",
+        "RQ2-I1"
+      ],
+      "campos": {
+        "RQ2-I1": "_registro"
+      },
+      "agregacion": "cruce",
+      "sintesis": "argumental",
+      "presentacion": "figura",
+      "motivo_presentacion": "Relación entre dos variables nominales multivalor en una matriz de 7×5 (sin la fila paraguas «Neurodivergencia» ni la columna genérica «IA»); el mapa de calor con el número de estudios por celda muestra qué técnica se aplica a qué perfil. La prosa cita solo la matriz y remite a RQ1-B1 y RQ2-B1 para los marginales",
+      "plan_recodificacion": "Hereda las recodificaciones de RQ1-B1 y RQ2-B1; se vuelve a correr sintesis:aggregate y la base se recalcula (hoy n=42)",
+      "excluir": {
+        "RQ1-I1": [
+          "Sin perfil específico"
+        ]
+      }
+    },
+    {
+      "id": "RQ2-B3",
+      "rq": "RQ2",
+      "titulo": "Rol de la inteligencia artificial en el desarrollo y la evaluación del software",
+      "items": [
+        "RQ2-I2"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "texto",
+      "motivo_presentacion": "Tres categorías; texto con X% (n=Y) solo tras verificación. Si el rol no se verifica, el texto declara la limitación del registro en la Nota. y no reporta los porcentajes saturados como hallazgo",
+      "plan_recodificacion": "44 de 49 valores brutos repiten la plantilla («Generador; evaluador; asistente…»). Verificación por estudio en el MD (RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/<Id>-*.md) y en el grafo cribado-2: qué produce la IA (contenido o código → Generador), qué juzga (accesibilidad, legibilidad → Evaluador) y si apoya el aseguramiento de la calidad; recodificar con auto: false"
+    },
+    {
+      "id": "RQ2-B4",
+      "rq": "RQ2",
+      "titulo": "Fases del ciclo de vida del software: fase principal y otras fases",
+      "items": [
+        "RQ2-I3",
+        "RQ2-I4"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "figura",
+      "motivo_presentacion": "Misma base (n=43) en dos series sobre la unión de fases (Requisitos con 0 en la serie principal); las barras horizontales agrupadas comparan fase principal y fases secundarias. Sin la recodificación de RQ2-I4 no hay figura y el bloque pasa a tabla con la limitación en la Nota.",
+      "plan_recodificacion": "Determinista: en codificacion/RQ2-I4.jsonl (auto: false) se resta a cada estudio la fase principal de RQ2-I3 (hoy repetida en 36 de 41); los que queden vacíos pasan a «Solo una fase»",
+      "integracion": "Cierre de RQ2: se integra RQ2-I1 y RQ2-I2 (cualitativos: técnica y rol) con RQ2-I3 y RQ2-I4 (cuantitativos: fases) en los 19 estudios mixtos comunes"
+    },
+    {
+      "id": "RQ3-B1",
+      "rq": "RQ3",
+      "titulo": "Métricas y constructos de evaluación reportados",
+      "items": [
+        "RQ3-I1"
+      ],
+      "campos": {
+        "RQ3-I1": "Constructo"
+      },
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "tabla",
+      "motivo_presentacion": "Constructos de tamaño medio sobre la base de los 34 estudios con constructo especificado; «Métrica reportada» (39) va en la Nota. como constructo no especificado. Sin columna de valor numérico salvo verificación en el MD",
+      "plan_recodificacion": "En codificacion/RQ3-I1.jsonl (auto: false): «Métrica reportada» → NR del constructo (su valor dice «sin valor numérico principal claro»); Flesch y Flesch-Kincaid → «Legibilidad (índice)», en un codebook común con RQ3-I2. Los valores de accuracy fuera de 0–1 o 0–100% se descartan salvo verificación en el MD (RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/<Id>-*.md)"
+    },
+    {
+      "id": "RQ3-B2",
+      "rq": "RQ3",
+      "titulo": "Instrumentos y protocolos de medición",
+      "items": [
+        "RQ3-I2"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "texto",
+      "motivo_presentacion": "Cuatro categorías sin hallazgo descriptivo en el valor bruto; basta el texto con X% (n=Y). Lista solo si las notas del MD aportan qué mide cada instrumento",
+      "plan_recodificacion": "«Legibilidad» → «Índice de legibilidad», según el codebook común con RQ3-B1 (no es un instrumento propiamente dicho, sino un índice calculado); sin cambios en el resto"
+    },
+    {
+      "id": "RQ3-B3",
+      "rq": "RQ3",
+      "titulo": "Marco normativo de accesibilidad y cobertura cognitiva frente a sensorial",
+      "items": [
+        "RQ3-I3",
+        "RQ3-I4"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "texto",
+      "motivo_presentacion": "Pocas categorías por ítem; texto con X% (n=Y) tras la verificación. Si no se verifica, no se reporta el 100% (COGA) ni el 95% (Ambas): se declara la limitación del registro en la Nota.",
+      "plan_recodificacion": "Verificación por estudio en el MD (RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/<Id>-*.md): búsqueda de «WCAG», «COGA», «W3C», «cognitive accessibility» y «Making Content Usable». Un sondeo previo halla «COGA» en 4 de 73 MD y «WCAG» en los 73, lo que refuta el 100% COGA; se distingue la adscripción (el estudio aplica o evalúa contra el marco) de la mera mención en antecedentes o referencias. RQ3-I4 se recodifica con la misma lectura (¿evalúa también dimensiones sensoriales?), con auto: false"
+    },
+    {
+      "id": "RQ3-B4",
+      "rq": "RQ3",
+      "titulo": "Grado de automatización de la evaluación",
+      "items": [
+        "RQ3-I5"
+      ],
+      "agregacion": "frecuencia",
+      "sintesis": "aditiva",
+      "presentacion": "texto",
+      "motivo_presentacion": "Dos o tres categorías con 7 NR (base n=43); basta el texto con X% (n=Y). Se añade una frase sobre la fase principal solo si la tabla recodificada muestra diferencias",
+      "plan_recodificacion": "Determinista desde matriz.json: los estudios con muestra «sin_participantes» codificados como «Solo validación con usuarios» (5) pasan a NR o a «Semiautomática» según el MD (RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/<Id>-*.md); auto: false",
+      "integracion": "Cierre de RQ3: se integra RQ3-I2 y RQ3-I3 (cualitativos: instrumento y marco normativo) con RQ3-I4 y RQ3-I5 (cuantitativos: cobertura y automatización) en los 19 estudios mixtos comunes; RQ3-I1 (mixto) sirve de puente en los 73"
+    }
+  ]
+}
