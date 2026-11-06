@@ -16,9 +16,19 @@ Invoke: `Usa rsl-resultado-formulario-apply sobre docs/<slug>/` · `lote 03`
 ## Precondiciones
 
 - `resultados/formulario/latest.txt` · `formulario:lint-setup` PASS
+- Excel destino: **`docs/<slug>/resultados/formulario/<carpeta>/Formulario.xlsx`** (no `global/`)
 - `items.json` + `## Reglas de registro y agregación` · `informe-polish.md`
-- `formulario-map.json` con **`placement`** por hoja (prepare stamp OK)
-- Un `apply-<corpus_id>.json` por artículo; **`apply-lote` escribe solo** donde `placement[sheet]` existe (naturaleza del estudio ≠ tipo del ítem).
+- `formulario-map.json` con **`placement`** por hoja (`classify-nature` OK)
+- Un `apply-<corpus_id>.json` por artículo; **`apply-lote` escribe solo** donde `placement[sheet]` existe.
+
+## Orden de columnas (fila 2)
+
+- **`study_index` en el mapa = `si_order` global** (orden SI del cribado-2, 1…N).
+- **Mixto:** mismo número de cabecera en Cuantitativo y Cualitativo (p. ej. estudio 3 → cabecera **3** en ambas hojas).
+- **Columna física:** compacta por hoja (`placement.column`); la cabecera fila 2 muestra el **número global**, no 1…k local.
+- `formulario:apply-lote` escribe ítems con `column_index` / `placement.column`; al guardar, el script **re-sincroniza fila 2** (`sync_numbered_headers`).
+
+Ejemplo (5 estudios): Cuant. cabeceras 1, 3, 4, 5 · Cual. cabeceras 2, 3, 5.
 
 ## Contrato de celda
 
@@ -42,8 +52,20 @@ Tras todos los lotes: `formulario:lint-traza` · `formulario:lint-prosa` (cuando
 - **`pnpm -s formulario:draft-lote`** y **`formulario:extract-lote`** en producción (solo qa/dev explícito)
 - `apply-lote` sin debate R1+R2+orquestador cerrado
 - Celdas ítem en inglés crudo o telegrafía
-- Duplicar columna de estudio en hoja sin `placement`; reclasificar naturaleza (volver a **prepare**)
+- Duplicar columna de estudio en hoja sin `placement`; **reclasificar naturaleza** → usuario ejecuta **`formulario:classify-nature --force`** en prepare (no en apply)
 - Tocar filas biblio 3–13 en apply
+- Editar cabeceras fila 2 a mano en Excel (dejar que classify / biblio / apply las sincronicen)
+
+## Regenerar placement (usuario / prepare)
+
+Si cambia naturaleza o orden SI, en el **tema** (`docs/<slug>/`):
+
+```bash
+pnpm -s formulario:classify-nature docs/<slug> <carpeta> --force
+pnpm -s formulario:biblio-enrich docs/<slug> <carpeta> --force
+```
+
+Luego re-aplicar lotes si el Excel ya tenía ítems.
 
 ## Cierre
 

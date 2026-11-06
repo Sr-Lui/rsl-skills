@@ -8,7 +8,7 @@ Implementación biblio: [`scripts/formulario_biblio_enrich.py`](../scripts/formu
 
 `docs/<slug>/resultados/formulario/<timestamp>/`
 
-- `Formulario.xlsx` — N columnas = N SI
+- `Formulario.xlsx` — copia en `docs/<slug>/resultados/formulario/<timestamp>/` (plantilla desde `global/`); columnas = estudios por hoja; **fila 2 = orden SI global** (`si_order`)
 - `formulario-map.json`, `manifest.json`
 - **`biblio-traza.jsonl`** (obligatorio tras enrich)
 
@@ -21,7 +21,7 @@ prepare → classify-nature → biblio-enrich → [web/agente huecos] → lint-s
 | Paso | Comando | Qué hace |
 |------|---------|----------|
 | 1 | `formulario:prepare` | Mapa v2, ítems col. B (sin columnas estudio) |
-| 2 | `formulario:classify-nature` | Naturaleza, layout columnas, CSV 3–7, 11 |
+| 2 | `formulario:classify-nature` | Naturaleza, `placement` (`study_index` = `si_order` global), fila 2, CSV 3–7, 11 |
 | 3 | `formulario:biblio-enrich` | Filas 8–10, 12–13; Crossref + MD; traza |
 | 4 | Agente / WebSearch | Solo celdas vacías o dudas; append traza `web` |
 | 5 | `formulario:lint-setup` | Estructura + biblio 8–10, 12–13 |

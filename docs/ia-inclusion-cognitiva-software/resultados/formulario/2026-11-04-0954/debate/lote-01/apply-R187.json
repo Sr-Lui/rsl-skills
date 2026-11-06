@@ -76,13 +76,13 @@
     },
     {
       "item_id": "RQ2-I3",
-      "value": "Diseño. Fase principal del ciclo de vida del software en la que interviene la IA.",
+      "value": "Pruebas. Fase principal del ciclo de vida del software en la que interviene la IA.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
           "loc": "fulltext",
-          "quote": "Diseño"
+          "quote": "Pruebas"
         }
       ]
     },
@@ -159,6 +159,6 @@
       ]
     }
   ],
-  "source": "apply-prose-v2",
+  "source": "apply-prose-v3-calidad",
   "humanize": "draft-lote (revisar con humanize-academic-writing en polish)"
 }

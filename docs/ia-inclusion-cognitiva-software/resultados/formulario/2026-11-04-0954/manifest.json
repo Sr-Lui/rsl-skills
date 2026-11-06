@@ -9,7 +9,6 @@
   "n_si": 73,
   "prepare_stamped": "2026-11-04T09:54",
   "folder": "2026-11-04-0954",
-  "extraccion_complete": false,
   "nature_classified": true,
   "nature_traza": "nature-traza.jsonl",
   "studies_by_sheet": {
@@ -53,5 +52,9 @@
     "R1061"
   ],
   "biblio_enriched": true,
-  "biblio_traza": "biblio-traza.jsonl"
+  "biblio_traza": "biblio-traza.jsonl",
+  "extraccion_assisted": "apply-prose-v3-calidad (MD; revisar RQ3-I4/RQ2-I3 muestra)",
+  "extraccion_traza_lines": 736,
+  "extraccion_complete": true,
+  "extraccion_stamped": "2026-11-04"
 }

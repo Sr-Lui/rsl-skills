@@ -76,13 +76,13 @@
     },
     {
       "item_id": "RQ2-I3",
-      "value": "Requisitos. Fase principal del ciclo de vida del software en la que interviene la IA.",
+      "value": "Desarrollo. Fase principal del ciclo de vida del software en la que interviene la IA.",
       "decision": "extracted",
       "evidence": [
         {
           "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
           "loc": "fulltext",
-          "quote": "Requisitos"
+          "quote": "Desarrollo"
         }
       ]
     },
@@ -159,6 +159,6 @@
       ]
     }
   ],
-  "source": "apply-prose-v2",
+  "source": "apply-prose-v3-calidad",
   "humanize": "draft-lote (revisar con humanize-academic-writing en polish)"
 }

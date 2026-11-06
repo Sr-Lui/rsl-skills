@@ -33,6 +33,50 @@ def _wrap(lead: str, register: str) -> str:
     return f"{lead} ({register})."
 
 
+def _sdlc_phase(text: str, tl: str) -> str | None:
+    """Fase principal SDLC donde interviene la IA (ventanas cerca de términos IA)."""
+    ai_pat = re.compile(
+        r"\b(llm|large language model|gpt|claude|llama|generative ai|"
+        r"machine learning|deep learning|\bai\b|artificial intelligence|"
+        r"neural network|nlp|prompt engineering|model selection)\b",
+        re.I,
+    )
+    chunks: list[str] = []
+    for m in ai_pat.finditer(tl):
+        s = max(0, m.start() - 200)
+        e = min(len(tl), m.end() + 200)
+        chunks.append(tl[s:e])
+    blob = " ".join(chunks) if chunks else tl[:120000]
+    title_blob = tl[:2500]
+
+    rules: list[tuple[str, str, int]] = [
+        ("Pruebas", r"empirical study|experiment|evaluation|assessed|user study|"
+         r"participants|metric|readability|usability test|ηp2|cohen|anova|survey", 2),
+        ("Desarrollo", r"implement(ed|ation)|develop(ed|ment)|code generat|software build|"
+         r"programming|deployment|pipeline", 2),
+        ("Diseño", r"prototype|wireframe|ui/ux|interface design|mockup|figma", 2),
+        ("Requisitos", r"requirement elicitation|user stor(y|ies)|specification phase|"
+         r"requirements engineering", 3),
+        ("Personalización en ejecución", r"runtime|personaliz|in situ|live system", 2),
+        ("V&V", r"verif(y|ication)|validat(ion|e)", 2),
+        ("Auditoría", r"\baudit\b|compliance check", 2),
+    ]
+    scores: dict[str, int] = {c: 0 for c, _, _ in rules}
+    for cat, pat, w in rules:
+        scores[cat] += w * len(re.findall(pat, blob, re.I))
+        if cat == "Pruebas":
+            scores[cat] += w * len(re.findall(pat, title_blob, re.I))
+    best = max(scores.values())
+    if best == 0:
+        if re.search(r"empirical|experiment|evaluation", title_blob, re.I):
+            return "Pruebas"
+        return None
+    top = [c for c, v in scores.items() if v == best]
+    if "Pruebas" in top and "Requisitos" in top:
+        return "Pruebas"
+    return top[0]
+
+
 def _profiles_tokens(tl: str) -> list[str]:
     out = []
     if re.search(r"autism|autistic|\basd\b", tl):
@@ -198,26 +242,17 @@ def extract_item_prose(
         )
 
     if item_id == "RQ2-I3":
-        # Prioridad SDLC: no usar «Pruebas» solo por user study si hay señal de otra fase
-        for cat, pat in (
-            ("Requisitos", r"requirement|elicitation|user story"),
-            ("Diseño", r"\bdesign\b|prototype|wireframe|UI/UX|interface"),
-            ("Desarrollo", r"implement(ed|ation)|develop(ed|ment)|built|code generat"),
-            ("Personalización en ejecución", r"runtime|personaliz|in situ"),
-            ("V&V", r"verif(y|ication)|validat(ion|e)"),
-            ("Auditoría", r"\baudit\b"),
-            ("Pruebas", r"\btest(ing|s)?\b|experiment|empirical|user study|evaluation"),
-        ):
-            if re.search(pat, tl):
-                return (
-                    _cell(
-                        cat,
-                        f"Fase principal del ciclo de vida del software en la que interviene la IA",
-                    ),
-                    "extracted",
-                    _ev(rel_fn, md, cat),
-                )
-        return _absent()
+        cat = _sdlc_phase(text, tl)
+        if not cat:
+            return _absent()
+        return (
+            _cell(
+                cat,
+                f"Fase principal del ciclo de vida del software en la que interviene la IA",
+            ),
+            "extracted",
+            _ev(rel_fn, md, cat),
+        )
 
     if item_id == "RQ2-I4":
         found = []

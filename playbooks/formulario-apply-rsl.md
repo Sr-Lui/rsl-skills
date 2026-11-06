@@ -1,8 +1,13 @@
 # Apply formulario — ítems RQ (rsl-resultado-formulario-apply)
 
-Fuente ítems: [`extraccion-items-rsl.md`](extraccion-items-rsl.md) (agregación en síntesis; **no** pegar `hint` literales en Excel).
+Fuente ítems: [`extraccion-items-rsl.md`](extraccion-items-rsl.md) · Calidad por ítem: [`formulario-extraccion-items-calidad.md`](formulario-extraccion-items-calidad.md)
 
 Prosa: [`formulario-prosa-rsl.md`](formulario-prosa-rsl.md) (**humanize-academic-writing** obligatorio).
+
+## Precondiciones mapa
+
+- `formulario-map.json` v2: `placement[sheet].study_index` = **`si_order`** (mixto: mismo número en ambas hojas); escribir celdas con `placement.column`.
+- Excel en **`docs/<slug>/resultados/formulario/…`**, no en `global/`.
 
 ## Contrato de celda (Excel filas 17–33)
 
@@ -32,7 +37,7 @@ Los `hint` de `items.json` guían **qué buscar**, no el texto final de la celda
 2. **critico-rsl** — checklist prosa (ver formulario-prosa-rsl) → `r2-critico-<corpus_id>.md`
 3. **R3** si disconformes
 4. **orquestador-extraccion-rsl** — veredicto → **`humanize-academic-writing`** sobre cada `value` → `apply-<corpus_id>.json`
-5. **`pnpm -s formulario:apply-lote docs/<slug> NN`** (por artículo o al cerrar lote)
+5. **`pnpm -s formulario:apply-lote docs/<slug> NN`** — re-sincroniza **fila 2** al guardar.
 
 Incidencias no triviales → append `extraccion-orquestador.md`.
 

@@ -25,12 +25,14 @@ Invoke: `Usa rsl-resultado-formulario-prepare sobre docs/<slug>/`
    Carpeta timestamp, `formulario-map.json` **v2** (73 estudios, `placement` vacío), columna B ítems. **Sin** columnas de estudio aún.
 
 2. **`pnpm -s formulario:classify-nature docs/<slug> <carpeta>`**  
-   Heurística MD + CSV → `study_nature` (solo mapa/traza, **no** fila Excel).  
-   Layout: columnas **solo** en hoja(s) UTP correctas; biblio CSV filas **3–7, 11** ahí.  
-   Opcional: `nature-overrides.json` por `corpus_id`. Traza: `nature-traza.jsonl`.
+   Heurística MD + CSV → `study_nature`.  
+   **`assign_placements`:** `study_index` = **`si_order` global** (1…N); mixto comparte el mismo número en ambas hojas; columnas físicas compactas por hoja.  
+   **`sync_numbered_headers`:** fila 2 del Excel del tema con esos números (no 1…k por hoja).  
+   Biblio CSV filas **3–7, 11** en columnas `placement.column`.  
+   Opcional: `nature-overrides.json`. Traza: `nature-traza.jsonl`.
 
 3. **`pnpm -s formulario:biblio-enrich docs/<slug> <carpeta>`**  
-   Rellena **Editorial (8), País (9), Contexto (10), Volumen (12), Tamaño muestra (13)** **solo** en hojas con `placement`:
+   Rellena **Editorial (8), País (9), Contexto (10), Volumen (12), Tamaño muestra (13)** **solo** en hojas con `placement` (columna = `placement.column`). Al guardar, **re-sincroniza fila 2**.
    - **Web:** Crossref por DOI (`publisher`, `volume`, afiliaciones → país).
    - **Artículo:** MD en `RSL/picoc/…-cribado-2-…/docs/md/` (muestra, contexto, volumen en cabecera IEEE, etc.).
    - **`—`** solo si no hay fuente fiable (no inventar).
@@ -44,7 +46,7 @@ Invoke: `Usa rsl-resultado-formulario-prepare sobre docs/<slug>/`
    - Documentar lote grande en `biblio-gap-fill-notes.md` (referencia; no sustituye traza).
 
 5. **`pnpm -s formulario:lint-setup docs/<slug> <carpeta>`**  
-   PASS: `nature_classified`, conteos fila 2 **por hoja**, biblio 8–10/12–13 en placement.
+   PASS: `nature_classified`, fila 2 = **`si_order`** por columna (E1/E8), biblio 8–10/12–13 en placement.
 
 6. **`pnpm -s formulario:stamp docs/<slug> <carpeta>`**  
    Actualiza `latest.txt` · `manifest.json` (`biblio_enriched`, etc.).

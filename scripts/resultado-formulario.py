@@ -233,22 +233,10 @@ def copy_cell_style(src, dst) -> None:
 
 
 def extend_study_columns(ws, n_studies: int) -> None:
-    last_tpl_col = FIRST_STUDY_COL + TEMPLATE_STUDY_COUNT - 1
-    need_last = FIRST_STUDY_COL + n_studies - 1
-    if need_last <= last_tpl_col:
-        for i in range(n_studies):
-            col = FIRST_STUDY_COL + i
-            ws.cell(row=2, column=col, value=float(i + 1))
-        return
-    for col in range(last_tpl_col + 1, need_last + 1):
-        for row in range(1, ws.max_row + 2):
-            src = ws.cell(row=row, column=last_tpl_col)
-            dst = ws.cell(row=row, column=col)
-            copy_cell_style(src, dst)
-        ws.cell(row=2, column=col, value=float(col - FIRST_STUDY_COL + 1))
-    for i in range(TEMPLATE_STUDY_COUNT):
-        col = FIRST_STUDY_COL + i
-        ws.cell(row=2, column=col, value=float(i + 1))
+    """Solo amplía estilos de columnas; fila 2 la define sync_numbered_headers."""
+    from formulario_placement import extend_physical_columns
+
+    extend_physical_columns(ws, n_studies, FIRST_STUDY_COL, TEMPLATE_STUDY_COUNT, copy_cell_style)
 
 
 def csv_field(row: dict[str, str], key: str) -> str:
@@ -451,8 +439,8 @@ def cmd_classify_nature(args: list[str]) -> int:
     traza_path = folder / NATURE_TRAZA
     traza_path.write_text("", encoding="utf-8")
 
-    per_sheet_idx = {sh: 0 for sh in SHEETS}
     needs_review: list[str] = []
+    nature_records: list[dict] = []
 
     for study in mp["studies"]:
         cid = study["corpus_id"]
@@ -470,24 +458,22 @@ def cmd_classify_nature(args: list[str]) -> int:
         if review:
             needs_review.append(cid)
 
-        pl: dict = {"Cuantitativo": None, "Cualitativo": None}
-        for sh in study_sheets(nature):
-            per_sheet_idx[sh] += 1
-            idx = per_sheet_idx[sh]
-            pl[sh] = {
-                "study_index": idx,
-                "column": get_column_letter(FIRST_STUDY_COL + idx - 1),
-            }
         study["study_nature"] = nature
-        study["placement"] = pl
+        nature_records.append(
+            {
+                "corpus_id": cid,
+                "study_nature": nature,
+                "needs_review": review,
+                "meta": meta,
+            }
+        )
 
-        rec = {
-            "corpus_id": cid,
-            "study_nature": nature,
-            "placement": pl,
-            "needs_review": review,
-            "meta": meta,
-        }
+    assign_placements(mp["studies"], FIRST_STUDY_COL)
+
+    for rec in nature_records:
+        cid = rec["corpus_id"]
+        study = next(s for s in mp["studies"] if s["corpus_id"] == cid)
+        rec["placement"] = study["placement"]
         with traza_path.open("a", encoding="utf-8") as f:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
@@ -500,7 +486,9 @@ def cmd_classify_nature(args: list[str]) -> int:
             pc = placement_cell(study, sheet_name)
             if not pc:
                 continue
-            col = FIRST_STUDY_COL + pc["study_index"] - 1
+            col = column_index(study, sheet_name, FIRST_STUDY_COL)
+            if col is None:
+                continue
             row_csv = by_id.get(study.get("csv_id") or "") or by_corpus.get(study["corpus_id"]) or {}
             for excel_row, field in BIBLIO_ROWS.items():
                 if field is None:
@@ -508,6 +496,9 @@ def cmd_classify_nature(args: list[str]) -> int:
                 val = csv_field(row_csv, field)
                 if val:
                     ws.cell(row=excel_row, column=col, value=val)
+    sync_numbered_headers(
+        wb, mp, FIRST_STUDY_COL, TEMPLATE_STUDY_COUNT, copy_cell_style
+    )
     wb.save(folder / FORMULARIO_XLSX)
     wb.close()
 
@@ -551,10 +542,17 @@ def cmd_lint_setup(args: list[str]) -> int:
             if ws.cell(row=3, column=FIRST_STUDY_COL).value not in (None, ""):
                 errs.append(f"E7: {sn} tiene datos biblio sin columnas clasificadas")
             continue
-        last_col = FIRST_STUDY_COL + n_col - 1
-        v = ws.cell(row=2, column=last_col).value
-        if v is None or float(v) != float(n_col):
-            errs.append(f"E1: {sn} fila 2 col {get_column_letter(last_col)} esperaba {n_col}")
+        on_sheet = studies_on_sheet(mp.get("studies") or [], sn)
+        for i, study in enumerate(on_sheet, start=1):
+            col = FIRST_STUDY_COL + i - 1
+            v = ws.cell(row=2, column=col).value
+            expected = float(study["si_order"])
+            if v is None or float(v) != expected:
+                errs.append(
+                    f"E1: {sn} fila 2 col {get_column_letter(col)} ({study.get('corpus_id')}) "
+                    f"esperaba {int(expected)}"
+                )
+        errs.extend(lint_header_placement(mp.get("studies") or [], sn, FIRST_STUDY_COL))
         if ws.cell(row=3, column=FIRST_STUDY_COL).value in (None, ""):
             errs.append(f"W2: {sn} DOI col C vacío (classify-nature / CSV)")
 
@@ -565,7 +563,9 @@ def cmd_lint_setup(args: list[str]) -> int:
         for sh in SHEETS:
             pc = placement_cell(study, sh)
             if pc:
-                col = FIRST_STUDY_COL + pc["study_index"] - 1
+                col = column_index(study, sh, FIRST_STUDY_COL)
+                if col is None:
+                    continue
                 ws = wb[sh]
                 for row in BIBLIO_ENRICH_ROWS:
                     v = ws.cell(row=row, column=col).value
@@ -667,14 +667,18 @@ from formulario_biblio_enrich import enrich_study  # noqa: E402
 from formulario_classify import classify_from_text, load_overrides  # noqa: E402
 from formulario_lint_prosa import lint_item_value  # noqa: E402
 from formulario_placement import (  # noqa: E402
+    assign_placements,
     column_index,
     column_letter,
     count_by_sheet,
     ensure_placement,
     expected_traza_slots,
+    lint_header_placement,
     placement_cell,
     sheets_for_study,
+    studies_on_sheet,
     study_sheets,
+    sync_numbered_headers,
 )
 
 
@@ -782,7 +786,7 @@ def cmd_draft_lote(args: list[str]) -> int:
                 "article_id": cid,
                 "lote": lid,
                 "slots": slots,
-                "source": "apply-prose-v2",
+                "source": "apply-prose-v3-calidad",
                 "humanize": "draft-lote (revisar con humanize-academic-writing en polish)",
             }
             (deb_dir / f"apply-{cid}.json").write_text(
@@ -900,6 +904,9 @@ def cmd_apply_lote(args: list[str]) -> int:
                     f.write(json.dumps(rec, ensure_ascii=False) + "\n")
                 existing.add(key)
                 applied += 1
+    sync_numbered_headers(
+        wb, mp, FIRST_STUDY_COL, TEMPLATE_STUDY_COUNT, copy_cell_style
+    )
     wb.save(folder / FORMULARIO_XLSX)
     wb.close()
     return ok(f"apply-lote {lote_id}: {applied} slot(s)", "lint-traza o siguiente artículo")
@@ -1013,7 +1020,9 @@ def cmd_biblio_enrich(args: list[str]) -> int:
                 pc = placement_cell(study, sheet_name)
                 if not pc:
                     continue
-                col_idx = FIRST_STUDY_COL + pc["study_index"] - 1
+                col_idx = column_index(study, sheet_name, FIRST_STUDY_COL)
+                if col_idx is None:
+                    continue
                 ws = wb[sheet_name]
                 cur = ws.cell(row=excel_row, column=col_idx).value
                 if cur and str(cur).strip() and str(cur).strip() != "—" and not force:
@@ -1033,6 +1042,9 @@ def cmd_biblio_enrich(args: list[str]) -> int:
             }
             with traza_path.open("a", encoding="utf-8") as f:
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    sync_numbered_headers(
+        wb, mp, FIRST_STUDY_COL, TEMPLATE_STUDY_COUNT, copy_cell_style
+    )
     wb.save(folder / FORMULARIO_XLSX)
     wb.close()
 
@@ -1106,7 +1118,9 @@ def cmd_biblio_graphify(args: list[str]) -> int:
             pc = placement_cell(study, sheet_name)
             if not pc:
                 continue
-            col_idx = FIRST_STUDY_COL + pc["study_index"] - 1
+            col_idx = column_index(study, sheet_name, FIRST_STUDY_COL)
+            if col_idx is None:
+                continue
             cur = wb[sheet_name].cell(row=13, column=col_idx).value
             if cur and str(cur).strip() not in ("", "—"):
                 continue
@@ -1127,6 +1141,9 @@ def cmd_biblio_graphify(args: list[str]) -> int:
                 f.write(json.dumps(rec, ensure_ascii=False) + "\n")
             updated += 1
             break
+    sync_numbered_headers(
+        wb, mp, FIRST_STUDY_COL, TEMPLATE_STUDY_COUNT, copy_cell_style
+    )
     wb.save(folder / FORMULARIO_XLSX)
     wb.close()
     return ok(f"biblio-graphify: {updated} celdas fila 13 actualizadas", "revisa muestras manualmente")

@@ -2,4 +2,4 @@
 
 Borrador prosa ES desde texto completo indexado.
 
-R106: 11 ítems con prosa, 2 ausentes (—).
+R106: 10 ítems con prosa, 3 ausentes (—).

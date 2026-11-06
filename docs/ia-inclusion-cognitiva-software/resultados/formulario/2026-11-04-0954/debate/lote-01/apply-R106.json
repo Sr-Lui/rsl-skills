@@ -70,15 +70,9 @@
     },
     {
       "item_id": "RQ2-I3",
-      "value": "Diseño. Fase principal del ciclo de vida del software en la que interviene la IA.",
-      "decision": "extracted",
-      "evidence": [
-        {
-          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
-          "loc": "fulltext",
-          "quote": "Diseño"
-        }
-      ]
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
     },
     {
       "item_id": "RQ2-I4",
@@ -147,6 +141,6 @@
       ]
     }
   ],
-  "source": "apply-prose-v2",
+  "source": "apply-prose-v3-calidad",
   "humanize": "draft-lote (revisar con humanize-academic-writing en polish)"
 }

@@ -2,40 +2,40 @@
 
 Estudios SI en mapa: **73**. Líneas traza analizadas por ítem.
 
-## RQ1-I2 (n=6)
+## RQ1-I2 (n=42)
 
 | Categoría | n | % |
 |-----------|---:|---:|
-| No | 5 | 83.3 |
-| Sí | 1 | 16.7 |
+| No | 35 | 83.3 |
+| Sí | 7 | 16.7 |
 
-## RQ2-I3 (n=7)
-
-| Categoría | n | % |
-|-----------|---:|---:|
-| Requisitos | 6 | 85.7 |
-| Diseño | 1 | 14.3 |
-
-> **WARN:** Requisitos concentra 86 % — revisar calidad de extracción.
-
-## RQ3-I4 (n=7)
+## RQ2-I3 (n=41)
 
 | Categoría | n | % |
 |-----------|---:|---:|
-| Ambas | 6 | 85.7 |
-| Cognitiva | 1 | 14.3 |
+| Pruebas | 24 | 58.5 |
+| Desarrollo | 13 | 31.7 |
+| Personalización en ejecución | 3 | 7.3 |
+| V&V | 1 | 2.4 |
 
-## RQ3-I5 (n=6)
+## RQ3-I4 (n=43)
 
 | Categoría | n | % |
 |-----------|---:|---:|
-| Solo validación con usuarios | 4 | 66.7 |
-| Semiautomática | 2 | 33.3 |
+| Ambas | 41 | 95.3 |
+| Cognitiva | 2 | 4.7 |
+
+## RQ3-I5 (n=36)
+
+| Categoría | n | % |
+|-----------|---:|---:|
+| Solo validación con usuarios | 32 | 88.9 |
+| Semiautomática | 4 | 11.1 |
 
 ## Decisiones (todas las líneas traza)
 
-Total líneas: 104
+Total líneas: 736
 
-- extracted: 79
-- partial: 21
-- absent: 4
+- extracted: 556
+- partial: 157
+- absent: 23

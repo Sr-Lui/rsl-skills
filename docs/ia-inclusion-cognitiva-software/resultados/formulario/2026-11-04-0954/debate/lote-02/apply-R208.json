@@ -1,0 +1,164 @@
+{
+  "article_id": "R208",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "La población del estudio declara perfiles (TEA; DI; dificultades de aprendizaje; neurodivergencia; síndrome de Down).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "TEA; DI; dificultades de aprendizaje; neurodivergencia; síndrome de Down"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. No hay desagregación por perfil cognitivo; los resultados corresponden a la muestra global.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "muestra"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participación de personas con la condición en diseño y evaluación (Presencia: Sí | N: NR | Rol: ambos).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Marco ético, tratamiento del perfil y contexto del estudio (Enfoque: déficit | Perfil: almacenado | Consentimiento: NR | País: Estados Unidos).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Familia de técnica de IA aplicada (LLM; NLP | Modelo: NR).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "LLM; NLP | Modelo: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Rol de la IA en el estudio (Generador; evaluador; asistente de aseguramiento de la calidad).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Fase principal del ciclo de vida del software en la que interviene la IA.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "Desarrollo"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; pruebas. Otras fases del ciclo de vida mencionadas además de la principal.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "diseño;desarrollo;pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Resultado principal reportado (Flesch = 88.4) (Constructo: Flesch | Valor: 88.4).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "Flesch Reading Ease score (88.4"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Instrumento o protocolo de medición (legibilidad).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "legibilidad"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA. Alineación con accesibilidad cognitiva.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "COGA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Ambas. La evaluación aborda dimensiones cognitivas y sensoriales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "ambas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. La validación depende principalmente de participantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "fulltext",
+          "quote": "users"
+        }
+      ]
+    }
+  ],
+  "source": "apply-prose-v3-calidad",
+  "humanize": "draft-lote (revisar con humanize-academic-writing en polish)"
+}
