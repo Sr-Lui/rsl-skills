@@ -1,0 +1,58 @@
+{
+  "figura": null,
+  "bloque": "RQ1-B1",
+  "titulo": "Perfiles de discapacidad cognitiva o neurodivergencia abordados",
+  "tipo": "barras horizontales",
+  "motivo": "Siete categorías de perfil específico, multivalor, de un ítem nominal (base n=49); las barras horizontales con X% (n=Y) resaltan el patrón de concentración. La etiqueta paraguas «Neurodivergencia» no se dibuja: se menciona en una frase",
+  "muestra": "",
+  "datos": [
+    {
+      "categoria": "TEA",
+      "n": 33,
+      "pct": 67
+    },
+    {
+      "categoria": "DI",
+      "n": 25,
+      "pct": 51
+    },
+    {
+      "categoria": "Dificultades de aprendizaje",
+      "n": 25,
+      "pct": 51
+    },
+    {
+      "categoria": "Dislexia",
+      "n": 20,
+      "pct": 41
+    },
+    {
+      "categoria": "Discapacidad cognitiva",
+      "n": 16,
+      "pct": 33
+    },
+    {
+      "categoria": "TDAH",
+      "n": 13,
+      "pct": 27
+    },
+    {
+      "categoria": "Síndrome de Down",
+      "n": 8,
+      "pct": 16
+    }
+  ],
+  "ejes": {
+    "x": "Porcentaje de estudios",
+    "y": "Categoría (orden descendente por n)",
+    "unidad": "%"
+  },
+  "etiquetas": "X% (n=Y) al final de cada barra",
+  "leyenda": "Sin leyenda (una sola serie)",
+  "nota": "Elaboración propia a partir de los 73 artículos seleccionados (2021–2027).",
+  "estilo": {
+    "paleta": "azules sobrios",
+    "orden": "descendente por n",
+    "tamano": "16x9 cm"
+  }
+}

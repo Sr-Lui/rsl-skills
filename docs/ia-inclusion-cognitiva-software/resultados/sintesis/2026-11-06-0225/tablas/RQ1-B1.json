@@ -1,0 +1,200 @@
+{
+  "bloque": "RQ1-B1",
+  "tipo": "frecuencia",
+  "items": [
+    {
+      "item_id": "RQ1-I1",
+      "label": "Perfiles declarados en el estudio",
+      "campo": null,
+      "hojas": [
+        "Cualitativo"
+      ],
+      "base": 49,
+      "categorias": [
+        {
+          "categoria": "TEA",
+          "n": 20,
+          "pct": 41,
+          "por_naturaleza": {
+            "mixto": 9,
+            "cualitativo": 11
+          },
+          "estudios": [
+            3,
+            7,
+            9,
+            12,
+            13,
+            14,
+            29,
+            36,
+            39,
+            41,
+            42,
+            44,
+            47,
+            48,
+            56,
+            65,
+            67,
+            71,
+            72,
+            73
+          ]
+        },
+        {
+          "categoria": "DI",
+          "n": 18,
+          "pct": 37,
+          "por_naturaleza": {
+            "mixto": 6,
+            "cualitativo": 12
+          },
+          "estudios": [
+            3,
+            9,
+            14,
+            25,
+            27,
+            30,
+            36,
+            37,
+            47,
+            51,
+            56,
+            57,
+            59,
+            61,
+            64,
+            66,
+            69,
+            71
+          ]
+        },
+        {
+          "categoria": "Discapacidad cognitiva",
+          "n": 13,
+          "pct": 27,
+          "por_naturaleza": {
+            "mixto": 4,
+            "cualitativo": 9
+          },
+          "estudios": [
+            3,
+            11,
+            25,
+            27,
+            35,
+            40,
+            51,
+            54,
+            56,
+            57,
+            66,
+            71,
+            72
+          ]
+        },
+        {
+          "categoria": "TDAH",
+          "n": 11,
+          "pct": 22,
+          "por_naturaleza": {
+            "mixto": 4,
+            "cualitativo": 7
+          },
+          "estudios": [
+            3,
+            5,
+            7,
+            9,
+            26,
+            29,
+            31,
+            32,
+            47,
+            69,
+            71
+          ]
+        },
+        {
+          "categoria": "Dificultades de aprendizaje",
+          "n": 11,
+          "pct": 22,
+          "por_naturaleza": {
+            "cualitativo": 7,
+            "mixto": 4
+          },
+          "estudios": [
+            10,
+            20,
+            27,
+            51,
+            53,
+            54,
+            59,
+            60,
+            61,
+            65,
+            66
+          ]
+        },
+        {
+          "categoria": "Dislexia",
+          "n": 8,
+          "pct": 16,
+          "por_naturaleza": {
+            "mixto": 6,
+            "cualitativo": 2
+          },
+          "estudios": [
+            6,
+            15,
+            19,
+            22,
+            32,
+            42,
+            52,
+            60
+          ]
+        },
+        {
+          "categoria": "Síndrome de Down",
+          "n": 4,
+          "pct": 8,
+          "por_naturaleza": {
+            "mixto": 3,
+            "cualitativo": 1
+          },
+          "estudios": [
+            14,
+            56,
+            69,
+            71
+          ]
+        },
+        {
+          "categoria": "Sin perfil específico",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "mixto": 1
+          },
+          "estudios": [
+            49
+          ]
+        }
+      ],
+      "nr": {
+        "n": 0,
+        "pct": 0,
+        "estudios": []
+      },
+      "multivalor": true
+    }
+  ],
+  "base": {
+    "N": 49,
+    "descripcion": "estudios con el ítem en el formulario"
+  }
+}

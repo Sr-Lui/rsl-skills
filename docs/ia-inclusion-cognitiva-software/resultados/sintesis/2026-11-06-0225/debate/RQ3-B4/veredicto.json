@@ -1,0 +1,8 @@
+{
+  "bloque": "RQ3-B4",
+  "rondas": 3,
+  "acuerdo_r2": false,
+  "cierre": "consenso_r3",
+  "desacuerdo_residual": "",
+  "resumen": "Bloque RQ3-B4: requirió una tercera ronda final porque no hubo acuerdo en la segunda; en R2 quedaron abiertos los cruces de la integración, que heredaban las codificaciones previas de RQ3-B1, RQ3-B2 y RQ3-B3, y en R3 se consensuó recalcularlos desde las tablas regeneradas (12 de los 15 mixtos que evalúan el artefacto solo cognitivos; de los 13 sin marco, 9 cognitivos, 2 con ambas dimensiones y 2 sin evaluación; desempeño 6, usabilidad 2 y experiencia de usuario 1 en los mixtos solo con personas), sin cambiar las cifras del bloque (20, 11, 8 y 4 NR sobre 43)."
+}

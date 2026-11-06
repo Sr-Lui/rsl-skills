@@ -732,13 +732,14 @@ def _filtrar_campo(cats: list[str], campo: str | None) -> list[str]:
     return [c.split(":", 1)[1].strip() for c in cats if c.casefold().startswith(pref)]
 
 
-def _freq(rows: list[dict], campo: str | None) -> dict:
+def _freq(rows: list[dict], campo: str | None, excluir: list[str] | None = None) -> dict:
     base = len(rows)
     c, ids, nat = Counter(), {}, {}
     nr_ids = []
+    fuera = set(excluir or [])
     for r in rows:
         cats = [] if r.get("nr") else _filtrar_campo(r.get("categorias") or [], campo)
-        cats = [x for x in cats if not is_nr(x)]
+        cats = [x for x in cats if not is_nr(x) and x not in fuera]
         if not cats:
             nr_ids.append(r["si_order"])
             continue
@@ -755,16 +756,18 @@ def _freq(rows: list[dict], campo: str | None) -> dict:
             "multivalor": sum(x["n"] for x in cats_out) > (base - len(nr_ids))}
 
 
-def _cruce(rows_a: list[dict], rows_b: list[dict], campo_a: str | None, campo_b: str | None) -> dict:
+def _cruce(rows_a: list[dict], rows_b: list[dict], campo_a: str | None, campo_b: str | None,
+           excluir_a: list[str] | None = None, excluir_b: list[str] | None = None) -> dict:
     by_a = {r["si_order"]: r for r in rows_a}
     by_b = {r["si_order"]: r for r in rows_b}
     comunes = sorted(set(by_a) & set(by_b))
     filas, cols = Counter(), Counter()
     celdas: dict[tuple[str, str], list[int]] = {}
     con_ambos = 0
+    fa, fb = set(excluir_a or []), set(excluir_b or [])
     for si in comunes:
-        ca = [x for x in _filtrar_campo(by_a[si].get("categorias") or [], campo_a) if not is_nr(x)]
-        cb = [x for x in _filtrar_campo(by_b[si].get("categorias") or [], campo_b) if not is_nr(x)]
+        ca = [x for x in _filtrar_campo(by_a[si].get("categorias") or [], campo_a) if not is_nr(x) and x not in fa]
+        cb = [x for x in _filtrar_campo(by_b[si].get("categorias") or [], campo_b) if not is_nr(x) and x not in fb]
         if by_a[si].get("nr") or by_b[si].get("nr") or not ca or not cb:
             continue
         con_ambos += 1
@@ -821,6 +824,7 @@ def _bloque_tabla_md(bloque: dict, data: dict) -> str:
 def aggregate_bloque(folder: Path, mx: dict, bloque: dict) -> dict:
     items = bloque.get("items") or []
     campos = bloque.get("campos") or {}
+    excluir = bloque.get("excluir") or {}
     if not items:
         raise Fail(f"bloque {bloque['id']} sin ítems", "revisa bloques.json")
     items_out = []
@@ -828,7 +832,7 @@ def aggregate_bloque(folder: Path, mx: dict, bloque: dict) -> dict:
     for item_id in items:
         rows = load_codificacion(folder, item_id)
         rows_by_item[item_id] = rows
-        fr = _freq(rows, campos.get(item_id))
+        fr = _freq(rows, campos.get(item_id), excluir.get(item_id))
         meta = mx["items_meta"].get(item_id, {})
         items_out.append({"item_id": item_id, "label": meta.get("label", ""), "campo": campos.get(item_id),
                           "hojas": meta.get("hojas", []), **fr})
@@ -838,7 +842,10 @@ def aggregate_bloque(folder: Path, mx: dict, bloque: dict) -> dict:
         if len(items) < 2:
             raise Fail(f"bloque {bloque['id']}: un cruce necesita 2 ítems", "revisa bloques.json")
         data["cruce"] = _cruce(rows_by_item[items[0]], rows_by_item[items[1]],
-                               campos.get(items[0]), campos.get(items[1]))
+                               campos.get(items[0]), campos.get(items[1]),
+                               excluir.get(items[0]), excluir.get(items[1]))
+        if excluir:
+            data["cruce"]["excluidas"] = excluir
     write_json(folder / "tablas" / f"{bloque['id']}.json", data)
     (folder / "tablas" / f"{bloque['id']}.md").write_text(_bloque_tabla_md(bloque, data), encoding="utf-8")
     return data

@@ -1,0 +1,256 @@
+{
+  "bloque": "RQ3-B3",
+  "tipo": "frecuencia",
+  "items": [
+    {
+      "item_id": "RQ3-I3",
+      "label": "Marco normativo de accesibilidad",
+      "campo": null,
+      "hojas": [
+        "Cualitativo"
+      ],
+      "base": 49,
+      "categorias": [
+        {
+          "categoria": "Sin marco normativo",
+          "n": 33,
+          "pct": 67,
+          "por_naturaleza": {
+            "mixto": 13,
+            "cualitativo": 20
+          },
+          "estudios": [
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            20,
+            22,
+            25,
+            26,
+            29,
+            30,
+            32,
+            36,
+            37,
+            41,
+            42,
+            44,
+            48,
+            49,
+            52,
+            53,
+            56,
+            59,
+            61,
+            64,
+            65,
+            67,
+            69,
+            71,
+            72
+          ]
+        },
+        {
+          "categoria": "WCAG",
+          "n": 8,
+          "pct": 16,
+          "por_naturaleza": {
+            "cualitativo": 7,
+            "mixto": 1
+          },
+          "estudios": [
+            15,
+            19,
+            27,
+            31,
+            40,
+            47,
+            57,
+            73
+          ]
+        },
+        {
+          "categoria": "Lectura Fácil o lenguaje claro",
+          "n": 6,
+          "pct": 12,
+          "por_naturaleza": {
+            "mixto": 2,
+            "cualitativo": 4
+          },
+          "estudios": [
+            3,
+            35,
+            40,
+            51,
+            54,
+            66
+          ]
+        },
+        {
+          "categoria": "Solo mención: WCAG",
+          "n": 5,
+          "pct": 10,
+          "por_naturaleza": {
+            "cualitativo": 3,
+            "mixto": 2
+          },
+          "estudios": [
+            11,
+            12,
+            51,
+            54,
+            69
+          ]
+        },
+        {
+          "categoria": "Otro marco",
+          "n": 4,
+          "pct": 8,
+          "por_naturaleza": {
+            "mixto": 3,
+            "cualitativo": 1
+          },
+          "estudios": [
+            14,
+            39,
+            40,
+            60
+          ]
+        },
+        {
+          "categoria": "COGA",
+          "n": 2,
+          "pct": 4,
+          "por_naturaleza": {
+            "cualitativo": 2
+          },
+          "estudios": [
+            27,
+            40
+          ]
+        },
+        {
+          "categoria": "Solo mención: COGA",
+          "n": 2,
+          "pct": 4,
+          "por_naturaleza": {
+            "cualitativo": 1,
+            "mixto": 1
+          },
+          "estudios": [
+            51,
+            54
+          ]
+        }
+      ],
+      "nr": {
+        "n": 0,
+        "pct": 0,
+        "estudios": []
+      },
+      "multivalor": true
+    },
+    {
+      "item_id": "RQ3-I4",
+      "label": "Cobertura de la evaluación",
+      "campo": null,
+      "hojas": [
+        "Cuantitativo"
+      ],
+      "base": 43,
+      "categorias": [
+        {
+          "categoria": "Cognitiva",
+          "n": 30,
+          "pct": 70,
+          "por_naturaleza": {
+            "cuantitativo": 18,
+            "mixto": 12
+          },
+          "estudios": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            13,
+            14,
+            17,
+            21,
+            22,
+            23,
+            24,
+            28,
+            33,
+            38,
+            39,
+            43,
+            46,
+            48,
+            55,
+            56,
+            58,
+            59,
+            61,
+            63,
+            68,
+            70,
+            71
+          ]
+        },
+        {
+          "categoria": "Ambas",
+          "n": 8,
+          "pct": 19,
+          "por_naturaleza": {
+            "cuantitativo": 5,
+            "mixto": 3
+          },
+          "estudios": [
+            16,
+            18,
+            19,
+            32,
+            34,
+            45,
+            49,
+            50
+          ]
+        },
+        {
+          "categoria": "Sensorial o motora",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cuantitativo": 1
+          },
+          "estudios": [
+            62
+          ]
+        }
+      ],
+      "nr": {
+        "n": 4,
+        "pct": 9,
+        "estudios": [
+          12,
+          42,
+          54,
+          60
+        ]
+      },
+      "multivalor": false
+    }
+  ],
+  "base": {
+    "N": 49,
+    "descripcion": "estudios con el ítem en el formulario"
+  }
+}

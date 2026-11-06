@@ -1,0 +1,66 @@
+{
+  "figura": "{{F1}}",
+  "bloque": "RQ1-B1",
+  "titulo": "Perfiles de discapacidad cognitiva o neurodivergencia declarados en los estudios",
+  "tipo": "barras horizontales",
+  "motivo": "Siete categorías nominales de un ítem multivalor con etiquetas largas; las barras horizontales ordenadas por n comparan los perfiles específicos declarados",
+  "muestra": "Porcentaje de los 49 estudios cualitativos o mixtos que declara cada perfil específico",
+  "datos": [
+    {
+      "categoria": "Trastorno del espectro autista (TEA)",
+      "n": 20,
+      "pct": 41
+    },
+    {
+      "categoria": "Discapacidad intelectual (DI)",
+      "n": 18,
+      "pct": 37
+    },
+    {
+      "categoria": "Discapacidad cognitiva (término genérico)",
+      "n": 13,
+      "pct": 27
+    },
+    {
+      "categoria": "TDAH",
+      "n": 11,
+      "pct": 22
+    },
+    {
+      "categoria": "Dificultades de aprendizaje",
+      "n": 11,
+      "pct": 22
+    },
+    {
+      "categoria": "Dislexia",
+      "n": 8,
+      "pct": 16
+    },
+    {
+      "categoria": "Síndrome de Down",
+      "n": 4,
+      "pct": 8
+    }
+  ],
+  "excluidas": [
+    {
+      "categoria": "Sin perfil específico",
+      "n": 1,
+      "pct": 2,
+      "motivo": "se menciona en el texto; no es un perfil"
+    }
+  ],
+  "ejes": {
+    "x": "Porcentaje de estudios (0–100)",
+    "y": "Perfil declarado (orden descendente por n)",
+    "unidad": "%"
+  },
+  "etiquetas": "X% (n=Y) al final de cada barra",
+  "leyenda": "Sin leyenda (una sola serie)",
+  "nota": "Los porcentajes no suman 100%: un estudio puede declarar más de un perfil (base n = 49 estudios cualitativos o mixtos).",
+  "estilo": {
+    "paleta": "azules sobrios",
+    "orden": "descendente por n; empate TDAH y dificultades de aprendizaje (n=11) en el orden de la tabla",
+    "tamano": "16x9 cm"
+  }
+}

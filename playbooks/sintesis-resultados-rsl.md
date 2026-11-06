@@ -131,6 +131,7 @@ Los B00 vienen sembrados por `sintesis:prepare`. Los bloques RQ los propone el d
 - `agregacion`: `frecuencia` | `cruce` (2 ítems) | `descriptivo` | `general` (solo B00).
 - `presentacion`: `tabla` | `figura` | `lista` | `ambas` | `texto`, con `motivo_presentacion`.
 - `campos` (opcional): subcampo de plantilla por ítem (`"Rol"`, `"Presencia"`) o `"_registro"` para usar solo las categorías sin prefijo (p. ej. familias de IA sin «Modelo: …»).
+- `excluir` (opcional): categorías que no entran en el bloque, por ítem (p. ej. `{"RQ1-I1": ["Sin perfil específico"]}` en un cruce). La tabla, la base y la figura se recalculan sin ellas, y `cruce.excluidas` lo deja registrado para la *Nota.*
 
 ## 8. Codificación
 

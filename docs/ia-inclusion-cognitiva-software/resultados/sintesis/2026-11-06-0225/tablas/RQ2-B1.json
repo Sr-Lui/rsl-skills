@@ -1,0 +1,416 @@
+{
+  "bloque": "RQ2-B1",
+  "tipo": "frecuencia",
+  "items": [
+    {
+      "item_id": "RQ2-I1",
+      "label": "Familia de técnica de IA",
+      "campo": null,
+      "hojas": [
+        "Cualitativo"
+      ],
+      "base": 49,
+      "categorias": [
+        {
+          "categoria": "LLM",
+          "n": 23,
+          "pct": 47,
+          "por_naturaleza": {
+            "mixto": 6,
+            "cualitativo": 17
+          },
+          "estudios": [
+            3,
+            5,
+            9,
+            10,
+            13,
+            14,
+            20,
+            25,
+            26,
+            27,
+            29,
+            30,
+            31,
+            37,
+            39,
+            40,
+            47,
+            52,
+            53,
+            57,
+            64,
+            67,
+            71
+          ]
+        },
+        {
+          "categoria": "Modelo: no nombrado",
+          "n": 23,
+          "pct": 47,
+          "por_naturaleza": {
+            "mixto": 11,
+            "cualitativo": 12
+          },
+          "estudios": [
+            5,
+            6,
+            7,
+            10,
+            14,
+            19,
+            20,
+            22,
+            29,
+            32,
+            36,
+            40,
+            41,
+            49,
+            51,
+            54,
+            59,
+            60,
+            61,
+            64,
+            65,
+            66,
+            72
+          ]
+        },
+        {
+          "categoria": "NLP",
+          "n": 16,
+          "pct": 33,
+          "por_naturaleza": {
+            "mixto": 9,
+            "cualitativo": 7
+          },
+          "estudios": [
+            3,
+            6,
+            19,
+            22,
+            32,
+            35,
+            36,
+            41,
+            48,
+            51,
+            54,
+            59,
+            60,
+            66,
+            67,
+            72
+          ]
+        },
+        {
+          "categoria": "ML",
+          "n": 10,
+          "pct": 20,
+          "por_naturaleza": {
+            "mixto": 8,
+            "cualitativo": 2
+          },
+          "estudios": [
+            3,
+            7,
+            19,
+            22,
+            32,
+            39,
+            49,
+            54,
+            61,
+            65
+          ]
+        },
+        {
+          "categoria": "DL",
+          "n": 9,
+          "pct": 18,
+          "por_naturaleza": {
+            "mixto": 6,
+            "cualitativo": 3
+          },
+          "estudios": [
+            3,
+            7,
+            19,
+            22,
+            35,
+            39,
+            48,
+            49,
+            65
+          ]
+        },
+        {
+          "categoria": "Visión",
+          "n": 8,
+          "pct": 16,
+          "por_naturaleza": {
+            "mixto": 3,
+            "cualitativo": 5
+          },
+          "estudios": [
+            13,
+            25,
+            30,
+            32,
+            53,
+            57,
+            61,
+            67
+          ]
+        },
+        {
+          "categoria": "Modelo: GPT-4o",
+          "n": 5,
+          "pct": 10,
+          "por_naturaleza": {
+            "mixto": 2,
+            "cualitativo": 3
+          },
+          "estudios": [
+            13,
+            25,
+            26,
+            47,
+            71
+          ]
+        },
+        {
+          "categoria": "Modelo: GPT-4",
+          "n": 3,
+          "pct": 6,
+          "por_naturaleza": {
+            "cualitativo": 3
+          },
+          "estudios": [
+            9,
+            30,
+            37
+          ]
+        },
+        {
+          "categoria": "Modelo: GPT-3.5",
+          "n": 3,
+          "pct": 6,
+          "por_naturaleza": {
+            "cualitativo": 3
+          },
+          "estudios": [
+            31,
+            53,
+            67
+          ]
+        },
+        {
+          "categoria": "Modelo: ChatGPT (versión no indicada)",
+          "n": 2,
+          "pct": 4,
+          "por_naturaleza": {
+            "mixto": 1,
+            "cualitativo": 1
+          },
+          "estudios": [
+            3,
+            27
+          ]
+        },
+        {
+          "categoria": "Modelo: CLIP",
+          "n": 2,
+          "pct": 4,
+          "por_naturaleza": {
+            "cualitativo": 2
+          },
+          "estudios": [
+            25,
+            30
+          ]
+        },
+        {
+          "categoria": "Modelo: BERT",
+          "n": 2,
+          "pct": 4,
+          "por_naturaleza": {
+            "cualitativo": 1,
+            "mixto": 1
+          },
+          "estudios": [
+            35,
+            48
+          ]
+        },
+        {
+          "categoria": "Modelo: DeepSeek",
+          "n": 2,
+          "pct": 4,
+          "por_naturaleza": {
+            "mixto": 1,
+            "cualitativo": 1
+          },
+          "estudios": [
+            39,
+            47
+          ]
+        },
+        {
+          "categoria": "Modelo: Hunyuan",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "mixto": 1
+          },
+          "estudios": [
+            13
+          ]
+        },
+        {
+          "categoria": "Modelo: Claude",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            47
+          ]
+        },
+        {
+          "categoria": "Modelo: Gemini",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            47
+          ]
+        },
+        {
+          "categoria": "Modelo: LaMDA",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            52
+          ]
+        },
+        {
+          "categoria": "Modelo: DALL-E",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            53
+          ]
+        },
+        {
+          "categoria": "Modelo: OTTER",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            53
+          ]
+        },
+        {
+          "categoria": "Modelo: ImageBind",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            53
+          ]
+        },
+        {
+          "categoria": "Modelo: GIT",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            53
+          ]
+        },
+        {
+          "categoria": "Modelo: KOSMOS-2",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            53
+          ]
+        },
+        {
+          "categoria": "Modelo: ViLT",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            53
+          ]
+        },
+        {
+          "categoria": "Modelo: GPT-3",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            57
+          ]
+        },
+        {
+          "categoria": "Modelo: API de imágenes de OpenAI",
+          "n": 1,
+          "pct": 2,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            57
+          ]
+        }
+      ],
+      "nr": {
+        "n": 8,
+        "pct": 16,
+        "estudios": [
+          11,
+          12,
+          15,
+          42,
+          44,
+          56,
+          69,
+          73
+        ]
+      },
+      "multivalor": true
+    }
+  ],
+  "base": {
+    "N": 49,
+    "descripcion": "estudios con el ítem en el formulario"
+  }
+}

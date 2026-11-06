@@ -1,0 +1,48 @@
+{
+  "figura": null,
+  "bloque": "RQ2-B4",
+  "titulo": "Fases del ciclo de vida del software: fase principal y otras fases",
+  "tipo": "barras horizontales",
+  "motivo": "Misma base (n=43) en dos series sobre la unión de fases (Requisitos con 0 en la serie principal); las barras horizontales agrupadas comparan fase principal y fases secundarias. Sin la recodificación de RQ2-I4 no hay figura y el bloque pasa a tabla con la limitación en la Nota.",
+  "muestra": "",
+  "datos": [
+    {
+      "categoria": "Pruebas",
+      "n": 22,
+      "pct": 51
+    },
+    {
+      "categoria": "Desarrollo",
+      "n": 14,
+      "pct": 33
+    },
+    {
+      "categoria": "Requisitos",
+      "n": 3,
+      "pct": 7
+    },
+    {
+      "categoria": "Personalización en ejecución",
+      "n": 3,
+      "pct": 7
+    },
+    {
+      "categoria": "V&V",
+      "n": 1,
+      "pct": 2
+    }
+  ],
+  "ejes": {
+    "x": "Porcentaje de estudios",
+    "y": "Categoría (orden descendente por n)",
+    "unidad": "%"
+  },
+  "etiquetas": "X% (n=Y) al final de cada barra",
+  "leyenda": "Sin leyenda (una sola serie)",
+  "nota": "Elaboración propia a partir de los 73 artículos seleccionados (2021–2027).",
+  "estilo": {
+    "paleta": "azules sobrios",
+    "orden": "descendente por n",
+    "tamano": "16x9 cm"
+  }
+}

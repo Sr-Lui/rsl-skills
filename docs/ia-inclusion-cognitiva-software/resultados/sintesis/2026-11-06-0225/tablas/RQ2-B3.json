@@ -1,0 +1,158 @@
+{
+  "bloque": "RQ2-B3",
+  "tipo": "frecuencia",
+  "items": [
+    {
+      "item_id": "RQ2-I2",
+      "label": "Rol de la IA en el estudio",
+      "campo": null,
+      "hojas": [
+        "Cualitativo"
+      ],
+      "base": 49,
+      "categorias": [
+        {
+          "categoria": "Generador",
+          "n": 29,
+          "pct": 59,
+          "por_naturaleza": {
+            "mixto": 10,
+            "cualitativo": 19
+          },
+          "estudios": [
+            3,
+            5,
+            9,
+            10,
+            13,
+            14,
+            20,
+            22,
+            25,
+            26,
+            29,
+            30,
+            31,
+            35,
+            36,
+            37,
+            39,
+            40,
+            48,
+            51,
+            52,
+            53,
+            54,
+            57,
+            59,
+            64,
+            67,
+            71,
+            72
+          ]
+        },
+        {
+          "categoria": "Intérprete de la entrada o del estado del usuario",
+          "n": 13,
+          "pct": 27,
+          "por_naturaleza": {
+            "mixto": 8,
+            "cualitativo": 5
+          },
+          "estudios": [
+            6,
+            7,
+            19,
+            22,
+            32,
+            36,
+            48,
+            53,
+            60,
+            61,
+            65,
+            67,
+            71
+          ]
+        },
+        {
+          "categoria": "Personalizador en ejecución",
+          "n": 5,
+          "pct": 10,
+          "por_naturaleza": {
+            "mixto": 4,
+            "cualitativo": 1
+          },
+          "estudios": [
+            6,
+            22,
+            39,
+            40,
+            49
+          ]
+        },
+        {
+          "categoria": "Evaluador del contenido",
+          "n": 3,
+          "pct": 6,
+          "por_naturaleza": {
+            "mixto": 2,
+            "cualitativo": 1
+          },
+          "estudios": [
+            3,
+            51,
+            54
+          ]
+        },
+        {
+          "categoria": "Asistente de aseguramiento de la calidad",
+          "n": 3,
+          "pct": 6,
+          "por_naturaleza": {
+            "mixto": 1,
+            "cualitativo": 2
+          },
+          "estudios": [
+            3,
+            27,
+            47
+          ]
+        },
+        {
+          "categoria": "Análisis de datos de la investigación",
+          "n": 3,
+          "pct": 6,
+          "por_naturaleza": {
+            "mixto": 1,
+            "cualitativo": 2
+          },
+          "estudios": [
+            13,
+            41,
+            66
+          ]
+        }
+      ],
+      "nr": {
+        "n": 8,
+        "pct": 16,
+        "estudios": [
+          11,
+          12,
+          15,
+          42,
+          44,
+          56,
+          69,
+          73
+        ]
+      },
+      "multivalor": true
+    }
+  ],
+  "base": {
+    "N": 49,
+    "descripcion": "estudios con el ítem en el formulario"
+  }
+}

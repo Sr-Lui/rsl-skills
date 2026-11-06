@@ -1,0 +1,116 @@
+{
+  "bloque": "B00-muestra",
+  "tipo": "general",
+  "base": {
+    "N": 73,
+    "descripcion": "estudios incluidos"
+  },
+  "rango_participantes": {
+    "min": 1,
+    "max": 1536,
+    "mediana": 14
+  },
+  "categorias": [
+    {
+      "categoria": "Con participantes humanos (n reportado)",
+      "n": 51,
+      "pct": 70,
+      "estudios": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        16,
+        17,
+        18,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        39,
+        41,
+        42,
+        43,
+        46,
+        47,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56,
+        57,
+        58,
+        61,
+        62,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "categoria": "Muestra no humana (respuestas, textos, sesiones)",
+      "n": 3,
+      "pct": 4,
+      "estudios": [
+        1,
+        55,
+        65
+      ]
+    },
+    {
+      "categoria": "Sin participantes humanos",
+      "n": 15,
+      "pct": 21,
+      "estudios": [
+        10,
+        14,
+        15,
+        20,
+        21,
+        26,
+        27,
+        35,
+        38,
+        40,
+        45,
+        60,
+        63,
+        64,
+        73
+      ]
+    },
+    {
+      "categoria": "No reportado",
+      "n": 4,
+      "pct": 5,
+      "estudios": [
+        19,
+        44,
+        48,
+        59
+      ]
+    }
+  ]
+}

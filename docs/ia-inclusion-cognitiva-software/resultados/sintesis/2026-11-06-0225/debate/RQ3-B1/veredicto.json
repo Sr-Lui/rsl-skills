@@ -1,0 +1,8 @@
+{
+  "bloque": "RQ3-B1",
+  "rondas": 3,
+  "acuerdo_r2": false,
+  "cierre": "consenso_r3",
+  "desacuerdo_residual": "",
+  "resumen": "Bloque RQ3-B1: requirió una tercera ronda final porque no hubo acuerdo en la segunda; en R2 quedaron abiertas la codificación como «Satisfacción» de dos estudios (uno era eficacia de la intervención y otro un cuestionario de usabilidad ad hoc) y la descripción de los 21 cualitativos sin métrica, y en R3 se consensuó recodificarlos y regenerar la Tabla {{T1}} (familias 18, 14, 9, 2, 2 y 1; 27 sin métrica) y desglosar los 21 cualitativos en 13 con temas, 7 sin evaluación formal y 1 solo con resumen."
+}

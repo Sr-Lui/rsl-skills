@@ -1,0 +1,8 @@
+{
+  "bloque": "RQ3-B2",
+  "rondas": 3,
+  "acuerdo_r2": false,
+  "cierre": "consenso_r3",
+  "desacuerdo_residual": "",
+  "resumen": "Bloque RQ3-B2: requirió una tercera ronda final porque no hubo acuerdo en la segunda; en R2 quedó abierta la ampliación del ítem a «evalúa o diseña», que contaba como instrumentos de evaluación cuatro estudios de requisitos y dos talleres de codiseño, y en R3 se consensuó volver a «evalúa» y pasar esos seis estudios a NR (estudio con usuarios 32, cuestionario 24, heurística 7, índice 1 y NR 13 sobre 49)."
+}

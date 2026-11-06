@@ -1,0 +1,384 @@
+{
+  "bloque": "B00-pais",
+  "tipo": "general",
+  "base": {
+    "N": 73,
+    "descripcion": "estudios incluidos"
+  },
+  "criterio": "país de la primera afiliación reconocible (fila 9 del formulario)",
+  "categorias": [
+    {
+      "categoria": "Europa",
+      "n": 33,
+      "pct": 45,
+      "estudios": [
+        7,
+        10,
+        11,
+        16,
+        19,
+        20,
+        21,
+        26,
+        27,
+        28,
+        31,
+        35,
+        38,
+        40,
+        42,
+        43,
+        46,
+        47,
+        50,
+        51,
+        58,
+        59,
+        60,
+        62,
+        63,
+        64,
+        65,
+        66,
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "categoria": "Asia",
+      "n": 17,
+      "pct": 23,
+      "estudios": [
+        1,
+        2,
+        4,
+        6,
+        13,
+        22,
+        24,
+        29,
+        34,
+        39,
+        41,
+        45,
+        49,
+        53,
+        54,
+        57,
+        61
+      ]
+    },
+    {
+      "categoria": "América del Norte",
+      "n": 13,
+      "pct": 18,
+      "estudios": [
+        8,
+        9,
+        12,
+        14,
+        32,
+        33,
+        44,
+        48,
+        52,
+        55,
+        56,
+        67,
+        68
+      ]
+    },
+    {
+      "categoria": "Oceanía",
+      "n": 5,
+      "pct": 7,
+      "estudios": [
+        23,
+        25,
+        30,
+        36,
+        37
+      ]
+    },
+    {
+      "categoria": "América Latina",
+      "n": 4,
+      "pct": 5,
+      "estudios": [
+        3,
+        15,
+        17,
+        18
+      ]
+    },
+    {
+      "categoria": "África",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        5
+      ]
+    }
+  ],
+  "paises": [
+    {
+      "categoria": "Estados Unidos",
+      "n": 13,
+      "pct": 18,
+      "estudios": [
+        8,
+        9,
+        12,
+        14,
+        32,
+        33,
+        44,
+        48,
+        52,
+        55,
+        56,
+        67,
+        68
+      ]
+    },
+    {
+      "categoria": "Reino Unido",
+      "n": 9,
+      "pct": 12,
+      "estudios": [
+        10,
+        21,
+        26,
+        31,
+        42,
+        46,
+        64,
+        66,
+        71
+      ]
+    },
+    {
+      "categoria": "Suiza",
+      "n": 6,
+      "pct": 8,
+      "estudios": [
+        35,
+        47,
+        58,
+        62,
+        63,
+        69
+      ]
+    },
+    {
+      "categoria": "China",
+      "n": 5,
+      "pct": 7,
+      "estudios": [
+        13,
+        22,
+        29,
+        39,
+        41
+      ]
+    },
+    {
+      "categoria": "España",
+      "n": 5,
+      "pct": 7,
+      "estudios": [
+        16,
+        27,
+        65,
+        72,
+        73
+      ]
+    },
+    {
+      "categoria": "Australia",
+      "n": 5,
+      "pct": 7,
+      "estudios": [
+        23,
+        25,
+        30,
+        36,
+        37
+      ]
+    },
+    {
+      "categoria": "Arabia Saudita",
+      "n": 4,
+      "pct": 5,
+      "estudios": [
+        1,
+        34,
+        45,
+        49
+      ]
+    },
+    {
+      "categoria": "Italia",
+      "n": 3,
+      "pct": 4,
+      "estudios": [
+        28,
+        59,
+        60
+      ]
+    },
+    {
+      "categoria": "Indonesia",
+      "n": 2,
+      "pct": 3,
+      "estudios": [
+        6,
+        54
+      ]
+    },
+    {
+      "categoria": "Grecia",
+      "n": 2,
+      "pct": 3,
+      "estudios": [
+        7,
+        43
+      ]
+    },
+    {
+      "categoria": "Finlandia",
+      "n": 2,
+      "pct": 3,
+      "estudios": [
+        11,
+        20
+      ]
+    },
+    {
+      "categoria": "Perú",
+      "n": 2,
+      "pct": 3,
+      "estudios": [
+        15,
+        18
+      ]
+    },
+    {
+      "categoria": "India",
+      "n": 2,
+      "pct": 3,
+      "estudios": [
+        53,
+        61
+      ]
+    },
+    {
+      "categoria": "Bangladesh",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        2
+      ]
+    },
+    {
+      "categoria": "Argentina",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        3
+      ]
+    },
+    {
+      "categoria": "Singapur",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        4
+      ]
+    },
+    {
+      "categoria": "Sudáfrica",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        5
+      ]
+    },
+    {
+      "categoria": "Brasil",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        17
+      ]
+    },
+    {
+      "categoria": "República Checa",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        19
+      ]
+    },
+    {
+      "categoria": "Corea del Sur",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        24
+      ]
+    },
+    {
+      "categoria": "Polonia",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        38
+      ]
+    },
+    {
+      "categoria": "Alemania",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        40
+      ]
+    },
+    {
+      "categoria": "Rumanía",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        50
+      ]
+    },
+    {
+      "categoria": "Países Bajos",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        51
+      ]
+    },
+    {
+      "categoria": "Japón",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        57
+      ]
+    },
+    {
+      "categoria": "Portugal",
+      "n": 1,
+      "pct": 1,
+      "estudios": [
+        70
+      ]
+    }
+  ],
+  "no_identificados": []
+}

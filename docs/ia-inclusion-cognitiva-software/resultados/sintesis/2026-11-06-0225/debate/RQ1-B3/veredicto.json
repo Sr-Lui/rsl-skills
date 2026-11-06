@@ -1,0 +1,8 @@
+{
+  "bloque": "RQ1-B3",
+  "rondas": 3,
+  "acuerdo_r2": false,
+  "cierre": "consenso_r3",
+  "desacuerdo_residual": "",
+  "resumen": "Bloque RQ1-B3: requirió una tercera ronda final porque no hubo acuerdo en la segunda; en R2 quedaron abiertas la codificación como «Perfil: Deducido» de dos estudios sin perfil gestionado y la descripción de la base de 42 del consentimiento, y en R3 se consensuó pasarlos a «Perfil: NR» (Deducido 20, Almacenado 26, NR 27; perfil homogéneo, máximo 12 puntos) y describir la base como estudios con participantes con la condición o sin poder descartarlos."
+}

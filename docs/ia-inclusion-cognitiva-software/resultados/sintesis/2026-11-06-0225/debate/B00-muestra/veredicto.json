@@ -1,0 +1,8 @@
+{
+  "bloque": "B00-muestra",
+  "rondas": 3,
+  "acuerdo_r2": false,
+  "cierre": "consenso_r3",
+  "desacuerdo_residual": "",
+  "resumen": "Bloque B00-muestra: requirió una tercera ronda final porque no hubo acuerdo en la segunda; en R2 quedaron abiertas la frase «el 21% (n=15) no incluye participantes humanos», que contradecía la participación registrada en RQ1, y la discrepancia del registro de muestra escrita en la prosa, y en R3 se consensuó redactar las cuatro categorías como registros del formulario y llevar la discrepancia a una Nota bajo el párrafo, sin cambiar cifras (51/15/4/3; rango 1–1 536; mediana 14)."
+}

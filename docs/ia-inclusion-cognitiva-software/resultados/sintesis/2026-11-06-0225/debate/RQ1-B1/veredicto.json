@@ -1,0 +1,8 @@
+{
+  "bloque": "RQ1-B1",
+  "rondas": 3,
+  "acuerdo_r2": false,
+  "cierre": "consenso_r3",
+  "desacuerdo_residual": "",
+  "resumen": "Bloque RQ1-B1: requirió una tercera ronda final porque no hubo acuerdo en la segunda; en R2 quedaron abiertas cuatro objeciones de codificación de perfiles (TDAH de R425 apoyado en una comorbilidad citada, dislexia de R623 tomada de trabajos relacionados, evidencias incorrectas de R705 y R106) y el juicio de heterogeneidad de la dislexia, y en R3 se consensuó recodificar esas filas, regenerar tabla y spec (TDAH y dificultades de aprendizaje empatados en n=11; dislexia n=8, 7% frente a 32%, único perfil heterogéneo con el umbral de 20 puntos) y retirar la frase interpretativa."
+}

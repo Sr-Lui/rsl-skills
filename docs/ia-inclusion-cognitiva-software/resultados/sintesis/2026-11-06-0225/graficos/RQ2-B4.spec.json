@@ -1,0 +1,35 @@
+{
+  "figura": "{{F1}}",
+  "bloque": "RQ2-B4",
+  "titulo": "Fase principal y otras fases del ciclo de vida del software reportadas en los estudios",
+  "tipo": "barras horizontales agrupadas",
+  "motivo": "Dos series (fase principal y otras fases) sobre las mismas categorías y la misma base (n=43); las barras horizontales admiten etiquetas largas",
+  "muestra": "Porcentaje de los 43 estudios cuantitativos o mixtos en que cada fase es la principal y en que aparece como otra fase",
+  "datos": {
+    "categorias": ["Desarrollo", "Pruebas", "Requisitos", "Personalización en ejecución", "Verificación y validación"],
+    "series": [
+      {"serie": "Fase principal", "item": "RQ2-I3", "valores": [
+        {"categoria": "Desarrollo", "n": 24, "pct": 56},
+        {"categoria": "Pruebas", "n": 9, "pct": 21},
+        {"categoria": "Requisitos", "n": 3, "pct": 7},
+        {"categoria": "Personalización en ejecución", "n": 6, "pct": 14},
+        {"categoria": "Verificación y validación", "n": 1, "pct": 2}
+      ]},
+      {"serie": "Otras fases", "item": "RQ2-I4", "valores": [
+        {"categoria": "Desarrollo", "n": 14, "pct": 33},
+        {"categoria": "Pruebas", "n": 29, "pct": 67},
+        {"categoria": "Requisitos", "n": 6, "pct": 14},
+        {"categoria": "Personalización en ejecución", "n": 0, "pct": 0},
+        {"categoria": "Verificación y validación", "n": 0, "pct": 0}
+      ]}
+    ]
+  },
+  "excluidas": [
+    {"categoria": "Solo una fase", "serie": "Otras fases", "n": 5, "pct": 12, "motivo": "no es una fase; va en la nota"}
+  ],
+  "ejes": {"x": "Porcentaje de estudios (0–100)", "y": "Fase del ciclo de vida (orden descendente por la suma de ambas series; Desarrollo arriba en el empate con Pruebas)", "unidad": "%"},
+  "etiquetas": "X% (n=Y) al final de cada barra, incluidas las de 0% (n=0)",
+  "leyenda": "Fase principal (azul oscuro); Otras fases (azul claro)",
+  "nota": "La serie «Otras fases» no suma 100%: un estudio puede abordar más de una fase además de la principal (base n = 43 estudios cuantitativos o mixtos). 5 estudios (12%) abordan solo la fase principal.",
+  "estilo": {"paleta": "azules sobrios, dos tonos", "orden": "descendente por la suma de ambas series", "tamano": "16x10 cm"}
+}

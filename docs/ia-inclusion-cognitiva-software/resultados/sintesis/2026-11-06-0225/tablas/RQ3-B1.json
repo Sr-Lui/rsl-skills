@@ -1,0 +1,272 @@
+{
+  "bloque": "RQ3-B1",
+  "tipo": "frecuencia",
+  "items": [
+    {
+      "item_id": "RQ3-I1",
+      "label": "Métrica principal y valor reportado",
+      "campo": "Constructo",
+      "hojas": [
+        "Cualitativo",
+        "Cuantitativo"
+      ],
+      "base": 73,
+      "categorias": [
+        {
+          "categoria": "Exactitud (accuracy)",
+          "n": 8,
+          "pct": 11,
+          "por_naturaleza": {
+            "cuantitativo": 4,
+            "mixto": 4
+          },
+          "estudios": [
+            2,
+            19,
+            24,
+            46,
+            49,
+            50,
+            61,
+            71
+          ]
+        },
+        {
+          "categoria": "Eficacia de la intervención",
+          "n": 5,
+          "pct": 7,
+          "por_naturaleza": {
+            "mixto": 3,
+            "cuantitativo": 2
+          },
+          "estudios": [
+            6,
+            22,
+            39,
+            43,
+            45
+          ]
+        },
+        {
+          "categoria": "Precisión, exhaustividad o F1",
+          "n": 5,
+          "pct": 7,
+          "por_naturaleza": {
+            "cualitativo": 2,
+            "cuantitativo": 3
+          },
+          "estudios": [
+            7,
+            8,
+            21,
+            51,
+            63
+          ]
+        },
+        {
+          "categoria": "Comprensión del contenido",
+          "n": 4,
+          "pct": 5,
+          "por_naturaleza": {
+            "mixto": 2,
+            "cuantitativo": 2
+          },
+          "estudios": [
+            3,
+            23,
+            32,
+            58
+          ]
+        },
+        {
+          "categoria": "Usabilidad (SUS)",
+          "n": 4,
+          "pct": 5,
+          "por_naturaleza": {
+            "cuantitativo": 2,
+            "cualitativo": 1,
+            "mixto": 1
+          },
+          "estudios": [
+            18,
+            28,
+            31,
+            56
+          ]
+        },
+        {
+          "categoria": "Desempeño en la tarea",
+          "n": 3,
+          "pct": 4,
+          "por_naturaleza": {
+            "mixto": 1,
+            "cuantitativo": 2
+          },
+          "estudios": [
+            5,
+            38,
+            62
+          ]
+        },
+        {
+          "categoria": "Inspección heurística de usabilidad y accesibilidad",
+          "n": 3,
+          "pct": 4,
+          "por_naturaleza": {
+            "cualitativo": 3
+          },
+          "estudios": [
+            15,
+            27,
+            47
+          ]
+        },
+        {
+          "categoria": "Otras métricas del modelo",
+          "n": 3,
+          "pct": 4,
+          "por_naturaleza": {
+            "cualitativo": 2,
+            "cuantitativo": 1
+          },
+          "estudios": [
+            30,
+            34,
+            67
+          ]
+        },
+        {
+          "categoria": "Índice de legibilidad",
+          "n": 2,
+          "pct": 3,
+          "por_naturaleza": {
+            "cuantitativo": 1,
+            "mixto": 1
+          },
+          "estudios": [
+            1,
+            14
+          ]
+        },
+        {
+          "categoria": "Desempeño lector",
+          "n": 2,
+          "pct": 3,
+          "por_naturaleza": {
+            "cuantitativo": 2
+          },
+          "estudios": [
+            4,
+            17
+          ]
+        },
+        {
+          "categoria": "Calidad del texto generado (SARI, BLEU, GLEU)",
+          "n": 2,
+          "pct": 3,
+          "por_naturaleza": {
+            "mixto": 1,
+            "cuantitativo": 1
+          },
+          "estudios": [
+            48,
+            55
+          ]
+        },
+        {
+          "categoria": "Satisfacción",
+          "n": 1,
+          "pct": 1,
+          "por_naturaleza": {
+            "mixto": 1
+          },
+          "estudios": [
+            13
+          ]
+        },
+        {
+          "categoria": "Aceptación tecnológica (TAM)",
+          "n": 1,
+          "pct": 1,
+          "por_naturaleza": {
+            "cuantitativo": 1
+          },
+          "estudios": [
+            16
+          ]
+        },
+        {
+          "categoria": "Cuestionario de usabilidad ad hoc",
+          "n": 1,
+          "pct": 1,
+          "por_naturaleza": {
+            "mixto": 1
+          },
+          "estudios": [
+            59
+          ]
+        },
+        {
+          "categoria": "Experiencia de usuario (UEQ)",
+          "n": 1,
+          "pct": 1,
+          "por_naturaleza": {
+            "cualitativo": 1
+          },
+          "estudios": [
+            66
+          ]
+        },
+        {
+          "categoria": "Validez y fiabilidad del instrumento",
+          "n": 1,
+          "pct": 1,
+          "por_naturaleza": {
+            "cuantitativo": 1
+          },
+          "estudios": [
+            68
+          ]
+        }
+      ],
+      "nr": {
+        "n": 27,
+        "pct": 37,
+        "estudios": [
+          9,
+          10,
+          11,
+          12,
+          20,
+          25,
+          26,
+          29,
+          33,
+          35,
+          36,
+          37,
+          40,
+          41,
+          42,
+          44,
+          52,
+          53,
+          54,
+          57,
+          60,
+          64,
+          65,
+          69,
+          70,
+          72,
+          73
+        ]
+      },
+      "multivalor": false
+    }
+  ],
+  "base": {
+    "N": 73,
+    "descripcion": "estudios con el ítem en el formulario"
+  }
+}

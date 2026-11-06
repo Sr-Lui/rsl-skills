@@ -1,0 +1,11 @@
+# RQ3-B2 — Ronda 2 — Crítico
+
+**En desacuerdo** (una objeción de coherencia entre los ítems de la RQ3).
+
+Las cinco objeciones de la R1 están resueltas. R399 está en NR con la evidencia «planned», R393 ya no tiene índice, R208 suma el estudio con usuarios, y R106, R627 y R647 están verificados. Las 11 filas de «Legibilidad» llevan `evidencia`. Las cifras cuadran con `tablas/RQ3-B2.json`: 37, 28, 8, 1 y 7 NR sobre 49 dan 76, 57, 16, 2 y 14%. Por naturaleza, el cuestionario está en 17 mixtos y 11 cualitativos, y el estudio con usuarios en 21 cualitativos y 16 mixtos. «Únicamente 1 estudio (2%)» sigue el ejemplo del playbook.
+
+Queda la pregunta que dejaste abierta («evalúa o diseña»). La decido en contra de ampliar, porque la RQ3 trata de la **evaluación**. En RQ3-B1 y RQ3-B4 adoptaste la regla «el estudio no evalúa el artefacto: recoge necesidades o requisitos» (codebook, `## RQ3-I5`) y con ella pasaste R199, R425, R587 y R626 a NR. Aquí esos cuatro estudios siguen contando como instrumentos de evaluación.
+
+| # | Fragmento | Problema | Corrección |
+|---|---|---|---|
+| 1 | «el 76% (n=37) evalúa o diseña el artefacto con personas…»; R199 → `['Cuestionario','Heurística','Estudio con usuarios']`, R425 → `['Cuestionario','Estudio con usuarios']`, R587 → `['Cuestionario']`, R626 → `['Cuestionario','Estudio con usuarios']` (`auto: true` salvo R587 y R626) | El mismo estudio queda como «no evalúa el artefacto» en RQ3-I1 y RQ3-I5 y como «evalúa con cuestionario y usuarios» en RQ3-I2, porque la categoría pasa a incluir «diseña». El codebook define el ítem como «Instrumento o protocolo de medición **de la evaluación**», y su NR como «no reporta una evaluación con instrumento o con usuarios». Los talleres de codiseño de R356 y R647 tampoco son una evaluación, según tus propias evidencias | Volver a «evalúa». Pasar a NR R199, R425, R587 y R626 (con la evidencia de requisitos que ya está en RQ3-I1) y R356 y R647 (codiseño sin evaluación del artefacto), salvo que el MD muestre una evaluación posterior. Estimación: estudio con usuarios 32 (65%), cuestionario 24 (49%), heurística 7 (14%), índice 1 (2%) y NR 13 (27%). Regenerar con `sintesis:aggregate` y rehacer la frase por naturaleza y los cruces de RQ3-B4 |

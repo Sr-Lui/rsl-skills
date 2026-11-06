@@ -1,0 +1,58 @@
+{
+  "figura": null,
+  "bloque": "B00-anio",
+  "titulo": "Frecuencia de publicaciones por año",
+  "tipo": "barras verticales",
+  "motivo": "Cambio en el tiempo",
+  "muestra": "",
+  "datos": [
+    {
+      "categoria": "2021",
+      "n": 2,
+      "pct": 3
+    },
+    {
+      "categoria": "2022",
+      "n": 3,
+      "pct": 4
+    },
+    {
+      "categoria": "2023",
+      "n": 4,
+      "pct": 5
+    },
+    {
+      "categoria": "2024",
+      "n": 16,
+      "pct": 22
+    },
+    {
+      "categoria": "2025",
+      "n": 21,
+      "pct": 29
+    },
+    {
+      "categoria": "2026",
+      "n": 26,
+      "pct": 36
+    },
+    {
+      "categoria": "2027",
+      "n": 1,
+      "pct": 1
+    }
+  ],
+  "ejes": {
+    "x": "Categoría",
+    "y": "Porcentaje de estudios",
+    "unidad": "%"
+  },
+  "etiquetas": "X% (n=Y) sobre cada barra",
+  "leyenda": "Sin leyenda (una sola serie)",
+  "nota": "Elaboración propia a partir de los 73 artículos seleccionados (2021–2027).",
+  "estilo": {
+    "paleta": "azules sobrios",
+    "orden": "descendente por n",
+    "tamano": "16x9 cm"
+  }
+}

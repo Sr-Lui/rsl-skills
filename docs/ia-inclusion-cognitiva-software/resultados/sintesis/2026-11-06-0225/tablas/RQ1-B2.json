@@ -1,0 +1,280 @@
+{
+  "bloque": "RQ1-B2",
+  "tipo": "frecuencia",
+  "items": [
+    {
+      "item_id": "RQ1-I2",
+      "label": "Estratificación por perfil",
+      "campo": null,
+      "hojas": [
+        "Cuantitativo"
+      ],
+      "base": 43,
+      "categorias": [
+        {
+          "categoria": "No",
+          "n": 39,
+          "pct": 91,
+          "por_naturaleza": {
+            "cuantitativo": 22,
+            "mixto": 17
+          },
+          "estudios": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            12,
+            13,
+            14,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23,
+            24,
+            28,
+            32,
+            33,
+            34,
+            38,
+            42,
+            43,
+            46,
+            48,
+            49,
+            50,
+            54,
+            55,
+            56,
+            59,
+            60,
+            61,
+            62,
+            63,
+            68,
+            70,
+            71
+          ]
+        },
+        {
+          "categoria": "Sí",
+          "n": 3,
+          "pct": 7,
+          "por_naturaleza": {
+            "mixto": 1,
+            "cuantitativo": 2
+          },
+          "estudios": [
+            39,
+            45,
+            58
+          ]
+        }
+      ],
+      "nr": {
+        "n": 1,
+        "pct": 2,
+        "estudios": [
+          3
+        ]
+      },
+      "multivalor": false
+    },
+    {
+      "item_id": "RQ1-I3",
+      "label": "Participación de personas con la condición",
+      "campo": null,
+      "hojas": [
+        "Cualitativo",
+        "Cuantitativo"
+      ],
+      "base": 73,
+      "categorias": [
+        {
+          "categoria": "Presencia: Sí",
+          "n": 37,
+          "pct": 51,
+          "por_naturaleza": {
+            "mixto": 16,
+            "cuantitativo": 6,
+            "cualitativo": 15
+          },
+          "estudios": [
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            22,
+            23,
+            25,
+            26,
+            28,
+            29,
+            31,
+            32,
+            36,
+            37,
+            38,
+            39,
+            42,
+            43,
+            48,
+            49,
+            51,
+            52,
+            56,
+            57,
+            58,
+            60,
+            61,
+            64,
+            66,
+            69,
+            71
+          ]
+        },
+        {
+          "categoria": "Presencia: No",
+          "n": 31,
+          "pct": 42,
+          "por_naturaleza": {
+            "cuantitativo": 14,
+            "cualitativo": 15,
+            "mixto": 2
+          },
+          "estudios": [
+            1,
+            2,
+            7,
+            8,
+            15,
+            16,
+            19,
+            20,
+            21,
+            24,
+            27,
+            30,
+            34,
+            35,
+            40,
+            41,
+            44,
+            45,
+            46,
+            47,
+            50,
+            53,
+            54,
+            55,
+            62,
+            63,
+            65,
+            67,
+            70,
+            72,
+            73
+          ]
+        },
+        {
+          "categoria": "Rol: Ambos",
+          "n": 18,
+          "pct": 25,
+          "por_naturaleza": {
+            "mixto": 7,
+            "cuantitativo": 2,
+            "cualitativo": 9
+          },
+          "estudios": [
+            3,
+            4,
+            5,
+            12,
+            13,
+            14,
+            25,
+            26,
+            28,
+            29,
+            31,
+            32,
+            36,
+            37,
+            52,
+            64,
+            69,
+            71
+          ]
+        },
+        {
+          "categoria": "Rol: Evaluación",
+          "n": 17,
+          "pct": 23,
+          "por_naturaleza": {
+            "mixto": 7,
+            "cualitativo": 6,
+            "cuantitativo": 4
+          },
+          "estudios": [
+            6,
+            9,
+            10,
+            11,
+            22,
+            23,
+            38,
+            39,
+            43,
+            48,
+            49,
+            51,
+            56,
+            57,
+            58,
+            61,
+            66
+          ]
+        },
+        {
+          "categoria": "Rol: Diseño",
+          "n": 2,
+          "pct": 3,
+          "por_naturaleza": {
+            "mixto": 2
+          },
+          "estudios": [
+            42,
+            60
+          ]
+        }
+      ],
+      "nr": {
+        "n": 5,
+        "pct": 7,
+        "estudios": [
+          17,
+          18,
+          33,
+          59,
+          68
+        ]
+      },
+      "multivalor": true
+    }
+  ],
+  "base": {
+    "N": 43,
+    "descripcion": "estudios con el ítem en el formulario"
+  }
+}

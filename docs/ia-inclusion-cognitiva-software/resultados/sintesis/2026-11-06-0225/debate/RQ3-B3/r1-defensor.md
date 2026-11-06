@@ -1,0 +1,34 @@
+# RQ3-B3 — Ronda 1 — Defensor
+
+Bloque: RQ3-I3, marco normativo de accesibilidad (base n = 49, estudios cualitativos y mixtos), y RQ3-I4, cobertura de la evaluación (base n = 43, estudios cuantitativos y mixtos). Agregación por frecuencia, síntesis aditiva y presentación en texto. Las cifras salen de `tablas/RQ3-B3.json`, regenerada después de verificar cada estudio en el texto completo.
+
+## Texto propuesto
+
+<!-- inicio -->
+### 3.?. Marco normativo de accesibilidad y cobertura cognitiva frente a sensorial (RQ3)
+
+El marco normativo se registró en los 49 estudios con enfoque cualitativo o mixto (30 cualitativos y 19 mixtos), y se verificó en el texto completo de cada uno si el estudio aplica el marco al diseño o a la evaluación del artefacto o si solo lo menciona. El 67% (n=33) no se adscribe a ningún marco normativo de accesibilidad. Entre los estudios que sí lo hacen, las Pautas de Accesibilidad para el Contenido Web (WCAG) se aplican en el 16% (n=8), las pautas de Lectura Fácil o de lenguaje claro en el 12% (n=6) y otros marcos (Diseño Universal para el Aprendizaje, pautas de reducción de la complejidad textual y la norma EN 301 549) en el 8% (n=4). Las orientaciones de accesibilidad cognitiva del W3C (COGA) se aplican en el 4% (n=2), y en ambos casos junto a las WCAG. Además, el 10% (n=5) menciona las WCAG sin aplicarlas (en los antecedentes, como crítica de su alcance cognitivo o como auditoría prevista) y el 4% (n=2) menciona COGA solo en los antecedentes. Un estudio puede adscribirse a más de un marco, de modo que los porcentajes no suman 100%.
+
+La adscripción es heterogénea según el tipo de estudio. Las WCAG se aplican en 7 estudios cualitativos y 1 mixto, y los dos estudios con COGA son cualitativos; en cambio, otros marcos aparecen en 3 estudios mixtos y 1 cualitativo. La ausencia de marco es la categoría más frecuente en ambos grupos (20 estudios cualitativos y 13 mixtos).
+
+La cobertura de la evaluación se registró en los 43 estudios con enfoque cuantitativo o mixto (24 cuantitativos y 19 mixtos). El 79% (n=34) evalúa solo dimensiones cognitivas, como la comprensión, la legibilidad, la atención o la usabilidad para la población con discapacidad cognitiva o neurodivergencia. El 21% (n=9) incluye también dimensiones sensoriales o motoras, ya sea con criterios como el contraste de color, la compatibilidad con lectores de pantalla o el cumplimiento de las WCAG, o con participantes sordos, con baja visión o con parálisis cerebral. Ningún estudio evalúa solo dimensiones sensoriales. La distribución es homogénea entre los dos tipos de estudio: la evaluación solo cognitiva predomina en los cuantitativos (18 frente a 6) y en los mixtos (16 frente a 3).
+<!-- fin -->
+
+## Decisiones
+
+- **Verificación hecha en los 49 + 43 MD**, según el `plan_recodificacion`.
+  - **Sondeo previo corregido.** El «WCAG en los 73 MD» del plan era un artefacto de la plantilla. Todos los MD llevan un bloque «Relevance hooks» con «Theme relevance: evaluation metrics and WCAG» y «cognitive accessibility and neurodiversity». Al quitar ese bloque y las referencias, «WCAG» aparece en el cuerpo de 18 de los 73 MD y «COGA» en 5 (R337, R399, R549, R587 y R643; este último es cuantitativo y no entra en la base de RQ3-I3).
+  - **Términos buscados en el cuerpo.** WCAG, COGA, W3C, *Making Content Usable*, *cognitive accessibility*, ISO 9241, EN 301 549, ISO 24495, UNE 153101, *Plain Language*, *Easy-to-Read*, *Leichte Sprache*, Inclusion Europe, UDL, Section 508, *accessibility guidelines/standards*, ARIA, Lighthouse y *universal design*. Leí los contextos de cada coincidencia y codifiqué la adscripción (el artefacto sigue o cumple el marco, o se evalúa conforme a él) por separado de la mención.
+- **RQ3-I3 (`codificacion/RQ3-I3.jsonl`): 49 de 49 filas con `auto: false` y `evidencia`.** «COGA» (49 de 49, valor bruto único) queda refutado: solo R337 (heurísticas «based on… WCAG 2.2 and the COGA Guidelines») y R399 («aligned with ISO 24495-1 and W3C COGA guidance») lo aplican. Las categorías nuevas y sus reglas están en `codebook.md` (`## RQ3-I3`).
+  - **WCAG (8).** R219, R263, R337, R360, R399, R495, R605 y R1061.
+  - **Lectura Fácil o lenguaje claro (6).** R106 y R587 (UNE 153101 EX), R391, R549, R693 (Leichte Sprache e Inclusion Europe) y R399 (ISO 24495-1).
+  - **Otro marco (4).** R398 y R626 (DUA), R208 (*Minimized Text Complexity*) y R399 (EN 301 549).
+  - **Solo mención: WCAG (5).** R197 (crítica: «following EN 301549 or WCAG 2.1 on AA level is not enough»), R199 (auditoría prevista), R549, R587 y R713.
+  - **Solo mención: COGA (2).** R549 y R587.
+- **RQ3-I4 (`codificacion/RQ3-I4.jsonl`): 43 de 43 filas con `auto: false` y `evidencia`.** «Ambas» (41 de 43, texto idéntico) queda refutado. Busqué *visual impairment*, *blind*, *low vision*, *deaf*, *hearing impairment*, *screen reader*, *contrast*, *color blindness*, *motor impairment*, *physical disability*, WCAG, TalkBack y VoiceOver, y leí los contextos.
+  - **Ambas (9).** R233 (contraste y lector de pantalla), R246 (WCAG 2.1 AA, ARIA y teclado), R263 (estudiantes con discapacidad física y visual), R369 (8 participantes sordos o con hipoacusia), R377 (estados de deficiencia visual, auditiva y motora), R457 (perfiles con baja visión y lectores de pantalla), R527 (estudiantes con discapacidad visual), R538 (módulo de lengua de signos) y R630 (parálisis cerebral discinética).
+  - **Cognitiva (34).** Las menciones sensoriales, si las hay, están en los antecedentes. R147 excluye a participantes «with sensory impairments», en R398 la «sensory accessibility» es la regulación sensorial en el TEA y en R831 la sordera es la comorbilidad de un solo participante.
+  - **Decisión de definición.** La dimensión motora se suma a la sensorial en «Ambas», porque el formulario solo prevé «cognitiva, sensorial o ambas». Si el crítico prefiere separarla, afecta a 2 filas (R263 y R630; R263 también tiene discapacidad visual).
+- **Cifras:** todas salen de `tablas/RQ3-B3.json`. «En ambos casos junto a las WCAG» es la intersección de las listas `estudios` de COGA y WCAG en esa tabla. Los nombres de «Otro marco» salen de `valores.Otro marco`; en el texto se nombran sin cifra.
+- **Presentación:** texto, como se acordó. Ya no se publican el 100% de COGA ni el 95% de «Ambas». El contraste COGA frente a WCAG, que es el núcleo de la RQ3, queda en 2 frente a 8 adscripciones.
+- **Límite.** La adscripción se decidió leyendo los contextos de los términos, no el MD entero. Un estudio que siga un marco sin nombrarlo con estos términos queda como «Sin marco normativo». R605 («referencing the WCAG») y R1061 («comply with… accessibility standards (e.g., WCAG, AAC)») son adscripciones declaradas pero débiles: el texto lo afirma sin detallar los criterios. Si el crítico las rebaja a «Solo mención», WCAG pasa a n=6 y la mención a n=7.

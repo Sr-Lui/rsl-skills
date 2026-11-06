@@ -1,0 +1,98 @@
+{
+  "figura": null,
+  "bloque": "RQ2-B2",
+  "titulo": "Perfiles neurodivergentes frente a familias de inteligencia artificial",
+  "tipo": "mapa de calor",
+  "motivo": "Relación entre dos variables nominales multivalor en una matriz de 7×5 (sin la fila paraguas «Neurodivergencia» ni la columna genérica «IA»); el mapa de calor con el número de estudios por celda muestra qué técnica se aplica a qué perfil. La prosa cita solo la matriz y remite a RQ1-B1 y RQ2-B1 para los marginales",
+  "muestra": "",
+  "datos": {
+    "filas": [
+      "TEA",
+      "DI",
+      "Discapacidad cognitiva",
+      "Dificultades de aprendizaje",
+      "TDAH",
+      "Dislexia",
+      "Síndrome de Down",
+      "Sin perfil específico"
+    ],
+    "columnas": [
+      "LLM",
+      "NLP",
+      "ML",
+      "DL",
+      "Visión"
+    ],
+    "matriz": [
+      [
+        10,
+        7,
+        4,
+        5,
+        2
+      ],
+      [
+        11,
+        5,
+        2,
+        1,
+        4
+      ],
+      [
+        6,
+        6,
+        2,
+        2,
+        2
+      ],
+      [
+        4,
+        5,
+        3,
+        1,
+        2
+      ],
+      [
+        8,
+        2,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        5,
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "ejes": {
+    "x": "Categorías de RQ2-I1",
+    "y": "Categorías de RQ1-I1",
+    "unidad": "N.º de estudios"
+  },
+  "etiquetas": "Número de estudios en cada celda",
+  "leyenda": "Barra de color: número de estudios coincidentes",
+  "nota": "Elaboración propia a partir de los 73 artículos seleccionados (2021–2027).",
+  "estilo": {
+    "paleta": "azules sobrios",
+    "orden": "descendente por n",
+    "tamano": "16x9 cm"
+  }
+}

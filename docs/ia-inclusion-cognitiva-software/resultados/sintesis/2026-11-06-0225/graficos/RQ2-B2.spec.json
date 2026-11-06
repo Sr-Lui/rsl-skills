@@ -1,0 +1,29 @@
+{
+  "figura": "{{F1}}",
+  "bloque": "RQ2-B2",
+  "titulo": "Perfiles de discapacidad cognitiva o neurodivergencia según la familia de técnica de inteligencia artificial",
+  "tipo": "mapa de calor",
+  "motivo": "Relación entre dos variables nominales multivalor (7 perfiles × 5 familias); el color resalta las combinaciones concentradas y las vacías",
+  "muestra": "Número de estudios que combina cada perfil específico con cada familia de técnica de IA (base n = 40 estudios cualitativos o mixtos con perfil específico y familia de IA)",
+  "datos": {
+    "filas": ["DI", "TEA", "Discapacidad cognitiva", "Dificultades de aprendizaje", "TDAH", "Dislexia", "Síndrome de Down"],
+    "columnas": ["LLM", "NLP", "ML", "DL", "Visión"],
+    "etiquetas_columnas": ["LLM", "PLN o habla", "Aprendizaje automático", "Aprendizaje profundo", "Visión por computador"],
+    "matriz": [
+      [11, 5, 2, 1, 4],
+      [9, 6, 4, 5, 2],
+      [6, 6, 2, 2, 2],
+      [4, 5, 3, 1, 2],
+      [8, 2, 3, 2, 1],
+      [1, 5, 3, 2, 1],
+      [2, 0, 0, 0, 0]
+    ]
+  },
+  "excluidas": {"RQ1-I1": ["Sin perfil específico"]},
+  "ejes": {"x": "Familia de técnica de IA (orden de la tabla)", "y": "Perfil declarado (DI arriba)", "unidad": "N.º de estudios"},
+  "escala": {"min": 0, "max": 11, "tipo": "lineal"},
+  "etiquetas": "Número de estudios en cada celda, incluidos los ceros",
+  "leyenda": "Barra de color: Número de estudios coincidentes (0–11)",
+  "nota": "Un estudio puede figurar en varias celdas: puede declarar más de un perfil y aplicar más de una familia (base n = 40 estudios cualitativos o mixtos con perfil específico y familia de IA; se excluye el estudio sin perfil específico).",
+  "estilo": {"paleta": "azules sobrios secuencial (blanco = 0)", "orden": "filas y columnas en el orden de tablas/RQ2-B2.json", "tamano": "16x10 cm"}
+}

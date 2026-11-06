@@ -1,0 +1,32 @@
+{
+  "figura": "{{F1}}",
+  "bloque": "B00-anio",
+  "titulo": "Distribución de los estudios por año de publicación",
+  "tipo": "barras verticales",
+  "motivo": "Cambio en el tiempo con una sola serie de siete años discretos",
+  "muestra": "Porcentaje de los 73 estudios incluidos publicado en cada año entre 2021 y 2027",
+  "datos": [
+    {"categoria": "2021", "n": 2, "pct": 3},
+    {"categoria": "2022", "n": 3, "pct": 4},
+    {"categoria": "2023", "n": 4, "pct": 5},
+    {"categoria": "2024", "n": 16, "pct": 22},
+    {"categoria": "2025", "n": 21, "pct": 29},
+    {"categoria": "2026", "n": 26, "pct": 36},
+    {"categoria": "2027", "n": 1, "pct": 1}
+  ],
+  "ejes": {
+    "x": "Año de publicación",
+    "y": "Porcentaje de estudios",
+    "unidad": "%",
+    "rango_y": [0, 40],
+    "marcas_y": 10
+  },
+  "etiquetas": "X% (n=Y) sobre cada barra",
+  "leyenda": "Sin leyenda (una sola serie)",
+  "nota": "Elaboración propia a partir de los 73 artículos seleccionados (2021–2027). El año 2027 es el del volumen asignado por la base de datos a un artículo aceptado en 2026, dentro del criterio temporal 2021–2026.",
+  "estilo": {
+    "paleta": "azules sobrios",
+    "orden": "cronológico",
+    "tamano": "16x9 cm"
+  }
+}

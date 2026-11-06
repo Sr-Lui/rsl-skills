@@ -1,0 +1,103 @@
+{
+  "bloque": "RQ3-B4",
+  "tipo": "frecuencia",
+  "items": [
+    {
+      "item_id": "RQ3-I5",
+      "label": "Grado de automatización",
+      "campo": null,
+      "hojas": [
+        "Cuantitativo"
+      ],
+      "base": 43,
+      "categorias": [
+        {
+          "categoria": "Solo validación con usuarios",
+          "n": 20,
+          "pct": 47,
+          "por_naturaleza": {
+            "mixto": 9,
+            "cuantitativo": 11
+          },
+          "estudios": [
+            3,
+            4,
+            5,
+            6,
+            13,
+            17,
+            22,
+            23,
+            28,
+            32,
+            33,
+            38,
+            39,
+            43,
+            56,
+            58,
+            59,
+            62,
+            68,
+            70
+          ]
+        },
+        {
+          "categoria": "Semiautomática",
+          "n": 11,
+          "pct": 26,
+          "por_naturaleza": {
+            "cuantitativo": 5,
+            "mixto": 6
+          },
+          "estudios": [
+            8,
+            14,
+            16,
+            18,
+            19,
+            24,
+            48,
+            49,
+            61,
+            63,
+            71
+          ]
+        },
+        {
+          "categoria": "Automática",
+          "n": 8,
+          "pct": 19,
+          "por_naturaleza": {
+            "cuantitativo": 8
+          },
+          "estudios": [
+            1,
+            2,
+            21,
+            34,
+            45,
+            46,
+            50,
+            55
+          ]
+        }
+      ],
+      "nr": {
+        "n": 4,
+        "pct": 9,
+        "estudios": [
+          12,
+          42,
+          54,
+          60
+        ]
+      },
+      "multivalor": false
+    }
+  ],
+  "base": {
+    "N": 43,
+    "descripcion": "estudios con el ítem en el formulario"
+  }
+}
