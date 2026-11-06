@@ -1,0 +1,164 @@
+{
+  "article_id": "R345",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "La población del estudio declara perfiles (TEA; DI; neurodivergencia).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "TEA; DI; neurodivergencia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. No hay desagregación por perfil cognitivo; los resultados corresponden a la muestra global.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "muestra"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participación de personas con la condición en diseño y evaluación, con n = 15 participantes reportados (Presencia: Sí | N: 15 | Rol: ambos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "15"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Marco ético, tratamiento del perfil y contexto del estudio (Enfoque: déficit | Perfil: almacenado | Consentimiento: NR | País: Estados Unidos).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "Estados Unidos"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Familia de técnica de IA aplicada (DL; ML | Modelo: NR).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "DL; ML | Modelo: NR"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Rol de la IA en el estudio (Generador; evaluador; asistente de aseguramiento de la calidad).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "Generador"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Pruebas. Fase principal del ciclo de vida del software en la que interviene la IA.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "Pruebas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "desarrollo; pruebas; requisitos. Otras fases del ciclo de vida mencionadas además de la principal.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "diseño;desarrollo;pruebas;requisitos"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Resultado principal reportado (SUS = 10) (Constructo: SUS | Valor: 10).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "SUS comprises 10"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Instrumento o protocolo de medición (cuestionario; heurística; estudio con usuarios).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "cuestionario"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "COGA. Alineación con accesibilidad cognitiva.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "COGA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Ambas. La evaluación aborda dimensiones cognitivas y sensoriales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "ambas"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. La validación depende principalmente de participantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "fulltext",
+          "quote": "users"
+        }
+      ]
+    }
+  ],
+  "source": "apply-prose-v3-calidad",
+  "humanize": "draft-lote (revisar con humanize-academic-writing en polish)"
+}

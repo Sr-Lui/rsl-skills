@@ -1,0 +1,5 @@
+# Orquestador — R246
+
+Veredicto: aceptar borrador draft-lote → apply JSON.
+
+R246: 13 ítems con prosa, 0 ausentes (—).
