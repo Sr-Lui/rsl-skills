@@ -1,0 +1,183 @@
+{
+  "article_id": "R425",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TEA; síndrome de Asperger; TDAH; estrés postraumático; dislexia; dispraxia; depresión",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 6",
+          "quote": "ASD, with the remaining 37% identifying Asperger Syndrome. Asperger’s was once considered as"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 6",
+          "quote": "having comorbid conditions, including ADHD (38%), post-traumatic stress disorder (19%), with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 7",
+          "quote": "disorder, social anxiety, depression, dyslexia, developmental coordination disorder, and epilepsy."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se reportan por separado para adultos autistas y cuidadores, sin estratificar por perfil clínico.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 6",
+          "quote": "Twenty respondents took part in the study, with 15 autistic participants and five caregivers. Of the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 25",
+          "quote": "The current work presents a novel dataset of qualitative data from five caregivers and 15 autistic"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron 15 adultos autistas y cinco cuidadores en entrevistas de recogida de requisitos (Presencia: Sí | N: 15 autistas y 5 cuidadores | Rol: diseño)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 6",
+          "quote": "Twenty respondents took part in the study, with 15 autistic participants and five caregivers. Of the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 6",
+          "quote": "Online semi-structured video interviews were carried out over the course of 2023 with autistic"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Aprobación ética universitaria y consentimiento informado enviado por correo antes de la entrevista, en el Reino Unido (Enfoque: NR | Perfil: NR | Consentimiento: formulario y hoja informativa por correo | País: Reino Unido)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 8",
+          "quote": "Ethical approval was granted by the University’s ethics committee, and participant consent, along"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 1",
+          "quote": "Edinburgh Napier University, Edinburgh, United Kingdom of Great Britain and Northern Ireland"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Aprendizaje por refuerzo; ML (solo propuesto) | Modelo: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 21",
+          "quote": "using reinforcement learning as a viable approach. Alternatively, machine learning could also"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 25",
+          "quote": "via an AI reinforcement learning method. User feedback should be customized using audio, visual,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente; propuesto para trabajo futuro, sin implementar",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 25",
+          "quote": "or by providing digital assistance dependent on the given situation, based upon learned behaviors"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 25",
+          "quote": "via an AI reinforcement learning method. User feedback should be customized using audio, visual,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Requisitos: entrevistas para recoger necesidades de gestión del estrés en adultos autistas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 6",
+          "quote": "Online semi-structured video interviews were carried out over the course of 2023 with autistic"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 25",
+          "quote": "The current work presents a novel dataset of qualitative data from five caregivers and 15 autistic"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: códigos temáticos del análisis cualitativo | Valor: 36 códigos iniciales, reducidos a 15",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 8",
+          "quote": "set of 36 codes, a further pass merged the codes into a condensed set of 15, which were checked"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Entrevista semiestructurada en línea de 34 preguntas, con análisis temático de inspiración fundamentada",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 7",
+          "quote": "The interview comprised 34 questions categorized into five sections (Supplementary Material B)."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R425-gathering-requirements-for-stress-management-in-autistic-adults-for-the-developm.md",
+          "loc": "p. 8",
+          "quote": "qualitative grounded-theory–inspired thematic analysis [150]. Codes were allocated to quotations"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

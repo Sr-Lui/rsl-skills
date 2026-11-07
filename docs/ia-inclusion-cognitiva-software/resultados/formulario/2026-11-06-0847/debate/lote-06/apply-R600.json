@@ -1,0 +1,232 @@
+{
+  "article_id": "R600",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual y del desarrollo; trastorno del espectro autista; parálisis cerebral; síndrome de Down",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 11",
+          "quote": "Of the recruited participants, their diagnoses included cerebral palsy, autism spectrum disorder,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 11",
+          "quote": "Down syndrome, and intellectual disabilities (Table 1)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los diagnósticos se tabulan por participante, pero los resultados no se estratifican por perfil.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 11",
+          "quote": "Of the recruited participants, their diagnoses included cerebral palsy, autism spectrum disorder,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 15",
+          "quote": "Overall, both the paper tickets and NCAPS methods can be categorized as having “good”"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Siete adultos con discapacidad intelectual y del desarrollo probaron el sistema en el piloto, y un posible usuario orientó su refinamiento previo (Presencia: Sí | N: 7 | Rol: ambos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 11",
+          "quote": "Seven potential users participated in the pilot study, all of whom were working age adults (18-65)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 7",
+          "quote": "researchers, with additional user validation with one potential user with cognitive disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio parte del desajuste entre persona y entorno y evita la divulgación de la discapacidad; obtuvo consentimiento informado con aval ético (Enfoque: diferencia | Perfil: NR | Consentimiento: informado, aprobación COMIRB | País: Estados Unidos)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 19",
+          "quote": "echoes the overarching intent to avoid self-disclosure and formalized assessment of disability."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 11",
+          "quote": "by CIDE clinicians or contacted via the IRB-approved (COMIRB #19-1675) CIDE recruitment"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 11",
+          "quote": "(2) Cognitive disability as determined by the State of Colorado Office of Disability."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NR; avisos sensibles al contexto con códigos QR y grafo de navegación, sin técnica de IA declarada",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 3",
+          "quote": "A context-aware system can adapt to the user’s actions"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 5",
+          "quote": "(QR) codes for spatial localization was developed. QR codes could be quickly and inexpensively"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente; guía de la tarea con flechas de navegación y un entrenador laboral virtual",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 5",
+          "quote": "animated virtual job coach (Figure 2). The integrated compass and camera of the prompting device"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Pruebas. Estudio piloto cruzado con siete usuarios que compara el prototipo con tickets en papel.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 8",
+          "quote": "The protocol employed a crossover design, with each participant engaging"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 11",
+          "quote": "Seven potential users participated in the pilot study, all of whom were working age adults (18-65)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Diseño; Desarrollo",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 5",
+          "quote": "The derived specifications guided the development of the NCAPS, which was a collaborative"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 7",
+          "quote": "researchers, with additional user validation with one potential user with cognitive disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: errores por sesión de dos horas y productividad (ítems recogidos) | Valor: errores 14,29 con papel frente a 0,57 con el sistema; productividad 227,4 frente a 130,7 (p < 0,05)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 13",
+          "quote": "average of 14.29 (med 7, range 0–66) errors in a two-hour work session using paper pick tickets,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 13",
+          "quote": "and an average of 0.57 (med 0, range 0–4) errors using the NCAPS (Figure 8). The NCAPS almost"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 14",
+          "quote": "(mean = 227.4, SSD = 119.3) and the NCAPS method (mean = 130.7, SSD = 30.5); t(6) = 2.44, p <"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 14",
+          "quote": "0.05. This result indicates participants had a significantly lower productivity when they employed"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Escala de usabilidad SUS, conteo de errores y de ítems recogidos por sesión de dos horas, y comentarios espontáneos",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 13",
+          "quote": "SUS results were exported from the Qualtrics survey software (Qualtrics,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 15",
+          "quote": "Overall, both the paper tickets and NCAPS methods can be categorized as having “good”"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR; no se cita WCAG ni COGA, solo principios de diseño inclusivo propios",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 19",
+          "quote": "design principles must be applied to produce a sufficiently adaptive and robust prototype. Taking"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 11",
+          "quote": "(2) Cognitive disability as determined by the State of Colorado Office of Disability."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 19",
+          "quote": "One or more metrics of cognitive function seem obligatory for assessment of benefit for workers"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 7",
+          "quote": "The pilot NCAPS configuration was iteratively refined through mock run-throughs with student"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R600-helping-or-hindering-inclusive-design-of-automated-task-prompting-for-workers-wi.md",
+          "loc": "p. 8",
+          "quote": "The protocol employed a crossover design, with each participant engaging"
+        }
+      ]
+    }
+  ]
+}

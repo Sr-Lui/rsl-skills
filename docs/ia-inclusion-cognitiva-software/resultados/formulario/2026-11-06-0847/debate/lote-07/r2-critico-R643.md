@@ -1,0 +1,1 @@
+- RQ2-I4: una de las citas (WCAG 2.1 Nivel AA, 56 caracteres) es corta por quedar en una sola columna del PDF; la otra (Q5, 0,704 con 525 oraciones) es adecuada. Slot aceptable.

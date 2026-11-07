@@ -1,0 +1,142 @@
+{
+  "article_id": "R219",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Dislexia; perfiles de usuarios de 10 a 55 años tomados de la literatura publicada",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 1",
+          "quote": "people with dyslexia using a user-centered design approach. The"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 3",
+          "quote": "between 10 and 55 years, with varying levels of experience with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "El estudio no contó con personas con dislexia; solo evaluaron expertos en accesibilidad (Presencia: No | N: 0 | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 9",
+          "quote": "This study did not involve direct participation of individuals"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 9",
+          "quote": "documented experiences. Expert heuristic evaluation was"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Sin participantes con la condición y sin comité de ética en esta etapa; estudio realizado en Lima (Enfoque: NR | Perfil: NR | Consentimiento: no aplica, sin usuarios finales | País: Perú)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 9",
+          "quote": "users. Therefore, this research did not require ethics committee"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 1",
+          "quote": "Image Processing Research Laboratory, Universidad de Ciencias y Humanidades, Lima - Perú 1"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA para personalización y sugerencias de accesibilidad; análisis de dificultad del texto (Modelo: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 5",
+          "quote": "Reverse the help flow: the app automatically suggests improvements based on the uploaded text."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 3",
+          "quote": "through automatic content personalization, the generation of"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente; sugiere mejoras de accesibilidad a partir del texto cargado",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 5",
+          "quote": "Reverse the help flow: the app automatically suggests improvements based on the uploaded text."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 1",
+          "quote": "automated recommendations to enhance accessibility. Usability"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: usabilidad y accesibilidad del prototipo por heurísticas | Valor: NR (valoración cualitativa de tres expertos)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 7",
+          "quote": "Consistency and standards                                             Moderate – Some inconsistencies in navigation flows"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 6",
+          "quote": "based on Nielsen's usability heuristics and WCAG 2.1"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Evaluación heurística independiente por tres expertos con escenarios de tareas y sesión de consolidación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 6",
+          "quote": "A heuristic evaluation method was employed to assess the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 6",
+          "quote": "accessibility experts with experience in assistive technology"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG 2.1; heurísticas de usabilidad de Nielsen",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 6",
+          "quote": "based on Nielsen's usability heuristics and WCAG 2.1"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R219-accessible-application-prototype-for-improving-digital-reading-in-people-with-dy.md",
+          "loc": "p. 6",
+          "quote": "accessibility experts with experience in assistive technology"
+        }
+      ]
+    }
+  ]
+}

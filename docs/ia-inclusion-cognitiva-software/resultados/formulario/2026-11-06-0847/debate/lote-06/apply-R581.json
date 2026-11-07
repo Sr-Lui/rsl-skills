@@ -1,0 +1,259 @@
+{
+  "article_id": "R581",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Dislexia (adultos con dificultades de escritura de correos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 3",
+          "quote": "proto­t ype for email-writing support for users with dyslexia."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "Fourteen participants reported having a for-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los participantes no se estratifican por perfil; los dos grupos comparados se definen por el encuadre de la IA (9 con metáforas de IA y 10 sin ellas).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 6",
+          "quote": "two AI-framing conditions—with (N=9) and without (10) AI-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 6",
+          "quote": "U test to compare usefulness ratings between the study’s"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron adultos con dislexia, tanto en la fase formativa como en la evaluación del prototipo, con 19 evaluadores finales de los 32 reclutados (Presencia: Sí | N: 19 | Rol: ambos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "We recruited 32 participants via a survey shared with a"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 3",
+          "quote": "adults with dyslexia for (1) individual interviews on writing"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 9",
+          "quote": "participants but only 19 completed the evaluation, result-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Combina una mirada de neurodiversidad con la descripción de los déficits habituales; el estudio no detalla el trámite ético ni el consentimiento, y los participantes provienen de EE. UU. y Canadá (Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: EE. UU. y Canadá)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 2",
+          "quote": "however, dyslexia includes heightened spatial and percep-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 2",
+          "quote": "narrative and holistic thinking22—alongside commonly de-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "Fourteen participants reported having a for-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; NLP (Modelo: LaMDA, con aprendizaje few-shot)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 1",
+          "quote": "Post implements LaMDA,20 an LLM for dialog applications, to"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 3",
+          "quote": "LaMPost is powered by LaMDA, a neural language mod-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; asistente de escritura",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 3",
+          "quote": "outline of their email based on each paragraphs’ main idea (4), followed by a subject line based on these ideas (3)."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 1",
+          "quote": "augment a standard email editor with automatic outlining,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Diseño. El prototipo de escritura con LLM se concibe tras un año de investigación formativa y se evalúa en una sesión con usuarios.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 3",
+          "quote": "We engaged in over a year of formative research with the dys-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "users with dyslexia for font, size, and line spacing.19 To support"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; evaluación con usuarios",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 6",
+          "quote": "the consistency (top-center) and usefulness (bottom-center) of each LLM feature and the overall system, along with other feelings (right). In"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "perience with participants via semi-structured interview"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: utilidad de la función Reescribir (escala de acuerdo de 7 puntos) | Valor: 5,26 puntos (DE = 1,26); 13 participantes la consideraron útil",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 7",
+          "quote": "tion feature was rated highest for usefulness on average"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 7",
+          "quote": "(avg.=5.26, SD=1.26); 13 participants agreed that it was"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: satisfacción con el sistema (escala de 7 puntos) | Valor: 5,26 puntos (DE = 1,14); la autoexpresión obtuvo 5,53 (DE = 1,34)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 8",
+          "quote": "(avg.=5.26, SD=1.14), but they voiced concerns over accuracy"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 8",
+          "quote": "a strong sense of self-expression (avg.=5.53, SD=1.34), par-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Escalas de acuerdo de 7 puntos, entrevista semiestructurada y pensamiento en voz alta durante un ejercicio de escritura; todo ocurre en una sesión remota con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 6",
+          "quote": "the consistency (top-center) and usefulness (bottom-center) of each LLM feature and the overall system, along with other feelings (right). In"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 6",
+          "quote": "confident about writing emails, with slightly more mixed feelings about self-expression and satisfaction. After using LaMPost, they rated"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "perience with participants via semi-structured interview"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR; solo se aplican recomendaciones de presentación del texto para dislexia (fuente, tamaño e interlineado) y opción de lectura en voz alta",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "users with dyslexia for font, size, and line spacing.19 To support"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "included a “read aloud” option for the email’s body, the gener-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 8",
+          "quote": "conclude that LLMs (as of early 2022) are not ready to sup-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 6",
+          "quote": "confident about writing emails, with slightly more mixed feelings about self-expression and satisfaction. After using LaMPost, they rated"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 6",
+          "quote": "general, most found the LaMPost system useful while writing emails, appreciating the “Rewrite my selection” feature most of all."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R581-lampost-ai-writing-assistance-for-adults-with-dyslexia-using-large-language-mode.md",
+          "loc": "p. 5",
+          "quote": "We asked participants to “think aloud” throughout the"
+        }
+      ]
+    }
+  ]
+}

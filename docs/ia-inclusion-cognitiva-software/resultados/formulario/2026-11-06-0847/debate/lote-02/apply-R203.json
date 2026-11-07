@@ -1,0 +1,227 @@
+{
+  "article_id": "R203",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Autismo; alteraciones heterogéneas del lenguaje oral en 10 niños de 6 a 9 años con diagnóstico confirmado.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 1",
+          "quote": "Autistic children exhibit heterogeneous oral language impairments, necessitating educators to implement personalized teaching content."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 4",
+          "quote": "children had confirmed autism diagnoses. No participants over-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 2",
+          "quote": "study with 10 educator-student dyads completing 30 lessons with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados de la implantación de tres semanas se resumen por docente y por lección, sin desagregar por nivel de lenguaje del niño.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "teacher-student dyad completed three oral language lessons fol-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los niños participan en el despliegue de campo y los docentes en el diseño formativo y la evaluación (Presencia: Sí | N: 10 niños autistas y 10 docentes | Rol: ambos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 4",
+          "quote": "children had confirmed autism diagnoses. No participants over-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "conducted 40-minute semi-structured interviews with each teacher."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 2",
+          "quote": "study with 10 educator-student dyads completing 30 lessons with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio realizado en una escuela de educación especial de Guangzhou con perfiles de niño almacenados en la herramienta y aprobación ética institucional (Enfoque: NR | Perfil: almacenado | Consentimiento: NR | País: China).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 4",
+          "quote": "study received ethical approval from our institution."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 7",
+          "quote": "instructors manage child profiles (VB-MAPP level, reinforcement"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 1",
+          "quote": "and Technology (Guangzhou) and Technology (Guangzhou) Guangzhou, China"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA generativa; texto e imagen con RAG. Modelo: Tencent Hunyuan.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 7",
+          "quote": "Tencent Hunyuan text-to-text [92] and text-to-image models [98]."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 7",
+          "quote": "Few-shot exemplars from expert-written plans are combined with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; listas de palabras, planes de lección e ilustraciones personalizadas que el docente revisa.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 7",
+          "quote": "Tencent Hunyuan text-to-text [92] and text-to-image models [98]."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 7",
+          "quote": "instructors manage child profiles (VB-MAPP level, reinforcement"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución. LingoLift genera el contenido de cada lección a partir del perfil del niño durante la preparación docente.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 7",
+          "quote": "Few-shot exemplars from expert-written plans are combined with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 7",
+          "quote": "instructors manage child profiles (VB-MAPP level, reinforcement"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Requisitos; pruebas. El estudio formativo con vídeo y entrevistas precede al despliegue de campo de tres semanas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 1",
+          "quote": "Autistic children exhibit heterogeneous oral language impairments, necessitating educators to implement personalized teaching content."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "teacher-student dyad completed three oral language lessons fol-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: alineación personalizada y coherencia de las lecciones generadas | Valor: valoraciones por encima del punto medio 4 en escala Likert 1–7 (media NR).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 10",
+          "quote": "above the neutral midpoint of 4 on a 1–7 Likert scale"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionarios Likert tras cada lección (30 respuestas) y al cierre (10), entrevistas semiestructuradas de 40 minutos y grabación de las lecciones durante tres semanas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "conducted 40-minute semi-structured interviews with each teacher."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "Technology Acceptance Model (TAM [15]), employing 17 items"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 2",
+          "quote": "study with 10 educator-student dyads completing 30 lessons with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro: marcos CIPP y modelo de aceptación tecnológica (TAM) como guía de los cuestionarios; no se cita WCAG ni COGA.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "Technology Acceptance Model (TAM [15]), employing 17 items"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "NR. Se mide la utilidad percibida y la coherencia del contenido para docentes, sin evaluar accesibilidad cognitiva o sensorial de la interfaz.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "Technology Acceptance Model (TAM [15]), employing 17 items"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: cuestionarios y entrevistas con los docentes tras tres semanas de uso real.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "conducted 40-minute semi-structured interviews with each teacher."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R203-lingolift-supporting-educators-in-personalized-oral-language-teaching-for-autist.md",
+          "loc": "p. 9",
+          "quote": "teacher-student dyad completed three oral language lessons fol-"
+        }
+      ]
+    }
+  ]
+}

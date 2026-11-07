@@ -7,7 +7,7 @@
   formulario.py status docs/<slug> [--progress]
   formulario.py lint-setup docs/<slug> [carpeta]
   formulario.py stamp docs/<slug> <YYYY-MM-DD-HHMM>
-  formulario.py apply-lote docs/<slug> <NN> [--article corpus_id]
+  formulario.py apply-lote docs/<slug> <NN> [--article corpus_id] [--replace]
   formulario.py lint-prosa docs/<slug> [carpeta] [--strict]
   formulario.py lint-traza docs/<slug> [carpeta] [--strict]
   formulario.py stamp docs/<slug> <carpeta> [--allow-nature-review]
@@ -851,7 +851,7 @@ def cmd_draft_lote(args: list[str]) -> int:
 
 def cmd_apply_lote(args: list[str]) -> int:
     if len(args) < 2:
-        raise Fail("uso: formulario.py apply-lote docs/<slug> <NN>|all [--article id]", None, 2)
+        raise Fail("uso: formulario.py apply-lote docs/<slug> <NN>|all [--article id] [--replace]", None, 2)
     theme = theme_path(args[0])
     rest = args[1:]
     lote_arg = rest[0].strip().lower()
@@ -889,12 +889,19 @@ def cmd_apply_lote(args: list[str]) -> int:
     wb = load_workbook(folder / FORMULARIO_XLSX)
     traza_path = folder / TRAZA_JSONL
     existing = set()
+    replace = "--replace" in rest  # reescribe celdas ya aplicadas de los artículos seleccionados
     if traza_path.is_file():
+        kept: list[str] = []
         for line in traza_path.read_text(encoding="utf-8").splitlines():
             if not line.strip():
                 continue
             o = json.loads(line)
+            if replace and o["article_id"] in corpus_ids:
+                continue  # se regenera desde apply-<id>.json
+            kept.append(line)
             existing.add(_slot_key(o["article_id"], o["item_id"], o["sheet"]))
+        if replace:
+            traza_path.write_text("".join(k + "\n" for k in kept), encoding="utf-8")
 
     studies_by_id = {s["corpus_id"]: s for s in mp["studies"]}
     item_metas: dict[str, list[dict]] = {}

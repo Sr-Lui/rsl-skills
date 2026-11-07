@@ -1,0 +1,143 @@
+{
+  "article_id": "R356",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual con habilidades verbales limitadas; comunicación no verbal con imágenes",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 1",
+          "quote": "Individuals with intellectual disability and limited verbal abilities"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 1",
+          "quote": "individuals with intellectual disability and minimal verbal abili-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Las métricas se calculan sobre todas las intenciones o solo las válidas, sin desagregar por perfil cognitivo.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 5",
+          "quote": "scenario, metrics are calculated using all intents in the user dataset;"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 6",
+          "quote": "Only 62% of the annotated intents were approved"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los participantes con discapacidad intelectual eligieron las imágenes en talleres de codiseño previos; el estudio solo usa ese conjunto de 20 imágenes y no reporta cuántas personas participaron (Presencia: Sí | N: NR | Rol: diseño)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 4",
+          "quote": "participants with intellectual disability were invited to se-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 4",
+          "quote": "formed a dataset of 20 user-selected images, each annotated with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio se presentó en Sídney y los autores trabajan en Brisbane; no describe consentimiento ni el enfoque sobre la condición (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: Australia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 1",
+          "quote": "29–December 03, 2025, Sydney, Australia. ACM, New York, NY, USA, 8 pages."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; modelo de lenguaje GPT-4o que expande conceptos visuales. Modelo: GPT-4o",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 3",
+          "quote": "In the GPT-based concept expansion module, GPT-4.O interprets"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 1",
+          "quote": "leverages LLMs to expand image concepts through the generation"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador de conceptos; asistente de comunicación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 1",
+          "quote": "leverages LLMs to expand image concepts through the generation"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 3",
+          "quote": "(1) Context Awareness: We framed GPT-4 as a support worker"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: cobertura de intenciones y entropía de las imágenes recomendadas | Valor: mediana de cobertura cercana al 65 % (80 % con intenciones válidas)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 5",
+          "quote": "queries ranged from 25% to 100%, with the median of around 65%."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 6",
+          "quote": "values were above 65%, with a median of around 80%."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Anotación humana de tres coautores con escala ordinal de cuatro puntos y alfa de Krippendorff de 0.53",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 4",
+          "quote": "annotation task involving three of the paper’s co-authors who"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R356-llm-guided-image-recommendation-for-supporting-intent-understanding-in-non-verba.md",
+          "loc": "p. 6",
+          "quote": "more than two raters. The resulting alpha of 0.53 indicates mod-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

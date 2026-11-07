@@ -1,0 +1,195 @@
+{
+  "article_id": "R504",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad del desarrollo del lenguaje (por discapacidad intelectual o autismo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 1",
+          "quote": "with speech disorders have lower employment rates               ities caused by intellectual or autism disabilities."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se reportan de forma global, sin desagregarlos por perfil cognitivo; la encuesta agrupa a expertos y niños no verbales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 10",
+          "quote": "system satisfaction survey to 53 people with 43 experts in language disabilities and ten nonverbal children."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 10",
+          "quote": "each question, 80% to 90% of the responses were satisfied and approximately 90% of the responses"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "La encuesta de satisfacción incluyó a diez niños no verbales dentro de 53 participantes, junto con 43 expertos; no hubo participación en el diseño (Presencia: Sí | N: diez niños no verbales (53 participantes en total) | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 10",
+          "quote": "system satisfaction survey to 53 people with 43 experts in language disabilities and ten nonverbal children."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 10",
+          "quote": "language disabilities from Korea University Anam Hospital. P IC TALKY Satisfaction Questionnaires are"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo no describe el marco ético ni el consentimiento; solo se deduce la procedencia coreana de los autores y de los expertos encuestados (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: Corea del Sur)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 1",
+          "quote": "Korea University, South Korea, 2 Upstage, South Korea,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 10",
+          "quote": "language disabilities from Korea University Anam Hospital. P IC TALKY Satisfaction Questionnaires are"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "PLN; aprendizaje profundo; Modelo: transformer para corrección gramatical, Word2Vec y WordNet",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 4",
+          "quote": "\"I lovedd BTS\" is entered as input, the neu-                  the vanilla transformer, which is easy to service."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 4",
+          "quote": "Net (Miller, 1995). Within the input text, substitute         consists of 100 sentences."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de comunicación aumentativa; el sistema convierte texto en pictogramas, y la IA actúa como componente del producto",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 1",
+          "quote": "which is an AI-based AAC system that helps children with language developmental disabili-              guage developmental disabilities. We refer to our"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 4",
+          "quote": "text-to-pictogram (TP) module is an N-gram base               encoding and transmission of speech text, both au-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Otro: la IA opera como componente del propio sistema de comunicación aumentativa en uso, sin intervenir en una fase del ciclo de desarrollo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 1",
+          "quote": "which is an AI-based AAC system that helps children with language developmental disabili-              guage developmental disabilities. We refer to our"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 4",
+          "quote": "text-to-pictogram (TP) module is an N-gram base               encoding and transmission of speech text, both au-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "La métrica principal propuesta es la exactitud de conversión de texto a pictograma, que alcanza su mejor valor con la configuración propuesta (Constructo: exactitud texto-pictograma (TPA) | Valor: 94,16 puntos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 5",
+          "quote": "neural GEC studies (Im et al., 2017; Choe et al.,                   achieved the highest score of 94.16. In case (2)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 5",
+          "quote": "scored 63.77 and 53.99, respectively. These results                    The experimental results demonstrated that case"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Encuesta de satisfacción de cinco preguntas con escala Likert; conjunto de prueba interno de 100 oraciones y métricas BLEU, GLEU y TPA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 10",
+          "quote": "We established a total of five questions and specified the answers using a Likert scale (Likert, 1932) of"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 4",
+          "quote": "Net (Miller, 1995). Within the input text, substitute         consists of 100 sentences."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. Se dirige a niños con discapacidad del desarrollo del lenguaje, de origen intelectual o autista.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 1",
+          "quote": "with speech disorders have lower employment rates               ities caused by intellectual or autism disabilities."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática: combina métricas automáticas (BLEU, GLEU, TPA) con una encuesta de satisfacción a usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 5",
+          "quote": "scored 63.77 and 53.99, respectively. These results                    The experimental results demonstrated that case"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R504-pictalky-augmentative-and-alternative-communication-for-language-developmental-d.md",
+          "loc": "p. 10",
+          "quote": "We established a total of five questions and specified the answers using a Likert scale (Likert, 1932) of"
+        }
+      ]
+    }
+  ]
+}

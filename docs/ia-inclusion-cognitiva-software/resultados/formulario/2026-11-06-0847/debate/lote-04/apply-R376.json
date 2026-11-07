@@ -1,0 +1,136 @@
+{
+  "article_id": "R376",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio presenta los resultados de forma conjunta para los 7 niños y los 10 expertos, sin desagregarlos por perfil cognitivo.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 13",
+          "quote": "We report results jointly for both sets that were given to 5"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 13",
+          "quote": "We recruited 10 experts through word-of-mouth and mailing lists."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron 7 niños de 7 a 11 años en la evaluación preliminar de usabilidad; el artículo no diagnostica sus dificultades, solo recoge la valoración parental del nivel de ortografía (Presencia: NR | N: 7 | Rol: evaluación)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 14",
+          "quote": "We recruited 7 children (ages 7–11, grade 2–5) through word-of-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 14",
+          "quote": "Parents reported varied spelling difficulty levels for their children"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Los niños participaron con consentimiento de los padres y asentimiento propio; el texto no explicita el enfoque ni el país (Enfoque: NR | Perfil: NR | Consentimiento: consentimiento parental y asentimiento infantil | País: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 14",
+          "quote": "After obtaining parental consent and child"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 1",
+          "quote": "particularly children with language-based learning disorders who"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución. SPIRE sintetiza durante la escritura un programa pedagógico adaptado al error ortográfico de cada aprendiz.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 7",
+          "quote": "At runtime, an LLM assigns soft confidence to descriptors, allowing"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 12",
+          "quote": "The Trace Generator launches three parallel LLM instances, each"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: validez del razonamiento pedagógico según 10 expertos en indagación estructurada de palabras, con escala Likert de 5 puntos | Valor: media 4.90 (DE 0.47) y 74.7% de acuerdo perfecto",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 13",
+          "quote": "pedagogical reasoning, with 74.7% perfect agreement across all ten"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 13",
+          "quote": "raters (𝜇 = 4.90, 𝜎 = 0.47). The near-ceiling ratings indicate strong"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 13",
+          "quote": "We recruited 10 experts through word-of-mouth and mailing lists."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se centra en dificultades de ortografía de niños con trastornos del aprendizaje basados en el lenguaje, sin componente sensorial.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 1",
+          "quote": "particularly children with language-based learning disorders who"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 14",
+          "quote": "We recruited 7 children (ages 7–11, grade 2–5) through word-of-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. Expertos y niños valoraron el sistema, sin pruebas automatizadas de accesibilidad.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 13",
+          "quote": "Experts responded to 109 interventions in the first set and 105 in the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R376-teaching-spell-checkers-to-teach-pedagogical-program-synthesis-for-interactive-l.md",
+          "loc": "p. 14",
+          "quote": "system usability scale questionnaire adapted for children using the"
+        }
+      ]
+    }
+  ]
+}

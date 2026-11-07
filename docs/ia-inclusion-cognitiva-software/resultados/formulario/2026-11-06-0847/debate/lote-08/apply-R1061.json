@@ -1,0 +1,109 @@
+{
+  "article_id": "R1061",
+  "lote": "08",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TEA (trastorno del espectro autista); niños con TEA en contexto terapéutico y familiar",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 1",
+          "quote": "ASD is a highly heterogeneous condition, meaning"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 6",
+          "quote": "system is especially useful for designing applications for children."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participación de personas con TEA solo en una evaluación informal, sin cifra de muestra del estudio formal (Presencia: Sí | N: 2 niños (6 y 8 años), sus madres y una psicóloga | Rol: evaluación)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 6",
+          "quote": "evaluated informally in a real setting in which a 6-year-old girl and an 8-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 6",
+          "quote": "a more comprehensive study with a larger and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Marco ético poco desarrollado: el diseño del estudio completo está en revisión por un comité de ética universitario (Enfoque: NR | Perfil: almacenado | Consentimiento: autorización del comité pendiente | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 6",
+          "quote": "sensitive data, the complete study design has already been submitted for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 6",
+          "quote": "approval to our university’s Ethics Committee, and authorization is"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 1",
+          "quote": "Higher School of Informatics, University of Castilla-La Mancha, 13071, Ciudad Real, Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Evaluación informal en un entorno real con un caso de uso; lista de verificación de UX para TEA codificada como reglas de validación",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 6",
+          "quote": "evaluated informally in a real setting in which a 6-year-old girl and an 8-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 4",
+          "quote": "guideline “the system provides rewards to the user for positive actions or"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG; AAC (citados como estándares de accesibilidad)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R1061-cogenasd-a-tool-for-the-co-design-and-generation-of-cross-platform-applications-.md",
+          "loc": "p. 2",
+          "quote": "accessibility standards (e.g., WCAG, AAC) using multimodal cues and"
+        }
+      ]
+    }
+  ]
+}

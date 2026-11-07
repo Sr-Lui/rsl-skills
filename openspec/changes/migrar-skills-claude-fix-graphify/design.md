@@ -64,3 +64,16 @@ Artículo R016, cribado-2 PIO:
 - `verify-apply-json` detectó una cita no literal (columnas intercaladas del PDF) antes del apply y marcó 5 slots REVISAR; sin subagentes ni `r1`/`orquestador`. Solo R199 necesitó un `r2-critico` de 3 líneas.
 - `apply-lote --article` aplicó 8 + 16 slots; la traza pasó de 104 a 128 líneas y `lint-traza` solo falla por E11 (esperado). `formulario:pending` pasó de 63 a 61 estudios.
 - No se pudo medir el consumo de tokens real de la sesión; las cifras son tamaños de salida/lectura.
+
+## Hallazgos posteriores (auditoría con linters)
+
+- `lint-prosa` no se corría por lote: 4 FAIL previos en lote 01 (RQ3-I5 y RQ2-I3 sin categoría literal) y 6 WARN en lote 02 (cualitativos >120 caracteres sin `;`) pasaron desapercibidos. La skill ahora exige `lint-prosa` tras cada apply.
+- `apply-lote` ignoraba celdas ya aplicadas, sin forma de corregir. Se añadió `--replace` (reescribe celdas y traza del artículo). Resultado: `lint-prosa` PASS (0 WARN), traza intacta en 160 líneas, `lint-traza` solo E11.
+- Graphify: el grafo indexa estructura (títulos, hallazgos con `loc`), no texto citable. El ahorro real viene de `cribado2:outline` + lectura por rangos; `cribado2:query --article` queda como localizador auxiliar y para búsquedas entre artículos.
+
+## Resolución de nature_needs_review (2026-11-07)
+
+- Se confirmó la naturaleza de los 34 estudios con `nature-overrides.json` (decisión explícita por estudio). Se cambiaron a **mixto** R123, R173, R345, R549, R581 y R705 por tener señales cuantitativas y cualitativas altas a la vez (p. ej. R705: 98 marcas cuant. y 28 cual.); el resto conserva la heurística.
+- `classify-nature --force` desplazó columnas (Cuantitativo 43→47, Cualitativo 49→51). Procedimiento seguro aplicado: copia de seguridad, reubicar biblio filas 8-13 por `corpus_id`, vaciar filas 17-33, vaciar la traza y reaplicar los 16 estudios ya extraídos.
+- Comprobación: `lint-setup` PASS, `lint-prosa` PASS (0 WARN), traza de 200 líneas sin celdas perdidas ni valores cambiados (16 nuevas por R123 y R173 pasar a mixto), celda de Excel = traza en las 200.
+- Para el futuro: si una reclasificación desplaza columnas con extracción ya aplicada, usar este procedimiento (la skill de prepare no lo automatiza).

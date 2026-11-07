@@ -1,0 +1,137 @@
+{
+  "article_id": "R595",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se reportan por conjunto de datos y por modelo, sin estratificar por perfil de usuarios; solo se acota que el público objetivo excluye a quienes tienen dislexia.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 1",
+          "quote": "including people with learning disabilities such as dyslexia."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "El estudio es computacional y no incluyó a personas con discapacidad cognitiva; la validación la hicieron una anotadora interna y una coautora (Presencia: No | N: NR | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 5",
+          "quote": "together, and cannot be discerned deterministically              ment, we asked an in-house human annotator to"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 6",
+          "quote": "Cohen’s κ, we get an agreement of κ = 0.84 for           mask is bound to the operation tokens and the target"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El marco ético se limita al uso de conjuntos de datos con licencia y a la autorización de la organización para redistribuir las transcripciones, sin hablar de personas participantes (Enfoque: NR | Perfil: NR | Consentimiento: autorización de la organización para redistribuir los textos | País: Israel, según la financiación)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 9",
+          "quote": "directed at CS, providing a test set to evaluate CS     we received approval to redistribute the simplifi-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 10",
+          "quote": "This work was partially supported by the Israel Sci-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. El trabajo ajusta modelos de simplificación de texto con un sesgo inductivo basado en operaciones de simplificación cognitiva.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 1",
+          "quote": "model, it is able to adapt better to CS without in this case, could be “People who live in areas ever seeing CS data, and outperform a baseline with a lot of palm trees use the trees for many model on a traditional TS benchmark. In ad- things. People can eat the dates that grow on palm dition, we provide a novel test dataset for CS, and analyze the differences between CS cor- trees. People can make many things from palm pora and existing TS corpora, in terms of how trees, for example, baskets and plates.”.2 This is simplification operations are applied. an example of the common need in CS to explicitly state assumed prior knowledge, and the need to 1 Introduction make the text “closer” to the reader (“people” vs. “groups”). See §5.1. Text Simplification (TS) is the task of converting CS and TS appear to be similar tasks, as similar text into a form that is easier to understand by modifications can be applied in both. CS could modifying its syntax and/or the words used in even be considered a sub-task of TS, with a tar- it, while maintaining the or"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 1",
+          "quote": "ever seeing CS data, and outperform a baseline with a lot of p"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; evaluación de los modelos sobre ASSET y sobre el nuevo conjunto de prueba FestAbility",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 7",
+          "quote": "a model outperforms the baseline’s SARI score in            +Classifier mod"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 7",
+          "quote": "all cases, with 3.98 points for T5Large, 6.12 points        level operation"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: calidad de simplificación (SARI) | Valor: mejora de 3.98 puntos con T5Large, 6.12 con T5Base, 2.71 con BART-Large y 4.79 con BART-Base frente a la línea base en WikiAuto",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 7",
+          "quote": "all cases, with 3.98 points for T5Large, 6.12 points        level operations scores for ADD and DELETE."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 7",
+          "quote": "for T5Base, 2.71 points for BART-Large, and 4.79            In the standard training setti"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se orienta a la simplificación para personas con discapacidad cognitiva, aunque solo con métricas automáticas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 6",
+          "quote": "Cohen’s κ, we get an agreement of κ = 0.84 for           mask is bound to the operation tokens and the target"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 1",
+          "quote": "model, it is able to adapt better to CS without in this case, could be “People who live in areas ever seeing CS data, and outperform a baseline with a lot of palm trees use the trees for many model on a traditional TS benchmark. In ad- things. People can eat the dates that grow on palm dition, we provide a novel test dataset for CS, and analyze the differences between CS cor- trees. People can make many things from palm pora and existing TS corpora, in terms of how trees, for example, baskets and plates.”.2 This is simplification operations are applied. an example of the common need in CS to explicitly state assumed prior knowledge, and the need to 1 Introduction make the text “closer” to the reader (“people” vs. “groups”). See §5.1. Text Simplification (TS) is the task of converting CS and TS appear to be similar tasks, as similar text into a form that is easier to understand by modifications can be applied in both. CS could modifying its syntax and/or the words used in even be considered a sub-task of TS, with a tar- it, while maintaining the or"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática. Se usa SARI sobre conjuntos de prueba y una anotadora humana valida la asignación automática de operaciones, sin pruebas con usuarios.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 5",
+          "quote": "micro precision, recall, and F1 scores of 60.3%,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R595-cognitive-simplification-operations-improve-text-simplification.md",
+          "loc": "p. 5",
+          "quote": "together, and cannot be discerned deterministically              ment, we asked an in-house human annotator to"
+        }
+      ]
+    }
+  ]
+}

@@ -158,7 +158,7 @@
     },
     {
       "item_id": "RQ3-I5",
-      "value": "Validación con usuarios en experimentos controlados (niños; padres en Experimento 3)",
+      "value": "Solo validación con usuarios en experimentos controlados (niños; padres en Experimento 3).",
       "decision": "extracted",
       "evidence": [
         {

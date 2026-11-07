@@ -1,0 +1,147 @@
+{
+  "article_id": "R538",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se reportan sobre el modelo en conjunto y sobre un caso ilustrativo, sin desagregar por perfil dentro del espectro autista.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 4",
+          "quote": "The dataset was split as follows: 25% test and 75% train. The input shape of the model"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 13",
+          "quote": "autism spectrum disorder can draw, because of the motor difficulties specific to ASD."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Un niño de ocho años con autismo participó en la prueba de la aplicación con sus dibujos y con el robot (Presencia: Sí | N: 1 | Rol: evaluación).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 15",
+          "quote": "In Figure 19, the child interacts with Marty robot. He responded very well to the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 13",
+          "quote": "autism spectrum disorder can draw, because of the motor difficulties specific to ASD."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque centrado en las dificultades de comunicación y expresión emocional del niño, con inferencia del estado afectivo a partir de sus dibujos; el estudio exime la revisión ética por no implicar riesgos (Enfoque: déficit | Perfil: deducido | Consentimiento: NR | País: Rumanía).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 16",
+          "quote": "Institutional Review Board Statement: Ethical review and approval were waived for this study due"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 16",
+          "quote": "to the fact that the involved experiments did not have any ethical implications."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 1",
+          "quote": "Computer Science Department, University Politehnica of Bucharest, 060042 Bucharest, Romania"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Entrena una red MobileNet con Python y la integra en la aplicación móvil PandaSays.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 1",
+          "quote": "This paper continues the research of the previous work, regarding PandaSays mobile application, having its main purpose to detect the affective state of the child from his drawings, using MobileNet neural network."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 1",
+          "quote": "For training the model, it was used Python programming language."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; la verificación de accesibilidad se muestra con capturas de pantalla de la aplicación con lector de pantalla.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 1",
+          "quote": "are presented, in order to indicate that the application follows the accessibility guidelines and rules."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 9",
+          "quote": "In Figure 8, the “TalkBack” application is started and emphasizes the title “How to"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Exactitud del modelo MobileNet al interpretar dibujos infantiles, frente a 56,25 % del trabajo previo (Constructo: exactitud (accuracy) | Valor: 84,583 %).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 1",
+          "quote": "The main goal was to improve the model’s accuracy, trained with MobileNet neural network, which reached the value of 84.583%."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 4",
+          "quote": "In article [25], the accuracy obtained was 56.25%, which was the reason why the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se centra en el estado afectivo de niños con trastorno del espectro autista.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 1",
+          "quote": "This paper continues the research of the previous work, regarding PandaSays mobile application, having its main purpose to detect the affective state of the child from his drawings, using MobileNet neural network."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 1",
+          "quote": "Children diagnosed with autism spectrum disorder, have difficulties in expressing their feelings"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "NR. No describe pruebas automatizadas de accesibilidad ni integración continua; evalúa el modelo con una partición de prueba del 25 % y un caso con un niño.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 4",
+          "quote": "The dataset was split as follows: 25% test and 75% train. The input shape of the model"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R538-drawing-interpretation-using-neural-networks-and-accessibility-implementation-in.md",
+          "loc": "p. 15",
+          "quote": "In Figure 19, the child interacts with Marty robot. He responded very well to the"
+        }
+      ]
+    }
+  ]
+}

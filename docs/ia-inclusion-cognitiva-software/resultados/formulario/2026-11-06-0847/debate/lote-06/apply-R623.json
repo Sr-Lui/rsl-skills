@@ -1,0 +1,226 @@
+{
+  "article_id": "R623",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Trastorno específico del aprendizaje; discapacidad intelectual leve; otros trastornos del neurodesarrollo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "as Specifc Learning Disorder, Mild Intellectual Disability, and other"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 2",
+          "quote": "students who have been diagnosed with reading comprehension"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio no desagrega resultados por perfil: el cuestionario de usabilidad es anónimo y general, y la muestra clínica se describe en conjunto.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "of the experience, visitors were invited to complete an anonymous"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "an initial group of approximately thirty children diagnosed with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Niños con trastornos del neurodesarrollo participan en una evaluación clínica que acaba de comenzar, además de los visitantes de una feria que respondieron el cuestionario (Presencia: Sí | N: aprox. veinticinco a treinta | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "of children (around twenty-fve) with Neuro-developmental"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "an initial group of approximately thirty children diagnosed with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "CRC in Rome 14 based on age, schooling, and functional profles."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio plantea la rehabilitación de la comprensión lectora, lo que corresponde a un enfoque de déficit, y no describe el perfil del usuario ni el consentimiento; la evaluación clínica se hace en un centro de Roma (Enfoque: déficit | Perfil: NR | Consentimiento: NR | País: Italia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 2",
+          "quote": "rehabilitation of reading comprehension for children with special"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "CRC in Rome 14 based on age, schooling, and functional profles."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "PLN (análisis sintáctico, correferencia, palabras clave); Modelo: KeyBERT; spaCy; Coreferee",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 3",
+          "quote": "extracting relevant keywords, Keybert [9] was used."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 3",
+          "quote": "used the speech tagger of Spacy 8 for the parser and Coreferee 9 ."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador (pictogramas y ejercicios de pronombres); asistente de lectura",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 3",
+          "quote": "extracting relevant keywords, Keybert [9] was used."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 3",
+          "quote": "Arasaac API 4 to link them to pictograms. In a previous version of"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Se presenta una prueba de concepto de la interfaz con tres módulos de PLN, dos de ellos aún muy preliminares.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 3",
+          "quote": "used the speech tagger of Spacy 8 for the parser and Coreferee 9 ."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 3",
+          "quote": "this proof of concept, we fne-tuned Clip 5 on real images, using the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Requisitos; Pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 2",
+          "quote": "collaborated with highly skilled speech and language therapists"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "the average score across all sections exceeded 8. Specifcally, the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Usabilidad percibida con puntuación media superior a 8 sobre 10 en un cuestionario aplicado a 110 visitantes de una feria (Constructo: usabilidad percibida | Valor: >8 sobre 10)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "the average score across all sections exceeded 8. Specifcally, the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "ization, semantic network, and pronoun exercises.A total of 110"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "In addition to rating each section on a scale from 0 to 10,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario anónimo de usabilidad con escala de 0 a 10 aplicado en una feria; evaluación clínica con cuestionarios de satisfacción y SUS prevista",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "In addition to rating each section on a scale from 0 to 10,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "therapy sessions with speech therapists and the platform (totalling"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 2",
+          "quote": "students who have been diagnosed with reading comprehension"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "as Specifc Learning Disorder, Mild Intellectual Disability, and other"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: una feria con cuestionario y una evaluación clínica en curso; los terapeutas revisaron a mano las palabras clave",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 3",
+          "quote": "where not misleading, speech and language therapists manually"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R623-a-reading-comprehension-interface-for-students-with-learning-disorders.md",
+          "loc": "p. 4",
+          "quote": "ization, semantic network, and pronoun exercises.A total of 110"
+        }
+      ]
+    }
+  ]
+}

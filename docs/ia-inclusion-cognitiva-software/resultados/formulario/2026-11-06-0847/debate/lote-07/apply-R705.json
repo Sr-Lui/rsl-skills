@@ -1,0 +1,231 @@
+{
+  "article_id": "R705",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TEA; discapacidades del desarrollo; afasia; lesión cerebral traumática (población destinataria; la viñeta describe TEA nivel 3)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 1",
+          "quote": "who are minimally speaking [1] (individuals who are minimally speaking may include persons"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 1",
+          "quote": "with developmental disabilities (e.g., autism, intellectual disabilities, etc.), acquired disorders"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 5",
+          "quote": "a 7; 2 year old male patient with a primary diagnosis of autism spectrum disorder-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. No hay desagregación por perfil; la viñeta es única y el análisis recae en ocho logopedas, no en usuarios con distintos perfiles.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 3",
+          "quote": "Participants included eight speech–language pathologists (SLPs) ranging in age range"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 8",
+          "quote": "(the small sample size precluded statistical analysis) by calculating the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los participantes fueron ocho logopedas que probaron la aplicación con una viñeta clínica, sin usuarios con la condición (Presencia: No | N: 0 | Rol: evaluación).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 3",
+          "quote": "Participants included eight speech–language pathologists (SLPs) ranging in age range"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 5",
+          "quote": "a 7; 2 year old male patient with a primary diagnosis of autism spectrum disorder-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio se realizó en un centro ambulatorio de comunicación aumentativa en Estados Unidos, con consentimiento verbal y exención del comité de ética; el artículo remite la privacidad y los sesgos a trabajo futuro (Enfoque: NR | Perfil: NR | Consentimiento: verbal, estudio exento | País: Estados Unidos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 4",
+          "quote": "The Institutional Review Board considered this study as exempt because it is limited"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 4",
+          "quote": "reputation. Participants provided verbal consent."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 4",
+          "quote": "outpatient AAC center in the Northeast of the United States. Table 1 provides an overview"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "PLN y generación de lenguaje natural; visión por computador; LLM (Modelo: GPT-3.5 y método NLG-AAC con corpus VIST)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 4",
+          "quote": "(which has now been coined NLG-AAC), uses the Visual Storytelling Dataset (VIST) [22]"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 4",
+          "quote": "The second approach, named GPT-AAC, takes advantage of recent advancements in"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 5",
+          "quote": "the large language model (LLM) GPT-3.5 to produce the desired set of words related to"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador de vocabulario temático a partir de fotografías, que el usuario edita después",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 4",
+          "quote": "To generate vocabulary automatically, QuickPic AAC employs two different approaches for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 6",
+          "quote": "A descriptive usability study was completed to evaluate the feasibility of using AI to"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución: la aplicación genera en el momento un tablero de vocabulario a partir de una fotografía.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 4",
+          "quote": "To generate vocabulary automatically, QuickPic AAC employs two different approaches for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 4",
+          "quote": "(which has now been coined NLG-AAC), uses the Visual Storytelling Dataset (VIST) [22]"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; la evaluación de usabilidad con logopedas es la única otra fase descrita.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 7",
+          "quote": "dividually completed a modified version of the MAUQ and a post-questionnaire. These"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 6",
+          "quote": "(MAUQ) [26] and a questionnaire adapted from Fontana de Vargas et al. [21] were administered."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: vocabulario conservado por los logopedas (especificidad) | Valor: 38,55 % con NLG-AAC frente a 58,04 % con GPT-3.5",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 10",
+          "quote": "pants ranged from 6.67% to 64.52% (M = 38.55%; SD = 20.45%) for NLG-AAC and from"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 10",
+          "quote": "33.33% to 100% (M = 58.04%; SD = 21.89%) for GPT-3.5. Across 6/8 or 75% of participants,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario de usabilidad móvil MAUQ (16 ítems, escala de 7 puntos) y cuestionario posterior adaptado, más porcentajes de vocabulario conservado, modificado y eliminado.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 6",
+          "quote": "The MAUQ has adequate psychometric characteristics and includes a 7-point"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 6",
+          "quote": "Likert scale containing 16 items about interaction, vocabulary, and usage factors. The MAUQ was"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 10",
+          "quote": "33.33% to 100% (M = 58.04%; SD = 21.89%) for GPT-3.5. Across 6/8 or 75% of participants,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "NR. El estudio mide especificidad del vocabulario y usabilidad percibida, sin definir una cobertura cognitiva o sensorial de la evaluación.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 6",
+          "quote": "A descriptive usability study was completed to evaluate the feasibility of using AI to"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: los logopedas completaron cuestionarios tras usar la aplicación, sin comprobaciones automáticas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 7",
+          "quote": "dividually completed a modified version of the MAUQ and a post-questionnaire. These"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R705-quickpic-aac-an-ai-based-application-to-enable-just-in-time-generation-of-topic-.md",
+          "loc": "p. 6",
+          "quote": "(MAUQ) [26] and a questionnaire adapted from Fontana de Vargas et al. [21] were administered."
+        }
+      ]
+    }
+  ]
+}

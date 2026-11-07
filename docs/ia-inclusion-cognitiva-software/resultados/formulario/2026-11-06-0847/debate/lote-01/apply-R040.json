@@ -148,7 +148,7 @@
     },
     {
       "item_id": "RQ3-I5",
-      "value": "Validación con datos reales de usuarios (scanpaths) mediante pipeline de ML; no CI",
+      "value": "Solo validación con usuarios: datos reales de usuarios (scanpaths) con pipeline de ML; sin integración continua.",
       "decision": "partial",
       "evidence": [
         {

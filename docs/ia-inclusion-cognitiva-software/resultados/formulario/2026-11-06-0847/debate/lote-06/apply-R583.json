@@ -1,0 +1,116 @@
+{
+  "article_id": "R583",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Trastorno del procesamiento visual (VPD); trastorno del procesamiento auditivo central (CAPD); discapacidad de aprendizaje en general",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 1",
+          "quote": "challenge of enabling persons with Visual or Auditory Processing"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "El trabajo es un diseño con prototipos de laboratorio y no describe participantes (Presencia: No | N: NR | Rol: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 11",
+          "quote": "approach, and prototyped lab scale demos to check the feasibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Presenta las condiciones como dificultades que la IA compensa, y las autoras e instituciones están en India (Enfoque: déficit | Perfil: NR | Consentimiento: NR | País: India)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 1",
+          "quote": "challenge of enabling persons with Visual or Auditory Processing"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 1",
+          "quote": "Indian Institute of Technology,                           Queen Mary’s College, Chennai, India"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA generativa multimodal; LLM; visión-lenguaje (Modelo: ViLT, GIT, GPT3.5, ImageBind)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 1",
+          "quote": "Visual Question Answering task in Vision Language Transformer"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 10",
+          "quote": "ent AI models, ViLT [5] and GIT [6]. Either ViLT or GIT model"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 11",
+          "quote": "ticed in the video, Large Language models (LLM) such as GPT3.5"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente; Generador de frases simples y claves visuales",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 11",
+          "quote": "ticed in the video, Large Language models (LLM) such as GPT3.5"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 1",
+          "quote": "Large Language Models to address difculty in visual reasoning. To"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: viabilidad de los prototipos | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 11",
+          "quote": "approach, and prototyped lab scale demos to check the feasibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR; solo menciona la Convención de la ONU sobre los derechos de las personas con discapacidad",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R583-design-of-generative-multimodal-ai-agents-to-enable-persons-with-learning-disabi.md",
+          "loc": "p. 11",
+          "quote": "Future directions: As UN Convention of Rights of Persons with"
+        }
+      ]
+    }
+  ]
+}

@@ -32,7 +32,8 @@ Varios artículos del lote pueden ir en paralelo (un subagente por artículo, co
 1. `pnpm -s formulario:verify-apply-json docs/<slug> <carpeta> docs/<slug>/resultados/formulario/<carpeta>/debate/lote-NN` — errores ⇒ corregir y repetir (bloquea el apply). Las líneas **REVISAR** (cita débil, cifras ausentes, cita repetida, ítems sin cubrir) listan los únicos slots que pasan al crítico.
 2. **Crítico** (`critico-rsl`, modo extraccion-formulario) **solo sobre los slots REVISAR** → `r2-critico-<corpus_id>.md` (una línea por slot). Artículo sin REVISAR ⇒ no hay r2.
 3. **Orquestador** (`orquestador-extraccion-rsl`) solo si defensor/autor y crítico discrepan en hechos u omisión. Incidencias → `extraccion-orquestador.md`.
-4. `pnpm -s formulario:apply-lote docs/<slug> NN [--article id]` (re-sincroniza la fila 2; escribe solo donde hay `placement`).
+4. `pnpm -s formulario:apply-lote docs/<slug> NN [--article id]` (re-sincroniza la fila 2; escribe solo donde hay `placement`; **ignora celdas ya aplicadas**).
+5. **Tras cada apply**: `pnpm -s formulario:lint-prosa docs/<slug>` (salida corta). Corrige en el `apply-<id>.json` y reaplica con `apply-lote docs/<slug> NN --article id --replace` (reescribe celdas y traza de ese artículo). Reglas que suelen fallar: ítems categóricos deben **contener la categoría literal** (RQ3-I5: «Integración continua», «Semiautomática», «Solo validación con usuarios» o «NR»; RQ2-I3: Requisitos, Diseño, Desarrollo, Personalización en ejecución, Pruebas, V&V, Auditoría, Otro, NR); cualitativos RQ1-I1, RQ2-I1, RQ2-I2, RQ3-I3 de **más de 120 caracteres** necesitan etiquetas con `;`, o acórtalos.
 
 ## Cierre del run
 

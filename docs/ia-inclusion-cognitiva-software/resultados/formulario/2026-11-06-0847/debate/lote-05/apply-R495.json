@@ -1,0 +1,187 @@
+{
+  "article_id": "R495",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual; trastorno del espectro autista; síndrome de Down",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 1",
+          "quote": "designed to enhance productivity and promote positive habits, particularly among individuals with Intellectual"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 1",
+          "quote": "Autism Spectrum Disorder (ASD) and Down Syndrome,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los usuarios con la condición no participaron: el diseño se apoyó en personas ficticias y la evaluación la hicieron tres evaluadores sin la condición y cuatro modelos de lenguaje; las pruebas con usuarios están en planificación (Presencia: No | N: 0 | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 3",
+          "quote": "definition. In this project, since approval from the Research"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 3",
+          "quote": "Ethics Committee was still pending at that time, personas"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 12",
+          "quote": "evaluators (humans and AIs) and they were asked to provide"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 14",
+          "quote": "number 76853723.3.0000.5504), empirical tests are being"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio realizado en Brasil con una institución de apoyo a personas con discapacidad intelectual; no hubo participantes durante este trabajo y el comité de ética aprobó después las pruebas con usuarios (Enfoque: NR | Perfil: NR | Consentimiento: aprobación ética posterior, protocolo 76853723.3.0000.5504; no se describe consentimiento | País: Brasil)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 14",
+          "quote": "Now, with approval from the ethics committee (protocol"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 14",
+          "quote": "number 76853723.3.0000.5504), empirical tests are being"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 3",
+          "quote": "Ethics Committee was still pending at that time, personas"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 1",
+          "quote": "- Centro, São Carlos, SP, 13566-590, Brazil."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; Modelo: GPT-4o, DeepSeek V3, Claude 3.7 Sonnet, Gemini Flash",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 10",
+          "quote": "large language models in their free versions: ChatGPT (GPT-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 10",
+          "quote": "4o)8 , DeepSeek (V3)9 , Claude (3.7 Sonnet)10 , and Gemini"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Evaluador de usabilidad; los modelos aplicaron las heurísticas de Nielsen y un humano consolidó sus resultados",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 10",
+          "quote": "large language models in their free versions: ChatGPT (GPT-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 10",
+          "quote": "large language models in their free versions: ChatGPT (GPT-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 11",
+          "quote": "A human evaluator read the output of each AI and,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 12",
+          "quote": "evaluators (humans and AIs) and they were asked to provide"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: problemas de usabilidad según las heurísticas de Nielsen | Valor: 35 problemas en «añadir tarea» y 40 en «añadir hábito»; el diseño además cumplió el contraste mínimo WCAG",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 12",
+          "quote": "We may observe that 35 issues were consolidated across"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 12",
+          "quote": "prompt for the AIs). 40 issues were consolidated across the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Evaluación heurística de Nielsen con tres evaluadores humanos y cuatro LLM; modelo PENS; análisis de contraste con Color Contrast Analyzer y validación del código con el validador W3C",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 1",
+          "quote": "usability. The project incorporated the PENS model and Web Content Accessibility Guidelines (WCAG) to ensure"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 1",
+          "quote": "aided with Large Language Models in some tasks to identify issues and create a better solution."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 9",
+          "quote": "The free tool Color Contrast Analyzer, developed by"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 10",
+          "quote": "In this manner, Task Complete was also validated using"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG (criterios de contraste AA y AAA); recomendaciones GAIA para autismo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 1",
+          "quote": "usability. The project incorporated the PENS model and Web Content Accessibility Guidelines (WCAG) to ensure"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 1",
+          "quote": "the GAIA Recommendations [Pichiliani, 2020], which are"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R495-a-gamified-solution-to-promote-positive-habits-in-children-and-adolescents-with-.md",
+          "loc": "p. 9",
+          "quote": "1.4.3: Minimum contrast (AA) and 1.4.6: Enhanced contrast"
+        }
+      ]
+    }
+  ]
+}

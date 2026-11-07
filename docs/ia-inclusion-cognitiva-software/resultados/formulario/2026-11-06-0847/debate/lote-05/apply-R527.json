@@ -1,0 +1,191 @@
+{
+  "article_id": "R527",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Estudiantes con discapacidad en general; estudiantes neurodiversos y con discapacidad visual; alumnado con dificultades de aprendizaje",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "Findings underscored the importance of tailored support mechanisms for students with learn-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "Neurodiverse students emphasized the necessity of a secure online envir-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El artículo habla de discapacidad en conjunto y no desglosa los resultados por perfil.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "Through surveys and questionnaires, we found that 75% of students expressed concerns about priv-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los autores encuestaron y entrevistaron a 62 estudiantes con discapacidad sobre privacidad y seguridad en línea (Presencia: Sí | N: 62 | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "In response to the COVID-19-induced shift to online learning, our study explored the experiences of 62"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 2",
+          "quote": "including quantitative surveys and qualitative interviews/focus groups in order to understand the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio parte de las necesidades de apoyo del alumnado, sin hablar de ética formal ni de consentimiento; el prototipo guarda registros personales con autenticación biométrica (Enfoque: NR | Perfil: almacenado | Consentimiento: NR | País: Arabia Saudita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "The authors extend their appreciation to the Deputyship for Research & Innovation, Ministry of Education in Saudi"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Aprendizaje automático (extracción de rasgos con PCA y regresión logística) combinado con cadena de bloques y detección compresiva; Modelo: HSBCS",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 6",
+          "quote": "that might use techniques like PCA (Principal Component Analysis) for dimensionality reduction to help"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 2",
+          "quote": "in addressing them using machine learning and blockchain to design Highly Secure Blockchain-Based"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro: autenticación biométrica y personalización del aprendizaje",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 9",
+          "quote": "accuracy rate in HSBCS based biometric identification for visually impaired students and an increase up"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 6",
+          "quote": "This means scrutinizing the functionality, and user access of current online platforms;"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. El artículo propone el sistema HSBCS y lo prueba de forma preliminar.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "Compressive Sensing (HSBCS) system, which demonstrated a remarkable average accuracy rate of 95%"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 9",
+          "quote": "out biometric authentication accuracy, data retrieval and user satisfaction in use phase. Metrics that are"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: exactitud de la autenticación biométrica en estudiantes con discapacidad visual | Valor: 95 % de exactitud media; 30 % más de seguridad percibida",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 5",
+          "quote": "been operating, as it achieves 95 % accuracy in biometric authentication for visually impaired students"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "pants reported a significant 30% increase in perceived security and ease of access to their Personal"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Encuestas, cuestionarios, entrevistas y grupos focales; pruebas de usuario del sistema con tasa de éxito de autenticación y velocidad de recuperación de datos",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 9",
+          "quote": "The HSBCS system is deployed in user testing, involving students with disabilities as a representative"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "and focus groups revealed a critical need among 80% of students for enhanced guidance and support"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Ambas",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 5",
+          "quote": "been operating, as it achieves 95 % accuracy in biometric authentication for visually impaired students"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 16",
+          "quote": "Neurodiverse students emphasized the necessity of a secure online envir-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R527-enabling-secure-and-inclusive-education-for-students-with-disabilities-and-ensur.md",
+          "loc": "p. 9",
+          "quote": "The HSBCS system is deployed in user testing, involving students with disabilities as a representative"
+        }
+      ]
+    }
+  ]
+}

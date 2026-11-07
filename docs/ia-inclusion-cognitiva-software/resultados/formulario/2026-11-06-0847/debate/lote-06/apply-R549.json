@@ -1,0 +1,242 @@
+{
+  "article_id": "R549",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual; deterioro cognitivo leve; personas mayores con deterioro cognitivo por edad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 12",
+          "quote": "were people with cognitive disabilities that included people with mild cognitive impairments"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 12",
+          "quote": "represented 15 people with intellectual disabilities (33.3%) and Group 3 represented 15 control"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí. Los resultados de la tarea de identificación de palabras complejas se reportan por separado para personas mayores, personas con discapacidad intelectual y un grupo control.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 14",
+          "quote": "people), 2 (people with intellectual disabilities) and 3 (control users) with 0.57, 0.59 and 0.55"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 14",
+          "quote": "score of 0.51 points, with better recall than precision with 0.69 and 0.57 respectively"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Las personas con discapacidad intelectual y las personas mayores validaron las directrices de anotación y evaluaron el corpus con 45 participantes (Presencia: Sí | N: 45 | Rol: ambos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 12",
+          "quote": "A total of 45 participants were recruited for this experimental study. The inclusion criteria"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 7",
+          "quote": "Participants. Some validation sessions were held in which people with disabilities are the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio realizado en España, con aprobación ética y consentimiento firmado; los tutores legales autorizaron la participación de personas con discapacidad intelectual (Enfoque: NR | Perfil: NR | Consentimiento: firmado; tutores legales | País: España).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 13",
+          "quote": "The ethical committee of the Universidad Carlos III de Madrid (IRB20_12) approved this"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 13",
+          "quote": "were briefed on the purpose of the experiment and signed a consent form. In the case of people"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 1",
+          "quote": "Computer Science and Engineering Department, Universidad Carlos III de Madrid, Madrid, Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NLP; aprendizaje automático (recurso para simplificación léxica)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 2",
+          "quote": "Natural Language Processing (NLP) and artificial intelligence provide methods to simplify"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 2",
+          "quote": "Lexical simplification is an essential part of text simplification based on machine learning"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro: recurso de datos para entrenar y evaluar sistemas de simplificación léxica",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 5",
+          "quote": "addresses this gap providing support for the CWI task and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 2",
+          "quote": "Lexical simplification is an essential part of text simplification based on machine learning"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Construcción y anotación del corpus EASIER por expertos en lectura fácil.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 5",
+          "quote": "been annotated by easy-to-read and plain language experts following a methodological"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 5",
+          "quote": "Three annotators have taken part in corpus construction. One annotated the entire corpus"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "V&V: validación del corpus con 45 usuarios y acuerdo entre anotadores.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 12",
+          "quote": "A total of 45 participants were recruited for this experimental study. The inclusion criteria"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 18",
+          "quote": "The CWI dataset evaluation showed moderate IAA with a Fleiss Kappa coefficient of 0.641."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Evaluación de la identificación de palabras complejas con usuarios (Constructo: puntuación F1 | Valor: 0.51); acuerdo entre anotadores, kappa de Fleiss de 0.641.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 14",
+          "quote": "score of 0.51 points, with better recall than precision with 0.69 and 0.57 respectively"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 18",
+          "quote": "The CWI dataset evaluation showed moderate IAA with a Fleiss Kappa coefficient of 0.641."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Tareas con usuarios: identificar palabras complejas en 14 frases y valorar sinónimos candidatos en 15 frases con preguntas de sí/no; métricas de exactitud, precisión, exhaustividad y F1.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 13",
+          "quote": "1. Task 1 aims to measure the CWI task, i.e., the annotations of the corpus when discerning"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 13",
+          "quote": "between complex and simple words. Each participant had to analyze 14 randomly selected"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 13",
+          "quote": "to improve the cognitive comprehension of the texts. Each participant had to analyze 15"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 14",
+          "quote": "The measures in this experimentation were metrics used in the field of machine learning meth-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG; guías de lectura fácil; lenguaje claro; COGA (citados como marco de referencia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 2",
+          "quote": "are the Web Content Accessibility Guidelines (WCAG) [3], the Easy-to-Read guidelines [4–6],"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 2",
+          "quote": "the Plain Language guidelines [7] and the document issued by the Cognitive and Learning Dis-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 12",
+          "quote": "were people with cognitive disabilities that included people with mild cognitive impairments"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 5",
+          "quote": "addresses this gap providing support for the CWI task and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. El corpus se evaluó con participantes humanos en dos tareas, sin automatización continua.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 13",
+          "quote": "The validation method used with people with intellectual disabilities was similar to the ini-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R549-easier-corpus-a-lexical-simplification-resource-for-people-with-cognitive-impair.md",
+          "loc": "p. 13",
+          "quote": "1. Task 1 aims to measure the CWI task, i.e., the annotations of the corpus when discerning"
+        }
+      ]
+    }
+  ]
+}

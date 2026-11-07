@@ -1,0 +1,125 @@
+{
+  "article_id": "R391",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad cognitiva; dificultades de lectura; baja alfabetización; hablantes no nativos; dislexia; trastornos de atención",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 1",
+          "quote": "cal barriers have been removed to facilitate mobil- Automatic Text Simplification (ATS) has ity, it is essential to eliminate linguistic and cog- emerged as a key area of research within the nitive barriers that hinder written comprehension. field of Natural Language Processing, aiming Natural Language Processing (NLP) technologies to improve access to information by reducing have reached a sufficient level of maturity to au- the linguistic complexity of texts. Simplifica- tomate complex textual simplification processes, tion can be applied at various levels—lexical, thereby opening new possibilities for enhancing syntactic, semantic, and stylistic—and must be the inclusion of individuals with cognitive disabili- tailored to meet the needs of different target audiences, such as individuals with cognitive ties. disabilities, low-literacy readers, or non-native Despite these advances, there remains a signif- speakers. This work introduces a tool that icant lack of adapted resources for the Spanish automatically adapts Spanish texts into Easy- language. While English benefits from numerous to-Read format, enhancing comprehension for corpora, tools, and well-established standards for people with cognitive or reading difficulties. easy-to-read content, Spanish lacks comparable The proposal addresses the need for accessible, resources, which restricts the development of tech- well-documented solutions aligned with offi- cial guidelines, reinforcing the potential of text nological solutions in this field. Moreover, current simplification as a strategy for inclusion. machine translation tools fail to meet the simplifi- cation standards required to ensure effective com- 1 Introduction prehension. Individuals with cognitive disabilities may expe- In response to this gap, the ClearText project - rience significant limitations in intellectual func- funded by the Government of Spain and the Euro- tioning and often face challenges in adapting to pean Union (grant reference TED2021-130707B- everyday situations. Among the most common I00) and carried out by the GPLSI research group difficulties are deficits in understanding oral and at the University of Alicante — aims to research, written language, which can manifest in the misin- design, and implement language technologies that terpretation of literal meanings, difficulties in fol- facilitate the drafting of accessible content in Span- lowing complex instructions, or confusion caused ish, particularly for public sector"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 4",
+          "quote": "cific conditions, such as dyslexia or attention"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "El artículo presenta una herramienta y no describe la participación de personas con discapacidad en su diseño ni evaluación (Presencia: NR | N: NR | Rol: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 2",
+          "quote": "et al., 2015) and SIMPLETICO (Shardlow and                  This tool, developed as part of the Clear text re-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 2",
+          "quote": "Alva-Manchego, 2022)—offer aligned English-              search project, covers lexical, orthotypographical,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El marco describe la discapacidad cognitiva como limitaciones y déficits de comprensión, con financiación pública española (Enfoque: déficit | Perfil: NR | Consentimiento: NR | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 1",
+          "quote": "cal barriers have been removed to facilitate mobil- Automatic Text Simplification (ATS) has ity, it is essential to eliminate linguistic and cog- emerged as a key area of research within the nitive barriers that hinder written comprehension. field of Natural Language Processing, aiming Natural Language Processing (NLP) technologies to improve access to information by reducing have reached a sufficient level of maturity to au- the linguistic complexity of texts. Simplifica- tomate complex textual simplification processes, tion can be applied at various levels—lexical, thereby opening new possibilities for enhancing syntactic, semantic, and stylistic—and must be the inclusion of individuals with cognitive disabili- tailored to meet the needs of different target audiences, such as individuals with cognitive ties. disabilities, low-literacy readers, or non-native Despite these advances, there remains a signif- speakers. This work introduces a tool that icant lack of adapted resources for the Spanish automatically adapts Spanish texts into Easy- language. While English benefits from numerous to-Read format, enhancing comprehension for corpora, tools, and well-established standards for people with cognitive or reading difficulties. easy-to-read content, Spanish lacks comparable The proposal addresses the need for accessible, resources, which restricts the development of tech- well-documented solutions aligned with offi- cial guidelines, reinforcing the potential of text nological solutions in this field. Moreover, current simplification as a strategy for inclusion. machine translation tools fail to meet the simplifi- cation standards required to ensure effective com- 1 Introduction prehension. Individuals with cognitive disabilities may expe- In response to this gap, the ClearText project - rience significant limitations in intellectual func- funded by the Government of Spain and the Euro- tioning and often face challenges in adapting to pean Union (grant reference TED2021-130707B- everyday situations. Among the most common I00) and carried out by the GPLSI research group difficulties are deficits in understanding oral and at the University of Alicante — aims to research, written language, which can manifest in the misin- design, and implement language technologies that terpretation of literal meanings, difficulties in fol- facilitate the drafting of accessible content in Span- lowing complex instructions, or confusion caused ish, particularly for public sector"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 1",
+          "quote": "cal barriers have been removed to facilitate mobil- Automatic Text Simplification (ATS) has ity, it is essential to eliminate linguistic and cog- emerged as a key area of research within the nitive barriers that hinder written comprehension. field of Natural Language Processing, aiming Natural Language Processing (NLP) technologies to improve access to information by reducing have reached a sufficient level of maturity to au- the linguistic complexity of texts. Simplifica- tomate complex textual simplification processes, tion can be applied at various levels—lexical, thereby opening new possibilities for enhancing syntactic, semantic, and stylistic—and must be the inclusion of individuals with cognitive disabili- tailored to meet the needs of different target audiences, such as individuals with cognitive ties. disabilities, low-literacy readers, or non-native Despite these advances, there remains a signif- speakers. This work introduces a tool that icant lack of adapted resources for the Spanish automatically adapts Spanish texts into Easy- language. While English benefits from numerous to-Read format, enhancing comprehension for corpora, tools, and well-established standards for people with cognitive or reading difficulties. easy-to-read content, Spanish lacks comparable The proposal addresses the need for accessible, resources, which restricts the development of tech- well-documented solutions aligned with offi- cial guidelines, reinforcing the potential of text nological solutions in this field. Moreover, current simplification as a strategy for inclusion. machine translation tools fail to meet the simplifi- cation standards required to ensure effective com- 1 Introduction prehension. Individuals with cognitive disabilities may expe- In response to this gap, the ClearText project - rience significant limitations in intellectual func- funded by the Government of Spain and the Euro- tioning and often face challenges in adapting to pean Union (grant reference TED2021-130707B- everyday situations. Among the most common I00) and carried out by the GPLSI research group difficulties are deficits in understanding oral and at the University of Alicante — aims to research, written language, which can manifest in the misin- design, and implement language technologies that terpretation of literal meanings, difficulties in fol- facilitate the drafting of accessible content in Span- lowing complex instructions, or confusion caused ish, particularly for public sector"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 1",
+          "quote": "cal barriers have been removed to facilitate mobil- Automatic Text Simplification (ATS) has ity, it is essential to eliminate linguistic and cog- emerged as a key area of research within the nitive barriers that hinder written comprehension. field of Natural Language Processing, aiming Natural Language Processing (NLP) technologies to improve access to information by reducing have reached a sufficient level of maturity to au- the linguistic complexity of texts. Simplifica- tomate complex textual simplification processes, tion can be applied at various levels—lexical, thereby opening new possibilities for enhancing syntactic, semantic, and stylistic—and must be the inclusion of individuals with cognitive disabili- tailored to meet the needs of different target audiences, such as individuals with cognitive ties. disabilities, low-literacy readers, or non-native Despite these advances, there remains a signif- speakers. This work introduces a tool that icant lack of adapted resources for the Spanish automatically adapts Spanish texts into Easy- language. While English benefits from numerous to-Read format, enhancing comprehension for corpora, tools, and well-established standards for people with cognitive or reading difficulties. easy-to-read content, Spanish lacks comparable The proposal addresses the need for accessible, resources, which restricts the development of tech- well-documented solutions aligned with offi- cial guidelines, reinforcing the potential of text nological solutions in this field. Moreover, current simplification as a strategy for inclusion. machine translation tools fail to meet the simplifi- cation standards required to ensure effective com- 1 Introduction prehension. Individuals with cognitive disabilities may expe- In response to this gap, the ClearText project - rience significant limitations in intellectual func- funded by the Government of Spain and the Euro- tioning and often face challenges in adapting to pean Union (grant reference TED2021-130707B- everyday situations. Among the most common I00) and carried out by the GPLSI research group difficulties are deficits in understanding oral and at the University of Alicante — aims to research, written language, which can manifest in the misin- design, and implement language technologies that terpretation of literal meanings, difficulties in fol- facilitate the drafting of accessible content in Span- lowing complex instructions, or confusion caused ish, particularly for public sector"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "PLN; reglas deterministas; DL (Modelo: BERT para sinónimos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 3",
+          "quote": "The system processes and transforms:                     fication, a BERT-based model has been integrated"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 3",
+          "quote": "formations—lexical, syntactic, and discur-                  Most of these transformations are implemented"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador de textos en lectura fácil; resumen automático",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 2",
+          "quote": "2022). Other resources are mentioned in the works        Simple.Text1 is a NLP tool that automatically"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 2",
+          "quote": "by Bott and Saggion; Saggion et al.; Štajner et al.     adapts Spanish texts into an Easy-to-Read format,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro (directrices oficiales de lectura fácil); accesibilidad de la interfaz",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 3",
+          "quote": "sive—following the official Easy-to-Read                 through predefined rules supported by ad hoc dictio-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R391-simple-text-a-tool-for-the-automatic-transformation-of-spanish-texts-into-easy-t.md",
+          "loc": "p. 4",
+          "quote": "comply with accessibility requirements. See         digital content CLEARER to those with cognitive"
+        }
+      ]
+    }
+  ]
+}

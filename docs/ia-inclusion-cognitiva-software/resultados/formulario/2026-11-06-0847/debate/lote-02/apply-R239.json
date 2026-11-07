@@ -1,0 +1,127 @@
+{
+  "article_id": "R239",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Se comparan dos grupos de participantes y las puntuaciones medias, sin desagregar por subtipo de dislexia.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 5",
+          "quote": "the reading time, with participants in the second group generally"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 1",
+          "quote": "We conduct a two-phase experiment with 14 undergraduate"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Estudiantes universitarios con dislexia leyeron pasajes originales y adaptados y dieron su valoración (Presencia: Sí | N: 14 | Rol: evaluación).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 1",
+          "quote": "We conduct a two-phase experiment with 14 undergraduate"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 1",
+          "quote": "students with dyslexia to evaluate the effectiveness of our generated"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio de la Universidad Estatal de Oklahoma con entrevistas y lecturas grabadas a estudiantes (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: Estados Unidos).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 1",
+          "quote": "Oklahoma State University Oklahoma State University"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Se ajustan GPT y T5 con un corpus amigable para dislexia y se añade análisis silábico y morfológico.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 1",
+          "quote": "By fine-tuning GPT and T5 on our dyslexia-friendly text dataset,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; la generación se contrasta después con dos fases de lectura y comprensión con estudiantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 4",
+          "quote": "The Informal Reading Inventory (IRI) was used to evaluate each"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: tiempo de lectura y comprensión de pasajes adaptados | Valor: menor tiempo de lectura; comprensión y valoración sin mejora clara (cifra NR).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 1",
+          "quote": "The results demonstrate improvements in reading time for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 5",
+          "quote": "the reading time, with participants in the second group generally"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva: se miden lectura en voz alta, tiempo, errores y comprensión de pasajes en estudiantes con dislexia.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 4",
+          "quote": "The Informal Reading Inventory (IRI) was used to evaluate each"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 4",
+          "quote": "Participants were asked to read the passages aloud, and their"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: lecturas grabadas, inventario IRI y entrevistas, sin evaluación automática del texto.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 4",
+          "quote": "Participants were asked to read the passages aloud, and their"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R239-towards-inclusive-reading-a-neural-text-generation-framework-for-dyslexia-access.md",
+          "loc": "p. 4",
+          "quote": "tive English-speaking undergraduate students with dyslexia were"
+        }
+      ]
+    }
+  ]
+}

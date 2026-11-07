@@ -1,0 +1,131 @@
+{
+  "article_id": "R617",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se reportan por grupo de lectores (con y sin discapacidad intelectual), sin desagregar por perfil o diagnóstico concreto.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 3",
+          "quote": "disorder, Down syndrome, or developmental delay), and a degree"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 3",
+          "quote": "form of cognitive impairment (most commonly: autism spectrum"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participan personas con discapacidad intelectual como lectoras evaluadoras de los textos (Presencia: Sí | N: 18 | Rol: evaluación).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 3",
+          "quote": "view board, we recruited 18 participants from an educational pro-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 3",
+          "quote": "these participants represent a primary target group for simplified"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio recibió aprobación ética y los participantes firmaron su consentimiento; se realizó con un grupo de Austria (Enfoque: NR | Perfil: NR | Consentimiento: aprobación del comité ético y firma propia | País: Austria).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 3",
+          "quote": "All participants were legally allowed to sign the consent"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 3",
+          "quote": "gram for persons with intellectual disabilities in Austria. Eight were"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Pruebas. El modelo de simplificación automática se entrena y se evalúa con lectores reales, no se interviene en el diseño del sistema.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 3",
+          "quote": "We used a subset of this parallel corpus to train a neural ATS sys-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 3",
+          "quote": "tem (fine-tuned mBART transformer model [35]) using the method"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Se mide la comprensión de textos con preguntas de opción múltiple y el grupo objetivo acierta menos de la mitad (Constructo: aciertos en preguntas de comprensión | Valor: 47,5 % grupo con discapacidad intelectual; 92,8 % grupo control).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 6",
+          "quote": "47.5% of the questions correctly, whereas the control group an-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 6",
+          "quote": "swered 92.8% correctly. In the control group, 25 questions were an-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se centra en la comprensión lectora y en tareas cognitivas básicas, sin valorar aspectos sensoriales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 4",
+          "quote": "We included a total of four tasks testing"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 4",
+          "quote": "several low-level cognitive skills related to reading. The purpose"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. Los textos se evalúan con lectores humanos en tabletas, sin medición automática.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 4",
+          "quote": "All experiments were conducted using the Okra app ([57]; version"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R617-digital-comprehensibility-assessment-of-simplified-texts-among-persons-with-inte.md",
+          "loc": "p. 4",
+          "quote": "Each participant took part in three sessions on separate days. The"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "article_id": "R360",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TDAH; estudiantes universitarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 1",
+          "quote": "Students in Higher Education (HE) with Attention Deficit Hyperac-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 1",
+          "quote": "tivity Disorder (ADHD) often face persistent challenges in video-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Estudiantes con TDAH participaron en el diseño previo y en la evaluación del prototipo (Presencia: Sí | N: 5 en diseño, 7 en evaluación | Rol: ambos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "conducted with five university students (S1-S5) with ADHD from"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 3",
+          "quote": "students diagnosed with ADHD (S1–S7) and five experts (E1, E2,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio no declara un marco ético; solo ubica a los participantes en universidades británicas (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: Reino Unido).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "various academic disciplines in different UK universities. In the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; IA generativa (Modelo: GPT-3.5 mediante Edinburgh Language Model)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "quizzes were created using a GPT-3.5-based generative AI model"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "via the Edinburgh Language Model platform [26]."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; asistente (resúmenes, cuestionarios y mapas mentales; chatbot de aclaración)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "quizzes were created using a GPT-3.5-based generative AI model"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "maps are also generated to visually represent concepts discussed in"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "immediate clarification of lecture content, significantly improving"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: usabilidad (SUS) | Valor: 94 en estudiantes y 92,5 en expertos",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 3",
+          "quote": "ing 94 (students) and 92.5 (experts), which are considered excellent"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Tarea de pensamiento en voz alta; SUS; entrevista semiestructurada, con análisis temático deductivo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 3",
+          "quote": "It involved cooperative think-aloud protocols, the System Usability"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 3",
+          "quote": "Scale (SUS), and semi-structured interviews. A top-down (deductive)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG; otro (directrices de McKnight para TDAH)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "bility Guidelines (WCAG) 2.2 [29], supporting high-contrast colour"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R360-towards-a-technology-that-improves-focus-comprehension-and-retention-in-e-learni.md",
+          "loc": "p. 2",
+          "quote": "oriented and HCI design principles. Lorna McKnight’s ADHD guide-"
+        }
+      ]
+    }
+  ]
+}

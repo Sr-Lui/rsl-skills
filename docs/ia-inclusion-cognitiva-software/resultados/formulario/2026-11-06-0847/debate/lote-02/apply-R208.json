@@ -1,0 +1,197 @@
+{
+  "article_id": "R208",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual y del desarrollo (DID); adultos con dificultad para comprender informes médicos.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 1",
+          "quote": "Individuals with intellectual and developmental disabilities face significant challenges in accessing and comprehending com- plex medical documents"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se presentan para el grupo de cinco participantes, sin desagregar por perfil dentro de la discapacidad intelectual y del desarrollo.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 1",
+          "quote": "conducting a participatory needs assessment and message testing with five adults with intellectual and developmental disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Cinco adultos con discapacidad intelectual y del desarrollo hicieron la evaluación participativa de necesidades y las pruebas de mensajes con los informes (Presencia: Sí | N: 5 | Rol: ambos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 1",
+          "quote": "conducting a participatory needs assessment and message testing with five adults with intellectual and developmental disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio estadounidense con revisión del comité de ética del Georgia Institute of Technology y consentimiento escrito (Enfoque: NR | Perfil: NR | Consentimiento: escrito | País: Estados Unidos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 3",
+          "quote": "Georgia Institute of Technology Institutional Review Board."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 3",
+          "quote": "Written consent was obtained from all participants."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 3",
+          "quote": "18 years of age; (b) currently residing in the United States; (c)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA generativa: modelos de lenguaje grandes (LLM) que aplican las directrices de Texto de Complejidad Mínima. Modelo: NR.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 3",
+          "quote": "to automate the simplification of texts using the MTC guide-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 3",
+          "quote": "LLM output. The MTC guidelines (Erickson et al. 2020) were"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; simplifica resúmenes de visita médica para adultos con discapacidad intelectual.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 3",
+          "quote": "to automate the simplification of texts using the MTC guide-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Otro: generación de contenido accesible; la herramienta simplifica informes ya redactados para su lectura posterior por el paciente.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 3",
+          "quote": "to automate the simplification of texts using the MTC guide-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 1",
+          "quote": "Individuals with intellectual and developmental disabilities face significant challenges in accessing and comprehending com- plex medical documents"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Requisitos; pruebas. Primero una evaluación participativa de necesidades y después pruebas de mensajes con los informes simplificados.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 1",
+          "quote": "conducting a participatory needs assessment and message testing with five adults with intellectual and developmental disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: complejidad lectora de los informes (Flesch) | Valor: originales en 8.º grado con Flesch 53.2 frente a textos simplificados con Flesch 88.4, nivel de 2.º grado.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 5",
+          "quote": "score (53.2) indicating they were quite difficult to read (Flesch"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 5",
+          "quote": "(SD = 0.44) and had a higher Flesch Reading Ease score (88.4),"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Métricas de legibilidad (palabras por oración, Flesch Reading Ease y Flesch-Kincaid), entrevistas de necesidades y sesión de pruebas de mensajes con los participantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 5",
+          "quote": "words; (b) words per sentence; (c) Flesch Reading Ease scores,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 1",
+          "quote": "conducting a participatory needs assessment and message testing with five adults with intellectual and developmental disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro: directrices de Texto de Complejidad Mínima (Erickson et al. 2020) como criterio de simplificación; no se usa WCAG ni COGA.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 3",
+          "quote": "LLM output. The MTC guidelines (Erickson et al. 2020) were"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva: se evalúa la comprensión y la complejidad lectora de los informes para lectores con discapacidad intelectual.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 1",
+          "quote": "Qualitative findings showed that all participants preferred the simplified reports"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática: el LLM simplifica automáticamente, y las métricas de legibilidad se combinan con la validación cualitativa de cinco usuarios.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 5",
+          "quote": "words; (b) words per sentence; (c) Flesch Reading Ease scores,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R208-mtcai-leveraging-ai-to-simplify-medical-reports-for-adults-with-intellectual-and.md",
+          "loc": "p. 1",
+          "quote": "Qualitative findings showed that all participants preferred the simplified reports"
+        }
+      ]
+    }
+  ]
+}

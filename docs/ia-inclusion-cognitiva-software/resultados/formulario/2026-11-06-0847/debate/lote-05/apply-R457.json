@@ -1,0 +1,147 @@
+{
+  "article_id": "R457",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se reportan sobre 500 perfiles sintéticos globales, sin análisis desagregado por tipo de discapacidad o neurodivergencia.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 1",
+          "quote": "Results of a synthetic simulation-based evaluation (500 simulated profiles, no real user evaluation)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 1",
+          "quote": "usability was found to be appropriate across various accessibility profiles"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "El estudio no incluyó personas con discapacidad ni neurodivergencia; se evaluó solo con perfiles simulados y se propone el co-diseño como trabajo futuro (Presencia: No | N: 0 | Rol: NR).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 1",
+          "quote": "Results of a synthetic simulation-based evaluation (500 simulated profiles, no real user evaluation)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 16",
+          "quote": "ticipatory co-design with disability communities, and these"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 17",
+          "quote": "Future studies should focus on prospective pilot studies"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Marco ético apenas esbozado: el sistema aplica consentimiento y minimización de datos, y el trabajo se realizó en Arabia Saudita (Enfoque: NR | Perfil: almacenado | Consentimiento: gestión de consentimiento y alcance de datos en el almacén de políticas | País: Arabia Saudita).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 10",
+          "quote": "store works with consent, scopes, and minimization of the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 1",
+          "quote": "Faculty of Computer and Information Systems, Islamic University of Madinah, Madinah 42351, Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Diseño: se propone la arquitectura agéntica ADAPT con cuatro agentes especializados y un prototipo evaluado en simulación.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 1",
+          "quote": "The present paper introduces ADAPT, an agentic artificial intelligence (AI) framework aimed at assisting people"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 1",
+          "quote": "It includes four specialized agents (meal planning, adaptive reminders, food"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; evaluación del prototipo en simulación con métricas técnicas y de usuario simuladas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 15",
+          "quote": "• Mean score for usability of the website (simulated survey)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 15",
+          "quote": "The system was evaluated in a simulation environment using"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: adecuación nutricional frente a un planificador estático de reglas (sin participantes humanos; también 54-81 % de cumplimiento de recordatorios) | Valor: +27 %.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 16",
+          "quote": "Accordingly, the improvement results (27% improvement"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 16",
+          "quote": "for nutritional adherence, 54-81% for reminder compliance,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Ambas; la usabilidad se valoró de forma simulada en perfiles de accesibilidad (visual, auditiva, motora y neurodivergente), sin usuarios reales.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 1",
+          "quote": "usability was found to be appropriate across various accessibility profiles"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 10",
+          "quote": "provides low-stimulation layouts, pacing predictability, and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática; evaluación automatizada por simulación con 500 perfiles sintéticos, sin Integración continua ni validación con usuarios reales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 15",
+          "quote": "the 500-profile synthetic dataset described in the Architecture"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R457-adapt-an-agentic-ai-framework-for-people-with-disabilities-and-neurodivergence.md",
+          "loc": "p. 15",
+          "quote": "The system was evaluated in a simulation environment using"
+        }
+      ]
+    }
+  ]
+}

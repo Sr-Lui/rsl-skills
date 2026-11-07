@@ -1,0 +1,136 @@
+{
+  "article_id": "R327",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TDAH (trastorno por déficit de atención e hiperactividad) en jóvenes y en quienes les acompañan",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 1",
+          "quote": "supporters of young people with ADHD to co-develop an early prototype. Feedback was sought via think-aloud interviews with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 1",
+          "quote": "Therefore, this article explores the views and preferences of young people with ADHD"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron personas con TDAH y sus cuidadores como colaboradores de experiencia vivida en los talleres y en las entrevistas con el prototipo (Presencia: Sí | N: 9 en talleres y 6 en entrevistas | Rol: ambos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 1",
+          "quote": "Results: In total, 9 experts by lived experience and 3 health care professionals chose to engage in workshops, and this feedback"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 8",
+          "quote": "Six think-aloud interviews were conducted over Microsoft"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 8",
+          "quote": "and 6) and 3 supporters (parents) of people with ADHD"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio de coproducción con participación pública, sin aprobación ética formal porque no se trató a los colaboradores como sujetos de investigación; entrevistas grabadas con permiso (Enfoque: NR | Perfil: NR | Consentimiento: grabación con permiso de los colaboradores; sin aprobación ética por ser PPIE | País: Reino Unido)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 8",
+          "quote": "the United Kingdom, “ethical approval is not needed for PPIE"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 8",
+          "quote": "were recorded with permission from collaborators and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 8",
+          "quote": "rather than participating as research subjects and providing data."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; Modelo: GPT-4o alojado en Convai",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 7",
+          "quote": "including several which have been approved as medical devices. The chatbot was based on GPT-4o using the Convai [57] platform, which provides"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente conversacional; informa sobre salud y psicoeducación a jóvenes con TDAH",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 1",
+          "quote": "Virtual assistants that use large language models can provide information in response to questions and learn to tailor"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 7",
+          "quote": "including several which have been approved as medical devices. The chatbot was based on GPT-4o using the Convai [57] platform, which provides"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: opiniones y preferencias de los usuarios sobre el prototipo (cualitativo) | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 1",
+          "quote": "Overall, 6 experts by lived experience engaged with think-aloud"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 1",
+          "quote": "interviews, providing feedback on the prototype conversational flow and feel, the avatar, the text-to-speech, the chatbox feature,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Entrevistas de pensamiento en voz alta de una hora por Teams, con guion de puntos de retroalimentación; talleres previos de coproducción",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 8",
+          "quote": "were carried out with LE collaborators to user-test the first"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R327-an-evidence-based-ai-virtual-assistant-for-young-people-with-attention-deficit-h.md",
+          "loc": "p. 8",
+          "quote": "a 1-hour online meeting with researcher EB, with a link to a"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

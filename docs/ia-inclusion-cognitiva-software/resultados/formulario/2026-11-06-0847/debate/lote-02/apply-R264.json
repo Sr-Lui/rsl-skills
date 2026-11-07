@@ -1,0 +1,131 @@
+{
+  "article_id": "R264",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Dificultades de aprendizaje (dislexia, discalculia, disgrafía; también TDAH y dispraxia mencionados)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 1",
+          "quote": "dyslexia, dyscalculia, and dysgraphia, all of which hinder"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 1",
+          "quote": "ADHD and dyspraxia who might find it difficult to di-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Propuesta doctoral sin participantes aún; el prototipo se evaluará en instituciones que apoyan a estudiantes con dificultades de aprendizaje, con retroalimentación de usuarios durante el desarrollo (Presencia: NR | N: NR | Rol: ambos)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "educational institutions that support students with LDs. This"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "et al. 2021). In such a way, user feedback will be actively"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio de Kenia que enmarca las dificultades de aprendizaje como trastorno del neurodesarrollo y menciona la privacidad de datos y el sesgo algorítmico como preocupaciones (Enfoque: déficit | Perfil: NR | Consentimiento: NR | País: Kenia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 1",
+          "quote": "population has disability (USAID 2023). LD is a neurode-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "educational goals, and addressing concerns such as data pri-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "GenAI (IA generativa) para apoyo educativo; sin modelo concreto (Modelo: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 1",
+          "quote": "Emerging research suggests that Generative AI (GenAI)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "a prototype of a Generative AI tool for students with LDs."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de aprendizaje para estudiantes; herramienta de apoyo educativo con retroalimentación",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "tools that improve educational accessibility and foster inclu-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "The initial design of the tool will be guided by insights gath-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Impacto en resultados de aprendizaje y experiencia educativa; aún sin valor reportado (Constructo: resultados de aprendizaje | Valor: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "evaluation will assess the impact of the tool on learning out-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "comes and the overall educational experience for students"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Evaluación prevista en instituciones educativas con retroalimentación de usuarios; sin instrumento específico definido",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "opment, the prototype will undergo evaluation in selected"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R264-design-and-evaluation-of-a-generative-artificial-intelligence-based-tool-for-stu.md",
+          "loc": "p. 2",
+          "quote": "features and functionalities, promoting an iterative approach"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

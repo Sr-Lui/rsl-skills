@@ -1,0 +1,157 @@
+{
+  "article_id": "R337",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad cognitiva; discapacidad intelectual; dificultades de aprendizaje",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 1",
+          "quote": "web accessibility for people with cognitive and intellectual disabilities remain"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 2",
+          "quote": "cognitive learning disabilities and additionally for older people."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 20",
+          "quote": "people with intellectual disabilities. A ranking of websites"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "No hubo participación de personas con la condición: la evaluación la hizo una persona evaluadora sobre cuatro sitios web (Presencia: No | N: NR | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 18",
+          "quote": "systems without the intervention of end-users. The guidelines were developed with the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 14",
+          "quote": "This step consisted of carrying out the evaluation of the system with the guidelines"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio no declara enfoque ético ni consentimiento; los sitios evaluados son españoles y catalanes (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 14",
+          "quote": "Four (Spanish and Catalan) websites were selected. These websites are designed to"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 1",
+          "quote": "Jaume II, 25001 Lleida, Catalunya, Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA generativa; Modelo: ChatGPT",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 5",
+          "quote": "it was decided to use generative AI (Chat GTP) to automatically generate the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 2",
+          "quote": "These criteria were selected with the support of ChatGPT"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; asistente para vincular heurísticas y pautas WCAG",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 5",
+          "quote": "it was decided to use generative AI (Chat GTP) to automatically generate the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 5",
+          "quote": "manually, generative AI was used to obtain the data. Table 2 is the result, and the steps"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 20",
+          "quote": "generative AI was used to generate a set of cognitive usability and accessibility"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Índice combinado de usabilidad y accesibilidad cognitiva, con valores de 41,07 % a 70,83 % según el sitio (Constructo: índice U+A | Valor: 70,83 % en SeniorTIC, el máximo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 18",
+          "quote": "SeniorTIC                            75%                  67%                    70.83%"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 18",
+          "quote": "Auria foundation                     57%                  25%                    41.07%"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 17",
+          "quote": "a A-index of 25%; ‘SeniorTIC’ has a A-index of 67%; and finally, ‘Imserso’ has a A-index"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Evaluación heurística con criterios de usabilidad y pautas COGA, registrada en hoja Excel (aprobado, fallo, no aplica)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 14",
+          "quote": "an MS Excel document (in two different sheets) was used to collect all the evaluator"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 15",
+          "quote": "The evaluation was carried out first on the heuristic criteria (Table 5) and then on"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG; COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 4",
+          "quote": "WCAG 2.2 [41] was chosen as the latest W3C recommendation at the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R337-towards-designing-a-set-of-usability-and-accessibility-heuristics-focused-on-cog.md",
+          "loc": "p. 4",
+          "quote": "‘Making Content Usable for People with Cognitive and"
+        }
+      ]
+    }
+  ]
+}

@@ -33,3 +33,7 @@ Supuesto: los symlinks de `.claude/` se versionan en git; `claude:sync` los rege
 
 - [x] 4.1 Actualizar `README.md` y `SKILL.MD` con la instrucción `pnpm claude:sync` y el flujo nuevo. Verificar: referencias a rutas existentes.
 - [x] 4.2 Ejecutar `openspec validate migrar-skills-claude-fix-graphify --strict`. Verificar: sin errores.
+
+## 5. Auditoría posterior
+
+- [x] 5.1 Añadir `--replace` a `formulario:apply-lote` y exigir `lint-prosa` tras cada apply en la skill y el playbook. Verificar: corregir 10 celdas con `--replace` deja `lint-prosa` en PASS (0 WARN) y la traza en 160 líneas.

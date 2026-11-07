@@ -1,0 +1,216 @@
+{
+  "article_id": "R880",
+  "lote": "08",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad cognitiva general; TEA; dislexia",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 1",
+          "quote": "Interface) ecosystem designed to support the creation of assistive technologies for individuals with cognitive"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "Spectrum Disorder (ASD). working with pictograms and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 13",
+          "quote": "users with Asperger’s Syndrome, who may have difficulty"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "NR. El estudio no reporta resultados separados por perfil de discapacidad cognitiva.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 1",
+          "quote": "Interface) ecosystem designed to support the creation of assistive technologies for individuals with cognitive"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 7",
+          "quote": "with dyslexia or other cognitive disabilities. To facilitate"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Evaluaciones de PICTAR con docentes de educación especial y usuarios con discapacidad cognitiva (Presencia: Sí | N: NR | Rol: evaluación)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "special education experts and users with cognitive disabilities               concept in a dictionary. However, this is not always a"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "its usefulness for both teachers and students. PICTAR                         definitions complex vocabulary and ideas that are difficult"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio realizado en un grupo universitario español, sin descripción del marco ético (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 1",
+          "quote": "2 Instituto de Tecnología del Conocimiento, Universidad Complutense de Madrid, 28233 Pozuelo de Alarcón, Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NLP; Modelo: spaCy y WordNet",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 8",
+          "quote": "can depict is extensive, encompassing objects, animals,                  been developed on spaCy5 library and WordNet lexical"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 6",
+          "quote": "internal Natural Language Processing (NLP) service is used"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 6",
+          "quote": "internal Natural Language Processing (NLP) service is used                    with upstream services is employed to reduce latency,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro: servicios NLP reutilizables (simplificación, pictogramas, sentimiento) integrados mediante API",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 7",
+          "quote": "of summaries is a fundamental process for determining              field. The Simplification API contains several ser-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 8",
+          "quote": "can depict is extensive, encompassing objects, animals,                  been developed on spaCy5 library and WordNet lexical"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo: se construye e implanta un ecosistema de API para tecnologías asistivas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 5",
+          "quote": "The initial step in the development of the new architecture"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 14",
+          "quote": "the capabilities of the solution. Instead, using a GraphQL                  The modularity and flexibility of the API ecosystem"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Diseño",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 14",
+          "quote": "introduces limitations and transformations that would impair             ensure the maximum impact of each project."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: utilidad percibida (cualitativa) | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "who communicate through pictograms have demonstrated                          solution for users with cognitive disabilities, dictionary"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "enhances literacy, communication, and motivation skills for                   to understand. In AprendeFácil, users can any difficult"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Evaluación con expertos en educación especial y usuarios; protocolo e instrumento NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "special education experts and users with cognitive disabilities               concept in a dictionary. However, this is not always a"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "text-to-pictogram translation capabilities. Evaluations with                  The solution in would be to look up the unknown"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "students with ASD. PICTAR can be freely accessed at                           word, and get a definition simpler vocabulary, pictograms"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "who communicate through pictograms have demonstrated                          solution for users with cognitive disabilities, dictionary"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios; sin automatización de la evaluación.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "its usefulness for both teachers and students. PICTAR                         definitions complex vocabulary and ideas that are difficult"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R880-creating-an-api-ecosystem-for-assistive-technologies-oriented-to-cognitive-disab.md",
+          "loc": "p. 12",
+          "quote": "text-to-pictogram translation capabilities. Evaluations with                  The solution in would be to look up the unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "article_id": "R710",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se presentan por grado escolar y no por perfil de dificultad lectora, aunque varias escuelas participantes atienden a estudiantes con dislexia.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 7",
+          "quote": "ROAR-SRE and TOSREC was similar across every grade level (e.g.,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 6",
+          "quote": "model. Many of these schools specialized in supporting students with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 6",
+          "quote": "language-based learning difficulties such as dyslexia, dyscalculia, or"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron estudiantes con dificultades lectoras y con dislexia, que contestaron la prueba durante su validación (Presencia: Sí | N: NR | Rol: evaluación).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 8",
+          "quote": "children with dyslexia (ages 8–14; grades 2–8), where the trained"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 3",
+          "quote": "many of whom were identified as experiencing difficulties with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 6",
+          "quote": "language-based learning difficulties such as dyslexia, dyscalculia, or"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio fue aprobado por el comité de ética de Stanford, que eximió del consentimiento informado escrito, y se realizó en Estados Unidos (Enfoque: NR | Perfil: NR | Consentimiento: exención de consentimiento escrito aprobada por el comité de ética | País: Estados Unidos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 12",
+          "quote": "University Institutional Review Board. The studies were conducted"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 12",
+          "quote": "waived the requirement of written informed consent for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 1",
+          "quote": "Graduate School of Education, Stanford University, Stanford, CA, United States, 2 Department of"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "V&V. El trabajo centra su aporte en validar psicométricamente una prueba de lectura en línea frente a medidas estandarizadas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 1",
+          "quote": "scale validation study to document convergent validity between ROAR-SRE and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 9",
+          "quote": "We found a strong correlation between ROAR-SRE and WJ-SRF"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Diseño; Desarrollo. Se redactaron y filtraron oraciones del banco de ítems y se generaron formas equivalentes con modelos de lenguaje.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 3",
+          "quote": "Efficiency.” In this study, we authored 200 sentences (hereafter"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 9",
+          "quote": "assess the validity of these AI-generated test forms in a large and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Validez convergente de la prueba de lectura frente a una medida estandarizada, con correlaciones altas en dos muestras (Constructo: validez convergente ROAR-SRE con WJ-SRF | Valor: r = 0.82 y r = 0.91).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 9",
+          "quote": "We found a strong correlation between ROAR-SRE and WJ-SRF"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 9",
+          "quote": "in both samples (r = 0.82, r = 0.91) (Figures 6A, B). In addition,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se limita a la eficiencia de lectura de oraciones y no mide dimensiones sensoriales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 1",
+          "quote": "scale validation study to document convergent validity between ROAR-SRE and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 1",
+          "quote": "other reading measures and has exceptional reliability. Moreover, AI can automatically"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. La evaluación se hizo con estudiantes en estudios empíricos; la generación automática de formas de prueba se validó también con participantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 9",
+          "quote": "assess the validity of these AI-generated test forms in a large and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R710-development-and-validation-of-a-rapid-and-precise-online-sentence-reading-effici.md",
+          "loc": "p. 1",
+          "quote": "other reading measures and has exceptional reliability. Moreover, AI can automatically"
+        }
+      ]
+    }
+  ]
+}

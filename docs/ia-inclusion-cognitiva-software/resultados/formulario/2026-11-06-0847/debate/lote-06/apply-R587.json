@@ -1,0 +1,237 @@
+{
+  "article_id": "R587",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Dificultades de comprensión lectora; discapacidad cognitiva y de aprendizaje (lectura fácil)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 1",
+          "quote": "ing E2R experts as well as people with cognitive disabilities. In order to alleviate such manual processes, we are currently"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 2",
+          "quote": "of the approaches are targeted to people with cognitive and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio no desagrega resultados por perfil; la encuesta se aplica a profesionales y no a usuarios con discapacidad.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "fessionals in the field of cognitive accessibility (70.59%) and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "responses to the questionnaire. The sample consisted of pro-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "La encuesta se aplicó a 34 expertos en lectura fácil y accesibilidad cognitiva, no a personas con discapacidad cognitiva (Presencia: No | N: 34 | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "A total of 34 participants, mostly Spanish (94.1%), provided"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "fessionals in the field of cognitive accessibility (70.59%) and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio no describe el perfil de los usuarios finales ni un marco ético formal; solo indica que la encuesta se difundió entre expertos de España (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "as a Google Form.18 It was launched in July 2020 through"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "   The questionnaire is written in Spanish and implemented"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Reglas; PLN; aprendizaje automático (Modelo: NR). Servicios de FACILE diseñados con estas técnicas, sin modelo concreto.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 10",
+          "quote": "Rules, Natural Language Processing, and Machine Learning."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 10",
+          "quote": "vices based on Artificial Intelligence (AI) techniques such as"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de apoyo a expertos: diagnostica el cumplimiento de la lectura fácil; generador de sugerencias de transformación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 1",
+          "quote": "of documents in a (semi)-automatic fashion. The main goal of this research is to help E2R experts in their daily tasks of (a)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 1",
+          "quote": "E2R methodology. In this paper we present our initial efforts toward the development of an AI-based application for sup-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Requisitos. La encuesta a expertos recoge necesidades y requisitos informales de la aplicación FACILE.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 1",
+          "quote": "porting the E2R adaptation of documents. These efforts are the elicitation of E2R needs and informal requirements and the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 12",
+          "quote": "ments from E2R experts via questionnaires. The collected"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Diseño; Desarrollo (maqueta interactiva, arquitectura de microservicios y primeros prototipos de servicios)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 12",
+          "quote": "Currently, we have developed an interactive mockup of"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 10",
+          "quote": "while FACILE is modelled following a microservice-based"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 12",
+          "quote": "lecting phase, we designed the FACILE architecture based"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: utilidad percibida de la aplicación según expertos | Valor: 76,47 % puntuó 5 (totalmente de acuerdo) en las dos preguntas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "After analysing the collected data, 76.47% of"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "5 (strongly agree) in both questions, so we can say that there"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario en línea en español (Google Forms) difundido por listas de correo de expertos en 2020; no mide a usuarios con discapacidad ni la aplicación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "   The questionnaire is written in Spanish and implemented"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "as a Google Form.18 It was launched in July 2020 through"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 5",
+          "quote": "mailing lists of E2R experts in Spain.                                 5"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro: directrices de lectura fácil (E2R); WCAG y el informe sobre accesibilidad cognitiva se citan como contexto",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 2",
+          "quote": "of Web Content Accessibility Guidelines (WCAG) 3.06 that"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 2",
+          "quote": "ities; and (b) a detailed report for providing advice on how to"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 1",
+          "quote": "ing E2R experts as well as people with cognitive disabilities. In order to alleviate such manual processes, we are currently"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 1",
+          "quote": "investigating the development of methods, based on Artificial Intelligence (AI) techniques, to support the E2R adaptation"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: se consultó a expertos mediante encuesta y la evaluación de la aplicación solo está planificada",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 12",
+          "quote": "with E2R experts to evaluate both FACILE UI and services."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R587-first-steps-in-the-development-of-a-support-application-for-easy-to-read-adaptat.md",
+          "loc": "p. 12",
+          "quote": "lows: (1) to validate the mockup by a group of E2R experts."
+        }
+      ]
+    }
+  ]
+}

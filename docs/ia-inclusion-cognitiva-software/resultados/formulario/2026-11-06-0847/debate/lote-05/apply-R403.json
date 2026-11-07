@@ -1,0 +1,162 @@
+{
+  "article_id": "R403",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TEA (niños con trastorno del espectro autista)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 1",
+          "quote": "Autism Spectrum Disorder (ASD) is a common neurodevelopmental"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 2",
+          "quote": "In the existing online health community for children with autism,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "El estudio analiza publicaciones públicas de un foro y no incluye a personas con la condición como participantes en el diseño ni en la evaluación (Presencia: No | N: NR | Rol: NR).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 2",
+          "quote": "data involved 13,151 users and a total of 82,660 reply entries. The"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 2",
+          "quote": "3,000 topic posts on the homepage of “Autism Bar,” with the earliest"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio realizado en China con datos de un foro público; describe el TEA como un trastorno con deficiencias de comunicación social y no menciona consentimiento ni comité de ética, aunque propone una publicación anónima para proteger la privacidad (Enfoque: déficit | Perfil: NR | Consentimiento: NR | País: China).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 1",
+          "quote": "Autism Spectrum Disorder (ASD) is a common neurodevelopmental"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 7",
+          "quote": "Given the community’s sensitivity, privacy is ensured via a"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 2",
+          "quote": "3,000 topic posts on the homepage of “Autism Bar,” with the earliest"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "PLN; análisis de redes sociales; modelo de temas LDA; análisis de sentimiento con léxico",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 5",
+          "quote": "Dirichlet Allocation) model is an analysis tool specifically designed"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 5",
+          "quote": "sentiment analysis model was trained using Python programming,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 2",
+          "quote": "such as Ucinet and Gephi to analyze its network structure. For the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Evaluador; asistente de análisis de interacciones del foro (minería de texto)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 2",
+          "quote": "Python is used to extract and conduct text analysis."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 5",
+          "quote": "up the largest portion at 42.73%, followed by positive emotions at"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 6",
+          "quote": "ified PageRank algorithm for evaluating user influence. This ad-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: sentimiento predominante en los comentarios del foro | Valor: 42,73 % negativo (29,35 % positivo y 27,92 % neutro)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 5",
+          "quote": "up the largest portion at 42.73%, followed by positive emotions at"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 5",
+          "quote": "29.35%, and neutral emotions at 27.92%. This indicates a significant"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Análisis de redes con Ucinet y Gephi (modularidad Q = 0,721) y análisis de texto con Python; no hay evaluación con usuarios y las pruebas de efectividad quedan como trabajo futuro.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 3",
+          "quote": "calculation yields a modularity value (Q) of 0.721, identifying 199"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 2",
+          "quote": "such as Ucinet and Gephi to analyze its network structure. For the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 8",
+          "quote": "programming and conducting effectiveness evaluations."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Ninguno",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 8",
+          "quote": "programming and conducting effectiveness evaluations."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R403-interaction-design-of-asd-children-s-online-health-community-based-on-social-net.md",
+          "loc": "p. 8",
+          "quote": "Personalized settings, such as adjustable layout and font size,"
+        }
+      ]
+    }
+  ]
+}

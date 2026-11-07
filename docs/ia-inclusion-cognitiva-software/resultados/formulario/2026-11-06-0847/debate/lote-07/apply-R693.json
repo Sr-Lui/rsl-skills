@@ -1,0 +1,147 @@
+{
+  "article_id": "R693",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual; dificultades de aprendizaje; bajo nivel de alfabetización",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 1",
+          "quote": "information for a wide spectrum of people with cognitive impairments, learning"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 2",
+          "quote": "understand texts for people with intellectual disabilities or"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Las pruebas finales con el grupo destinatario se aplazaron por la pandemia; mientras tanto, un lector de Leichte Sprache con dificultades de aprendizaje integró el grupo de expertos que revisó el sistema (Presencia: Sí | N: 1 | Rol: evaluación)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 17",
+          "quote": "(1) A male LS reader with learning disabilities, who regularly"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 17",
+          "quote": "participants with intellectual/learning disabilities had to be"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo no declara un enfoque ni un perfil de datos; indica consentimiento informado escrito y que no se requirió revisión ética (Enfoque: NR | Perfil: NR | Consentimiento: informado por escrito, sin revisión ética | País: Alemania)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 20",
+          "quote": "Ethical review and approval were not required for the study on"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 20",
+          "quote": "their written informed consent to participate in this study."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 1",
+          "quote": "Institute for Computational Visualistics, Computer Science Faculty, Universität Koblenz-Landau, Koblenz, Germany"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NLP; generación de lenguaje natural basada en reglas gramaticales (Modelo: generador de paráfrasis COMPASS)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 1",
+          "quote": "paraphrase generator that supports fast and correct text production while taking"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 14",
+          "quote": "Performance Grammar, a psycholinguistically motivated"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de redacción; generador de paráfrasis",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 1",
+          "quote": "paraphrase generator that supports fast and correct text production while taking"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 1",
+          "quote": "Mandatory questions generated by the system aim to teach the user when and how to"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Ocho de diez participantes recomendaría o usaría el sistema para aprender el idioma, según el cuestionario de experiencia de usuario (Constructo: intención de recomendar o usar el sistema | Valor: 8 de 10 participantes)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 20",
+          "quote": "eight of the 10 participants would recommend or use the system"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Estudios de caso con tareas de escritura guiada, pensamiento en voz alta y entrevistas semiestructuradas, más un cuestionario de experiencia de usuario en la prueba con diez estudiantes de alemán como L2",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 17",
+          "quote": "We used the case study method10, employing exploratory"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 18",
+          "quote": "We conducted semi-structured interviews (in ELS wording)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 19",
+          "quote": "questionnaire14, in English for their convenience. We focused"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro: reglas de Leichte Sprache y guía de estilo de Netzwerk Leichte Sprache; no se menciona WCAG ni COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 20",
+          "quote": "of the AAC systems cited in Section 3.1 and the style guide for LS"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R693-a-computer-assisted-writing-tool-for-an-extended-variety-of-leichte-sprache-easy.md",
+          "loc": "p. 15",
+          "quote": "used under LS rules Netzwerk Leichte Sprache to avoid"
+        }
+      ]
+    }
+  ]
+}

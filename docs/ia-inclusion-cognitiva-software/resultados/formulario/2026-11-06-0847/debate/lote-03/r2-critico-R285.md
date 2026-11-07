@@ -1,0 +1,1 @@
+RQ3-I1: cita con la cifra 72,5 % (3,588 de 4,947 ítems) es una línea corta de una sola columna (47 caracteres); el MD no ofrece un tramo más largo en una sola línea. Cifra y contexto verificados en p. 4; se acompaña de la cita de la misma frase (same emotion label before and after simplification).

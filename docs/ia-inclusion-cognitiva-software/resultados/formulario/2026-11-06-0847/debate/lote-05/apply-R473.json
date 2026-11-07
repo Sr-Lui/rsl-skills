@@ -1,0 +1,136 @@
+{
+  "article_id": "R473",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio trata a los adultos con dislexia como un único perfil y no desagrega resultados por perfil; solo estratifica la partición de datos por tipo de error.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 6",
+          "quote": "Split        80% Train / 20% Test (stratified)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 1",
+          "quote": "We present an assistive system explicitly predominantly designed"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "No se reporta participación de personas con dislexia en el diseño ni en la evaluación: los datos son sintéticos y solo se menciona una valoración humana sin detallar a los evaluadores (Presencia: NR | N: NR | Rol: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 8",
+          "quote": "of synthetic data for model training, although nec-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 6",
+          "quote": "readability of outputs as confirmed by human eval-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo plantea la dislexia como fuente de errores que hay que corregir y el perfil se deduce de los errores detectados, sin almacenar historial; no menciona consentimiento (Enfoque: déficit | Perfil: deducido | Consentimiento: NR | País: Sri Lanka)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 8",
+          "quote": "Lastly, the system does not yet support personal-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 8",
+          "quote": "tional and healthcare institutions in Sri Lanka to"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución: la canalización de voz y texto corrige en tiempo real lo que dicta el usuario adulto con dislexia.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 8",
+          "quote": "The entire pipeline runs in 2.5 seconds per input,   ular pipeli"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 1",
+          "quote": "Each component was benchmarked for average in | 7 | `#p7-5-2-tab"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: exactitud de transcripción, de corrección y global del sistema | Valor: 66 %, 70 % y 65 %",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 7",
+          "quote": "Sinhala ASR, achieved a 66% accuracy, measured"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 7",
+          "quote": "yielded an overall system accuracy of 65%. This          face. T"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 7",
+          "quote": "Mistral, reached a accuracy of 70% and a GLEU                Fig"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva: dislexia en adultos hablantes de cingalés.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 1",
+          "quote": "We present an assistive system explicitly predominantly designed"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 8",
+          "quote": "based assistive system designed specifically for"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática: métricas automáticas (WER, BLEU, GLEU) sobre 600 muestras de prueba, con una valoración humana de legibilidad que el artículo no detalla.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 7",
+          "quote": "600 testing audio samples. While Whisper was not"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R473-a-low-resource-speech-driven-nlp-pipeline-for-sinhala-dyslexia-assistance.md",
+          "loc": "p. 7",
+          "quote": "tion also confirmed high readability and semantic            ove"
+        }
+      ]
+    }
+  ]
+}

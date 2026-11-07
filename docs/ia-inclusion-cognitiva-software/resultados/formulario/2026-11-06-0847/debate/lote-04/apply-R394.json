@@ -1,0 +1,146 @@
+{
+  "article_id": "R394",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual; adultos de 18 años o más que hablan inglés",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 3",
+          "quote": "be adults aged 18 years or older with intellectual disability who"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 3",
+          "quote": "Ten participants with intellectual disability completed the re-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron personas con discapacidad intelectual en el co-diseño y en la evaluación, aunque quienes co-diseñaron quedaron excluidas de la prueba (Presencia: Sí | N: 10 | Rol: ambos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 3",
+          "quote": "Ten participants with intellectual disability completed the re-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 2",
+          "quote": "held 5 months apart, including people with intellectual disabil-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 3",
+          "quote": "be adults aged 18 years or older with intellectual disability who"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Consentimiento escrito y aprobación del comité de ética de la UNSW, con recogida de datos en Sídney (Enfoque: NR | Perfil: NR | Consentimiento: escrito, aprobación ética de la UNSW | País: Australia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 5",
+          "quote": "Upon arrival, participants provided written consent"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 11",
+          "quote": "This study was granted ethics approval from the UNSW Sydney Human"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 5",
+          "quote": "Data collection was completed at the UNSW Sydney Kensington"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA generativa conversacional (LLM); Modelo: ChatGPT-4 vía Convai",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 3",
+          "quote": "tionality was implemented through integration of the OpenAI"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 4",
+          "quote": "ChatGPT-­4 API, accessed via Convai middleware (www."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro; avatares conversacionales de IA que simulan la visita médica y guían el aprendizaje",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 3",
+          "quote": "doctor. The doctor introduced themselves, explained the privacy"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 6",
+          "quote": "ion that provided an overview of what to expect in a healthcare"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: respuestas válidas de la IA durante la tarea | Valor: 88,3 %",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 6",
+          "quote": " All                             13.3 (6–37)                   88.3%"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 5",
+          "quote": "derstood participants. Key metrics included the total number"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario sociodemográfico, entrevistas semiestructuradas tras cada escena y métricas automáticas de la tarea",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 4",
+          "quote": "A demographic questionnaire collected information including"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 4",
+          "quote": "conducted to collect qualitative feedback about participants'"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R394-co-design-and-feasibility-testing-of-an-ai-based-virtual-reality-application-to-.md",
+          "loc": "p. 5",
+          "quote": "derstood participants. Key metrics included the total number"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

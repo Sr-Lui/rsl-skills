@@ -1,0 +1,231 @@
+{
+  "article_id": "R831",
+  "lote": "08",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual (DI); síndromes genéticos o médicos asociados; síntomas de TDAH en un caso",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 1",
+          "quote": "Smart home technologies offer considerable potential to enhance autonomy, safety, and quality of life for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 11",
+          "quote": "All participants reported a diagnosis of"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 11",
+          "quote": "P1    23      M       Partial fetal alcohol syndrome,   mild"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí, solo de forma cualitativa: en la fase 2 se contrastan las percepciones de cuidadores de personas con DI leve y grave, sin desagregar resultados por perfil.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 12",
+          "quote": "Individual Differences. Caregivers of participants with mild ID"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 12",
+          "quote": "participants with severe ID (P3 and P4) reported that the tasks and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Las personas con DI participaron como usuarias en la evaluación de ChatGPT-4o y del prototipo, y los educadores en el taller de co-diseño (Presencia: Sí | N: 18 con DI, 4 cuidadores y 6 educadores | Rol: ambos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 2",
+          "quote": "into two multi-study phases that involved a total of 28 participants"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 2",
+          "quote": "cluding 18 individuals with ID, four caregivers, and six educators"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 11",
+          "quote": "We recruited four dyads, each composed of one participant with ID"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio tuvo aval ético y consentimiento de los tutores legales con asentimiento de las personas con DI (Enfoque: NR | Perfil: NR | Consentimiento: tutores legales y asentimiento voluntario | País: Italia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 3",
+          "quote": "ceived approval from the ethical committee of Politecnico di Milano,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 5",
+          "quote": "consent to participate in the study, and assent was also obtained from"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 1",
+          "quote": "Faculty of Engineering, Free University of Bozen-Bolzano, NOI Techpark, Bolzano, Italy"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; modelo ChatGPT-4o (GPT-4o vía API de OpenAI)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 4",
+          "quote": "ChatGPT-4o (the latest version available at that time). ChatGPT-4o was"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 2",
+          "quote": "EUD systems in serving as an intent interpreter and code generator for"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador (código disparador-acción); asistente (preguntas de aclaración)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 2",
+          "quote": "EUD systems in serving as an intent interpreter and code generator for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 3",
+          "quote": "and personalizing home-automation solutions. In addition to support"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución: la persona con DI configura rutinas del hogar con lenguaje natural asistida por el LLM.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 3",
+          "quote": "and personalizing home-automation solutions. In addition to support"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 2",
+          "quote": "ity this paper investigates challenges and opportunities of LLM-based"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Diseño; pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 9",
+          "quote": "3. Co-design through Design Thinking activities. Following the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 1",
+          "quote": "Prototype evaluation with dyads of a person with ID and their"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: reconocimiento de la intención de la regla por ChatGPT-4o | Valor: 48,21 % (27 de 56 reglas)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 6",
+          "quote": "Out of the 56 evaluated codes, ChatGPT successfully recognized the in"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 6",
+          "quote": "tent in 27 instances, corresponding to 48.21% of the total number of rules."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario UEQ-S, talleres con Mentimeter, análisis temático de transcripciones y jueces externos para clasificar la dificultad de las reglas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 9",
+          "quote": "administered to collect quantitative and standardized usability"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 11",
+          "quote": "lyzed the transcribed recordings using a qualitative thematic analysis. A"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 1",
+          "quote": "Smart homes promise autonomy for people with Intellectual Disability (ID)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 1",
+          "quote": "Smart home technologies offer considerable potential to enhance autonomy, safety, and quality of life for"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 3",
+          "quote": "with expert educators and a hands-on study with dyads of users with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R831-triggering-autonomy-not-just-automation-design-implications-for-llm-based-home-a.md",
+          "loc": "p. 1",
+          "quote": "Prototype evaluation with dyads of a person with ID and their"
+        }
+      ]
+    }
+  ]
+}

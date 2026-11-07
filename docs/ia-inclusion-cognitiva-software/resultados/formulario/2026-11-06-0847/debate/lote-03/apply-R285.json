@@ -1,0 +1,131 @@
+{
+  "article_id": "R285",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio no segmenta resultados por perfil; se orienta de forma general a adultos con discapacidad intelectual y a personas con dificultades de aprendizaje.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 4",
+          "quote": "Simplify the posts so that people with learning      in our evaluation subset (4,947 items), we consider"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 1",
+          "quote": "tions across the UK have introduced programmes                ways that improve cognitive accessibility for adults"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "No hubo participantes: se trabajó con publicaciones de Reddit ya etiquetadas por anotadores, sin personas con discapacidad en el diseño ni en la evaluación (Presencia: No | N: 0 | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 3",
+          "quote": "In this work we use the GoEmotions dataset (Dem-         for the same Ekman taxonomy as seen in Table"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 3",
+          "quote": "of 58k English Reddit comments labelled for 27           ne-tuning"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo no describe marco ético ni consentimiento, pues emplea un corpus público de comentarios; los autores trabajan en el Reino Unido (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: Reino Unido)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 1",
+          "quote": "University of Surrey, UK       University of Surrey, UK       University of Surrey, UK"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 3",
+          "quote": "of 58k English Reddit comments labelled for 27           ne-tuning"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Otro: simplificación con LLM de publicaciones de redes sociales y evaluación de la preservación emocional de las reescrituras; el estudio no se sitúa en una fase del desarrollo de software.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 4",
+          "quote": "task-specific prompt to guide language models in           We examined how well automatically detected emo-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 4",
+          "quote": "producing accessible rewrites. The model receives          tions are preserved after simplification using the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: preservación de la emoción tras la simplificación con GPT-4o, medida con un clasificador XLM-RoBERTa | Valor: 72,5 % (3.588 de 4.947 publicaciones conservan la misma etiqueta emocional)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 4",
+          "quote": "                                                            3,588 out of 4,947 items (72.5%), so in roughly"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 4",
+          "quote": "                                                            same emotion label before and after simplification."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se centra en la legibilidad y la preservación emocional para personas con discapacidad intelectual; no considera la dimensión sensorial.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 1",
+          "quote": "tions across the UK have introduced programmes                ways that improve cognitive accessibility for adults"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 4",
+          "quote": "Simplify the posts so that people with learning      in our evaluation subset (4,947 items), we consider"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática: un clasificador automático de emociones compara original y versión simplificada, complementado con análisis cualitativo manual de ejemplos.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 4",
+          "quote": "task-specific prompt to guide language models in           We examined how well automatically detected emo-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R285-emotion-aware-text-simplification-of-user-generated-content-using-llms.md",
+          "loc": "p. 5",
+          "quote": "These examples support the quantitative picture:     scores using the readability 0.3.2 package7 . As"
+        }
+      ]
+    }
+  ]
+}

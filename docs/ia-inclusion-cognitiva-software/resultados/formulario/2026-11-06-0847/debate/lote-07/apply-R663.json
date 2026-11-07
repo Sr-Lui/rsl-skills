@@ -1,0 +1,152 @@
+{
+  "article_id": "R663",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TEA; el estudio se centra en niños con trastorno del espectro autista y su diagnóstico según el DSM-5.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 15",
+          "quote": "DIAUTIS III is a platform designed to assist individuals with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 15",
+          "quote": "DIAUTIS III cannot be applied for the study of other"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Ausencia de participación directa: ningún niño intervino en las pruebas de calidad y se simularon respuestas anómalas (Presencia: No | N: 0 | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 14",
+          "quote": "uation level. So far, no child has participated in the quality"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 14",
+          "quote": "randomly chosen, similar to those presented by autistic children,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El modelo mental recoge los déficits del niño, y el estudio no informa de aspectos éticos ni del lugar de aplicación; solo constan las afiliaciones de los autores (Enfoque: déficit | Perfil: NR | Consentimiento: NR | País: Marruecos y España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 1",
+          "quote": "The mental model of autistic children contains their deficits,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 1",
+          "quote": "Tangier, Abdelmalek Essaadi University, Tangier, Morocco 1, 2"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 1",
+          "quote": "School of Telecommunication Engineering, Universidad Politécnica de Madrid, Madrid, Spain 3"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Lógica difusa; computación afectiva; sistema multiagente (Modelo: DIAUTIS III)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 3",
+          "quote": "approach based on agents, fuzzy logic and affective computing"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 3",
+          "quote": "ities thanks to neural networks and machine learning techniques,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de diagnóstico; generador de juegos serios.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 1",
+          "quote": "tool allows to DIAUTIS II agents to designing over 80 games,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 3",
+          "quote": "approach based on agents, fuzzy logic and affective computing"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: diferencia entre modelos mentales difusos del niño mediante las operaciones CONS y TRA | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 15",
+          "quote": "as CONS and TRA that allow evaluating the difference existing"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 14",
+          "quote": "Evaluating the difference existing between two mental"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Pruebas funcionales con grupos de observadores y evaluación global por grupos de expertos; sin niños, con errores simulados.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 14",
+          "quote": "by five observers and members of the clinical equipment."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 14",
+          "quote": "overall functionality tested by six groups of experts and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 14",
+          "quote": "randomly chosen, similar to those presented by autistic children,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Ninguno; solo se apoya en el DSM-5 como criterio diagnóstico, no en normas de accesibilidad.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 15",
+          "quote": "It works according to the DSM-V Manual, therefore the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R663-diautis-iii-a-fuzzy-and-affective-platform-for-obtaining-autism-mental-models-an.md",
+          "loc": "p. 15",
+          "quote": "DIAUTIS III cannot be applied for the study of other"
+        }
+      ]
+    }
+  ]
+}

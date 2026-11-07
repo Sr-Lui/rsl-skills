@@ -1,0 +1,1 @@
+RQ3-I3: REVISAR por cita corta (la frase del DSM-V comparte línea con otra columna en el MD); contenido correcto: el artículo solo menciona el DSM-V y ningún marco de accesibilidad (decisión partial, valor «Ninguno»).

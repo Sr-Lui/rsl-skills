@@ -1,0 +1,231 @@
+{
+  "article_id": "R293",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Dislexia; estudiantes universitarios con dislexia diagnosticada o sospechada, en lectura de inglés como L2",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "A purposive sampling method was used to select college students"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 1",
+          "quote": "sis to enhance English reading skills for students with dyslexia in"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Se describen perfiles individuales, pero no se compara por subtipo de dislexia; el análisis agrupa a los diez participantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "10 students (18-22 years old) volunteered for the study. The group"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 5",
+          "quote": "A paired-samples t-test was conducted to evaluate the impact of"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los diez estudiantes con dislexia participaron como usuarios del sistema y fuente de datos (Presencia: Sí | N: 10 | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "10 students (18-22 years old) volunteered for the study. The group"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "A purposive sampling method was used to select college students"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Marco centrado en el déficit fonológico, con perfilado automático a partir de pruebas y registros (Enfoque: déficit | Perfil: deducido | Consentimiento: NR | País: China)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 1",
+          "quote": "deficit in the phonological component of language that is often"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "(1) a user profiling module that dynamically assesses individual"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 1",
+          "quote": "Shanghai, China                                           Shanghai, China"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "PLN; aprendizaje automático (K-Means, bosque aleatorio); grafo de conocimiento. Modelo: K-Means, Random Forest, WSM",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 1",
+          "quote": "By leveraging natural language processing (NLP) and machine"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 4",
+          "quote": "age single-session learning duration. We employed the K-Means"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 4",
+          "quote": "best predict student performance improvement, a Random Forest"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de lectura adaptativo que simplifica texto y recomienda herramientas según el perfil",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "a real-time processing engine that leverages NLP for text adap-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "We implemented a WSM to quantify tool suitability"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución: adaptación en tiempo real del texto y selección de herramienta por perfil del estudiante",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "a real-time processing engine that leverages NLP for text adap-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "sis, and readability optimization. The system employs real-time"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; evaluación (pretest y postest durante un semestre de 16 semanas)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 4",
+          "quote": "sustained engagement with the AI system. System logs of all user"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 4",
+          "quote": "administered in week 1 and a posttest in week 16. This extended"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Comprensión lectora medida por puntaje pretest-postest, con mejora significativa y efecto grande (Constructo: comprensión lectora | Valor: 54,2 a 73,6 puntos; t(9) = 4,32; d = 1,37)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 5",
+          "quote": "posttest scores (M = 73.6, SD = 4.89) were statistically significantly"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 5",
+          "quote": "higher than the pretest scores (𝑀 = 54.2, 𝑆𝐷 = 5.56), t(9) = 4.32, p"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 5",
+          "quote": "was d = 1.37. According to the benchmarks established by Cohen"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Pretest y postest de lectura; entrevistas y encuesta; registros del sistema",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 5",
+          "quote": "Pretest and posttest scores were analyzed using paired t-tests to"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 5",
+          "quote": "A thematic analysis of interview and survey responses was con-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 1",
+          "quote": "sis to enhance English reading skills for students with dyslexia in"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 3",
+          "quote": "dyslexia adult screening test (DAST) was administered to evaluate"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: pruebas pareadas y entrevistas, sin evaluación automatizada continua de accesibilidad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 5",
+          "quote": "A thematic analysis of interview and survey responses was con-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R293-an-ai-powered-reading-assistant-for-dyslexic-students-integrating-knowledge-grap.md",
+          "loc": "p. 4",
+          "quote": "sustained engagement with the AI system. System logs of all user"
+        }
+      ]
+    }
+  ]
+}

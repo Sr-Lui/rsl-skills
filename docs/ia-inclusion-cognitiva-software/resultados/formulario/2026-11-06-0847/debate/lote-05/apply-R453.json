@@ -1,0 +1,127 @@
+{
+  "article_id": "R453",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TEA (personas autistas con habla mínima o sin habla); análisis conceptual sobre sus experiencias vividas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 1",
+          "quote": "lived experiences of minimally and nonspeaking autistic people whose communicative profiles challenge the speech-centered"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "El análisis es conceptual y no recluta participantes; solo se apoya en experiencias vividas descritas en la literatura (Presencia: No | N: NR | Rol: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 4",
+          "quote": "sion can appear reduced in particular tools while persisting         This analysis is conceptual rather than empirical. It draws"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 1",
+          "quote": "### [PDF p.1] Finding: This paper conceptualizes engineered exclusion—the predictable sidelining of disabled users resulting from choices about data provenance, model objectives, and evaluation practices within AI systems."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Artículo conceptual que plantea la comunicación atípica como señal válida y propone mecanismos de consentimiento compartido (Enfoque: diferencia | Perfil: NR | Consentimiento: paneles de consentimiento y coagencia propuestos | País: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 1",
+          "quote": "### [PDF p.1] Finding: Re-engineering AI for designed dignity requires systems that recognize embodied, multimodal, and fluctuating forms of communication, expanding what counts as valid signal and responsible innovation."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 12",
+          "quote": "Section 508 (U.S. General Services Administration 2023)          co-agency mechanisms such as consent dashboards, review"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "ASR; TTS; LLM; Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 2",
+          "quote": "Automatic speech recognition (ASR) Distributional underrepresentation                Default training corpora underrepresent atypical,            Inclusion-weighted dataset audits; WER parity"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 8",
+          "quote": "LLM objectives reward statistical predictability: token             not designed to learn with the user. Current benchmarks"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro; la IA se analiza como objeto de crítica y no como herramienta aplicada",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 1",
+          "quote": "### [PDF p.1] Finding: We examine engineered exclusion through the lived experiences of minimally and nonspeaking autistic people whose communicative profiles challenge the speech-centered defaults embedded in contemporary AI pipelines."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 2",
+          "quote": "Automatic speech recognition (ASR) Distributional underrepresentation                Default training corpora underrepresent atypical,            Inclusion-weighted dataset audits; WER parity"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "No se reporta medición empírica; propone métricas de dignidad diseñada como hipótesis operativas (Constructo: dignidad diseñada | Valor: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 2",
+          "quote": "The table summarizes structural mechanisms through which AI systems embed exclusion and proposes corresponding measurable indicators for designed dignity. These metrics are illustrative"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Ninguno; análisis documental de documentación de sistemas, pruebas comparativas y literatura",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 4",
+          "quote": "sion can appear reduced in particular tools while persisting         This analysis is conceptual rather than empirical. It draws"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 1",
+          "quote": "### [PDF p.1] Finding: We argue that accessibility must be treated as a core dimension of AI ethics—on par with fairness, privacy, and safety."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro; menciona la Sección 508 de EE. UU. como requisito de cumplimiento, sin WCAG",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R453-ai-autism-and-the-architecture-of-voice-from-engineered-exclusion-to-designed-di.md",
+          "loc": "p. 12",
+          "quote": "Section 508 (U.S. General Services Administration 2023)          co-agency mechanisms such as consent dashboards, review"
+        }
+      ]
+    }
+  ]
+}

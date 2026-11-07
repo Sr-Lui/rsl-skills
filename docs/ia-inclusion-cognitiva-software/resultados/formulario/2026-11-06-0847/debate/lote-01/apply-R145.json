@@ -148,7 +148,7 @@
     },
     {
       "item_id": "RQ3-I5",
-      "value": "Validación con usuarios (estudiantes con TDAH en aula controlada)",
+      "value": "Solo validación con usuarios (estudiantes con TDAH en aula controlada).",
       "decision": "extracted",
       "evidence": [
         {

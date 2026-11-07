@@ -1,0 +1,251 @@
+{
+  "article_id": "R398",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TEA (trastorno del espectro autista); aprendices neurodivergentes en general",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "Educational inequity in arts learning disproportionately marginalizes students with Autism Spectrum"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "participants (including 53 neurodivergent learners) and 19 autism education specialists demonstrates"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí. Las muestras se estratificaron por formación artística, sexo y nivel académico, y los análisis se compararon entre perfiles demográficos y neurodesarrollo.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 11",
+          "quote": "Statistical analysis examines personalization effectiveness across different demographic groups,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 11",
+          "quote": "neurodevelopmental profiles, and cultural backgrounds, ensuring that the platform provides equitable benefits"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 11",
+          "quote": "The student participant cohort includes 203 undergraduate participants carefully stratified to represent"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron estudiantes universitarios de 18 a 24 años y educadores especializados en autismo, que evaluaron la plataforma (Presencia: Sí | N: 203 estudiantes, 53 de ellos neurodivergentes, y 19 especialistas | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "participants (including 53 neurodivergent learners) and 19 autism education specialists demonstrates"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 11",
+          "quote": "The student participant cohort includes 203 undergraduate participants carefully stratified to represent"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 11",
+          "quote": "comprised individuals aged 18–24, which allowed for subgroup analyses based on developmental stages, such"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 11",
+          "quote": "The educator participant cohort comprises 19 autism education professionals and art educators, categorized"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio parte de un enfoque de barreras del entorno y perfiles de usuario codificados para personalizar la banda sonora (Enfoque: diferencia | Perfil: almacenado | Consentimiento: consentimiento informado escrito, solo mayores de 18 años, con aval de comité de ética | País: China)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 2",
+          "quote": "benefit from predictable routines32. These environmental features, rather than inherent deficits, constitute the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 9",
+          "quote": "U ∈ Rdu encompass neurodevelopmental characteristics, sensory regulation preferences, processing patterns,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 13",
+          "quote": "All participants provided comprehensive written informed consent following the ethical guidelines, with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 12",
+          "quote": "consent process, the study’s inclusion criteria were limited to participants aged 18 and older. Consequently, no"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 13",
+          "quote": "Huazhong University of Science and Technology, under the project titled “Research on Educational Equity and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA generativa; LLM, visión por computador y difusión condicional; Modelo: DeepSeek, ResNet-50 y modelo de difusión condicional",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "enhanced ResNet-50 architecture, high-dimensional manifold mapping, and conditional generation"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "DeepSeek-based system transforms visual art features into structured musical accompaniments that"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 9",
+          "quote": "Novel soundtracks are generated using conditional diffusion models incorporating sensory regulation"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador; asistente de personalización de contenidos musicales",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "DeepSeek-based system transforms visual art features into structured musical accompaniments that"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "accommodate individual sensory processing patterns, cultural backgrounds, and neurodevelopmental"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución: la IA adapta la banda sonora al perfil sensorial de cada estudiante al usarla.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 12",
+          "quote": "Phase Two implements personalization assessment"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "accommodate individual sensory processing patterns, cultural backgrounds, and neurodevelopmental"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Mejora en la puntuación NAEP de arte frente al método tradicional (Constructo: mejora NAEP | Valor: 20,5 % frente a 8,2 %)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "educational outcomes showing 20.5% NAEP score improvements compared to 8.2% for traditional"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Escalas Likert de 5 puntos de comodidad y satisfacción, puntuaciones NAEP de arte, escala S.R.S. docente y métricas técnicas MSE y PCC; evaluación pre-post con grupo de control aleatorizado",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 12",
+          "quote": "comprehensive satisfaction assessments measuring cultural sensitivity, neurodevelopmental appropriateness,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 12",
+          "quote": "instruments including NAEP art assessment score improvements specifically adapted for ASD populations,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 11",
+          "quote": "group, who utilized the AI-powered platform, or a control group. The control group engaged with the same set"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro: Diseño Universal para el Aprendizaje (UDL); no cita WCAG ni COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "among them the principles of Universal Design for Learning (UDL). The UDL framework posits that to create"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 18",
+          "quote": "Design for Learning (UDL). While the UDL framework provides a powerful blueprint for inclusive education,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Ambas: evalúa accesibilidad sensorial y accesibilidad cognitiva en estudiantes con TEA.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "Sensory accessibility, Neurodivergent education, Cross-modal integration, Digital inclusion"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 12",
+          "quote": "Educational appropriateness is assessed through validated autism education instruments measuring sensory"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática: métricas técnicas calculadas por el sistema (MSE, PCC) junto con validación con usuarios.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 1",
+          "quote": "methods (p < 0.008). Technical performance achieved superior cross-modal consistency (MSE 0.05, PCC"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R398-a-deepseek-cross-modal-platform-for-personalized-art-education-in-autism-spectru.md",
+          "loc": "p. 12",
+          "quote": "comprehensive satisfaction assessments measuring cultural sensitivity, neurodevelopmental appropriateness,"
+        }
+      ]
+    }
+  ]
+}

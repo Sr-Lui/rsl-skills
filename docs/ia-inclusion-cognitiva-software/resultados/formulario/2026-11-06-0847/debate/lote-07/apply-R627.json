@@ -1,0 +1,216 @@
+{
+  "article_id": "R627",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual; dificultad específica de aprendizaje",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 9",
+          "quote": "We ensured the participants represented intellectual disability (ID) and specific learning"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 10",
+          "quote": "We selected ten percent (1536) of the total students with ID or"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio describe a ambos perfiles en conjunto y los resultados se comparan solo entre grupo de intervención y de control, sin desagregar por perfil.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 10",
+          "quote": "courses. Out of a total of 1536 adult participants, 1536 completed the study intervention and both"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 9",
+          "quote": "We randomized participants to control for potential bias. The learning materials"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Estudiantes con discapacidad intelectual o dificultad específica de aprendizaje participaron como sujetos de la evaluación (Presencia: Sí | N: 1536 | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 10",
+          "quote": "We selected ten percent (1536) of the total students with ID or"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 10",
+          "quote": "courses. Out of a total of 1536 adult participants, 1536 completed the study intervention and both"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio no explicita su enfoque sobre la condición y no describe el tratamiento del perfil; menciona consentimiento informado y aprobación ética, con participantes de Kerala (Enfoque: NR | Perfil: NR | Consentimiento: informado | País: India)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 9",
+          "quote": "such as age, computer science knowledge, and disabilities, with informed consent obtained. An"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 17",
+          "quote": "Ethical considerations: Adhering to ethical guidelines and obtaining informed consent from"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Aprendizaje automático y visión por computador; Modelo: bosque aleatorio (random forest)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 13",
+          "quote": "Hand gestures method is done using Python language along with Mediapipe, Opencv, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 13",
+          "quote": "the classifier, we trained it to accurately classify different gestures. After training, the classifier"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de reconocimiento de gestos para la enseñanza",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 1",
+          "quote": "A machine learning-based tool has been developed and implemented to provide an inclusive and accessible approach, addressing the specific needs of students with learning and intellectual disabilities"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 13",
+          "quote": "gesture recognition. By feeding the spatial patterns and geometrical features of hand gestures into"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. La IA se usa para construir el clasificador de gestos que sostiene la herramienta de enseñanza de conversión numérica.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 13",
+          "quote": "Hand gestures method is done using Python language along with Mediapipe, Opencv, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 13",
+          "quote": "of the model revealed that it achieved a remarkable accuracy score of 100%, correctly classifying"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; el modelo se probó con gestos de muestra tras el entrenamiento y la intervención se evaluó con pretest y postest.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 13",
+          "quote": "to obtain the actual output. During testing, the model successfully recognized and classified the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 10",
+          "quote": "Each participant underwent a pretest on the learning content before commencing the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: aprendizaje y retención de conversión numérica, y exactitud del clasificador de gestos | Valor: 90 % de acierto en el grupo de intervención y 100 % de exactitud del modelo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 10",
+          "quote": "Notably, 90 percent of the intervention group"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 13",
+          "quote": "of the model revealed that it achieved a remarkable accuracy score of 100%, correctly classifying"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Pretest, postest inmediato y postest diferido de 10 tareas de conversión numérica; encuesta de retroalimentación estudiantil con 10 parámetros",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 14",
+          "quote": "We have developed a series of 10 standardized number conversion tasks with varying levels"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 10",
+          "quote": "Each participant underwent a pretest on the learning content before commencing the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 16",
+          "quote": "The positive feedback from students regarding the hand gestures method has significant"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 1",
+          "quote": "A machine learning-based tool has been developed and implemented to provide an inclusive and accessible approach, addressing the specific needs of students with learning and intellectual disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 14",
+          "quote": "We have developed a series of 10 standardized number conversion tasks with varying levels"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R627-empowering-children-with-special-needs-cwsn-in-computer-science-an-interactive-h.md",
+          "loc": "p. 10",
+          "quote": "successfully retained the method taught during the intervention and were able to achieve the"
+        }
+      ]
+    }
+  ]
+}

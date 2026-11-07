@@ -1,0 +1,126 @@
+{
+  "article_id": "R396",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí. Los resultados se comparan por grupo (dificultades matemáticas autodeclaradas frente a sin dificultades), de forma descriptiva y sin diagnóstico formal.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 11",
+          "quote": "generally larger in Group 1 than in Group 2, consistent with the fact that"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 10",
+          "quote": "comprised individuals who self-reported persistent difficulties with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron ocho personas evaluadoras, cuatro con dificultades matemáticas autodeclaradas y sin diagnóstico clínico, solo en la fase de evaluación (Presencia: Sí | N: 8 | Rol: evaluación).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 10",
+          "quote": "experimental comparison involving eight participants (aged 20–45),"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 10",
+          "quote": "comprised individuals who self-reported persistent difficulties with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio plantea la discalculia como una dificultad que el sistema compensa, con consentimiento informado de los participantes y ensayo en laboratorio de Malta (Enfoque: déficit | Perfil: NR | Consentimiento: consentimiento informado | País: Malta).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 1",
+          "quote": "dyscalculia exhibit significant deficits in magnitude estimation and vi"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 10",
+          "quote": "normal manual dexterity, provided informed consent, and were"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 5",
+          "quote": "Laboratory-scale experimental workbench (Digital and Industrial Automation Lab, University of Malta)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución. El sistema ofrece asistencia matemática en tiempo real durante el corte de cable y el montaje de conectores.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 1",
+          "quote": "The developed system provides targeted assistance across four key stages of a cable cutting and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Carga de trabajo percibida medida con NASA-TLX; con asistencia los puntajes se concentran en torno a 10–25 (grupo con dificultades) y 5–15 (grupo de comparación) (Constructo: carga de trabajo percibida (NASA-TLX) | Valor: 10–25 y 5–15 con asistencia).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 11",
+          "quote": "cluster within a narrower range, typically around 10–25 for Group 1 and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 11",
+          "quote": "approximately 5–15 for Group 2, regardless of task difficulty."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se centra en la carga y el rendimiento de personas con dificultades matemáticas, sin dimensión sensorial.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 1",
+          "quote": "particularly for operators with cognitive challenges such as dyscalculia."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: ocho participantes completaron las tareas y el cuestionario NASA-TLX tras cada ensayo, sin evaluación automatizada.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 10",
+          "quote": "completed the NASA-TLX questionnaire to assess subjective workload"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R396-ai-enhanced-human-machine-collaboration-for-supporting-workers-with-mathematical.md",
+          "loc": "p. 10",
+          "quote": "experimental comparison involving eight participants (aged 20–45),"
+        }
+      ]
+    }
+  ]
+}

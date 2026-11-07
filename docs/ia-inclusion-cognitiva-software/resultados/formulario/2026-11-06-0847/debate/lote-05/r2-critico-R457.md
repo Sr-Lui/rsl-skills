@@ -1,0 +1,1 @@
+- RQ3-I1: citas literales de 53 y 58 caracteres por maquetación a dos columnas (cifras 27 % y 54-81 % presentes en ellas); valor coincide con el texto de Resultados y Limitaciones (p. 15-16). Sin objeción.

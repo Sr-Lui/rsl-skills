@@ -1,0 +1,141 @@
+{
+  "article_id": "R440",
+  "lote": "05",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se comparan entre grupo experimental y control; los perfiles solo se describen en la muestra, sin análisis por diagnóstico.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 3",
+          "quote": "four distinct groups: students diagnosed with dyslexia, ADHD, language disorders, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 7",
+          "quote": "The experimental group achieved a mean accuracy of 78.5% (SD = 5.6), while the control"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los niños con dificultades de aprendizaje participaron como evaluados de la herramienta (Presencia: Sí | N: 100 | Rol: evaluación).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 3",
+          "quote": "A sample of 100 children aged 8–12 with diagnosed learning disabilities (divided in"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 4",
+          "quote": "The study utilized a quasi-experimental design with two groups: (a) an Experimental"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio se realizó en un centro público griego, con consentimiento escrito de los padres y aprobación de un comité ético universitario (Enfoque: NR | Perfil: NR | Consentimiento: escrito de los padres, con comité ético | País: Grecia).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 3",
+          "quote": "Parents gave their written consent to allow their children to participate in the experiment,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 3",
+          "quote": "a university ethics board. Additionally, a data retention policy was in place, ensuring"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 3",
+          "quote": "from a public differential Greek center and psychologists partici-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Pruebas. La herramienta se aplica como instrumento de evaluación gramatical durante cuatro semanas, no durante el desarrollo de software.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 4",
+          "quote": "Pre-test and post-test measures were taken to evaluate"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 4",
+          "quote": "performance improvements over four weeks of AI-mediated practice."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: exactitud gramatical (%) | Valor: 78,5 % en el grupo con IA frente a 70,2 % en el control; d de Cohen = 0,84.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 7",
+          "quote": "The experimental group achieved a mean accuracy of 78.5% (SD = 5.6), while the control"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 7",
+          "quote": "group achieved 70.2% (SD = 6.1) (Table 4). The difference was statistically significant"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 7",
+          "quote": "tool on grammar performance. The effect size was found to be 0.84, indicating a large effect"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se centra en niños con dislexia, TDAH y trastornos del lenguaje, sin componente sensorial.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 3",
+          "quote": "four distinct groups: students diagnosed with dyslexia, ADHD, language disorders, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 3",
+          "quote": "A sample of 100 children aged 8–12 with diagnosed learning disabilities (divided in"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. El sistema registra automáticamente el desempeño, pero se contrasta con un grupo control mediante pre-test y post-test.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 4",
+          "quote": "The study utilized a quasi-experimental design with two groups: (a) an Experimental"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R440-exploring-ai-technology-in-grammar-performance-testing-for-children-with-learnin.md",
+          "loc": "p. 4",
+          "quote": "Pre-test and post-test measures were taken to evaluate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "article_id": "R317",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual; comunicación verbal limitada (hablantes fluidos, mínimos y no hablantes)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "The study involved 15 adults with intellectual disability (11 men"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "Participants demonstrated diverse communication profiles. Five"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "fluent speakers, while four could speak but tended"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron 15 adultos con discapacidad intelectual como usuarios que probaron el prototipo en cuatro sesiones (Presencia: Sí | N: 15 | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "The study involved 15 adults with intellectual disability (11 men"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "resources, and developing daily living skills. Table 1 summarizes"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 4",
+          "quote": "We adopted a research-through-design approach, using four iter-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Perspectiva basada en apoyos y no en diagnósticos, con consentimiento accesible y aprobación ética en Australia (Enfoque: diferencia | Perfil: deducido | Consentimiento: informado, en formato de lectura fácil | País: Australia)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "In line with prior work [33], this study adopts a support-based"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "provided informed consent. Easy-to-read consent forms were"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "study received ethical approval from Queensland University of"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "cruited from two community hubs operated by a Disability Support"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "GenAI; LLM (GPT-4o) y recuperación de imágenes con CLIP (Modelo: GPT-4o)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "In the concept expansion module, GPT-4.O interprets an image"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "ule, for each selected concept, one image is retrieved using cosine"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador de sugerencias de imágenes e intenciones comunicativas para el usuario y su interlocutor",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 6",
+          "quote": "In the concept expansion module, GPT-4.O interprets an image"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 5",
+          "quote": "To support the communication partner, the system displays the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Se analizan los roles interaccionales de las sugerencias, sin una métrica cuantitativa principal (Constructo: roles interaccionales de las sugerencias | Valor: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 8",
+          "quote": "Data were collected through a combination of screen recordings,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 16",
+          "quote": "The limited number of interactions, combined with the immatu-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Grabaciones de pantalla y de vídeo de los participantes; sesiones de reflexión del equipo tras cada taller",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 8",
+          "quote": "Data were collected through a combination of screen recordings,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 8",
+          "quote": "video recordings of participants, and session-level reflections and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R317-interactive-intent-based-image-recommendations-for-assistive-communication-insig.md",
+          "loc": "p. 8",
+          "quote": "Following each session, the full research team including facili-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

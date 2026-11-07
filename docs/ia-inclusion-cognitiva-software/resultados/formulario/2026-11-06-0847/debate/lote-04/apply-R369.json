@@ -1,0 +1,227 @@
+{
+  "article_id": "R369",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Personas sordas o con hipoacusia (DHH); TDAH; dislexia; estudiantes neurodiversos",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "The main study involved 24 participants (8 DHH, 7 ADHD, 1"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "33.3% (n=8) identified as Deaf or Hard of Hearing (5 Deaf, 3 Hard"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los análisis de comprensión y carga mental comparan prototipos, no perfiles; solo las preferencias se describen por grupo de forma cualitativa.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "fects of prototype on Mental Demand, Physical Demand, Effort, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "dyslexia. Caption usage patterns revealed 92% were regular users"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los participantes con las condiciones valoraron los prototipos de subtítulos (Presencia: Sí | N: 24 | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "The main study involved 24 participants (8 DHH, 7 ADHD, 1"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "dyslexia). Each watched four short STEM clips of the web-based"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El marco presenta a los estudiantes como coautores y no como receptores pasivos; no se informa de consentimiento (Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: Estados Unidos)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 4",
+          "quote": "in the United States, focusing on participants whose cultural"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 6",
+          "quote": "recipients, but as co-authors in the meaning-making process."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Reconocimiento automático del habla (ASR); reconocimiento de emoción en el habla; análisis de expresión facial; LLM",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 2",
+          "quote": "nition (SER), facial-expression analysis, and AR head-mounted"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 5",
+          "quote": "LLMs and AR for real-time non-verbal communication, and how"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador de subtítulos con señales no verbales; asistente de accesibilidad para el aprendizaje",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 1",
+          "quote": "prets non-verbal signals in real time and renders them as dynamic"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 2",
+          "quote": "into individual words, and annotates them with affective attributes"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Diseño. El estudio propone y evalúa prototipos de subtítulos con señales emocionales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 2",
+          "quote": "Aim. Design, implement, and evaluate an AI-enhanced AR"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 5",
+          "quote": "Phase 2: Prototype Development (RQ3c). Design an AI-enhanced"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Desarrollo; Pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 5",
+          "quote": "Phase 2: Prototype Development (RQ3c). Design an AI-enhanced"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 5",
+          "quote": "Evaluate usability (SUS), cognitive load (NASA-TLX), and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Reducción de la demanda mental con subtítulos de palabras resaltadas frente a la superposición (Constructo: demanda mental NASA-TLX | Valor: -25 %)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "mental demand by 25% compared with overlay captions (F(3,10824)=4.61,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 1",
+          "quote": "gains and 25% reduction in mental demand with emotional"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Cuestionario NASA-TLX; preguntas de comprensión; encuesta abierta en línea",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "prototypes described in (Figure 2, after that they answered compre-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "We collected open-ended feedback via an online survey (Ques-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR; solo teoría de carga cognitiva y principios multimedia de Mayer, sin norma de accesibilidad",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 5",
+          "quote": "Our system design is informed by several theoretical frameworks."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 5",
+          "quote": "Cognitive Load Theory guides interface decisions aimed at"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. Se miden carga mental y comprensión, sin pruebas sensoriales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "mental demand by 25% compared with overlay captions (F(3,10824)=4.61,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 5",
+          "quote": "Evaluate usability (SUS), cognitive load (NASA-TLX), and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios. Los participantes vieron clips con cada prototipo y respondieron pruebas.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "dyslexia). Each watched four short STEM clips of the web-based"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R369-ai-driven-interpretation-of-nonverbal-communication-in-ar-enhanced-real-time-cap.md",
+          "loc": "p. 3",
+          "quote": "prototypes described in (Figure 2, after that they answered compre-"
+        }
+      ]
+    }
+  ]
+}

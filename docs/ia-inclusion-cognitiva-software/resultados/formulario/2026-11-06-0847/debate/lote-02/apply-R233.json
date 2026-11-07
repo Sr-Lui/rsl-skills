@@ -1,0 +1,152 @@
+{
+  "article_id": "R233",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No; el estudio solo describe el perfil de los 44 participantes (33 profesionales y el resto familiares u otros roles) y no analiza los resultados por perfil.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 12",
+          "quote": "Regarding participant profile, most (33) were professionals         "
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 12",
+          "quote": "educators). Eleven were relatives, and 2 selected ‘‘Other’’"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 12",
+          "quote": "B. EXPERIMENT AND MEASUREMENT INSTRUMENT                                This section summarizes the findings from the 44 collected"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "No participó ninguna persona con TEA en la evaluación; respondieron profesionales y familiares, y el propio estudio lo señala como limitación (Presencia: No | N: 0 | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 12",
+          "quote": "tions). No participant identified as a person with ASD. Some"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 14",
+          "quote": "the absence of individuals with ASD as direct"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio no declara un enfoque de diferencia o déficit; la plataforma guarda los datos de usuario en una base de datos remota y el cuestionario fue anónimo (Enfoque: NR | Perfil: almacenado | Consentimiento: NR | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 1",
+          "quote": "PlanTEA-WM stores user data in a remote database"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 12",
+          "quote": "anonymous online questionnaire using Microsoft Forms.30"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 1",
+          "quote": "1 Computer–Human Interaction and Collaboration Research Group (CHICO), University of Castilla–La Mancha (UCLM), 13071 Ciudad Real, Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo; la plataforma web se construyó con un proceso iterativo e integra un módulo de lenguaje natural para generar rutinas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 8",
+          "quote": "During the development of PlanTEA-WM, an iterative and                            The integration of the LLM module follows a clear"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; validación funcional, de usabilidad y de accesibilidad con un cuestionario a usuarios",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 9",
+          "quote": "This section describes tests conducted to ensure that                        accessibility design and evaluation strategies were applied,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 12",
+          "quote": "B. EXPERIMENT AND MEASUREMENT INSTRUMENT"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: utilidad percibida (TAM) | Valor: media 4.48 sobre 5; la facilidad de uso percibida obtuvo 4.14",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 13",
+          "quote": "a mean of 4.48, with 59.1% of participants giving the highest"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 13",
+          "quote": "The perceived ease of use (PEU) had a mean of 4.14."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Ambas; se revisó el contraste de color para personas con baja visión o daltonismo y se usaron heurísticas específicas para usuarios con TEA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 11",
+          "quote": "robustness, benefiting both users with ASD and individuals"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 10",
+          "quote": "     and labels). Pictogram size and readability were also"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 10",
+          "quote": "ments or color blindness can distinguish them properly.              and protanomaly29 conditions. For example, some buttons"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática; el contraste se comprobó con la herramienta WhoCanUse y se completó con una lista de verificación y un cuestionario a usuarios",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 10",
+          "quote": "and labels). Pictogram size and readability were also                contrast ratios were assessed using WhoCanUse,27 and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R233-plantea-wm-a-multi-user-web-platform-for-routine-planning-and-anticipating-every.md",
+          "loc": "p. 11",
+          "quote": "a checklist-based audit was performed, covering keyboard"
+        }
+      ]
+    }
+  ]
+}

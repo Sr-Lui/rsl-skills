@@ -1,0 +1,146 @@
+{
+  "article_id": "R347",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TDAH en estudiantes universitarios con diagnóstico médico; coocurrencia: depresión, TEA, bipolaridad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 1",
+          "quote": "conducted co-design sessions with 20 university students diagnosed"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 2",
+          "quote": "ADHD often coexists with other neurodivergences that also affect"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Veinte estudiantes con TDAH participaron en el co-diseño de soluciones con IA generativa; cinco especialistas valoraron las ideas, sin ser personas con la condición (Presencia: Sí | N: 20 | Rol: diseño)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 1",
+          "quote": "conducted co-design sessions with 20 university students diagnosed"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 4",
+          "quote": "Among the 52 responses we received, 46 people met the following"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 4",
+          "quote": "five ADHD experts participated in our individual, interview-based"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio, realizado con jóvenes chinos, fue aprobado por un comité de ética, pero no describe cómo se obtuvo el consentimiento ni adopta un enfoque explícito sobre la condición (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: China)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 4",
+          "quote": "were led by the first author. The study was approved by the author’s"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 4",
+          "quote": "from 19 to 24 (M = 21.4, SD = 1.31). All participants were Chinese"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 4",
+          "quote": "in South Korea (P4), Australia (P16), and Canada (P8), respectively."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA generativa (LLM); Modelo: NR (ChatGPT solo como uso previo)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 4",
+          "quote": "Most participants used ChatGPT, while some also used ERNIE Bot"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 1",
+          "quote": "own thinking processes. The recently surged Generative AI shows"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de gestión de tareas; generador de planes y recordatorios (concepto)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 9",
+          "quote": "Focusing on the above challenges, participants proposed design"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 1",
+          "quote": "own thinking processes. The recently surged Generative AI shows"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: apoyo metacognitivo en la gestión de tareas, derivado del análisis temático | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 6",
+          "quote": "analysis. We conducted a bottom-up Thematic Analysis following"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 6",
+          "quote": "Our dataset includes participants’ design ideas captured on the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Sesiones individuales de co-diseño en pizarra colaborativa y entrevistas con cinco expertos de unos 86 minutos; análisis temático ascendente sin instrumento estandarizado",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 6",
+          "quote": "analysis. We conducted a bottom-up Thematic Analysis following"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 6",
+          "quote": "ideas and alternative solutions. On average, each interview lasted"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R347-scaffolding-metacognition-with-genai-exploring-design-opportunities-to-support-t.md",
+          "loc": "p. 6",
+          "quote": "86 minutes. The lower part of Figure 1 illustrates selected moments"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

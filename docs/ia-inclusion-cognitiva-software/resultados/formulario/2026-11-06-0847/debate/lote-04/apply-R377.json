@@ -1,0 +1,131 @@
+{
+  "article_id": "R377",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí. Los resultados se desagregan por estado simulado (tipo de discapacidad cognitiva, visual, auditiva o motora, y nivel de compromiso) mediante valores Q, sin estratificar a participantes reales.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 5",
+          "quote": "performance. These states account for a) type of disability (e.g., cognitive, visual, hearing, motor, or"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 11",
+          "quote": "impairment with low engagement, augmented reality (Action 4, Q-value: 483.82) and text-to-speech"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "El estudio es una simulación computacional y no incorporó a personas con discapacidad en el diseño ni en la evaluación (Presencia: No | N: NR | Rol: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 22",
+          "quote": "simulation setting, where reward values and state transitions are assumed and not based on actual"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 22",
+          "quote": "students' behavior. As such, the model can be regarded as a prototype and not an educational strategy"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo solo declara conformidad genérica con estándares éticos, sin datos reales de estudiantes; el encuadre describe la discapacidad como condición del estudiante (Enfoque: déficit | Perfil: NR | Consentimiento: NR | País: Arabia Saudita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 22",
+          "quote": "The research was conducted in accordance with accepted ethical standards and guidelines for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 1",
+          "quote": "Applied College in Abqaiq, King Faisal University, P.O. Box 400, Al-Ahsa 31982, Saudi Arabia;"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución. El agente de aprendizaje por refuerzo (Q-learning) selecciona en tiempo de ejecución la acción de apoyo según el estado del estudiante.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 9",
+          "quote": "based on learned experience. The reward matrix given in Table 3 is synthetically defined for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 2",
+          "quote": "augmented reality, and text-based resources. A reward system based on real-world outcomes, i.e., how"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "La métrica principal es el valor Q (recompensa esperada) por par estado-acción, evaluada solo en simulación (Constructo: valor Q de la acción óptima por estado | Valor: 488,08 en discapacidad cognitiva con alto compromiso)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 11",
+          "quote": "Action 7 (Q-value: 488.08) and Actions 2 and 8 show strong results. In cases of learning disability with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 11",
+          "quote": "impairment with low engagement, augmented reality (Action 4, Q-value: 483.82) and text-to-speech"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Ambas. Los estados cubren discapacidad cognitiva y sensorial (visual y auditiva), además de motora y general.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 5",
+          "quote": "performance. These states account for a) type of disability (e.g., cognitive, visual, hearing, motor, or"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 2",
+          "quote": "augmented reality, and text-based resources. A reward system based on real-world outcomes, i.e., how"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "NR. La evaluación fue una simulación automática de episodios de entrenamiento, sin validación con usuarios ni integración continua.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 22",
+          "quote": "addressing particular types of disabilities. The efficiency of the proposed model is evaluated through"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R377-ai-based-q-learning-model-for-personalized-learning-strategies-for-students-with.md",
+          "loc": "p. 22",
+          "quote": "simulation setting, where reward values and state transitions are assumed and not based on actual"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "article_id": "R399",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad cognitiva leve; discapacidad auditiva (perfil combinado en un caso de uso médico)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 2",
+          "quote": "user profile combining cognitive disability and hearing impairment, and the associated"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 8",
+          "quote": "cognitive disability and hearing impairment and therefore requires information that is"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Hubo participación indirecta de personas con discapacidad en el diseño: las plantillas de prompts y los patrones de la plataforma se codiseñaron con usuarios, cuidadores y profesionales, pero la evaluación con usuarios queda como trabajo futuro (Presencia: Sí | N: NR | Rol: diseño)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 8",
+          "quote": "disabilities and domain experts, reduces bias and enhances accessibility. Evaluation"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 8",
+          "quote": "integrates cognitive-accessibility UI patterns co-designed with users, caregivers, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 15",
+          "quote": "individuals with cognitive and sensory disabilities. This evaluation will compare"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El marco se centra en adaptar la interfaz a necesidades declaradas y aplica minimización de datos, sin informar de consentimiento formal (Enfoque: NR | Perfil: almacenado | Consentimiento: NR | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 6",
+          "quote": "profiles store only the capabilities required for adaptation, while feedback and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 1",
+          "quote": "1 Computer Science and Engineering Department, Universidad Carlos III de Madrid, Spain"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 15",
+          "quote": "Ethical safeguards complement the technical implementation. These include co-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; IA generativa (LLM ajustado con corpus de lectura fácil y lenguaje claro) | Modelo: NR",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 11",
+          "quote": "prompt using an LLM fine-tuned on Plain-Language and Easy-to-Read"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 11",
+          "quote": "corpora, producing simplified text, pictogram-aligned descriptions, and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador de texto simplificado y contenido multimodal",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 16",
+          "quote": "Engine performs Plain-Language simplification and multimodal content generation,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 11",
+          "quote": "corpora, producing simplified text, pictogram-aligned descriptions, and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Escala de retroalimentación de comprensión integrada en la interfaz y comprobaciones basadas en reglas; la evaluación con usuarios está prevista como trabajo futuro",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 14",
+          "quote": "enhanced medical information and a comprehension feedback scale for accessibility evaluation."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 17",
+          "quote": "estimation or automated verification beyond rule-based checks. Future work will"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG 2.2; EN 301 549; ISO 24495-1; COGA",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 9",
+          "quote": "frameworks such as WCAG 2.2, EN 301 549, ISO 24495-1 (Plain Language), and W3C"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R399-llm-driven-accessible-interface-a-model-based-approach.md",
+          "loc": "p. 17",
+          "quote": "templates can produce stepwise instructions, pictogram-enhanced content, and high-"
+        }
+      ]
+    }
+  ]
+}

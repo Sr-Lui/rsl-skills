@@ -1,0 +1,182 @@
+{
+  "article_id": "R263",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad física; estudiantes con barreras de acceso a los resultados académicos, sin perfil cognitivo.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "does not rely on direct surveys but instead derives insights from the usability challenges faced by"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio no desagrega resultados por perfil de discapacidad y no usa encuestas con estudiantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "does not rely on direct surveys but instead derives insights from the usability challenges faced by"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los estudiantes con discapacidad no intervinieron en el entrenamiento ni en la evaluación (Presencia: No | N: NR | Rol: NR).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "participants were not directly involved in the model training phase, the system was designed with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "their needs in mind based on observational insights, and future iterations will incorporate direct"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Sistema universitario nigeriano diseñado desde observaciones, sin encuesta ni consentimiento descrito (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: Nigeria).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 1",
+          "quote": "Akungba Akoko, Ondo State, Nigeria, addresses result processing through the Ajasin Varsity"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "ML; DL. Redes neuronales artificiales combinadas con modelos ocultos de Markov. Modelo: ANN + HMM.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "hybridization of Artificial Neural Networks (ANN) and Hidden Markov Models (HMM)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro; reconocimiento de voz que interpreta comandos para consultar resultados académicos.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "approximately 102,000 labeled audio samples across multiple speech commands suitable for system"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Diseño e implementación de un sistema de resultados con reconocimiento de voz para el entorno universitario.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "hybridization of Artificial Neural Networks (ANN) and Hidden Markov Models (HMM)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 1",
+          "quote": "Akungba Akoko, Ondo State, Nigeria, addresses result processing through the Ajasin Varsity"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; se valida con muestras de voz grabadas por los investigadores que simulan el uso real del sistema.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "approximately 102,000 labeled audio samples across multiple speech commands suitable for system"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: precisión del reconocimiento de comandos de voz | Valor: 92 % de precisión y 2 segundos de respuesta media.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 1",
+          "quote": "which show a commendable accuracy rate of 92% in recognizing voice"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 1",
+          "quote": "commands and an average response time of 2 seconds, demonstrate that"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Muestras de voz grabadas por los investigadores sobre el conjunto de comandos; métricas de precisión y tiempo de respuesta.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "approximately 102,000 labeled audio samples across multiple speech commands suitable for system"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 1",
+          "quote": "which show a commendable accuracy rate of 92% in recognizing voice"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Ninguno; no se cita WCAG ni norma de accesibilidad como marco de evaluación.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "their needs in mind based on observational insights, and future iterations will incorporate direct"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "NR. Se evalúa el rendimiento técnico del reconocimiento, no la accesibilidad con usuarios con discapacidad.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 6",
+          "quote": "participants were not directly involved in the model training phase, the system was designed with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática: métricas automáticas de precisión y tiempo de respuesta, sin pruebas con usuarios con discapacidad.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R263-design-and-implementation-of-a-voice-based-electronic-results-system-for-physica.md",
+          "loc": "p. 1",
+          "quote": "commands and an average response time of 2 seconds, demonstrate that"
+        }
+      ]
+    }
+  ]
+}

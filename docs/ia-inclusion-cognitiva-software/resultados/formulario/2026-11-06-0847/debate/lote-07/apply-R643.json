@@ -1,0 +1,142 @@
+{
+  "article_id": "R643",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se informan por módulo (identificación, generación y desambiguación) sobre conjuntos de prueba, sin separar por perfil de usuario.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 1",
+          "quote": "The results obtained are satisfactory; in the CWI task, better results were obtained than with other systems that used the same dataset."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 11",
+          "quote": "The results showed good accuracy of 0.704 when evaluating"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Las personas con discapacidad no participan en la evaluación, que se hace con corpus anotados y un lingüista experto (Presencia: No | N: NR | Rol: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 10",
+          "quote": "expert received 525 sentences associated with the target word"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 10",
+          "quote": "The WSD module evaluation was performed by an expert"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo no menciona marco ético ni consentimiento; los autores trabajan en una universidad española (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 1",
+          "quote": "Computer Science and Engineering Department, Universidad Carlos III de Madrid, 28911 Madrid, Spain"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 1",
+          "quote": "People with intellectual, language and learning disabilities face accessibility barriers when reading texts with complex words."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Se construye un sistema de simplificación léxica para español con módulos de identificación, sustitución y definición de palabras.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 1",
+          "quote": "To offer support to these reading aids, a lexical simplification system for Spanish has been developed and is presented in this article."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 2",
+          "quote": "This system follows a pipeline; the first step identifies"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas (evaluación de cada módulo); Diseño (interfaz web conforme a WCAG 2.1 AA)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 11",
+          "quote": "The results showed good accuracy of 0.704 when evaluating"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 11",
+          "quote": "comply with WCAG 2.1 (Level AA). COGA guidelines have"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: F1 en la identificación de palabras complejas | Valor: 0,794",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 10",
+          "quote": "a final F1 score of 0.794. This result surpasses the other"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 1",
+          "quote": "The results obtained are satisfactory; in the CWI task, better results were obtained than with other systems that used the same dataset."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. Se atiende a lectores con discapacidad intelectual y del aprendizaje mediante textos más fáciles de comprender.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 1",
+          "quote": "People with intellectual, language and learning disabilities face accessibility barriers when reading texts with complex words."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 11",
+          "quote": "the EASIER platform has been designed to"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática. Métricas automáticas sobre conjuntos de prueba y revisión manual de las definiciones por un lingüista experto.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 10",
+          "quote": "expert received 525 sentences associated with the target word"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R643-lexical-simplification-system-to-improve-web-accessibility.md",
+          "loc": "p. 1",
+          "quote": "To offer support to these reading aids, a lexical simplification system for Spanish has been developed and is presented in this article."
+        }
+      ]
+    }
+  ]
+}

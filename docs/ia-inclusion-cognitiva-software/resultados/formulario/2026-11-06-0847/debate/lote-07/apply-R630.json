@@ -1,0 +1,131 @@
+{
+  "article_id": "R630",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio compara dos condiciones (con y sin adaptación) en dos participantes, pero no desagrega los resultados por perfil.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "tal condition and 1 control condition). We have collected and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "ticipant’s icon selection time and selection accuracy, where"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Dos personas con movimientos involuntarios de cabeza participaron en la prueba preliminar del sistema (Presencia: Sí | N: 2 | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 1",
+          "quote": "formed a preliminary user study with two participants hav-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "cal Strain, respectively. Written consent from both partici-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio no explicita su marco sobre la condición ni el manejo del perfil; solo informa consentimiento escrito de ambos participantes y afiliaciones en Singapur y Hong Kong (Enfoque: NR | Perfil: NR | Consentimiento: escrito, ambos participantes | País: Hong Kong, Singapur)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "cal Strain, respectively. Written consent from both partici-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 1",
+          "quote": "Centre for Perceptual and Interactive Intelligence, Hong Kong"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución: el algoritmo ajusta en tiempo real el punto de mirada según la posición y pose de la cabeza.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 1",
+          "quote": "algorithm (1) adjusts the gaze point on the screen according"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 1",
+          "quote": "to the detected head position and pose, and (2) proactively"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "En la evaluación se midieron el tiempo y la precisión de selección con y sin adaptación (Constructo: tiempo de selección y precisión de selección | Valor: 4.79 s frente a 7.72 s; 92 % frente a 51 %)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "Euler rotation angle (y-axis) θ,             Experimental            4.79 (1.52)             92 (27.2)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "moving-average                Control                 7.72 (4.32)             51 (51.1)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "NR. La evaluación solo mide el desempeño motor en la selección con la mirada y no valora aspectos cognitivos ni sensoriales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "to perform the 1-out-of-8 gaze-based icon selection using"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "ticipant’s icon selection time and selection accuracy, where"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: el desempeño se midió en una prueba intrasujeto con dos participantes y análisis estadístico posterior.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "tal condition and 1 control condition). We have collected and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R630-gaze-based-interaction-adaptation-for-people-with-involuntary-head-movements.md",
+          "loc": "p. 2",
+          "quote": "the Tobii Eye Tracker 5. Each trial comprises 100 selection"
+        }
+      ]
+    }
+  ]
+}

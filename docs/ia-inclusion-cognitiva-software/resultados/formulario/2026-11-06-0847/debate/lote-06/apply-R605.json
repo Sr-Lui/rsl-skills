@@ -1,0 +1,147 @@
+{
+  "article_id": "R605",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual (leve y moderada); TDA en un participante",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 3",
+          "quote": "P1 to P5: These individuals are employees from Company Y with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 3",
+          "quote": "varying levels of ID. They were the primary participants in the iron"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participación de personas con discapacidad intelectual como participantes primarios del taller de diseño y como usuarias del prototipo; la evaluación del sistema la hizo solo el director de la empresa (Presencia: Sí | N: 5 | Rol: ambos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 3",
+          "quote": "P1 to P5: These individuals are employees from Company Y with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 2",
+          "quote": "involving the main participation of 5 individuals with ID from Com"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 6",
+          "quote": "The interview with the CEO of Company Y was conducted in person"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio realizado en Japón con empleados de una empresa de empleo inclusivo; no se describe consentimiento ni enfoque ético explícito (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: Japón)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 3",
+          "quote": "P6 to P9: Company Y management team played a dual role. They"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 1",
+          "quote": "Company Y employs 32 individuals (as of October"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA generativa (generación de imágenes y modelo de lenguaje GPT-3); Modelo: API de imágenes de OpenAI y GPT-3",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 5",
+          "quote": "erator API along with a text-image-based GPT-3 language model"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 5",
+          "quote": "Finally, it utilizes OpenAI’s image generation API"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador de plantillas de imágenes pixeladas como referencia creativa para el artesano",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 5",
+          "quote": "erator API along with a text-image-based GPT-3 language model"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 5",
+          "quote": "Finally, it utilizes OpenAI’s image generation API"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: percepción cualitativa de facilidad de uso y utilidad del prototipo según el director de la empresa | Valor: NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 6",
+          "quote": "tionality, the BeadMuse AI was described as having an \"ease of"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 6",
+          "quote": "Spanning a duration of one and a half hours, the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Discusión grupal semiestructurada; observación; cuestionario posterior; entrevista semiestructurada con el director",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 4",
+          "quote": "structured group discussion, distributed questionnaires to the nine"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 6",
+          "quote": "The interview with the CEO of Company Y was conducted in person"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG (referencia parcial: colores de alto contraste y botones grandes)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 5",
+          "quote": "lines (WCAG) and incorporating the manual processes from work-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R605-beadmuse-ai-enhancing-inclusive-and-independent-crafting-through-adaptive-pixel-.md",
+          "loc": "p. 5",
+          "quote": "aimed at patients with cognitive impairments, we strive to simplify"
+        }
+      ]
+    }
+  ]
+}

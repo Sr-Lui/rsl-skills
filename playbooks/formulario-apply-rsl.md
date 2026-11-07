@@ -53,7 +53,8 @@ Orden: **`cribado2:outline`** → **`Read` por rango de línea** del MD (no el a
 3. **critico-rsl** revisa **solo los slots REVISAR** → `r2-critico-<corpus_id>.md`. Sin REVISAR, no hay r2.
 4. **orquestador-extraccion-rsl** solo si hay discrepancia factual o de omisión.
 5. **humanize-academic-writing** sobre la frase de cada `value`.
-6. **`pnpm -s formulario:apply-lote docs/<slug> NN`** — re-sincroniza **fila 2** al guardar.
+6. **`pnpm -s formulario:apply-lote docs/<slug> NN`** — re-sincroniza **fila 2** al guardar. Ignora celdas ya aplicadas; para corregir usa `--article <id> --replace`.
+7. **`pnpm -s formulario:lint-prosa docs/<slug>`** tras cada apply (no solo al final): detecta categorías ausentes y cualitativos largos sin `;`.
 
 Pendientes: `pnpm -s formulario:pending docs/<slug>`. Incidencias no triviales → append `extraccion-orquestador.md`.
 

@@ -1,0 +1,157 @@
+{
+  "article_id": "R713",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual (DI) leve, moderada y grave; síndrome de Down; baja visión. Los perfiles se reportan por participante en una tabla diagnóstica.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 4",
+          "quote": "Association and Museum   Mild Intellectual Disability and Down Syndrome"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 4",
+          "quote": "Association and Museum   Moderate Intellectual Disability and Low Vision"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 4",
+          "quote": "Association              Severe Intellectual Disability"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Veinte adultos con DI participaron en tres visitas de investigación, con tareas de uso, entrevistas y sesiones de codiseño. (Presencia: Sí | N: 20 | Rol: ambos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 2",
+          "quote": "with 20 adults with ID to understand their needs and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 3",
+          "quote": "A total of 20 participants, comprising 13 women and 7 men,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 3",
+          "quote": "P17, and P18 attended all the ACCESS+ co-design sessions (RV II"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El artículo cuenta con aprobación del comité de ética y consentimiento informado de participantes y tutores, y todos los participantes eran de Italia. (Enfoque: NR | Perfil: NR | Consentimiento: informado de participantes y tutores | País: Italia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 3",
+          "quote": "research organization, and the formal approval obtained from the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 3",
+          "quote": "we ensured the informed consent of the participants and their"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 3",
+          "quote": "1). All participants were from Italy. For each research visit, 12 par-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NR; solo se usa síntesis de voz (TTS) como función de la aplicación, sin describir un modelo de IA.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 2",
+          "quote": "listen to full-text text-to-speech (TTS) with a personalized tone,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro; la síntesis de voz funciona como apoyo de lectura, sin presentarse como IA.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 5",
+          "quote": "We tested easy-to-read text with TTS with word highlighting"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 6",
+          "quote": "speed. While some participants found the TTS feature helpful, oth-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: usabilidad y experiencia de usuario de ACCESS+ en pruebas por tareas | Valor: ACCESS+ fue la primera preferencia de 4 participantes",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 6",
+          "quote": "was the first preference of 4 participants, the second preference of"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 5",
+          "quote": "The task-based usability testing began by searching"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Pruebas de usabilidad por tareas, grupos focales y entrevistas; el análisis combinó hojas de cálculo, documentos y un tablero Miro.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 3",
+          "quote": "including Spreadsheets, Documents, and a Miro board."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 5",
+          "quote": "The task-based usability testing began by searching"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 3",
+          "quote": "Our visits started with focus groups to get to know the partici-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG, citado como marco de referencia sin evaluación formal de conformidad; se usó lectura fácil y pictogramas AAC.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 2",
+          "quote": "Guidelines (WCAG), developed by the World Wide Web Consortium"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R713-co-designing-a-museum-application-with-people-with-intellectual-disabilities-fin.md",
+          "loc": "p. 2",
+          "quote": "provides a set of requirements for designing and evaluating"
+        }
+      ]
+    }
+  ]
+}

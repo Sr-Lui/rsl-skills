@@ -1,0 +1,116 @@
+{
+  "article_id": "R721",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. El estudio no desagrega los resultados por perfil; habla de forma general de personas con discapacidad intelectual y dificultades de comprensión lectora.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 11",
+          "quote": "fine-tuning to simplify language for people with intellectual"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 1",
+          "quote": "This research contributes to advancing text accessibility for individuals with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "La evaluación se describe como realizada por adaptadores profesionales de lectura fácil y personas con discapacidad intelectual, aunque en los resultados solo se detalla la revisión de un experto adaptador y no se indica el número de participantes (Presencia: Sí | N: NR | Rol: evaluación)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 7",
+          "quote": "conducted by professional easy reading adapters and individuals"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 8",
+          "quote": "The expert adapter conducts an evaluation of the adaptation by"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El trabajo se desarrolla en una universidad española y no describe consentimiento ni tratamiento del perfil de los usuarios (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: España)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 1",
+          "quote": "Computer Science and Engineering Department, Universidad Carlos III de Madrid, Leganés, Spain"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Otro. La técnica interviene en la generación de contenido en lectura fácil (simplificación de texto con un modelo de lenguaje ajustado), no en una fase concreta del desarrollo de software.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 1",
+          "quote": "approaches to simplify Spanish texts into Easy to Read formats, with a focus on"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Se evalúa la calidad de la simplificación a lectura fácil mediante valoración cualitativa de un experto, sin métricas automáticas (Constructo: calidad cualitativa de la simplificación según las pautas de lectura fácil | Valor: NR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 7",
+          "quote": "Instead, we prioritize a qualitative human evaluation"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 7",
+          "quote": "as BLEU (Papineni et al., 2002), SARI (Xu et al., 2016), and the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva. La evaluación se orienta a personas con discapacidad intelectual y deterioro cognitivo, sin considerar discapacidad sensorial.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 1",
+          "quote": "This research contributes to advancing text accessibility for individuals with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: la evaluación es manual, realizada por una persona experta en adaptación a lectura fácil, y se advierte que todo texto simplificado automáticamente debe ser revisado por un profesional.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 11",
+          "quote": "must always be reviewed and validated by a professional."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R721-exploring-large-language-models-to-generate-easy-to-read-content.md",
+          "loc": "p. 8",
+          "quote": "The expert adapter conducts an evaluation of the adaptation by"
+        }
+      ]
+    }
+  ]
+}

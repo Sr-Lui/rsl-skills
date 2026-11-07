@@ -1,0 +1,136 @@
+{
+  "article_id": "R647",
+  "lote": "07",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad de aprendizaje; discapacidad intelectual; limitaciones del lenguaje verbal (usuaria de CAA)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 2",
+          "quote": "“Linda” is a young adult with learning and intellectual disabilities, with limited verbal language and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 1",
+          "quote": "We discuss conversational and multimodal AI used for persons with learning and language disabilities"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participa una joven adulta con discapacidad intelectual y su familia en dos talleres de codiseño, aunque la parte de IA es una revisión de literatura (Presencia: Sí | N: 1 joven adulta con su familia | Rol: diseño)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 2",
+          "quote": "helped facilitate two Co-Design workshops and participated in outdoor hiking activities with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 2",
+          "quote": "(fig. 1) made in a series of two workshops with Linda, her parents, and design researchers [7]."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio con enfoque de la discapacidad como recurso de diversidad y no como carencia, realizado con una familia noruega (Enfoque: diferencia | Perfil: NR | Consentimiento: NR | País: Noruega)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 1",
+          "quote": "What if designers saw the world of a person with disabilities as a resource of diversity rather than a lack of normality?"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 2",
+          "quote": "heading to a location she wanted to visit, engaging in activities she enjoyed, such as having picnics, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 2",
+          "quote": "and her family’s experiences. The work has resulted in Co-Design method development, presented"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM; modelos de lenguaje conversacional e IA generativa multimodal para CAA; modelo concreto NR",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 3",
+          "quote": "language models (LLMs), can significantly enrich AAC by improving the quality and diversity of textual"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 3",
+          "quote": "These concepts aligns with the potential of generative AI to empower"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de comunicación; generador de frases y pictogramas a partir de mensajes breves (según los trabajos revisados)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 5",
+          "quote": "Speech Prompts to extend short conversation prompts, written by a person with disabilities, into full"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 5",
+          "quote": "sentences, to add biographical data and to quest for more feedback. They also included Pictograms in"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: diversidad, promoción de la salud y enriquecimiento social, valorados por los autores de 1 a 5 | Valor: NR (sin valor agregado único)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 4",
+          "quote": "We have rated Diversity, Health Promotion, and Enriching Society from 1 to 5, where 5 is the highest"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 4",
+          "quote": "Boyin Yang’s [16] Tinkerable AAC is a concept that scores highest on Diversity and Enrich society"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Comparación cualitativa de tecnologías mediante una tabla con valoración de los autores; revisión de literatura en ACM y PubMed",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 3",
+          "quote": "We made a search in the databases ACM and PubMed for the combination of the terms Artificial"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R647-co-design-with-persons-with-disabilities-as-an-innovative-resource-set-free-by-a.md",
+          "loc": "p. 4",
+          "quote": "In describing the different innovations in Table 1, we include both technologies and theoretical concepts."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "article_id": "R393",
+  "lote": "04",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad intelectual; trastorno del espectro autista; parálisis cerebral; síndrome de Rett (autodeclarados, todos adultos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 1",
+          "quote": "We conducted an eight week study with 17 adults with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 4",
+          "quote": "formed about the study. All participants were over 18, and even"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron 17 adultos con discapacidad intelectual o autismo que usaron los asistentes de voz durante ocho semanas y los valoraron en entrevistas (Presencia: Sí | N: 17 | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 1",
+          "quote": "We conducted an eight week study with 17 adults with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 1",
+          "quote": "interaction logs and researcher observations. Participants initiated"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio en una organización de apoyo de Melbourne, con aprobación ética y consentimiento informado propio en formatos accesibles, además de asentimiento continuo (Enfoque: NR | Perfil: NR | Consentimiento: informado y asentimiento continuo | País: Australia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 4",
+          "quote": "ganization to ensure that the research met all necessary ethical"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 4",
+          "quote": "provide their own informed consent independently. In some cases,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 4",
+          "quote": "Participation was supported through ongoing assent, indicated"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 1",
+          "quote": "Melbourne, Victoria, Australia                                                  Melbourne, Victoria, Australia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Asistentes de voz comerciales con pantalla (reconocimiento de voz y PLN); Modelo: Google Nest Hub y Amazon Echo Show",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 5",
+          "quote": "Both devices (Google Nest Hub, Amazon Echo Show) were placed"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de apoyo cotidiano; los participantes lo usaron para buscar información, entretenerse y aprender",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 1",
+          "quote": "interaction logs and researcher observations. Participants initiated"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: interacciones iniciadas con los asistentes de voz en ocho semanas | Valor: 260 interacciones (234 con Nest Hub y 26 con Echo Show)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 7",
+          "quote": "tiated a total of 234 interactions with the Google Nest Hub and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 7",
+          "quote": "26 interactions with the Amazon Echo Show across all sites."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 1",
+          "quote": "260 interactions with the VAs, using them for information retrieval,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Entrevistas semiestructuradas en tres fases, registros de uso de Google My Activity y Alexa Voice History, y notas de campo de los investigadores",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 6",
+          "quote": "All interviews were semi-structured, with questions designed"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 7",
+          "quote": "retrieved from Google’s My Activity [29] and Alexa’s Voice"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R393-i-can-do-it-exploring-voice-assistants-for-adults-with-intellectual-disabilities.md",
+          "loc": "p. 7",
+          "quote": "3.4.2 Observational Data : Field notes were recorded during each"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    }
+  ]
+}

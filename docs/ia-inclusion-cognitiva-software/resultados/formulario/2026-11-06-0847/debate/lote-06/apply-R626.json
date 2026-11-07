@@ -1,0 +1,227 @@
+{
+  "article_id": "R626",
+  "lote": "06",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Trastornos específicos del aprendizaje (TEA); dislexia, disgrafía, discalculia",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 1",
+          "quote": "This paper proposes an innovative methodology for enhancing museum accessibility and inclusivity for visitors with specific learning disorders (SLDs)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 19",
+          "quote": "Dyslexia *                                  96.4%"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí. Los resultados del cuestionario del museo se presentan separados para personas con y sin trastornos específicos del aprendizaje, pero no por subtipo de trastorno.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 19",
+          "quote": "Table A1. Results regarding the socio-demographic section subdivided by people with and without SLDs."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 13",
+          "quote": "opinions and preferences regarding immersive realities going on to subdivide the responses"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participaron personas con trastornos del aprendizaje como encuestadas en la fase de evaluación de necesidades; no se probó aún el prototipo con ellas (Presencia: Sí | N: 126 en el cuestionario del museo y más de 1300 en VRAIlexia | Rol: evaluación)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 1",
+          "quote": "This study gathered 126 responses from both SLD- certified individuals and those without intellectual disabilities for the first questionnaire"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 1",
+          "quote": "and over 1300 responses exclusively from SLD-certified individuals for the second."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 14",
+          "quote": "huge participation, with more than 1300 people interviewed (last updated May 2023)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio parte de las necesidades de las personas con TEA y de su autoevaluación, sin tratar el perfil con IA todavía (Enfoque: NR | Perfil: NR | Consentimiento: consentimiento informado obtenido, sin aprobación ética por no haber experimentación | País: Italia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 18",
+          "quote": "Ethical review and approval were waived for this study since"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 18",
+          "quote": "limited to the completion of a questionnaire, for which informed consent has been regularly obtained."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 9",
+          "quote": "in Italy, excluding museum workers, were recruited through various channels, including"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Algoritmos de IA propuestos sin modelo concreto; reconocimiento de usuarios con TEA y análisis de imágenes (Modelo: NR)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 15",
+          "quote": "AI-based algorithms, algorithms to understand the presence of users with specific"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 8",
+          "quote": "including face and speech recognition, management systems for dialogue,"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente; la IA se propone como apoyo para detectar usuarios con TEA y adaptar funciones",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 15",
+          "quote": "AI-based algorithms, algorithms to understand the presence of users with specific"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 11",
+          "quote": "students. Furthermore, four other options were made available to allow the AI to identify"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Requisitos. El trabajo recoge necesidades y preferencias mediante cuestionarios como base del diseño conceptual del sistema.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 14",
+          "quote": "In this paper, the conceptual design of a new access methodology to help dyslexic"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 14",
+          "quote": "people during their museum visit was presented. This work took as input two question-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Diseño",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 14",
+          "quote": "The functioning of OLOS® was addressed in detail to provide a new proof of concept for"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 14",
+          "quote": "the methodology that will lead to its final implementation."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: preferencias y dificultades de los usuarios (cuestionarios) | Valor: NR (porcentajes por pregunta; 126 respuestas en el cuestionario del museo)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 11",
+          "quote": "From this survey, we collected 126 replies."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 10",
+          "quote": "Considering the first question, a score from 1 to 10 had to be selected, whereas the second"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Dos cuestionarios en línea: uno ad hoc sobre el museo y el cuestionario VRAIlexia de autoevaluación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 9",
+          "quote": "In accordance with the aim of the paper, we decided to implement an ad hoc ques-"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 11",
+          "quote": "The second questionnaire had already been implemented, administered, and validated"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Ninguno; el diseño usa el enfoque de diseño universal para el aprendizaje",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 9",
+          "quote": "best understanding and ease of compilation for all users, using a universal design for"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 1",
+          "quote": "This paper proposes an innovative methodology for enhancing museum accessibility and inclusivity for visitors with specific learning disorders (SLDs)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios; solo se aplicaron cuestionarios, sin evaluación automática",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 1",
+          "quote": "This study gathered 126 responses from both SLD- certified individuals and those without intellectual disabilities for the first questionnaire"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R626-which-are-the-needs-of-people-with-learning-disorders-for-inclusive-museums-desi.md",
+          "loc": "p. 17",
+          "quote": "The next step certainly involves the implementation of these new tools in the contexts"
+        }
+      ]
+    }
+  ]
+}

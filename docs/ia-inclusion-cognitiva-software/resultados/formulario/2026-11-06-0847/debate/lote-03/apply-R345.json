@@ -1,0 +1,227 @@
+{
+  "article_id": "R345",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Trastorno del espectro autista (TEA) en adultos de funcionamiento alto y medio; se excluye el funcionamiento bajo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 2",
+          "quote": "activities, we targeted people with high or medium levels of autism."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 2",
+          "quote": "high and medium levels of autism to plan trips autonomously."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "Sí. Los resultados de uso y de usabilidad se desagregan entre participantes de funcionamiento alto y medio",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 12",
+          "quote": "HF people rated the app with a SUS score of 76.43/100,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 12",
+          "quote": "indicating good overall usability. In comparison, MF users provided a"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participación de adultos con TEA en el diseño y en la evaluación: 17 en el estudio previo de requisitos y 14 en el estudio con usuarios (Presencia: Sí | N: 14 | Rol: ambos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 2",
+          "quote": "We tested CARES in a user study with 14 people with autism (7 HF, 7"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 2",
+          "quote": "by administering a qualitative interview to 17 HF or MF people with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "El estudio no declara un enfoque explícito sobre la condición, aunque guarda las preferencias y aversiones del usuario en su perfil; se obtuvo consentimiento informado firmado y aprobación del comité de ética universitario, en Italia (Enfoque: NR | Perfil: almacenado | Consentimiento: informado y firmado | País: Italia)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 8",
+          "quote": "Center. Our experiment has been approved by our University’s Ethics"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 10",
+          "quote": "consent15 and provide explicit consent to participate by sign"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 11",
+          "quote": "ences stored in the user profiles in most cases."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Sistema de recomendación (filtrado basado en contenido); satisfacción de restricciones; optimización de rutas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 2",
+          "quote": "CARES employs content-based filtering, constraint satisfaction, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 2",
+          "quote": "to guarantee with black-box machine learning approaches."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro; guía la planificación de itinerarios y deja las decisiones al usuario",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 1",
+          "quote": "guiding users in their decision-making with empowering them"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 1",
+          "quote": "The app empowers users to make choices while AI guides the process"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Personalización en ejecución: la IA propone y optimiza itinerarios según las preferencias del usuario durante el uso de la aplicación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 8",
+          "quote": "the user advances from iteration 𝐼𝑛 to 𝐼𝑛+1 by adding one of the Points"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 5",
+          "quote": "suggesting Points of Interest that match the user’s preferences and the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Requisitos; Pruebas",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 2",
+          "quote": "by administering a qualitative interview to 17 HF or MF people with"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 5",
+          "quote": "functioning (HF) and two medium-functioning (MF) participants from"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: usabilidad (SUS) | Valor: 74,82/100 (grado B en la escala de Sauro y Lewis)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 11",
+          "quote": "present the results (statements Q1-Q10). CARES achieved a SUS score"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 11",
+          "quote": "of 74.82/100. According to the Sauro-Lewis grading scale (Lewis and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Escala de usabilidad SUS traducida al italiano, registro de las acciones de uso, entrevista estructurada de cuatro preguntas abiertas y comparación con Google My Maps; no existía un cuestionario estandarizado para algunos aspectos, por lo que se validó uno con el psicólogo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 9",
+          "quote": "translated version of the System Usability Scale (SUS) (Brooke,"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 10",
+          "quote": "We did not find any standardized questionnaire to evaluate the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "WCAG 2.1 para la interfaz de la aplicación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 7",
+          "quote": "Accessibility Guidelines (WCAG) 2.1, ensuring robust support for users"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 7",
+          "quote": "with diverse perceptual and cognitive abilities. For instance, as shown"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 3",
+          "quote": "• Minimization of irrelevant information - to reduce cognitive overload"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: estudio con 14 adultos con TEA, con registro de acciones y cuestionario, sin evaluación automatizada",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 10",
+          "quote": "The psychologist of the Adult Autism Center could recruit 14 par"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R345-human-centered-ai-for-inclusive-tourism-enhancing-travel-planning-for-adults-wit.md",
+          "loc": "p. 9",
+          "quote": "annotated by the psychologist while she conducted the tests"
+        }
+      ]
+    }
+  ]
+}

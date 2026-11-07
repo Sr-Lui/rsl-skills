@@ -1,0 +1,142 @@
+{
+  "article_id": "R300",
+  "lote": "03",
+  "slots": [
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Los resultados se reportan por grupo de usuarios (cuidadores y profesionales), no por perfil de diagnóstico del niño.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 1",
+          "quote": "Caregivers (3.44 ± 0.67) and professionals (3.50 ± 0.63) highly rated the platform for usability."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 8",
+          "quote": "diagnosed with neurodevelopmental disorders, as conﬁrmed by the DSM-5 criteria. Participants"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Los cuidadores de niños con trastornos del neurodesarrollo evaluaron la plataforma; no se describe su participación en el diseño (Presencia: Sí | N: 201 cuidadores y 12 profesionales | Rol: evaluación).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 8",
+          "quote": "dropouts considered, a target of 215 participants was set; 201 completed the study, with 14 excluded"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 8",
+          "quote": "sample sizes for exploratory purposes. On the basis of prior research, 12 participants aligning with"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio coreano con aprobación de comité de ética y consentimiento informado escrito, sin discusión explícita del enfoque sobre la condición (Enfoque: NR | Perfil: almacenado | Consentimiento: escrito de pacientes y padres | País: Corea del Sur).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 13",
+          "quote": "Written informed consent was obtained from the patients and their parents who agreed to participate."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 13",
+          "quote": "(IRB No. PC21ONSI0121). The study was conducted in accordance with the local legislation and institutional"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo. Se construye una plataforma móvil de inteligencia artificial con reconocimiento óptico de caracteres para gestionar historias de salud personales.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 1",
+          "quote": "an OCR success rate of 81%. Input data include fMRI interpretations, psychological assessments, and"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 8",
+          "quote": "This study was a single-arm usability evaluation in which the feasibility of IVORY, an AI-powered"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Pruebas; evaluación de usabilidad con cuidadores y profesionales sanitarios, además del desempeño del reconocimiento óptico.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 8",
+          "quote": "This study was a single-arm usability evaluation in which the feasibility of IVORY, an AI-powered"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 9",
+          "quote": "measuring the average success rate of OCR recognition, including the successful extraction of key values"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: usabilidad percibida por cuidadores y profesionales, y éxito del reconocimiento óptico | Valor: 3,44 de 4 (cuidadores), 3,50 de 4 (profesionales) y 81 % de éxito.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 1",
+          "quote": "Caregivers (3.44 ± 0.67) and professionals (3.50 ± 0.63) highly rated the platform for usability."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 1",
+          "quote": "an OCR success rate of 81%. Input data include fMRI interpretations, psychological assessments, and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "NR. Se mide la usabilidad del sistema con cuidadores y profesionales, no la accesibilidad cognitiva o sensorial de personas con discapacidad.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 9",
+          "quote": "The participants used the application and completed a structured survey assessing usability. The"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 8",
+          "quote": "diagnosed with neurodevelopmental disorders, as conﬁrmed by the DSM-5 criteria. Participants"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: encuesta de usabilidad a cuidadores y profesionales, junto con métricas del reconocimiento óptico calculadas por el equipo.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 9",
+          "quote": "The participants used the application and completed a structured survey assessing usability. The"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R300-development-and-usability-of-a-mobile-artificial-intelligence-platform-for-the-m.md",
+          "loc": "p. 9",
+          "quote": "measuring the average success rate of OCR recognition, including the successful extraction of key values"
+        }
+      ]
+    }
+  ]
+}
