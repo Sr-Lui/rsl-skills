@@ -1,0 +1,163 @@
+{
+  "article_id": "R193",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad de aprendizaje (caso con usuario con learning disability)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "woman with a learning disability and her LLM-based smart speaker ion’ has been reminding its user ‘Lucy’ about her daily tasks so in a ‘smart homecare’ setting, we show how the system’s multi- persistently that she shouts at it, then threatens to throw it out the unit repair initiations, persistent reminders, and inappropriately window. designed talk create interactional trouble that burdens the user with the work of restoring shared understanding."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Estudio conversacional de caso; sin estadística por perfiles.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "These are often treated 1.1 Extract 1: Do you want to go out that as ‘usability issues’, but we argue that they are better understood as window?"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 1 caso analizado en el abstract | Rol: evaluación (interacción grabada)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "woman with a learning disability and her LLM-based smart speaker ion’ has been reminding its user ‘Lucy’ about her daily tasks so in a ‘smart homecare’ setting, we show how the system’s multi- persistently that she shouts at it, then threatens to throw it out the unit repair initiations, persistent reminders, and inappropriately window. designed talk create interactional trouble that burdens the user with the work of restoring shared understanding."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: déficit | Perfil: deducido | Consentimiento: NR | País: Reino Unido (Loughborough) en cabecera",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "Loughborough, Leicestershire, United Loughborough, United Kingdom"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM | Modelo: NR (altavoz inteligente basado en LLM)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "in care contexts, yet their interactions often undermine the very au- in practice, the closest such devices may get to being treated as tonomy and agency they claim to support for their users."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de voz conversacional en domótica asistencial",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "woman with a learning disability and her LLM-based smart speaker ion’ has been reminding its user ‘Lucy’ about her daily tasks so in a ‘smart homecare’ setting, we show how the system’s multi- persistently that she shouts at it, then threatens to throw it out the unit repair initiations, persistent reminders, and inappropriately window. designed talk create interactional trouble that burdens the user with the work of restoring shared understanding."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Evaluación mediante análisis conversacional (CA) de interacciones naturales",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "These are often treated 1.1 Extract 1: Do you want to go out that as ‘usability issues’, but we argue that they are better understood as window? recurring design problems in how LLMs produce talk."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Provocaciones de diseño (repair, agency, recipient design) para fabricantes",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "We outline Listen to audio: https://bit.ly/not-listening1 three key areas: repair, agency, and recipient design, and offer nine design provocations to challenge the designers of smart homecare 1 SEN: Good morning breakfast is planned for now. voice assistants to rethink how ‘conversational’ these technologies 2 what will it be today. need to be."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: fallos de diseño del habla generada por LLM | Valor: NR (CA cualitativo)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "we argue that they are better understood as window? recurring design problems in how LLMs produce talk."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Análisis conversacional de video; transcripción de interacciones con el asistente",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "woman with a learning disability and her LLM-based smart speaker ion’ has been reminding its user ‘Lucy’ about her daily tasks so in a ‘smart homecare’ setting, we show how the system’s multi- persistently that she shouts at it, then threatens to throw it out the unit repair initiations, persistent reminders, and inappropriately window. designed talk create interactional trouble that burdens the user with the work of restoring shared understanding."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR (CCS incluye Accessibility; sin WCAG operativo en la cita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "Human-centered computing; • Empirical studies in HCI; • 7 SEN: It seems quiet from you. Just checking in Accessibility;"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "woman with a learning disability and her LLM-based smart speaker"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Validación con usuarios (interacción doméstica grabada; enfoque cualitativo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R193-you-re-not-listening-llm-smart-speakers-need-to-learn-when-to-shut-up.md",
+          "loc": "p. 1",
+          "quote": "woman with a learning disability and her LLM-based smart speaker ion’ has been reminding its user ‘Lucy’ about her daily tasks so in a ‘smart homecare’ setting, we show how the system’s multi- persistently that she shouts at it, then threatens to throw it out the unit repair initiations, persistent reminders, and inappropriately window. designed talk create interactional trouble that burdens the user with the work of restoring shared understanding."
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}

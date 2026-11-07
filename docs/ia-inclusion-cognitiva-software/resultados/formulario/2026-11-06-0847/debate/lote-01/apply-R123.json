@@ -1,0 +1,178 @@
+{
+  "article_id": "R123",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Dislexia evolutiva (niños de habla china con dislexia leve en los experimentos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "Our study engaged children with mild dyslexia across three experimental phases."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Se comparan condiciones/modos de CNReader, no resultados estratificados por subtipo.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 5",
+          "quote": "ences in age, RQ, and SPM scores of the three groups (Table 1)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 75; 44 y 15 (Experimentos 1–3 con niños y familias) | Rol: evaluación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 6",
+          "quote": "recruited a total of 75 ﬁrst-grade children"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 8",
+          "quote": "with mild reading difﬁculties. They were divided into three"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 9",
+          "quote": "total of 15 children, with an average age of 6.73 years (SD = 0.68),"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: déficit | Perfil: almacenado | Consentimiento: NR | País: China / Singapur (afiliaciones)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "1 Hangzhou Dianzi University, Hangzhou, China. 2 China Jiliang University, Hangzhou, China. 3 Zhejiang University, Hangzhou, China. 4 National University of Singapore, Singapore, Singapore."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA (lectura asistida por IA en CNReader) | Modelo: NR en el resumen citado",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "Incorporating user-friendly visual text presentation, perso- nalized reading guidance, and artiﬁcial intelligence (AI) reading support, CNReader aims to stimulate and enhance children’s reading interest and ability."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Tutor / práctica lectora (modo AI-paired reading vs human-paired)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "Notably, AI-paired reading emerged as both more appealing to children and more effective than conventional human-assisted approaches."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Pruebas (tres experimentos de efectividad y experiencia)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 5",
+          "quote": "To test the effectiveness and user experience of CNReader, we conducted three studies. Study 1 tested the effectiveness of CNReader’s single-player reading practice mode."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Diseño de interfaz, modos de lectura y guía personalizada (complementarios al experimento principal)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "Incorporating user-friendly visual text presentation, perso- nalized reading guidance, and artiﬁcial intelligence (AI) reading support, CNReader aims to stimulate and enhance children’s reading interest and ability."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: desempeño lector (errores, fluidez, comprensión) | Valor: NR agregada en abstract (mejoras reportadas cualitativamente)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "Results demonstrated that CNReader signiﬁcantly reduced reading error rates, enhanced reading ﬂuency, and improved compre- hension."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Experimentos con medidas de precisión, ritmo y comprensión; seguimiento a un mes en Experimento 3",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 6",
+          "quote": "Number of reading errors 12.88 ± 6.36 8.08 ± 3.32 22.96 ± 6.42 −3.007/0.003**"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR (herramienta accesible; sin WCAG/COGA explícito en la cita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "This paper presents an innovative tool, CNReader, designed to support reading training for young Chinese children with dyslexia."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "Chinese children with developmental dyslexia"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Validación con usuarios en experimentos controlados (niños; padres en Experimento 3)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "Our study engaged children with mild dyslexia across three experimental phases."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R123-cnreader-a-reading-practice-tool-designed-for-chinese-children-with-developmenta.md",
+          "loc": "p. 1",
+          "quote": "Results demonstrated that CNReader signiﬁcantly reduced reading error rates, enhanced reading ﬂuency, and improved compre- hension."
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}

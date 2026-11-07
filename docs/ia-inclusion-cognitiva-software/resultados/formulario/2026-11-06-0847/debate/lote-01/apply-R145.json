@@ -1,0 +1,163 @@
+{
+  "article_id": "R145",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TDAH en educación superior (ADHDvance LearnAR)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 3",
+          "quote": "Attention-Deficit Hyperactivity Disorder (ADHD) is a neurodevelopmental condition characterised by persistent inattention, impulsivity, and hyperactivity, affecting educa- tional and social functioning."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. DBR exploratorio; no se presenta desagregación cuantitativa por subtipo de TDAH.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 12",
+          "quote": "Given the exploratory nature of the study, the aim was not statistical generalisability but the identi- fication of meaningful patterns and user-informed design improvements."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 15 estudiantes con TDAH | Rol: evaluación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 12",
+          "quote": "The study involved 15 undergraduate students diagnosed with ADHD, recruited through purposive sampling at a UK university."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: déficit | Perfil: almacenado | Consentimiento: NR | País: Reino Unido (muestra universitaria UK)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 12",
+          "quote": "The study involved 15 undergraduate students diagnosed with ADHD, recruited through purposive sampling at a UK university."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "GenAI; AR | Modelo: integrado en ADHDvance LearnAR (sin nombre de modelo único en la cita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 2",
+          "quote": "Augmented Reality (AR) creates immersive and interactive environments that can foster focus and reduce cognitive overload [5], while Generative AI (GenAI) enables adaptive, person- alised learning experiences responsive to learners’ needs [4]."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente educativo (AR + GenAI para organización y aprendizaje adaptativo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 2",
+          "quote": "this study introduces ADHDvance LearnAR—a novel educational application that integrates AR and GenAI to provide user-centred, adaptive support."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Pruebas (diseño intra-sujetos con condiciones basales, AR y AR+GenAI)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 12",
+          "quote": "The study adopted a within-subjects experimental design comprising three distinct sequential conditions to comprehensively evaluate the effectiveness of the ADHDvance LearnAR application."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "DBR (iteración con usuarios, prototipado y refinamiento)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 2",
+          "quote": "The development of ADHDvance LearnAR adopts a rigorous Design-Based Research (DBR) approach, an iterative methodology particularly suitable for educational tech- nology research."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: efectos cualitativos sobre organización y sobrecarga cognitiva (DBR) | Valor: NR (métrica única no en 5.1)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 12",
+          "quote": "While modest, this sample size aligns with best practices in early-phase Design-Based Research (DBR), where the focus is on iterative development, contextual validation, and in-depth user feedback [43, 44]."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Tres sesiones ~90 min en aula controlada; tareas estandarizadas por condición",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 12",
+          "quote": "Each participant engaged with the dis- tinct experimental conditions during three separate sessions, each lasting approximately 90 min, conducted within a controlled classroom environment."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR (inclusión/neurodiversidad; sin WCAG explícito en la cita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 2",
+          "quote": "inclusive learning environments for neurodiverse learners."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 3",
+          "quote": "Attention-Deficit Hyperactivity Disorder (ADHD) is a neurodevelopmental condition characterised by persistent inattention, impulsivity, and hyperactivity, affecting educa- tional and social functioning."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Validación con usuarios (estudiantes con TDAH en aula controlada)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R145-a-user-centred-approach-to-enhancing-engagement-and-task-management-for-adhd-stu.md",
+          "loc": "p. 12",
+          "quote": "Each participant engaged with the dis- tinct experimental conditions during three separate sessions, each lasting approximately 90 min, conducted within a controlled classroom environment."
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}

@@ -1,0 +1,163 @@
+{
+  "article_id": "R040",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TEA / ASD (niños en el estudio de sistema asistencial educativo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "This study presents the design and implementation of an educational assistive system tailored for individuals with Autism Spec- trum Disorder (ASD), leveraging eye-tracking technology and machine learning algorithms."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Resultados agregados del clasificador sin estratificación por subperfil de ASD.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "The system was evaluated using an optimized ensemble algorithm, achieving an accuracy of 83.44%, with macro-averaged F1, pre- cision, and recall of 80.43%, 81.43%, and 80.57%, respectively, outperforming the baseline models."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 15 niños con ASD (scanpaths) | Rol: evaluación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "An existing collection of scanpath images obtained from 15 children with ASD was utilized, and a customized heterogeneous dataset was developed by extracting fixation and gaze-related features using machine learning-based processing techniques."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: déficit | Perfil: almacenado | Consentimiento: NR | País: Bangladés y EE. UU. (afiliaciones)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "Institute of Information Technology, Jahangirnagar University, Savar, Bangladesh | 2 MU Institute for Data Science and Informatics, University of"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "ML; visión (eye-tracking) | Modelo: ensemble optimizado (detalle en el artículo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "leveraging eye-tracking technology and machine learning algorithms."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente / sistema de selección de teclado basado en fijaciones y mirada",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "The objective is to support commu- nication and learning experiences through ocular gaze and fixation-based keyboard selection."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Pruebas (evaluación con dataset de scanpaths y accuracy del ensemble)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "The system was evaluated using an optimized ensemble algorithm, achieving an accuracy of 83.44%, with macro-averaged F1, pre- cision, and recall of 80.43%, 81.43%, and 80.57%, respectively, outperforming the baseline models."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Ingeniería de datos (extracción de características de fijación y construcción de dataset heterogéneo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "a customized heterogeneous dataset was developed by extracting fixation and gaze-related features using machine learning-based processing techniques."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: accuracy (y F1 macro) del ensemble | Valor: accuracy 83,44%; F1 macro 0,8043",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "The system was evaluated using an optimized ensemble algorithm, achieving an accuracy of 83.44%, with macro-averaged F1, pre- cision, and recall of 80.43%, 81.43%, and 80.57%, respectively, outperforming the baseline models."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Scanpaths; AOI; métricas de fijación y trayectorias oculares",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "In total, 320 scanpath images were ana- lyzed to capture fixation points and gaze directions during left–right and up–down navigation tasks. Based on fixation metrics and Area of Interest (AOI) analysis, a novel keyboard selection method was proposed, distinct from traditional digital keyboards."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR (sin WCAG/COGA explícito en la cita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "Keywords: assistive technology | autism | eye-tracking | gaze-based access control | smart board | virtual keyboard"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "This study presents the design and implementation of an educational assistive system tailored for individuals with Autism Spec- trum Disorder (ASD), leveraging eye-tracking technology and machine learning algorithms."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Validación con datos reales de usuarios (scanpaths) mediante pipeline de ML; no CI",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R040-an-intelligent-assistive-system-for-autistic-learners.md",
+          "loc": "p. 1",
+          "quote": "An existing collection of scanpath images obtained from 15 children with ASD was utilized, and a customized heterogeneous dataset was developed by extracting fixation and gaze-related features using machine learning-based processing techniques."
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}

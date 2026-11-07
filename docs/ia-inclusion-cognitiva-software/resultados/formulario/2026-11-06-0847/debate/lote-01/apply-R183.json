@@ -1,0 +1,163 @@
+{
+  "article_id": "R183",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Autismo (acceso y coordinación de servicios en Alabama)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "This study investigates the potential of artificial intelligence, particularly Natural Lan- guage Processing and large-scale language models, to improve resource manage- ment and service access for individuals with autism in Alabama."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. La evaluación contrasta sistemas/tipos de consulta, no subgrupos clínicos dentro del autismo.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "Fernandes, Federal University evaluated based on precision, recall, and response accuracy."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: No | N: NR | Rol: NR (consultas simuladas para trabajadores sociales)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "A standardized set of queries was used to simulate real-world scenarios encountered doi.org/10.1371/journal.pone.0342700 by social workers engaged in autism service coordination."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia | Perfil: deducido | Consentimiento: NR | País: Estados Unidos (Alabama)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "1 Department of Biological Sciences, The University of Alabama in Huntsville, Huntsville, Alabama, United States of America, 2 Department of Psychology, The University of Alabama in Huntsville, Huntsville, Alabama, United States of America, 3 Autism Services, Alabama Department of Mental Health, Montgomery, Alabama, United States of America, 4 Little Orange Fish, Huntsville, Alabama, United States of America"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "NLP; LLM; RAG | Modelo: GPT-4 (chatbot de dominio) entre otros",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "AI systems, including general language models, domain-specific chatbots powered healthcare resource management and allocation: A focus on the autism community in by advanced language models, and a Retrieval-Augmented Generation framework."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Generador de respuestas (chatbots y RAG) para escenarios de coordinación asistencial",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "A standardized set of queries was used to simulate real-world scenarios encountered doi.org/10.1371/journal.pone.0342700 by social workers engaged in autism service coordination."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Pruebas (evaluación con precision, recall y exactitud de respuesta)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "evaluated based on precision, recall, and response accuracy. Results demonstrated of Paraiba, BRAZIL"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Ingeniería de prompts y despliegue de marcos RAG frente a NLP clásico",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "that the Retrieval-Augmented Generation (RAG) framework achieved superior Received: January 14, 2025 performance compared to traditional NLP methods and general-purpose language Accepted: January 26, 2026 models, attaining approximately 90–96% precision and recall across evaluated query Published: March 16, 2026 types."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: precision y recall (y exactitud) | Valor: ~90–96% precision y recall en tipos de consulta evaluados (abstract)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "that the Retrieval-Augmented Generation (RAG) framework achieved superior Received: January 14, 2025 performance compared to traditional NLP methods and general-purpose language Accepted: January 26, 2026 models, attaining approximately 90–96% precision and recall across evaluated query Published: March 16, 2026 types."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Consultas estandarizadas que simulan navegación de servicios para autismo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "A standardized set of queries was used to simulate real-world scenarios encountered doi.org/10.1371/journal.pone.0342700 by social workers engaged in autism service coordination."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR (equidad en salud y utilidad práctica; sin WCAG explícito en la cita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "and enhancing healthcare equity. By streamlining care coordination and delivering"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "to improve resource manage- ment and service access for individuals with autism in Alabama."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática (evaluación con consultas simuladas; sin validación con usuarios finales explícita en la cita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R183-using-ai-to-enhance-healthcare-resource-management-and-allocation-a-focus-on-the.md",
+          "loc": "p. 1",
+          "quote": "A standardized set of queries was used to simulate real-world scenarios encountered doi.org/10.1371/journal.pone.0342700 by social workers engaged in autism service coordination."
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}

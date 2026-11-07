@@ -1,0 +1,157 @@
+{
+  "article_id": "R106",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Discapacidad cognitiva (Lectura Fácil / Easy Read orientado a este colectivo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "Easy Read arranges texts in an accessible manner so that people with cognitive disabilities may have an easier time reading a clear and simple language."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "NR (sin desagregación por subperfil en el fragmento citado)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "Regarding the production of these easy-to-read texts, professional adapters manually correct the texts and strip them of any complicated structures that may difficult the reading process."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: NR | N: NR | Rol: NR (piloto con CEACOG; sin N explícito aquí)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "Thus, in collaboration with the Centro Español de Accesibilidad Cognitiva (CEACOG), the online service ATECA (Adaptación de TExtos en CAstellano) was created to identify and adapt any discrepancy with a selection of the guidelines on Spanish Easy Read stablished by the Norma UNE 153101:2018 EX (AENOR, 2018)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: NR | Perfil: deducido | Consentimiento: NR | País: España (CEACOG)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "Thus, in collaboration with the Centro Español de Accesibilidad Cognitiva (CEACOG), the online service ATECA (Adaptación de TExtos en CAstellano) was created"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA (ATECA basado en IA) orientado a adaptación a Lectura Fácil",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "ATECA is a pilot support system, based on Artificial Intelligence (AI), that can be introduced into the traditional process of manually adapt- ing documents following the methodology."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente (análisis y sugerencias de transformación en flujo semi-automático)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "This pilot application performs in a (semi-) automatic manner the two first activities in the cyclical process of adapting documents to Easy Read: the analysis of documents and the suggestion for how to transform such documents, so that they comply with the guidelines of the methodology."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Desarrollo / despliegue de herramienta web piloto en el proceso de adaptación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "This pilot application performs in a (semi-) automatic manner the two first activities in the cyclical process of adapting documents to Easy Read: the analysis of documents and the suggestion for how to transform such documents, so that they comply with the guidelines of the methodology."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: adecuación a guías UNE 153101 (Lectura Fácil) | Valor: NR (sin cifra única en abstract)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "the online service ATECA (Adaptación de TExtos en CAstellano) was created to identify and adapt any discrepancy with a selection of the guidelines on Spanish Easy Read stablished by the Norma UNE 153101:2018 EX (AENOR, 2018)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Ciclo de adaptación a Easy Read; producción manual como referencia.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "Regarding the production of these easy-to-read texts, professional adapters manually correct the texts and strip them of any complicated structures that may difficult the reading process."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro (Norma UNE 153101:2018 EX como referencia de Lectura Fácil)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "the online service ATECA (Adaptación de TExtos en CAstellano) was created to identify and adapt any discrepancy with a selection of the guidelines on Spanish Easy Read stablished by the Norma UNE 153101:2018 EX (AENOR, 2018)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "Easy Read arranges texts in an accessible manner so that people with cognitive disabilities may have an easier time reading a clear and simple language."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática (primeras actividades del ciclo en modo semi-automático)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R106-ateca-a-web-application-to-facilitate-easy-to-read-adaptations-ateca-una-aplicac.md",
+          "loc": "p. 2",
+          "quote": "This pilot application performs in a (semi-) automatic manner the two first activities in the cyclical process of adapting documents to Easy Read:"
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}

@@ -1,0 +1,183 @@
+{
+  "article_id": "R187",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Neurodivergencia explícita (lista: TDAH, autismo, dislexia, discapacidad intelectual, etc.)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "including those with ADHD, autism, dyslexia, mood disor- bi-directional alignment between neurodivergent users and LLMs, ders, anxiety disorders, intellectual disabilities, and other natural"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Evidencia cualitativa desde logs y entrevistas; sin desagregación cuantitativa por diagnóstico en el resumen.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "Through analysis of over 300 chat logs and interviews with 15"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "neurodivergent participants, we found that the chatbot frequently"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: 15 participantes neurodivergentes | Rol: evaluación",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "Through analysis of over 300 chat logs and interviews with 15"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: diferencia (búsqueda de empleo) | Perfil: almacenado | Consentimiento: NR | País: EE. UU. (Georgia Tech / NYU en cabecera)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "Georgia Institute of Technology Atlanta, Georgia, USA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "LLM | Modelo: GPT-4 (chatbot de apoyo a la búsqueda de empleo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "ine interactions between neurodivergent job-seekers and a GPT-4- Large Language Models (LLMs) are primarily trained on data that powered career support chatbot through the lens of misalignment."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Asistente de carrera (chatbot) con recomendaciones conversacionales",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "powered career support chatbot through the lens of misalignment."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Evaluación empírica (logs + entrevistas) en estudio cualitativo",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "Through analysis of over 300 chat logs and interviews with 15"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "neurodivergent participants, we found that the chatbot frequently"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Análisis cualitativo de interacción y diseño de IA centrado en desajuste",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "integrate neurodivergent perspec- neurological differences [9]– this imposition of neurotypical norms tives and preferences to ensure more authentic, personalized, and can result in significant psychological harm [25, 77], as it can cause human-centered AI support."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: desajuste (misalignment) percibido | Valor: >300 logs; 15 entrevistas (conteos explícitos)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "Through analysis of over 300 chat logs and interviews with 15"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Registros de chat y entrevistas con participantes neurodivergentes",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "Through analysis of over 300 chat logs and interviews with 15"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "neurodivergent participants, we found that the chatbot frequently"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR (ASSETS/SIGACCESS como foro; sin WCAG operativo en la cita)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "SIGACCESS Conference on Computers and Accessibility (ASSETS ’25), October"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "including those with ADHD, autism, dyslexia, mood disor- bi-directional alignment between neurodivergent users and LLMs, ders, anxiety disorders, intellectual disabilities, and other natural"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Validación con usuarios (entrevistas + interacciones reales con el chatbot)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "Through analysis of over 300 chat logs and interviews with 15"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R187-understanding-human-ai-misalignment-in-llm-based-job-seeking-support-for-neurodi.md",
+          "loc": "p. 1",
+          "quote": "neurodivergent participants, we found that the chatbot frequently"
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}

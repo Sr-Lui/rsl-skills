@@ -1,0 +1,163 @@
+{
+  "article_id": "R147",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Dislexia fonológica (escolares con diagnóstico)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "Participants were elementary school learners diagnosed with phonological dyslexia."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Cuasiexperimento pre-post con foco en el modelo adaptativo (sin estratos por subperfil en el abstract)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "framework, combined with a quasi-experimental pre- and post-test control group design."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: Sí | N: NR en abstract | Rol: evaluación",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "Participants were elementary school learners diagnosed with phonological dyslexia."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: déficit | Perfil: almacenado | Consentimiento: NR | País: Indonesia (Padang / Bandung)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "Universitas Negeri Padang, (AI) model integrated with real-time speech analytics to optimise phonological dyslexia inter- Padang, Indonesia vention."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "IA multi-sensorial adaptativa; analítica de habla en tiempo real | Modelo: NR en abstract",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "This study aims to develop and evaluate a mobile adaptive multi-sensory artificial intelligence"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Tutor con retroalimentación inmediata y rutas personalizadas (phonological training + analytics)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "real-time speech analytics to provide immediate feedback and personalised learning pathways."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Intervención y evaluación (ADDIE + cuasiexperimento; tests de lectura y métricas de habla)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "Data were collected through expert validation, usability questionnaires, phono- logical reading tests, and speech analytics metrics, including phoneme error rate (PER) and word error rate (WER)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Validación experta; cuestionarios de usabilidad (fases previas a ensayo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "Data were collected through expert validation, usability questionnaires, phono- logical reading tests, and speech analytics metrics, including phoneme error rate (PER) and word error rate (WER)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: PER y WER entre otras métricas | Valor: ver resultados en cuerpo (no agregado en el abstract)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "Data were collected through expert validation, usability questionnaires, phono- logical reading tests, and speech analytics metrics, including phoneme error rate (PER) and word error rate (WER)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Tests fonológicos; métricas PER/WER; cuestionarios de usabilidad",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "Data were collected through expert validation, usability questionnaires, phono- logical reading tests, and speech analytics metrics, including phoneme error rate (PER) and word error rate (WER)."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "NR (educación inclusiva como contexto motivacional, no normativa WCAG)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "Conventional dyslexia interventions are often non-adaptive, therapist-dependent, Andhika Herayono1 and limited in scalability, reducing their effectiveness in inclusive education contexts."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "characterised by persistent difficulties in phoneme awareness, phoneme–grapheme"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática (analytics + ajuste adaptativo con feedback inmediato)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R147-optimising-dyslexia-intervention-leveraging-a-mobile-adaptive-multi-sensory-ai-m.md",
+          "loc": "p. 1",
+          "quote": "real-time speech analytics to provide immediate feedback and personalised learning pathways."
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}

@@ -1,0 +1,163 @@
+{
+  "article_id": "R173",
+  "lote": "01",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "TDAH infantil (apps de salud mental gamificadas como caso de uso del marco)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "This research introduces a comprehensive framework for protecting health ap- plications from privacy and security threats, with a specific emphasis on gamified mental health apps designed to manage Attention Deficit Hyperactivity Disorder (ADHD) in children."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "NR (marco propuesto; sin cohorte con desagregación empírica)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "This research introduces a comprehensive framework for protecting health ap- plications from privacy and security threats, with a specific emphasis on gamified mental health apps designed to manage Attention Deficit Hyperactivity Disorder (ADHD) in children."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Presencia: No | N: NR | Rol: NR (trabajo de marco arquitectónico)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "We suggest an identity management system based on blockchain technology to ensure secure and transparent credential management and incorporate Federated Learning to enable privacy-preserving AI-driven predictions."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Enfoque: NR | Perfil: deducido | Consentimiento: NR | País: Grecia (afiliaciones)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "1   Department of Informatics & Telecommunications, University of Ioannina, 47100 Arta, Greece;"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Aprendizaje federado; blockchain; p-ABCs; DP (PETs para apps de salud)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "Privacy- Enhancing Technologies (PETs), such as Privacy-Attribute-based Credentials, Differential Privacy, and Federated Learning, have emerged as crucial tools to tackle these challenges."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Predicciones con IA preservando privacidad (FL) y gestión de identidad",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "incorporate Federated Learning to enable privacy-preserving AI-driven predictions."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Diseño de marco arquitectónico de seguridad y privacidad (no SDLC empírico completo)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "This research introduces a comprehensive framework for protecting health ap- plications from privacy and security threats"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "GDPR; stakeholders (menores, familias, educadores, profesionales de salud)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "like GDPR, while meeting the needs of various Received: 9 May 2025 stakeholders, including children, parents, educators, and healthcare professionals."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: cumplimiento y privacidad del marco triple | Valor: NR (sin métrica experimental)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "We suggest an identity management system based on blockchain technology to ensure secure and transparent credential management and incorporate Federated Learning to enable privacy-preserving AI-driven predictions."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Marco para datos sensibles de salud mental infantil y contramedidas PETs",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "Acknowledging the heightened sensitivity of mental health data, especially in ap- plications for children, our framework prioritizes user-centered design and strong privacy measures."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro (GDPR como referencia normativa explícita)",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "like GDPR, while meeting the needs of various Received: 9 May 2025 stakeholders, including children, parents, educators, and healthcare professionals."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "Cognitiva",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "gamified mental health apps designed to manage Attention Deficit Hyperactivity Disorder (ADHD) in children."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Semiautomática (predicciones FL asistidas por modelo; gobierno de identidad con intervención humana)",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R173-triple-shield-privacy-in-healthcare-federated-learning-p-abcs-and-distributed-le.md",
+          "loc": "p. 1",
+          "quote": "incorporate Federated Learning to enable privacy-preserving AI-driven predictions."
+        }
+      ]
+    }
+  ],
+  "source": "scripts/build_ia_inclusion_lote01_apply.py"
+}
