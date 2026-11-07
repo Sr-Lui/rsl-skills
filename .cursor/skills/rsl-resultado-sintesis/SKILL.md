@@ -37,7 +37,7 @@ Invoke: `Usa rsl-resultado-sintesis sobre docs/<slug>/`
 ## Precondiciones
 
 - `resultados/formulario/latest.txt` apunta a una carpeta con **`manifest.json` → `extraccion_complete: true`** (solo lo fija **`pnpm -s formulario:stamp`** tras apply).
-- Mismo gate que **`pnpm -s formulario:lint-traza`** y **`pnpm -s formulario:lint-prosa`** (estructura de traza, prosa, evidencia, sin duplicar texto entre ítems distintos por estudio).
+- Mismo gate que **`pnpm -s formulario:lint-traza`** y **`pnpm -s formulario:lint-prosa`** (estructura de traza, prosa, evidencia, sin duplicar texto entre ítems distintos por estudio). En apply, **`pnpm -s formulario:verify-apply-json`** puede anticipar fallos de evidencia antes de `apply-lote`; no sustituye al gate anterior con traza completa ni a **`formulario:stamp`**.
 - `resultados/items/latest.txt` → `items.json`.
 
 ## Procedure

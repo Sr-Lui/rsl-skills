@@ -17,6 +17,7 @@ Prosa: [`formulario-prosa-rsl.md`](formulario-prosa-rsl.md) (**humanize-academic
 | Forma | **Registro agregable primero** (según `response_type`); luego 0–2 frases de **contexto específicas del estudio** (no la misma frase genérica en todo el lote) |
 | Tema RSL | No sustituir el registro con párrafos genéricos de encaje |
 | Evidencia | **MD del cribado-2** + opcional `pnpm -s cribado2:query docs/<slug> "…"` (Graphify sobre `cribado2/.../graphify-out/graph.json`); traza `evidence[]` con `loc` anclado (`p.` / `l.` / `§` / `Sección …`), **no** `fulltext` salvo `manifest.json` → `evidence_loc_whitelist` |
+| Pre-apply | **`pnpm -s formulario:verify-apply-json docs/<slug> [carpeta] <rutas>`** — rutas desde la raíz del repo, p. ej. `docs/<slug>/resultados/formulario/<carpeta>/debate/lote-NN` (mismos criterios que `lint-traza` sobre `evidence`) |
 | Ausente | Excel **`—`**, `decision: absent` |
 | Prohibido | `formulario:extract-lote`, inglés crudo, `Sí`/`No` solos, `\|` tipo plantilla |
 | Unicidad | No reutilizar el mismo párrafo en **dos `item_id` distintos** del mismo estudio; el estudio **mixto** repite el mismo ítem en dos hojas (correcto). Excepción: `manifest.json` → `duplicate_value_whitelist` |
@@ -33,15 +34,26 @@ Los `hint` de `items.json` guían **qué buscar**, no el texto final de la celda
 | Parcial (mixto con huecos) | Prosa con «no reporta…» donde falte subcampo | `partial` |
 | Tangencial / poco útil para síntesis | `—` o prosa breve justificada | `omitted` |
 
-## Debate (por artículo, lote de 10)
+## Micro-lote (~5) y paralelización
 
-Orden de lectura **antes** de redactar: MD `…/docs/md/<corpus_id>-*.md` → `cribado2:query` con pregunta acotada → (si hace falta) PDF.
+- **Recomendado ~5** `corpus_id` por `debate/lote-NN` (5–10 según carga). Varias subtareas en paralelo (una por artículo); un solo `apply-lote` al cerrar el micro-lote.
 
-1. **defensor-rsl** (`extraccion-formulario`) — borrador prosa ES + evidencia → `r1-defensor-<corpus_id>.md`
-2. **critico-rsl** — checklist prosa (ver formulario-prosa-rsl) → `r2-critico-<corpus_id>.md`
-3. **R3** si disconformes
-4. **orquestador-extraccion-rsl** — veredicto → **`humanize-academic-writing`** sobre cada `value` → `apply-<corpus_id>.json`
-5. **`pnpm -s formulario:apply-lote docs/<slug> NN`** — re-sincroniza **fila 2** al guardar.
+## Eficiencia (prioridades)
+
+1. **Verify antes de apply:** `formulario:verify-apply-json` sobre los `apply-*.json` del lote.
+2. **E11 vs E12:** **E11** = traza incompleta mientras falten slots (normal a mitad; `lint-traza` puede FAIL). **E12** / cierre = `extraccion_complete` solo tras **`formulario:stamp`** con traza completa y PASS estrictos.
+3. **Lectura mínima:** una `cribado2:query` acotada con `corpus_id` + **solo el fragmento** del MD que citen los nodos.
+
+## Debate ligero (por artículo)
+
+Orden: **`cribado2:query`** (acotado) → **fragmento MD** (no el archivo entero) → (si hace falta) PDF.
+
+1. **defensor-rsl** (`extraccion-formulario`) — salida **breve** (pregunta Graphify + síntesis o «sin hit» + siguiente paso) → `r1-defensor-<corpus_id>.md`
+2. **critico-rsl** — **checklist** (evidencia suficiente, quote ≥40 literal, `loc`, coherencia MD↔nodos) → `r2-critico-<corpus_id>.md`
+3. **orquestador-extraccion-rsl** — **solo** si hay discrepancia factual o riesgo de omisión entre R1 y R2
+4. **`humanize-academic-writing`** sobre cada `value` → `apply-<corpus_id>.json`
+5. **`pnpm -s formulario:verify-apply-json docs/<slug> [carpeta] docs/<slug>/resultados/formulario/<carpeta>/debate/lote-NN`** (directorio del lote o lista de `apply-*.json`)
+6. **`pnpm -s formulario:apply-lote docs/<slug> NN`** — re-sincroniza **fila 2** al guardar.
 
 Incidencias no triviales → append `extraccion-orquestador.md`.
 
@@ -65,12 +77,13 @@ Opcional en debate: `value_draft` (defensor) vs `value` (final humanizado).
 
 ## Cierre del run
 
-Tras todos los lotes: `pnpm -s formulario:lint-traza docs/<slug>` (estructura + evidencia) y `pnpm -s formulario:lint-prosa docs/<slug>` (prosa; admite `--strict` localmente).
+Tras **todos** los lotes (traza completa): `pnpm -s formulario:lint-traza docs/<slug>` (estructura + evidencia) y `pnpm -s formulario:lint-prosa docs/<slug>` (prosa; admite `--strict` localmente). A mitad de extracción, **E11** por líneas `< esperado` es esperable.
 
 **Carpeta cerrada:** `pnpm -s formulario:stamp docs/<slug> <carpeta>` — ejecuta **`lint-traza --strict`** y **`lint-prosa --strict`** (0 WARN); exige `lint-setup` PASS. Si `manifest.nature_needs_review` no está vacío, el stamp **falla** salvo `pnpm -s formulario:stamp docs/<slug> <carpeta> --allow-nature-review`. Escribe `extraccion_complete: true` y actualiza `resultados/formulario/latest.txt`.
 
 ## Forbidden
 
 - **`pnpm -s formulario:extract-lote`** en producción (bypass de debate; solo qa/dev explícito).
+- **`pnpm -s formulario:apply-lote`** sin **verify-apply-json** OK en los JSON del lote.
 - Escribir Excel ítems sin traza coherente.
 - Modificar biblio 3–13 desde apply (usar **prepare**).

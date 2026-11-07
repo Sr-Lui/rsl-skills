@@ -78,6 +78,7 @@
     "formulario:lint-prosa": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-prosa",
     "formulario:extract-lote": ".venv-formulario/bin/python scripts/resultado-formulario.py extract-lote",
     "formulario:lint-traza": ".venv-formulario/bin/python scripts/resultado-formulario.py lint-traza",
+    "formulario:verify-apply-json": ".venv-formulario/bin/python scripts/formulario_verify_apply_json.py",
     "formulario:aggregate-preview": ".venv-formulario/bin/python scripts/resultado-formulario.py aggregate-preview",
     "sintesis:prepare": ".venv-formulario/bin/python scripts/resultado-sintesis.py prepare",
     "sintesis:general": ".venv-formulario/bin/python scripts/resultado-sintesis.py general",
