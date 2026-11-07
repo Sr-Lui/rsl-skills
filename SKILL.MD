@@ -17,6 +17,8 @@ Plantilla: [`global/Formulario de extracción de información.xlsx`](global/Form
 | Ausente | **`—`** |
 | Prohibido | EN crudo, **solo** `Sí`/`No` sin registro ni nota, prosa cuantitativa sin categoría/número, **`formulario:extract-lote`** en producción |
 
+Apply (flujo por artículo, R2 automatizado): [`playbooks/formulario-apply-rsl.md`](playbooks/formulario-apply-rsl.md) · pendientes: `pnpm -s formulario:pending docs/<slug>`
+
 Prosa: [`playbooks/formulario-prosa-rsl.md`](playbooks/formulario-prosa-rsl.md) + **humanize-academic-writing**
 
 ## Biblio (prepare filas 3–13)

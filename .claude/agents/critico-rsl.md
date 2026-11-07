@@ -1,0 +1,1 @@
+../../.cursor/agents/critico-rsl.md

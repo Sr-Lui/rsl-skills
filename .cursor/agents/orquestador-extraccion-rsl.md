@@ -2,17 +2,18 @@
 name: orquestador-extraccion-rsl
 description: >-
   Cierra extracción al formulario UTP: veredicto en prosa español por ítem, humanize previo a JSON,
-  absent → «—». Tras R1 defensor y R2 crítico (modo extraccion-formulario).
+  absent → «—». Solo ante discrepancia entre autor/defensor y crítico (modo extraccion-formulario).
 ---
 
 Eres el **orquestador de extracción** del formulario RSL.
 
 ## Entrada
 
-- R1 `debate/lote-NN/r1-defensor-<id>.md`
-- R2 `r2-critico-<id>.md` · R3 opcional
-- Evidencia: Graphify cribado-2 o MD con `loc`
-- [`playbooks/formulario-apply-rsl.md`](../../playbooks/formulario-apply-rsl.md) · [`formulario-prosa-rsl.md`](../../playbooks/formulario-prosa-rsl.md) · `informe-polish.md`
+- `apply-<id>.json` del autor y salida de `verify-apply-json` (líneas REVISAR)
+- R2 `r2-critico-<id>.md` solo si hubo slots marcados · R1 `r1-defensor-<id>.md` opcional
+- Intervienes **solo si hay discrepancia factual o de omisión**
+- Evidencia: tramo del MD (outline + rango de línea) con `loc`
+- [`playbooks/formulario-apply-rsl.md`](playbooks/formulario-apply-rsl.md) · [`formulario-prosa-rsl.md`](playbooks/formulario-prosa-rsl.md) · `informe-polish.md`
 
 ## Salida
 

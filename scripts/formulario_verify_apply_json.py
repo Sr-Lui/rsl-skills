@@ -18,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from formulario_lint_prosa import (  # noqa: E402
     MIN_QUOTE_LEN,
     lint_evidence_row,
+    normalize_whitespace,
 )
 
 FORMULARIO_ROOT = Path("resultados/formulario")
@@ -84,6 +85,61 @@ def collect_apply_files(paths: list[Path]) -> list[Path]:
     return out
 
 
+_NUM_RE = re.compile(r"\d+(?:[.,]\d+)?")
+WEAK_QUOTE_LEN = 60
+
+
+def expected_item_ids(folder: Path, article_id: str) -> set[str] | None:
+    """Ítems esperados para el estudio según formulario-map.json (placement por hoja)."""
+    try:
+        m = json.loads((folder / MAP_JSON).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    st = next((x for x in m.get("studies", []) if x.get("corpus_id") == article_id), None)
+    if not st:
+        return None
+    placed = {sh for sh, pl in (st.get("placement") or {}).items() if pl}
+    return {it["item_id"] for it in m.get("items", []) if it.get("sheet") in placed}
+
+
+def review_flags(article_id: str, slots: list[dict], expected: set[str] | None) -> list[str]:
+    """Advertencias de calidad (checklist R2 automatizado): slots que merecen crítico."""
+    out: list[str] = []
+    seen = {(s.get("item_id") or "").strip() for s in slots if isinstance(s, dict)}
+    if expected is not None:
+        miss = sorted(expected - seen)
+        if miss:
+            out.append(f"{article_id}: faltan ítems esperados: {', '.join(miss)}")
+    by_quote: dict[str, list[str]] = {}
+    for slot in slots:
+        if not isinstance(slot, dict):
+            continue
+        item = (slot.get("item_id") or "").strip()
+        val = (slot.get("value") or "").strip()
+        dec = (slot.get("decision") or "").strip()
+        evs = [e for e in (slot.get("evidence") or []) if isinstance(e, dict)]
+        if dec == "absent" or val in ("", "—") or not evs:
+            continue
+        quotes = [normalize_whitespace(e.get("quote") or "") for e in evs]
+        if max((len(q) for q in quotes), default=0) < WEAK_QUOTE_LEN:
+            out.append(f"{article_id}:{item}: cita débil (<{WEAK_QUOTE_LEN} caracteres)")
+        qtext = " ".join(quotes)
+        qnums = {n.replace(",", ".") for n in _NUM_RE.findall(qtext)}
+        vnums = {n.replace(",", ".") for n in _NUM_RE.findall(val) if len(n.replace(",", "").replace(".", "")) >= 2}
+        # RQ1-I3 etc. pueden declarar N inferido; solo avisa, no bloquea
+        lost = sorted(n for n in vnums if n not in qnums)
+        if lost:
+            out.append(f"{article_id}:{item}: cifras del value ausentes en las citas: {', '.join(lost)}")
+        for q in quotes:
+            if q:
+                by_quote.setdefault(q, []).append(item)
+    for q, items in by_quote.items():
+        uniq = sorted(set(items))
+        if len(uniq) >= 3:
+            out.append(f"{article_id}: misma cita sostiene {len(uniq)} ítems ({', '.join(uniq)})")
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Verifica evidence en apply-*.json (pre apply-lote). "
@@ -95,6 +151,7 @@ def main() -> int:
         nargs="+",
         help="Carpeta YYYY-MM-DD-HHMM (opcional si va primero y existe) y/o rutas apply-*.json o directorios",
     )
+    ap.add_argument("--strict", action="store_true", help="las advertencias (REVISAR) también hacen fallar")
     args = ap.parse_args()
     theme = theme_path(args.theme)
     repo_root = ROOT.resolve()
@@ -117,6 +174,7 @@ def main() -> int:
     files = collect_apply_files([Path(p) for p in path_args])
 
     all_errs: list[str] = []
+    all_flags: list[str] = []
     for jf in files:
         try:
             data = json.loads(jf.read_text(encoding="utf-8"))
@@ -128,6 +186,9 @@ def main() -> int:
         if not isinstance(slots, list):
             all_errs.append(f"{jf}: falta lista slots")
             continue
+        all_flags.extend(
+            review_flags(article_id or jf.stem, [x for x in slots if isinstance(x, dict)], expected_item_ids(folder, article_id))
+        )
         for slot in slots:
             if not isinstance(slot, dict):
                 all_errs.append(f"{jf}: entrada no objeto en slots")
@@ -143,6 +204,10 @@ def main() -> int:
             ):
                 all_errs.append(f"{jf}: {e}")
 
+    if all_flags:
+        print("REVISAR (pasar al crítico solo estos slots):", file=sys.stderr)
+        for fl in all_flags[:80]:
+            print(f"  - {fl}", file=sys.stderr)
     if all_errs:
         for e in all_errs[:80]:
             print(e, file=sys.stderr)
@@ -152,8 +217,9 @@ def main() -> int:
         return 1
     print(
         f"OK: {len(files)} apply JSON(s), evidence coherente (≥{MIN_QUOTE_LEN} chars, substring en src)"
+        + (f" · {len(all_flags)} a REVISAR" if all_flags else "")
     )
-    return 0
+    return 1 if (all_flags and args.strict) else 0
 
 
 if __name__ == "__main__":

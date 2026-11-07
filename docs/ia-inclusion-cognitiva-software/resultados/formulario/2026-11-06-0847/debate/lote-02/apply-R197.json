@@ -1,0 +1,127 @@
+{
+  "article_id": "R197",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Deterioro cognitivo; deficiencias neurológicas y musculoesqueléticas. Lo declaran siete participantes con experiencia vivida de deterioro cognitivo.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 1",
+          "quote": "with people with cognitive impairment (n = 7), product owner representatives (n = 4), and researchers (n = 5)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 4",
+          "quote": "tion, two had neurological and musculoskeletal impairments, and"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Participación de personas con deterioro cognitivo como evaluadoras y codiseñadoras en los talleres, junto con propietarios del producto e investigadores (Presencia: Sí | N: 7 | Rol: ambos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 1",
+          "quote": "with people with cognitive impairment (n = 7), product owner representatives (n = 4), and researchers (n = 5)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 4",
+          "quote": "Members from the CoDeAc acted as evaluators and co-designers."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio sueco con enfoque participativo (PAR y diseño participativo), aprobación ética y consentimiento por escrito (Enfoque: NR | Perfil: NR | Consentimiento: escrito, con información oral y escrita | País: Suecia).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 4",
+          "quote": "Ethical approval was granted by the Swedish"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 4",
+          "quote": "Prior to the study all participants gave written consent to par"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "Agente conversacional para comprobación de síntomas y triaje (PLN/IA) en el servicio sueco 1177 direkt. Modelo: NR.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 1",
+          "quote": "The aim of this study was to explore experiences of a conversational agent for symptom checking and triage tool assessing the urgency"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 3",
+          "quote": "To evaluate the 1177 direkt, we used a Participatory Cog-"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "Otro: el agente conversacional es el objeto evaluado; las personas lo recorren y señalan barreras, y la IA no apoya el método de evaluación.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 1",
+          "quote": "The aim of this study was to explore experiences of a conversational agent for symptom checking"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: experiencia de accesibilidad cognitiva del servicio, resumida en cinco temas de análisis temático reflexivo | Valor: NR (sin métrica numérica).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 1",
+          "quote": "analyzed using ref lexive thematic analysis, resulting in five themes"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Recorrido participativo de barreras cognitivas (PCBW) en talleres con evaluadores y una entrevista pareada semiestructurada con especialistas del sistema; el análisis posterior fue temático reflexivo.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 1",
+          "quote": "(1) A Participatory Cognitive Barrier Walkthrough in workshops"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 1",
+          "quote": "improvement suggestions; (2) a paired interview with healthcare system specialists (n = 2)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Otro: método propio PCBW del programa CoDeAc; se citan WCAG 2.1 AA y EN 301549 como insuficientes para la accesibilidad cognitiva.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R197-a-collaborative-approach-to-the-evaluation-of-cognitive-accessibility-of-a-conve.md",
+          "loc": "p. 14",
+          "quote": "EN 301549 or WCAG 2.1 on AA level is not enough to design cogni-"
+        }
+      ]
+    }
+  ]
+}

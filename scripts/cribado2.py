@@ -13,7 +13,8 @@ Uso:
   cribado2.py stamp    docs/<slug> <pdf>       # marca como listo el MD que escribió el agente para ese PDF
   cribado2.py build    docs/<slug>             # grafo Graphify del corpus + controles de calidad
   cribado2.py status   docs/<slug>             # valida sin reconstruir (manifest al día + controles)
-  cribado2.py query    docs/<slug> "<pregunta>"
+  cribado2.py query    docs/<slug> "<pregunta>" [--article R016] [--budget 2000]
+  cribado2.py outline  docs/<slug> <corpus_id>   # páginas/hallazgos/encabezados con rangos de línea
 
 Solo fuentes de acceso abierto: Unpaywall, OpenAlex, Semantic Scholar (arXiv, PMC) y la meta
 citation_pdf_url de la página del DOI. Lo que no se consigue queda en descargas.md para descarga manual:
@@ -88,7 +89,7 @@ USAGE = (
     "uso: cribado2.py init|download|align|documentos|prepare|build|status docs/<slug> "
     "· polish-prepare|polish-merge|cuota|polish-report|apply docs/<slug> "
     "· integrity docs/<slug> "
-    "· stamp docs/<slug> <pdf> · query docs/<slug> \"<pregunta>\""
+    "· stamp docs/<slug> <pdf> · query docs/<slug> \"<pregunta>\" [--article ID] [--budget N] · outline docs/<slug> <corpus_id>"
 )
 
 
@@ -895,12 +896,120 @@ def cmd_status(theme: Path) -> int:
     return ok(f"memoria al día en {rel(graph)} ({res['nodes']} nodos, integridad OK)")
 
 
-def cmd_query(theme: Path, question: str) -> int:
+def _article_md(theme: Path, corpus_id: str) -> Path:
+    md_dir = cribado2_dir(theme) / "docs" / "md"
+    hits = sorted(md_dir.glob(f"{corpus_id}-*.md"))
+    if not hits:
+        raise Fail(f"no hay MD para {corpus_id} en {rel(md_dir)}", f"Revisa el corpus_id (p. ej. R016) con pnpm -s cribado2:status {rel(theme)}")
+    return hits[0]
+
+
+def _flag(rest: list[str], name: str) -> tuple[str | None, list[str]]:
+    """Extrae `--name valor` de rest; devuelve (valor|None, resto)."""
+    if name in rest:
+        i = rest.index(name)
+        if i + 1 >= len(rest):
+            raise Fail(f"{name} requiere un valor", USAGE)
+        return rest[i + 1], rest[:i] + rest[i + 2 :]
+    return None, rest
+
+
+def cmd_query(theme: Path, question: str, article: str | None = None, budget: int = 2000) -> int:
     graph = cribado2_dir(theme) / "graphify-out" / "graph.json"
     if not graph.is_file():
         raise Fail(f"falta {rel(graph)}", f"Usa rsl-cribado-2-memoria sobre {rel(theme)}/")
-    r = subprocess.run(["graphify", "query", question, "--graph", str(graph)], text=True)
-    return r.returncode
+    cmd = ["graphify", "query", question, "--graph", str(graph)]
+    if not article:
+        r = subprocess.run(cmd + ["--budget", str(budget)], text=True)
+        return r.returncode
+    md = _article_md(theme, article)  # valida el corpus_id
+    marker = f"docs/md/{article}-"
+    # Pide más al grafo y filtra: el BFS arrastra vecinos de otros artículos.
+    q = question if md.stem in question else f"{md.stem} {question}"
+    r = subprocess.run(cmd[:2] + [q] + cmd[3:] + ["--budget", str(max(budget * 3, 6000))], text=True, capture_output=True)
+    if r.returncode != 0:
+        sys.stderr.write(r.stderr)
+        return r.returncode
+    lines = r.stdout.splitlines()
+    keep = [ln for ln in lines if marker in ln and ln.startswith(("NODE", "EDGE"))]
+    dropped = sum(1 for ln in lines if ln.startswith(("NODE", "EDGE")) and marker not in ln)
+    out: list[str] = []
+    used = 0
+    cut = 0
+    for ln in keep:
+        cost = len(ln) // 4 + 1
+        if used + cost > budget:
+            cut += 1
+            continue
+        out.append(ln)
+        used += cost
+    print(f"Artículo {article} · {md.name} · {len(out)} líneas (~{used} tokens)")
+    print("\n".join(out))
+    if dropped:
+        print(f"(descartadas {dropped} líneas de otros artículos)")
+    if cut:
+        print(f"[!] TRUNCADO: {cut} líneas omitidas por --budget {budget}. Sube --budget o afina la pregunta.")
+    if not out:
+        print(f"Sin nodos de {article}. Prueba: pnpm -s cribado2:outline {rel(theme)} {article}")
+    return 0
+
+
+_HEAD_RE = re.compile(r"^(?:[IVX]{1,5}\.|[A-H]\.|\d{1,2}(?:\.\d{1,2}){0,2}\.?)\s+[A-ZÁÉÍÓÚ][^\n]{2,90}$")
+_FIG_RE = re.compile(r"^(?:TABLE|FIGURE|Table|Fig\.|Figure)\s+\d+[.:\s]", re.I)
+
+
+def cmd_outline(theme: Path, corpus_id: str, detail: bool = True) -> int:
+    """Índice compacto del MD de un artículo con rangos de línea (para Read offset/limit)."""
+    md = _article_md(theme, corpus_id)
+    text = md.read_text(encoding="utf-8").splitlines()
+    n = len(text)
+    pages: list[tuple[int, int]] = []  # (pagina, linea inicio 1-based)
+    findings: list[tuple[int, int, str]] = []
+    in_chunks = in_findings = False
+    abstract = 0
+    subs: list[tuple[int, str]] = []
+    for i, ln in enumerate(text, 1):
+        if ln.startswith("## "):
+            in_chunks = ln.startswith("## Page chunks")
+            in_findings = ln.startswith("## Findings index")
+            continue
+        if ln.startswith('<a id="abstract"'):
+            abstract = i
+        m = re.match(r"### \[PDF p\.(\d+|\?)\] (.*)", ln)
+        if in_findings and m and m.group(2).startswith("Finding:"):
+            pg = int(m.group(1)) if m.group(1).isdigit() else 0
+            findings.append((i, pg, m.group(2)[8:].strip()[:150]))
+        elif in_chunks and m and m.group(1).isdigit():
+            pages.append((int(m.group(1)), i))
+        elif in_chunks and detail:
+            t = ln.strip()
+            if len(t) < 100 and (_HEAD_RE.match(t) or _FIG_RE.match(t)):
+                subs.append((i, t))
+    print(f"{rel(md)} · {n} líneas")
+    print("Leer: Read offset=<inicio> limit=<fin-inicio+1>")
+    if abstract:
+        print(f"abstract: L{abstract}")
+    if findings:
+        print("\nHALLAZGOS (índice del grafo)")
+        for ln_no, pg, t in findings:
+            print(f"  L{ln_no} p.{pg or '?'} {t}")
+    if pages:
+        print("\nPÁGINAS")
+        for idx, (pg, start) in enumerate(pages):
+            end = (pages[idx + 1][1] - 1) if idx + 1 < len(pages) else n
+            print(f"  p.{pg}: L{start}-L{end}")
+    if subs:
+        print("\nENCABEZADOS / TABLAS / FIGURAS (heurística)")
+        for ln_no, t in subs:
+            pg = max((p for p, st in pages if st <= ln_no), default=0)
+            print(f"  L{ln_no} p.{pg or '?'} {t}")
+    if not pages:
+        print("\n[!] sin 'Page chunks' (MD sin paginado): encabezados con línea")
+        heads = [(i, ln) for i, ln in enumerate(text, 1) if re.match(r"#{1,3} ", ln)]
+        for idx, (ln_no, t) in enumerate(heads):
+            end = heads[idx + 1][0] - 1 if idx + 1 < len(heads) else n
+            print(f"  L{ln_no}-L{end} {t[:110]}")
+    return 0
 
 
 def _polish_cmd(theme: Path, fn) -> int:
@@ -935,8 +1044,13 @@ def main(args: list[str]) -> int:
         return simple[cmd](theme)
     if cmd == "stamp" and len(rest) == 1:
         return cmd_stamp(theme, rest[0])
-    if cmd == "query" and len(rest) == 1:
-        return cmd_query(theme, rest[0])
+    if cmd == "query":
+        art, rest = _flag(rest, "--article")
+        bud, rest = _flag(rest, "--budget")
+        if len(rest) == 1:
+            return cmd_query(theme, rest[0], art, int(bud) if bud else 2000)
+    if cmd == "outline" and len(rest) == 1:
+        return cmd_outline(theme, rest[0])
     print(__doc__)
     return error(USAGE, code=2)
 

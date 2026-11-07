@@ -1,0 +1,170 @@
+{
+  "article_id": "R199",
+  "lote": "02",
+  "slots": [
+    {
+      "item_id": "RQ1-I1",
+      "value": "Trastorno del espectro autista (adultos jóvenes autistas latinos en transición a la vida adulta); se incluyen también padres hispanohablantes y clínicos como informantes.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "Background: Autistic Latino young adults face significant disparities and a service cliff during their transition to adulthood."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I2",
+      "value": "No. Las respuestas se presentan por grupo de interesados (jóvenes adultos, padres y clínicos), sin desagregar por perfil clínico dentro del autismo.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "autistic young adults (N = 27), their Spanish-speaking parents (N = 26), and program clinicians (N = 9)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I3",
+      "value": "Jóvenes adultos autistas respondieron la encuesta inicial y un comité asesor de autoadvocados participó en la consulta de diseño (Presencia: Sí | N: 27 | Rol: ambos).",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "autistic young adults (N = 27), their Spanish-speaking parents (N = 26), and program clinicians (N = 9)"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "qualitative consultations with a Community Advisory Board (CAB) of autistic"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ1-I4",
+      "value": "Estudio de la Universidad de Texas en Houston con aprobación de su comité de ética y enfoque comunitario participativo (Enfoque: NR | Perfil: NR | Consentimiento: NR | País: Estados Unidos).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 3",
+          "quote": "were approved by the Institutional Review Board at the"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 3",
+          "quote": "University of Texas Health Science Center at Houston."
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "Science Center at Houston, Houston, TX, USA"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I1",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ2-I2",
+      "value": "—",
+      "decision": "absent",
+      "evidence": []
+    },
+    {
+      "item_id": "RQ2-I3",
+      "value": "Requisitos. La evaluación de necesidades multiactor y el codiseño orientan el desarrollo de la aplicación antes de construirla.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "stakeholder needs assessment to guide the development of a culturally adapted mHealth app designed to accompany the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ2-I4",
+      "value": "Diseño; el codiseño de la interfaz y de las funciones se hizo con el comité asesor y el equipo de experiencia de usuario.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "concrete, user-informed specifications, including a scaffolded learning workflow and a gamification-based token economy."
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I1",
+      "value": "Constructo: consenso de los interesados sobre las funciones prioritarias de la aplicación | Valor: NR (no se resume en una cifra única en el resumen).",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "Results: A strong consensus emerged on the need for features supporting"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I2",
+      "value": "Encuesta de necesidades con escalas Likert, consultas cualitativas con el comité asesor, grupo focal con clínicos y dos encuestas de seguimiento para definir funciones.",
+      "decision": "extracted",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "a focus group with clinicians (N = 8), and two targeted"
+        },
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "qualitative consultations with a Community Advisory Board (CAB) of autistic"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I3",
+      "value": "Ninguno: se sigue el marco de desarrollo IDEAS y no se menciona una norma de accesibilidad como referencia de evaluación.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 3",
+          "quote": "Integrate, Design, Assess, and Share (IDEAS)"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I4",
+      "value": "NR. Se evalúan necesidades y preferencias de interesados, no la accesibilidad cognitiva o sensorial de una aplicación terminada.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "stakeholder needs assessment to guide the development of a culturally adapted mHealth app designed to accompany the"
+        }
+      ]
+    },
+    {
+      "item_id": "RQ3-I5",
+      "value": "Solo validación con usuarios: encuestas, consultas y grupo focal con interesados, sin evaluación automatizada.",
+      "decision": "partial",
+      "evidence": [
+        {
+          "src": "docs/ia-inclusion-cognitiva-software/RSL/picoc/2026-10-03-3-cribado-2-PIO/docs/md/R199-an-app-that-truly-works-for-us-co-designing-a-mobile-health-intervention-to-supp.md",
+          "loc": "p. 1",
+          "quote": "a focus group with clinicians (N = 8), and two targeted"
+        }
+      ]
+    }
+  ]
+}

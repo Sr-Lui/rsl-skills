@@ -13,7 +13,7 @@ description: >-
 
 # rsl-resultado-sintesis
 
-Playbook (reglas, formatos y **ejemplos que mandan**): [`playbooks/sintesis-resultados-rsl.md`](../../playbooks/sintesis-resultados-rsl.md) · Prosa: [`playbooks/prosa-rsl.md`](../../playbooks/prosa-rsl.md)
+Playbook (reglas, formatos y **ejemplos que mandan**): [`playbooks/sintesis-resultados-rsl.md`](playbooks/sintesis-resultados-rsl.md) · Prosa: [`playbooks/prosa-rsl.md`](playbooks/prosa-rsl.md)
 
 Invoke: `Usa rsl-resultado-sintesis sobre docs/<slug>/`
 

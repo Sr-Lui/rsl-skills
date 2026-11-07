@@ -1,0 +1,1 @@
+../../.cursor/agents/viabilidad-negocio-rsl.md

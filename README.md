@@ -10,6 +10,12 @@ Usa rsl-bootstrap
 
 El agente verifica/instala prerrequisitos (node + pnpm, pipx graphifyy, poppler), corre `pnpm install` y `pnpm run bootstrap` (grafo root + thesaurus IEEE + todos los temas) y reporta PASS/FAIL. A mano: ver [Clonar en otra máquina](#clonar-en-otra-máquina).
 
+## Usar las skills en Claude Code
+
+Las skills y agentes se editan en `.cursor/` (y `.agents/`); `.claude/skills/` y `.claude/agents/` son enlaces simbólicos. Tras clonar o añadir una skill: `pnpm claude:sync`; para validar enlaces y rutas: `pnpm claude:check`. `CLAUDE.md` carga las reglas de Graphify y `.claude/settings.json` permite los comandos de lectura/verificación habituales.
+
+Cribado 2 con poco gasto de tokens: `pnpm -s cribado2:outline docs/<slug> <corpus_id>` (páginas, hallazgos y encabezados con rangos de línea) y `pnpm -s cribado2:query docs/<slug> "…" --article <corpus_id> [--budget N]`; luego leer solo el tramo del MD. Pendientes del formulario: `pnpm -s formulario:pending docs/<slug>`.
+
 ## Skills RSL
 
 | Skill | Qué hace | Salida |

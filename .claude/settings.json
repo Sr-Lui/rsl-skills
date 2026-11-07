@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm -s cribado2:query:*)",
+      "Bash(pnpm -s cribado2:outline:*)",
+      "Bash(pnpm -s cribado2:status:*)",
+      "Bash(pnpm -s formulario:status:*)",
+      "Bash(pnpm -s formulario:pending:*)",
+      "Bash(pnpm -s formulario:lint-setup:*)",
+      "Bash(pnpm -s formulario:lint-traza:*)",
+      "Bash(pnpm -s formulario:lint-prosa:*)",
+      "Bash(pnpm -s formulario:verify-apply-json:*)",
+      "Bash(pnpm -s formulario:apply-lote:*)",
+      "Bash(pnpm -s formulario:aggregate-preview:*)",
+      "Bash(pnpm -s sintesis:status:*)",
+      "Bash(pnpm -s sintesis:lint:*)",
+      "Bash(pnpm -s claude:check)",
+      "Bash(pnpm claude:sync)",
+      "Bash(openspec list:*)",
+      "Bash(openspec status:*)",
+      "Bash(openspec instructions:*)",
+      "Bash(openspec validate:*)"
+    ]
+  }
+}

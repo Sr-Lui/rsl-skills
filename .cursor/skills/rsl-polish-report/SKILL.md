@@ -25,7 +25,7 @@ The critic's job here: real contribution, no false claims, correct citations, co
    - OK and the only lint FAIL is `PG` (the polished § 1.2 changed) → **`rsl-picoc`** light mode.
    - Any other lint FAIL → **`rsl-picoc`** full mode.
    - PASS → nothing.
-5. Form and citations ([`playbooks/prosa-rsl.md`](../../playbooks/prosa-rsl.md): **humanize-academic-writing** sobre `informe-polish.md`, luego **`redaccion-rsl`**): `pnpm -s redaccion:lint docs/<slug>/informe-polish.md` and `pnpm -s paper:status docs/<slug> --cites docs/<slug>/informe-polish.md`. Give the lint output to **`redaccion-rsl`**; apply its fixes (form only) until 0 FAIL, every WARN fixed or justified, and `--cites` PASS.
+5. Form and citations ([`playbooks/prosa-rsl.md`](playbooks/prosa-rsl.md): **humanize-academic-writing** sobre `informe-polish.md`, luego **`redaccion-rsl`**): `pnpm -s redaccion:lint docs/<slug>/informe-polish.md` and `pnpm -s paper:status docs/<slug> --cites docs/<slug>/informe-polish.md`. Give the lint output to **`redaccion-rsl`**; apply its fixes (form only) until 0 FAIL, every WARN fixed or justified, and `--cites` PASS.
 6. Chat: main changes and missing PDFs under `RSL/PDF/`, then the Cierre line.
 
 ## Cierre

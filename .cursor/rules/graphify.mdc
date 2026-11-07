@@ -50,3 +50,9 @@ If `graphify-out/wiki/index.md` (or theme wiki) exists, navigate it before dumpi
 **Never** run any `pnpm graphify:*:refresh` or `graphify update` from `rsl-*` agents or casual coding unless the user **explicitly** invokes **graphify-root** / **graphify-theme** (or asks to refresh).
 
 PDFs live under `docs/[tema]/RSL/PDF/` so they do not sit next to markdown. Theme Graphify indexes that corpus; optional `RSL/MD/` conversions are also welcome for lighter tokens.
+
+## Cribado 2: lectura mínima (ahorra tokens)
+
+- `pnpm -s cribado2:outline docs/<slug> <corpus_id>` → páginas, hallazgos y encabezados con rangos `Lx-Ly` del MD (~1-3 KB frente a ~115 KB). Luego `Read offset/limit` solo del tramo.
+- `pnpm -s cribado2:query docs/<slug> "<pregunta>" --article <corpus_id> [--budget N]` → solo nodos de ese artículo, con aviso de truncado. El grafo indexa estructura (títulos, hallazgos), no texto: úsalo para localizar, no para citar.
+

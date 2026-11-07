@@ -1,0 +1,1 @@
+../../.cursor/agents/orquestador-extraccion-rsl.md

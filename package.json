@@ -88,7 +88,11 @@
     "sintesis:debate-index": ".venv-formulario/bin/python scripts/resultado-sintesis.py debate-index",
     "sintesis:status": ".venv-formulario/bin/python scripts/resultado-sintesis.py status",
     "sintesis:lint": ".venv-formulario/bin/python scripts/resultado-sintesis.py lint",
-    "sintesis:stamp": ".venv-formulario/bin/python scripts/resultado-sintesis.py stamp"
+    "sintesis:stamp": ".venv-formulario/bin/python scripts/resultado-sintesis.py stamp",
+    "claude:sync": "node scripts/claude-sync.mjs",
+    "claude:check": "node scripts/claude-sync.mjs --check",
+    "cribado2:outline": "python3 scripts/cribado2.py outline",
+    "formulario:pending": ".venv-formulario/bin/python scripts/formulario_pending.py"
   },
   "engines": {
     "node": ">=18"

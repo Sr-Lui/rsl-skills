@@ -22,7 +22,7 @@ docs/[titulo-breve]/
 
 Invoke with `Título / Problemática / Objeto de estudio / Carrera`, or `Usa rsl-make-report sobre docs/<slug>/` (reuses the folder and `topic.md`). No topic and no folder → ask; never invent a topic. Slug: 3–6 words, lowercase, hyphenated.
 
-Writing: [`playbooks/prosa-rsl.md`](../../playbooks/prosa-rsl.md) + [`playbooks/redaccion-academica.md`](../../playbooks/redaccion-academica.md) (Spanish académico-profesional). Template instructions are HTML comments: never copy them as visible text. Sources: `global/lineas-utp.md`, `global/competencias.md`, `topic.md` if present.
+Writing: [`playbooks/prosa-rsl.md`](playbooks/prosa-rsl.md) + [`playbooks/redaccion-academica.md`](playbooks/redaccion-academica.md) (Spanish académico-profesional). Template instructions are HTML comments: never copy them as visible text. Sources: `global/lineas-utp.md`, `global/competencias.md`, `topic.md` if present.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Writing: [`playbooks/prosa-rsl.md`](../../playbooks/prosa-rsl.md) + [`playbooks/
 4. **Up to 3 SLRs** (at least 2 reviews; otherwise at least 5 primary studies from the last 5 years). PDFs into `RSL/PDF/`, referenced as `RSL/PDF/<file>.pdf`. Paywall → mark missing, keep DOI and Scopus query. Never invent DOI or PDF.
 5. Write `informe.md` with the exact 7 points below (section 4 ≤ 300 words citing section 3; section 7 = short title; section 2 = only the picoc link, with this sentence: `Las palabras clave, el marco <MARCO> (<componentes en palabras>), las queries y los criterios de inclusión y exclusión se encuentran en [picoc/<carpeta>/picoc.md](picoc/<carpeta>/picoc.md).` This skill owns the link; `rsl-picoc` never edits the informe).
 6. Run **`rsl-picoc`** (full mode; general question = the new § 1.2). Missing thesaurus → ask for `Usa rsl-bootstrap`.
-7. [`playbooks/prosa-rsl.md`](../../playbooks/prosa-rsl.md): **humanize-academic-writing** sobre `informe.md`, luego revisión de forma; `pnpm -s redaccion:lint docs/<slug>/informe.md` (0 FAIL) and `pnpm -s paper:status docs/<slug> --cites docs/<slug>/informe.md` (PASS); fix and repeat.
+7. [`playbooks/prosa-rsl.md`](playbooks/prosa-rsl.md): **humanize-academic-writing** sobre `informe.md`, luego revisión de forma; `pnpm -s redaccion:lint docs/<slug>/informe.md` (0 FAIL) and `pnpm -s paper:status docs/<slug> --cites docs/<slug>/informe.md` (PASS); fix and repeat.
 8. Chat: SLRs found, pending queries and PDFs present or missing (do not run the next skills; no Graphify refresh here), then the Cierre line.
 
 ## File template (`informe.md`)

@@ -45,7 +45,7 @@ El polish original **solo lectura**.
    - Si el tramo cae en sección **frozen** del paper (`config.yml`), **avisar en chat** antes de cambiar; no cambiar sin confirmación implícita del usuario en el invoke.
 4. Tramos `proceso`: no editar prosa; listar en chat checklist R1–R3 del informe.
 5. Tramos `ninguna` o indicador `*%` sin reescritura: dejar prosa igual; OK con nota.
-6. [`playbooks/prosa-rsl.md`](../../playbooks/prosa-rsl.md): **humanize-academic-writing** sobre el archivo turnitin, luego `pnpm -s redaccion:lint <archivo-turnitin>`; si FAIL → **`redaccion-rsl`** (solo forma) hasta 0 FAIL.
+6. [`playbooks/prosa-rsl.md`](playbooks/prosa-rsl.md): **humanize-academic-writing** sobre el archivo turnitin, luego `pnpm -s redaccion:lint <archivo-turnitin>`; si FAIL → **`redaccion-rsl`** (solo forma) hasta 0 FAIL.
 7. Si es paper: `pnpm -s paper:status docs/<slug> --cites <archivo-turnitin>`; si FAIL, corregir citas sin vaciar contenido.
 
 ## Cierre

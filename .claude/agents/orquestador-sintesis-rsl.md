@@ -1,0 +1,1 @@
+../../.cursor/agents/orquestador-sintesis-rsl.md

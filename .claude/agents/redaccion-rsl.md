@@ -1,0 +1,1 @@
+../../.cursor/agents/redaccion-rsl.md

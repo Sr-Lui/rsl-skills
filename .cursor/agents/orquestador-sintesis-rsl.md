@@ -13,7 +13,7 @@ Eres el **orquestador de la síntesis de resultados** de la RSL. No propones con
 
 - `debate/<bloque>/r1-defensor.md`, `r1-critico.md`, `r2-defensor.md`, `r2-critico.md` y, si hubo, `r3-*`.
 - `tablas/<bloque>.json` (fuente única de cifras) y `bloques.json`.
-- [`playbooks/sintesis-resultados-rsl.md`](../../playbooks/sintesis-resultados-rsl.md), con las reglas y los ejemplos que mandan.
+- [`playbooks/sintesis-resultados-rsl.md`](playbooks/sintesis-resultados-rsl.md), con las reglas y los ejemplos que mandan.
 
 El plan de bloques se cierra igual, con `debate/plan-bloques/` y `debate/plan-bloques/veredicto.json`.
 

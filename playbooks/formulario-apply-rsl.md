@@ -44,18 +44,18 @@ Los `hint` de `items.json` guían **qué buscar**, no el texto final de la celda
 2. **E11 vs E12:** **E11** = traza incompleta mientras falten slots (normal a mitad; `lint-traza` puede FAIL). **E12** / cierre = `extraccion_complete` solo tras **`formulario:stamp`** con traza completa y PASS estrictos.
 3. **Lectura mínima:** una `cribado2:query` acotada con `corpus_id` + **solo el fragmento** del MD que citen los nodos.
 
-## Debate ligero (por artículo)
+## Flujo por artículo (compacto)
 
-Orden: **`cribado2:query`** (acotado) → **fragmento MD** (no el archivo entero) → (si hace falta) PDF.
+Orden: **`cribado2:outline`** → **`Read` por rango de línea** del MD (no el archivo entero) → (si hace falta) `cribado2:query ... --article <corpus_id>` para localizar → (último recurso) PDF.
 
-1. **defensor-rsl** (`extraccion-formulario`) — salida **breve** (pregunta Graphify + síntesis o «sin hit» + siguiente paso) → `r1-defensor-<corpus_id>.md`
-2. **critico-rsl** — **checklist** (evidencia suficiente, quote ≥40 literal, `loc`, coherencia MD↔nodos) → `r2-critico-<corpus_id>.md`
-3. **orquestador-extraccion-rsl** — **solo** si hay discrepancia factual o riesgo de omisión entre R1 y R2
-4. **`humanize-academic-writing`** sobre cada `value` → `apply-<corpus_id>.json`
-5. **`pnpm -s formulario:verify-apply-json docs/<slug> [carpeta] docs/<slug>/resultados/formulario/<carpeta>/debate/lote-NN`** (directorio del lote o lista de `apply-*.json`)
+1. Autor (agente principal o **defensor-rsl**, modo `extraccion-formulario`) redacta `apply-<corpus_id>.json`; `r1-defensor-<corpus_id>.md` es opcional y breve.
+2. **`pnpm -s formulario:verify-apply-json docs/<slug> [carpeta] docs/<slug>/resultados/formulario/<carpeta>/debate/lote-NN`** actúa como **R2 automatizado**: errores bloquean el apply; las líneas **REVISAR** marcan slots dudosos.
+3. **critico-rsl** revisa **solo los slots REVISAR** → `r2-critico-<corpus_id>.md`. Sin REVISAR, no hay r2.
+4. **orquestador-extraccion-rsl** solo si hay discrepancia factual o de omisión.
+5. **humanize-academic-writing** sobre la frase de cada `value`.
 6. **`pnpm -s formulario:apply-lote docs/<slug> NN`** — re-sincroniza **fila 2** al guardar.
 
-Incidencias no triviales → append `extraccion-orquestador.md`.
+Pendientes: `pnpm -s formulario:pending docs/<slug>`. Incidencias no triviales → append `extraccion-orquestador.md`.
 
 ## Payload `apply-<corpus_id>.json`
 

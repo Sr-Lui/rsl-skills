@@ -1,0 +1,1 @@
+../../.cursor/agents/defensor-rsl.md
